@@ -1,0 +1,2356 @@
+[
+  {
+    "id": "hull.settler_scout",
+    "name": "Settler Scout",
+    "class": "scout",
+    "tier": 1,
+    "base_stats": {
+      "deck": 40,
+      "cargo": 60,
+      "attack": 8,
+      "defense": 8,
+      "scan": 12,
+      "cloak": 4,
+      "energy": 50,
+      "hull": 80,
+      "shield": 40,
+      "mass_tons": 280,
+      "thrust_kn": 760,
+      "crew_capacity": 96,
+      "crew_min": 53,
+      "passenger_capacity": 39,
+      "cargo_capacity_tons": 761.2
+    },
+    "module_slots": {
+      "weapon": 2,
+      "defense": 2,
+      "power": 1,
+      "utility": 2,
+      "special": 0
+    },
+    "build_cost": {
+      "credits": 12000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 200
+        },
+        {
+          "symbol": "Al",
+          "amount": 140
+        }
+      ]
+    },
+    "upkeep_per_day": 800,
+    "required_tech": "tech.hull_foundations_t1"
+  },
+  {
+    "id": "hull.frigate_mk1",
+    "name": "Frontier Frigate",
+    "class": "frigate",
+    "tier": 2,
+    "base_stats": {
+      "deck": 95,
+      "cargo": 110,
+      "attack": 20,
+      "defense": 18,
+      "scan": 12,
+      "cloak": 6,
+      "energy": 110,
+      "hull": 180,
+      "shield": 90,
+      "mass_tons": 880,
+      "thrust_kn": 1200,
+      "crew_capacity": 228,
+      "crew_min": 125,
+      "passenger_capacity": 72,
+      "cargo_capacity_tons": 1410.2
+    },
+    "module_slots": {
+      "weapon": 3,
+      "defense": 3,
+      "power": 1,
+      "utility": 3,
+      "special": 1
+    },
+    "build_cost": {
+      "credits": 48000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 620
+        },
+        {
+          "symbol": "Ti",
+          "amount": 180
+        },
+        {
+          "symbol": "Cu",
+          "amount": 120
+        },
+        {
+          "symbol": "Ni",
+          "amount": 2
+        },
+        {
+          "symbol": "Cr",
+          "amount": 2
+        },
+        {
+          "symbol": "Mn",
+          "amount": 2
+        },
+        {
+          "symbol": "H",
+          "amount": 4
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 4200,
+    "required_tech": "tech.hull_foundations_t2"
+  },
+  {
+    "id": "hull.raider_frigate",
+    "name": "Clan Raider Frigate",
+    "class": "frigate",
+    "tier": 2,
+    "base_stats": {
+      "deck": 105,
+      "cargo": 85,
+      "attack": 28,
+      "defense": 15,
+      "scan": 10,
+      "cloak": 8,
+      "energy": 105,
+      "hull": 170,
+      "shield": 80,
+      "mass_tons": 920,
+      "thrust_kn": 1350,
+      "crew_capacity": 252,
+      "crew_min": 139,
+      "passenger_capacity": 55,
+      "cargo_capacity_tons": 1099.3
+    },
+    "module_slots": {
+      "weapon": 4,
+      "defense": 2,
+      "power": 1,
+      "utility": 2,
+      "special": 1
+    },
+    "build_cost": {
+      "credits": 52000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 600
+        },
+        {
+          "symbol": "Cr",
+          "amount": 120
+        },
+        {
+          "symbol": "Ni",
+          "amount": 80
+        },
+        {
+          "symbol": "Mn",
+          "amount": 2
+        },
+        {
+          "symbol": "H",
+          "amount": 4
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 5000,
+    "required_tech": "tech.hull_assault_t2"
+  },
+  {
+    "id": "hull.pathfinder_destroyer",
+    "name": "Pathfinder Destroyer",
+    "class": "destroyer",
+    "tier": 3,
+    "base_stats": {
+      "deck": 180,
+      "cargo": 150,
+      "attack": 42,
+      "defense": 34,
+      "scan": 18,
+      "cloak": 10,
+      "energy": 210,
+      "hull": 320,
+      "shield": 180,
+      "mass_tons": 2200,
+      "thrust_kn": 2000,
+      "crew_capacity": 432,
+      "crew_min": 238,
+      "passenger_capacity": 98,
+      "cargo_capacity_tons": 1963.0
+    },
+    "module_slots": {
+      "weapon": 5,
+      "defense": 4,
+      "power": 2,
+      "utility": 3,
+      "special": 1
+    },
+    "build_cost": {
+      "credits": 180000,
+      "elements": [
+        {
+          "symbol": "Ti",
+          "amount": 460
+        },
+        {
+          "symbol": "V",
+          "amount": 210
+        },
+        {
+          "symbol": "Mo",
+          "amount": 90
+        },
+        {
+          "symbol": "Ni",
+          "amount": 2
+        },
+        {
+          "symbol": "Cr",
+          "amount": 2
+        },
+        {
+          "symbol": "Mn",
+          "amount": 2
+        },
+        {
+          "symbol": "H",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 18000,
+    "required_tech": "tech.hull_navigation_t3"
+  },
+  {
+    "id": "hull.vanguard_cruiser",
+    "name": "Vanguard Cruiser",
+    "class": "cruiser",
+    "tier": 4,
+    "base_stats": {
+      "deck": 290,
+      "cargo": 210,
+      "attack": 70,
+      "defense": 58,
+      "scan": 20,
+      "cloak": 10,
+      "energy": 360,
+      "hull": 620,
+      "shield": 340,
+      "mass_tons": 5200,
+      "thrust_kn": 2500,
+      "crew_capacity": 696,
+      "crew_min": 383,
+      "passenger_capacity": 136,
+      "cargo_capacity_tons": 2833.0
+    },
+    "module_slots": {
+      "weapon": 6,
+      "defense": 5,
+      "power": 2,
+      "utility": 4,
+      "special": 2
+    },
+    "build_cost": {
+      "credits": 680000,
+      "elements": [
+        {
+          "symbol": "Ti",
+          "amount": 1000
+        },
+        {
+          "symbol": "W",
+          "amount": 300
+        },
+        {
+          "symbol": "Pt",
+          "amount": 60
+        },
+        {
+          "symbol": "Ni",
+          "amount": 3
+        },
+        {
+          "symbol": "Cr",
+          "amount": 3
+        },
+        {
+          "symbol": "Mn",
+          "amount": 3
+        },
+        {
+          "symbol": "H",
+          "amount": 6
+        },
+        {
+          "symbol": "O",
+          "amount": 6
+        },
+        {
+          "symbol": "N",
+          "amount": 3
+        },
+        {
+          "symbol": "C",
+          "amount": 3
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 62000,
+    "required_tech": "tech.hull_bastion_t4"
+  },
+  {
+    "id": "hull.galaxy_destroyer_proto",
+    "name": "Galaxy Destroyer Prototype",
+    "class": "dreadnought",
+    "tier": 5,
+    "base_stats": {
+      "deck": 420,
+      "cargo": 320,
+      "attack": 110,
+      "defense": 86,
+      "scan": 24,
+      "cloak": 14,
+      "energy": 560,
+      "hull": 1100,
+      "shield": 620,
+      "mass_tons": 12000,
+      "thrust_kn": 3300,
+      "crew_capacity": 1008,
+      "crew_min": 554,
+      "passenger_capacity": 208,
+      "cargo_capacity_tons": 4480.0
+    },
+    "module_slots": {
+      "weapon": 8,
+      "defense": 6,
+      "power": 3,
+      "utility": 4,
+      "special": 2
+    },
+    "build_cost": {
+      "credits": 2200000,
+      "elements": [
+        {
+          "symbol": "W",
+          "amount": 1200
+        },
+        {
+          "symbol": "Ir",
+          "amount": 220
+        },
+        {
+          "symbol": "Au",
+          "amount": 140
+        },
+        {
+          "symbol": "U",
+          "amount": 30
+        },
+        {
+          "symbol": "Ni",
+          "amount": 4
+        },
+        {
+          "symbol": "Cr",
+          "amount": 4
+        },
+        {
+          "symbol": "Mn",
+          "amount": 4
+        },
+        {
+          "symbol": "H",
+          "amount": 7
+        },
+        {
+          "symbol": "O",
+          "amount": 7
+        },
+        {
+          "symbol": "N",
+          "amount": 4
+        },
+        {
+          "symbol": "C",
+          "amount": 4
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 260000,
+    "required_tech": "tech.hull_titanic_t5"
+  },
+  {
+    "id": "hull.aegis_battlecruiser",
+    "name": "Aegis Battlecruiser",
+    "class": "battlecruiser",
+    "tier": 5,
+    "base_stats": {
+      "deck": 360,
+      "cargo": 260,
+      "attack": 96,
+      "defense": 74,
+      "scan": 22,
+      "cloak": 10,
+      "energy": 480,
+      "hull": 860,
+      "shield": 470,
+      "mass_tons": 8500,
+      "thrust_kn": 2900,
+      "crew_capacity": 864,
+      "crew_min": 475,
+      "passenger_capacity": 169,
+      "cargo_capacity_tons": 3590.0
+    },
+    "module_slots": {
+      "weapon": 7,
+      "defense": 6,
+      "power": 3,
+      "utility": 4,
+      "special": 2
+    },
+    "build_cost": {
+      "credits": 1450000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 1500
+        },
+        {
+          "symbol": "Ti",
+          "amount": 620
+        },
+        {
+          "symbol": "Ni",
+          "amount": 430
+        },
+        {
+          "symbol": "W",
+          "amount": 210
+        },
+        {
+          "symbol": "Mo",
+          "amount": 130
+        },
+        {
+          "symbol": "Co",
+          "amount": 90
+        },
+        {
+          "symbol": "Pt",
+          "amount": 35
+        },
+        {
+          "symbol": "Cr",
+          "amount": 8
+        },
+        {
+          "symbol": "Mn",
+          "amount": 8
+        },
+        {
+          "symbol": "H",
+          "amount": 14
+        },
+        {
+          "symbol": "O",
+          "amount": 14
+        },
+        {
+          "symbol": "N",
+          "amount": 8
+        },
+        {
+          "symbol": "C",
+          "amount": 8
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 130000,
+    "required_tech": "tech.hull_siege_t5"
+  },
+  {
+    "id": "hull.line_battleship",
+    "name": "Line Battleship",
+    "class": "battleship",
+    "tier": 6,
+    "base_stats": {
+      "deck": 520,
+      "cargo": 300,
+      "attack": 128,
+      "defense": 104,
+      "scan": 24,
+      "cloak": 8,
+      "energy": 680,
+      "hull": 1400,
+      "shield": 760,
+      "mass_tons": 16000,
+      "thrust_kn": 3100,
+      "crew_capacity": 1248,
+      "crew_min": 686,
+      "passenger_capacity": 195,
+      "cargo_capacity_tons": 4390.0
+    },
+    "module_slots": {
+      "weapon": 9,
+      "defense": 7,
+      "power": 4,
+      "utility": 4,
+      "special": 2
+    },
+    "build_cost": {
+      "credits": 3900000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 2400
+        },
+        {
+          "symbol": "Ti",
+          "amount": 1000
+        },
+        {
+          "symbol": "Ni",
+          "amount": 700
+        },
+        {
+          "symbol": "W",
+          "amount": 480
+        },
+        {
+          "symbol": "Mo",
+          "amount": 260
+        },
+        {
+          "symbol": "V",
+          "amount": 180
+        },
+        {
+          "symbol": "Ir",
+          "amount": 70
+        },
+        {
+          "symbol": "U",
+          "amount": 28
+        },
+        {
+          "symbol": "Cr",
+          "amount": 13
+        },
+        {
+          "symbol": "Mn",
+          "amount": 13
+        },
+        {
+          "symbol": "H",
+          "amount": 23
+        },
+        {
+          "symbol": "O",
+          "amount": 23
+        },
+        {
+          "symbol": "N",
+          "amount": 13
+        },
+        {
+          "symbol": "C",
+          "amount": 13
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 360000,
+    "required_tech": "tech.hull_line_battleship_t6"
+  },
+  {
+    "id": "hull.carrier_command_t6",
+    "name": "Carrier Command Flagship",
+    "class": "carrier",
+    "tier": 6,
+    "base_stats": {
+      "deck": 560,
+      "cargo": 540,
+      "attack": 90,
+      "defense": 120,
+      "scan": 30,
+      "cloak": 12,
+      "energy": 740,
+      "hull": 1320,
+      "shield": 900,
+      "mass_tons": 17000,
+      "thrust_kn": 2800,
+      "crew_capacity": 1344,
+      "crew_min": 739,
+      "passenger_capacity": 351,
+      "cargo_capacity_tons": 7430.0
+    },
+    "module_slots": {
+      "weapon": 7,
+      "defense": 8,
+      "power": 4,
+      "utility": 5,
+      "special": 3
+    },
+    "build_cost": {
+      "credits": 4200000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 2200
+        },
+        {
+          "symbol": "Ti",
+          "amount": 920
+        },
+        {
+          "symbol": "Al",
+          "amount": 1100
+        },
+        {
+          "symbol": "Cu",
+          "amount": 650
+        },
+        {
+          "symbol": "Ni",
+          "amount": 540
+        },
+        {
+          "symbol": "C",
+          "amount": 420
+        },
+        {
+          "symbol": "Pt",
+          "amount": 65
+        },
+        {
+          "symbol": "Pd",
+          "amount": 55
+        },
+        {
+          "symbol": "Re",
+          "amount": 24
+        },
+        {
+          "symbol": "Cr",
+          "amount": 15
+        },
+        {
+          "symbol": "Mn",
+          "amount": 15
+        },
+        {
+          "symbol": "H",
+          "amount": 27
+        },
+        {
+          "symbol": "O",
+          "amount": 27
+        },
+        {
+          "symbol": "N",
+          "amount": 15
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 390000,
+    "required_tech": "tech.hull_carrier_doctrine_t6"
+  },
+  {
+    "id": "hull.leviathan_dreadnought_t7",
+    "name": "Leviathan Dreadnought",
+    "class": "dreadnought",
+    "tier": 7,
+    "base_stats": {
+      "deck": 760,
+      "cargo": 480,
+      "attack": 188,
+      "defense": 146,
+      "scan": 28,
+      "cloak": 10,
+      "energy": 980,
+      "hull": 2200,
+      "shield": 1220,
+      "mass_tons": 28000,
+      "thrust_kn": 3400,
+      "crew_capacity": 1824,
+      "crew_min": 1003,
+      "passenger_capacity": 312,
+      "cargo_capacity_tons": 7120.0
+    },
+    "module_slots": {
+      "weapon": 11,
+      "defense": 9,
+      "power": 5,
+      "utility": 5,
+      "special": 3
+    },
+    "build_cost": {
+      "credits": 8800000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 3400
+        },
+        {
+          "symbol": "Ti",
+          "amount": 1600
+        },
+        {
+          "symbol": "Ni",
+          "amount": 1100
+        },
+        {
+          "symbol": "W",
+          "amount": 920
+        },
+        {
+          "symbol": "Mo",
+          "amount": 480
+        },
+        {
+          "symbol": "Ir",
+          "amount": 160
+        },
+        {
+          "symbol": "Au",
+          "amount": 140
+        },
+        {
+          "symbol": "U",
+          "amount": 70
+        },
+        {
+          "symbol": "Hf",
+          "amount": 120
+        },
+        {
+          "symbol": "Cr",
+          "amount": 20
+        },
+        {
+          "symbol": "Mn",
+          "amount": 20
+        },
+        {
+          "symbol": "H",
+          "amount": 36
+        },
+        {
+          "symbol": "O",
+          "amount": 36
+        },
+        {
+          "symbol": "N",
+          "amount": 20
+        },
+        {
+          "symbol": "C",
+          "amount": 20
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 920000,
+    "required_tech": "tech.hull_leviathan_t7"
+  },
+  {
+    "id": "hull.synaptic_battleship_t7",
+    "name": "Synaptic Battleship",
+    "class": "battleship",
+    "tier": 7,
+    "base_stats": {
+      "deck": 820,
+      "cargo": 520,
+      "attack": 212,
+      "defense": 168,
+      "scan": 38,
+      "cloak": 16,
+      "energy": 1140,
+      "hull": 2480,
+      "shield": 1480,
+      "mass_tons": 30500,
+      "thrust_kn": 3550,
+      "crew_capacity": 1968,
+      "crew_min": 1082,
+      "passenger_capacity": 338,
+      "cargo_capacity_tons": 7720.0
+    },
+    "module_slots": {
+      "weapon": 12,
+      "defense": 10,
+      "power": 6,
+      "utility": 6,
+      "special": 4
+    },
+    "build_cost": {
+      "credits": 12400000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 4200
+        },
+        {
+          "symbol": "Ti",
+          "amount": 1900
+        },
+        {
+          "symbol": "Ni",
+          "amount": 1400
+        },
+        {
+          "symbol": "Cr",
+          "amount": 900
+        },
+        {
+          "symbol": "Co",
+          "amount": 620
+        },
+        {
+          "symbol": "W",
+          "amount": 1100
+        },
+        {
+          "symbol": "Mo",
+          "amount": 540
+        },
+        {
+          "symbol": "Nb",
+          "amount": 260
+        },
+        {
+          "symbol": "Hf",
+          "amount": 220
+        },
+        {
+          "symbol": "Ta",
+          "amount": 180
+        },
+        {
+          "symbol": "Ir",
+          "amount": 130
+        },
+        {
+          "symbol": "Au",
+          "amount": 120
+        },
+        {
+          "symbol": "U",
+          "amount": 90
+        },
+        {
+          "symbol": "Mn",
+          "amount": 29
+        },
+        {
+          "symbol": "H",
+          "amount": 52
+        },
+        {
+          "symbol": "O",
+          "amount": 52
+        },
+        {
+          "symbol": "N",
+          "amount": 29
+        },
+        {
+          "symbol": "C",
+          "amount": 29
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 1260000,
+    "required_tech": "tech.hull_synaptic_battleship_t7"
+  },
+  {
+    "id": "hull.autonomous_carrier_t8",
+    "name": "Autonomous Carrier Nexus",
+    "class": "carrier",
+    "tier": 8,
+    "base_stats": {
+      "deck": 960,
+      "cargo": 820,
+      "attack": 170,
+      "defense": 220,
+      "scan": 52,
+      "cloak": 22,
+      "energy": 1320,
+      "hull": 2600,
+      "shield": 1820,
+      "mass_tons": 33500,
+      "thrust_kn": 3500,
+      "crew_capacity": 2304,
+      "crew_min": 1267,
+      "passenger_capacity": 533,
+      "cargo_capacity_tons": 11590.0
+    },
+    "module_slots": {
+      "weapon": 10,
+      "defense": 12,
+      "power": 6,
+      "utility": 7,
+      "special": 5
+    },
+    "build_cost": {
+      "credits": 15200000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 3800
+        },
+        {
+          "symbol": "Ti",
+          "amount": 2100
+        },
+        {
+          "symbol": "Al",
+          "amount": 2400
+        },
+        {
+          "symbol": "Cu",
+          "amount": 1800
+        },
+        {
+          "symbol": "Ni",
+          "amount": 1200
+        },
+        {
+          "symbol": "C",
+          "amount": 1400
+        },
+        {
+          "symbol": "Si",
+          "amount": 980
+        },
+        {
+          "symbol": "Ga",
+          "amount": 260
+        },
+        {
+          "symbol": "Ge",
+          "amount": 240
+        },
+        {
+          "symbol": "Pd",
+          "amount": 150
+        },
+        {
+          "symbol": "Pt",
+          "amount": 140
+        },
+        {
+          "symbol": "Re",
+          "amount": 110
+        },
+        {
+          "symbol": "Hf",
+          "amount": 180
+        },
+        {
+          "symbol": "Cr",
+          "amount": 37
+        },
+        {
+          "symbol": "Mn",
+          "amount": 37
+        },
+        {
+          "symbol": "H",
+          "amount": 66
+        },
+        {
+          "symbol": "O",
+          "amount": 66
+        },
+        {
+          "symbol": "N",
+          "amount": 37
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 1460000,
+    "required_tech": "tech.hull_autonomous_carrier_t8"
+  },
+  {
+    "id": "hull.singularity_flagship_t8",
+    "name": "Singularity Flagship",
+    "class": "dreadnought",
+    "tier": 8,
+    "base_stats": {
+      "deck": 1120,
+      "cargo": 600,
+      "attack": 276,
+      "defense": 236,
+      "scan": 46,
+      "cloak": 18,
+      "energy": 1620,
+      "hull": 3400,
+      "shield": 2100,
+      "mass_tons": 42000,
+      "thrust_kn": 3680,
+      "crew_capacity": 2688,
+      "crew_min": 1478,
+      "passenger_capacity": 390,
+      "cargo_capacity_tons": 9180.0
+    },
+    "module_slots": {
+      "weapon": 14,
+      "defense": 12,
+      "power": 7,
+      "utility": 7,
+      "special": 5
+    },
+    "build_cost": {
+      "credits": 19800000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 5200
+        },
+        {
+          "symbol": "Ti",
+          "amount": 2600
+        },
+        {
+          "symbol": "Ni",
+          "amount": 1800
+        },
+        {
+          "symbol": "Cr",
+          "amount": 1200
+        },
+        {
+          "symbol": "Co",
+          "amount": 840
+        },
+        {
+          "symbol": "W",
+          "amount": 1800
+        },
+        {
+          "symbol": "Mo",
+          "amount": 920
+        },
+        {
+          "symbol": "Nb",
+          "amount": 420
+        },
+        {
+          "symbol": "Hf",
+          "amount": 340
+        },
+        {
+          "symbol": "Ta",
+          "amount": 300
+        },
+        {
+          "symbol": "Ir",
+          "amount": 220
+        },
+        {
+          "symbol": "Pt",
+          "amount": 180
+        },
+        {
+          "symbol": "Au",
+          "amount": 170
+        },
+        {
+          "symbol": "U",
+          "amount": 140
+        },
+        {
+          "symbol": "Re",
+          "amount": 150
+        },
+        {
+          "symbol": "Mn",
+          "amount": 41
+        },
+        {
+          "symbol": "H",
+          "amount": 73
+        },
+        {
+          "symbol": "O",
+          "amount": 73
+        },
+        {
+          "symbol": "N",
+          "amount": 41
+        },
+        {
+          "symbol": "C",
+          "amount": 41
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 1880000,
+    "required_tech": "tech.hull_singularity_flagship_t8"
+  },
+  {
+    "id": "hull.celestial_barge_t5",
+    "name": "Celestial Foundry Barge",
+    "class": "cruiser",
+    "tier": 5,
+    "base_stats": {
+      "deck": 620,
+      "cargo": 980,
+      "attack": 76,
+      "defense": 138,
+      "scan": 28,
+      "cloak": 6,
+      "energy": 760,
+      "hull": 1820,
+      "shield": 1120,
+      "mass_tons": 29800,
+      "thrust_kn": 2260,
+      "crew_capacity": 1320,
+      "crew_min": 740,
+      "passenger_capacity": 420,
+      "cargo_capacity_tons": 16400.0,
+      "equipment_volume_m3": 520.0,
+      "habitable_volume_m3": 840.0
+    },
+    "module_slots": {
+      "weapon": 6,
+      "defense": 8,
+      "power": 5,
+      "utility": 8,
+      "special": 4
+    },
+    "build_cost": {
+      "credits": 9680000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 4200
+        },
+        {
+          "symbol": "Al",
+          "amount": 3100
+        },
+        {
+          "symbol": "Si",
+          "amount": 2400
+        },
+        {
+          "symbol": "Ti",
+          "amount": 1200
+        },
+        {
+          "symbol": "Ni",
+          "amount": 980
+        },
+        {
+          "symbol": "Cu",
+          "amount": 1400
+        },
+        {
+          "symbol": "C",
+          "amount": 2100
+        },
+        {
+          "symbol": "Mo",
+          "amount": 360
+        },
+        {
+          "symbol": "Nb",
+          "amount": 220
+        },
+        {
+          "symbol": "Cr",
+          "amount": 40
+        },
+        {
+          "symbol": "Mn",
+          "amount": 40
+        },
+        {
+          "symbol": "H",
+          "amount": 72
+        },
+        {
+          "symbol": "O",
+          "amount": 72
+        },
+        {
+          "symbol": "N",
+          "amount": 40
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 880000,
+    "required_tech": "tech.hull_celestial_barge_t5"
+  },
+  {
+    "id": "hull.corsair_interdictor_t6",
+    "name": "Corsair Interdictor",
+    "class": "battlecruiser",
+    "tier": 6,
+    "base_stats": {
+      "deck": 740,
+      "cargo": 520,
+      "attack": 166,
+      "defense": 176,
+      "scan": 38,
+      "cloak": 16,
+      "energy": 940,
+      "hull": 2240,
+      "shield": 1360,
+      "mass_tons": 24600,
+      "thrust_kn": 3240,
+      "crew_capacity": 1550,
+      "crew_min": 860,
+      "passenger_capacity": 240,
+      "cargo_capacity_tons": 9800.0,
+      "equipment_volume_m3": 640.0,
+      "habitable_volume_m3": 760.0
+    },
+    "module_slots": {
+      "weapon": 10,
+      "defense": 9,
+      "power": 5,
+      "utility": 6,
+      "special": 4
+    },
+    "build_cost": {
+      "credits": 12600000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 3800
+        },
+        {
+          "symbol": "Ti",
+          "amount": 1900
+        },
+        {
+          "symbol": "Ni",
+          "amount": 1450
+        },
+        {
+          "symbol": "Cr",
+          "amount": 900
+        },
+        {
+          "symbol": "Co",
+          "amount": 620
+        },
+        {
+          "symbol": "W",
+          "amount": 760
+        },
+        {
+          "symbol": "Mo",
+          "amount": 540
+        },
+        {
+          "symbol": "C",
+          "amount": 1900
+        },
+        {
+          "symbol": "Hf",
+          "amount": 160
+        },
+        {
+          "symbol": "Ta",
+          "amount": 140
+        },
+        {
+          "symbol": "Pd",
+          "amount": 120
+        },
+        {
+          "symbol": "Mn",
+          "amount": 31
+        },
+        {
+          "symbol": "H",
+          "amount": 55
+        },
+        {
+          "symbol": "O",
+          "amount": 55
+        },
+        {
+          "symbol": "N",
+          "amount": 31
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 1120000,
+    "required_tech": "tech.hull_corsair_interdictor_t6"
+  },
+  {
+    "id": "hull.lattice_runner_t7",
+    "name": "Lattice Runner",
+    "class": "destroyer",
+    "tier": 7,
+    "base_stats": {
+      "deck": 690,
+      "cargo": 420,
+      "attack": 188,
+      "defense": 154,
+      "scan": 54,
+      "cloak": 28,
+      "energy": 1020,
+      "hull": 1980,
+      "shield": 1260,
+      "mass_tons": 18900,
+      "thrust_kn": 3920,
+      "crew_capacity": 1180,
+      "crew_min": 640,
+      "passenger_capacity": 150,
+      "cargo_capacity_tons": 7120.0,
+      "equipment_volume_m3": 520.0,
+      "habitable_volume_m3": 590.0
+    },
+    "module_slots": {
+      "weapon": 11,
+      "defense": 8,
+      "power": 5,
+      "utility": 6,
+      "special": 5
+    },
+    "build_cost": {
+      "credits": 15400000,
+      "elements": [
+        {
+          "symbol": "Ti",
+          "amount": 2300
+        },
+        {
+          "symbol": "Al",
+          "amount": 2100
+        },
+        {
+          "symbol": "C",
+          "amount": 2800
+        },
+        {
+          "symbol": "Si",
+          "amount": 1600
+        },
+        {
+          "symbol": "Ga",
+          "amount": 320
+        },
+        {
+          "symbol": "Ge",
+          "amount": 300
+        },
+        {
+          "symbol": "Nb",
+          "amount": 260
+        },
+        {
+          "symbol": "Hf",
+          "amount": 220
+        },
+        {
+          "symbol": "Pt",
+          "amount": 150
+        },
+        {
+          "symbol": "Re",
+          "amount": 130
+        },
+        {
+          "symbol": "Ni",
+          "amount": 25
+        },
+        {
+          "symbol": "Cr",
+          "amount": 25
+        },
+        {
+          "symbol": "Mn",
+          "amount": 25
+        },
+        {
+          "symbol": "H",
+          "amount": 46
+        },
+        {
+          "symbol": "O",
+          "amount": 46
+        },
+        {
+          "symbol": "N",
+          "amount": 25
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 1340000,
+    "required_tech": "tech.hull_lattice_runner_t7"
+  },
+  {
+    "id": "hull.vesper_silent_courser_t7",
+    "name": "Vesper Silent Courser T7",
+    "description": "A pursuit destroyer tuned for stealth lane interception and timed strike windows.",
+    "class": "destroyer",
+    "tier": 7,
+    "base_stats": {
+      "deck": 25,
+      "cargo": 780,
+      "cargo_capacity_tons": 6200.0,
+      "crew_min": 140,
+      "crew_capacity": 260,
+      "passenger_capacity": 60,
+      "equipment_volume_m3": 980.0,
+      "habitable_volume_m3": 420.0,
+      "attack": 205,
+      "defense": 162,
+      "scan": 188,
+      "cloak": 150,
+      "energy": 740,
+      "hull": 1850,
+      "shield": 1320,
+      "mass_tons": 12400.0,
+      "thrust_kn": 1960.0
+    },
+    "module_slots": {
+      "weapon": 6,
+      "defense": 4,
+      "power": 4,
+      "utility": 5,
+      "special": 3
+    },
+    "build_cost": {
+      "credits": 7820000,
+      "elements": [
+        {
+          "symbol": "Ti",
+          "amount": 940
+        },
+        {
+          "symbol": "C",
+          "amount": 1220
+        },
+        {
+          "symbol": "Si",
+          "amount": 760
+        },
+        {
+          "symbol": "Ga",
+          "amount": 220
+        },
+        {
+          "symbol": "Hf",
+          "amount": 120
+        },
+        {
+          "symbol": "Au",
+          "amount": 95
+        },
+        {
+          "symbol": "Ni",
+          "amount": 8
+        },
+        {
+          "symbol": "Cr",
+          "amount": 8
+        },
+        {
+          "symbol": "Mn",
+          "amount": 8
+        },
+        {
+          "symbol": "H",
+          "amount": 15
+        },
+        {
+          "symbol": "O",
+          "amount": 15
+        },
+        {
+          "symbol": "N",
+          "amount": 8
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 10400,
+    "required_tech": "tech.vesper_silent_hyperlanes_t7"
+  },
+  {
+    "id": "hull.vargr_packline_guard_t7",
+    "name": "Vargr Packline Guard T7",
+    "description": "A defensive battlecruiser built for escort duty, layered interception, and sustained convoy security.",
+    "class": "battlecruiser",
+    "tier": 7,
+    "base_stats": {
+      "deck": 33,
+      "cargo": 1150,
+      "cargo_capacity_tons": 9400.0,
+      "crew_min": 220,
+      "crew_capacity": 420,
+      "passenger_capacity": 110,
+      "equipment_volume_m3": 1320.0,
+      "habitable_volume_m3": 620.0,
+      "attack": 236,
+      "defense": 228,
+      "scan": 132,
+      "cloak": 82,
+      "energy": 880,
+      "hull": 2560,
+      "shield": 1680,
+      "mass_tons": 19800.0,
+      "thrust_kn": 1720.0
+    },
+    "module_slots": {
+      "weapon": 7,
+      "defense": 6,
+      "power": 4,
+      "utility": 4,
+      "special": 3
+    },
+    "build_cost": {
+      "credits": 8350000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 1620
+        },
+        {
+          "symbol": "Ni",
+          "amount": 520
+        },
+        {
+          "symbol": "Cr",
+          "amount": 420
+        },
+        {
+          "symbol": "Ti",
+          "amount": 380
+        },
+        {
+          "symbol": "W",
+          "amount": 180
+        },
+        {
+          "symbol": "Cu",
+          "amount": 640
+        },
+        {
+          "symbol": "Mn",
+          "amount": 9
+        },
+        {
+          "symbol": "H",
+          "amount": 17
+        },
+        {
+          "symbol": "O",
+          "amount": 17
+        },
+        {
+          "symbol": "N",
+          "amount": 9
+        },
+        {
+          "symbol": "C",
+          "amount": 9
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 11250,
+    "required_tech": "tech.vargr_guard_packline_t7"
+  },
+  {
+    "id": "hull.caelith_aurora_skimmer_t6",
+    "name": "Caelith Aurora Skimmer T6",
+    "description": "A fast cruiser frame for reconnaissance and evasive strike missions in multi-threat sectors.",
+    "class": "cruiser",
+    "tier": 6,
+    "base_stats": {
+      "deck": 27,
+      "cargo": 860,
+      "cargo_capacity_tons": 7100.0,
+      "crew_min": 170,
+      "crew_capacity": 320,
+      "passenger_capacity": 80,
+      "equipment_volume_m3": 1080.0,
+      "habitable_volume_m3": 500.0,
+      "attack": 196,
+      "defense": 168,
+      "scan": 174,
+      "cloak": 112,
+      "energy": 760,
+      "hull": 2140,
+      "shield": 1420,
+      "mass_tons": 15200.0,
+      "thrust_kn": 1860.0
+    },
+    "module_slots": {
+      "weapon": 6,
+      "defense": 4,
+      "power": 4,
+      "utility": 5,
+      "special": 2
+    },
+    "build_cost": {
+      "credits": 7020000,
+      "elements": [
+        {
+          "symbol": "Al",
+          "amount": 1220
+        },
+        {
+          "symbol": "Ti",
+          "amount": 620
+        },
+        {
+          "symbol": "C",
+          "amount": 860
+        },
+        {
+          "symbol": "Si",
+          "amount": 420
+        },
+        {
+          "symbol": "V",
+          "amount": 180
+        },
+        {
+          "symbol": "He",
+          "amount": 640
+        },
+        {
+          "symbol": "Ni",
+          "amount": 10
+        },
+        {
+          "symbol": "Cr",
+          "amount": 10
+        },
+        {
+          "symbol": "Mn",
+          "amount": 10
+        },
+        {
+          "symbol": "H",
+          "amount": 18
+        },
+        {
+          "symbol": "O",
+          "amount": 18
+        },
+        {
+          "symbol": "N",
+          "amount": 10
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 9650,
+    "required_tech": "tech.caelith_thermal_glide_control_t6"
+  },
+  {
+    "id": "hull.thaloran_tidebreaker_t6",
+    "name": "Thaloran Tidebreaker T6",
+    "description": "A gravity-adaptive cruiser that favors shield stability and field-control payloads.",
+    "class": "cruiser",
+    "tier": 6,
+    "base_stats": {
+      "deck": 29,
+      "cargo": 920,
+      "cargo_capacity_tons": 7600.0,
+      "crew_min": 180,
+      "crew_capacity": 340,
+      "passenger_capacity": 90,
+      "equipment_volume_m3": 1140.0,
+      "habitable_volume_m3": 540.0,
+      "attack": 184,
+      "defense": 202,
+      "scan": 146,
+      "cloak": 78,
+      "energy": 820,
+      "hull": 2280,
+      "shield": 1650,
+      "mass_tons": 16800.0,
+      "thrust_kn": 1580.0
+    },
+    "module_slots": {
+      "weapon": 5,
+      "defense": 6,
+      "power": 4,
+      "utility": 4,
+      "special": 3
+    },
+    "build_cost": {
+      "credits": 7240000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 1320
+        },
+        {
+          "symbol": "Ti",
+          "amount": 520
+        },
+        {
+          "symbol": "Si",
+          "amount": 540
+        },
+        {
+          "symbol": "Nb",
+          "amount": 190
+        },
+        {
+          "symbol": "Hf",
+          "amount": 120
+        },
+        {
+          "symbol": "Xe",
+          "amount": 480
+        },
+        {
+          "symbol": "Ni",
+          "amount": 8
+        },
+        {
+          "symbol": "Cr",
+          "amount": 8
+        },
+        {
+          "symbol": "Mn",
+          "amount": 8
+        },
+        {
+          "symbol": "H",
+          "amount": 14
+        },
+        {
+          "symbol": "O",
+          "amount": 14
+        },
+        {
+          "symbol": "N",
+          "amount": 8
+        },
+        {
+          "symbol": "C",
+          "amount": 8
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 9880,
+    "required_tech": "tech.thaloran_gravity_tide_weaving_t6"
+  },
+  {
+    "id": "hull.mercator_logistics_barge_t5",
+    "name": "Mercator Logistics Barge T5",
+    "description": "A cargo-first heavy barge designed for market routing, convoy support, and planetary build supply.",
+    "class": "cruiser",
+    "tier": 5,
+    "base_stats": {
+      "deck": 24,
+      "cargo": 1600,
+      "cargo_capacity_tons": 15200.0,
+      "crew_min": 130,
+      "crew_capacity": 260,
+      "passenger_capacity": 70,
+      "equipment_volume_m3": 1020.0,
+      "habitable_volume_m3": 460.0,
+      "attack": 118,
+      "defense": 154,
+      "scan": 122,
+      "cloak": 52,
+      "energy": 620,
+      "hull": 1980,
+      "shield": 980,
+      "mass_tons": 18200.0,
+      "thrust_kn": 980.0
+    },
+    "module_slots": {
+      "weapon": 4,
+      "defense": 4,
+      "power": 4,
+      "utility": 7,
+      "special": 2
+    },
+    "build_cost": {
+      "credits": 5980000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 1480
+        },
+        {
+          "symbol": "Al",
+          "amount": 960
+        },
+        {
+          "symbol": "C",
+          "amount": 720
+        },
+        {
+          "symbol": "Cu",
+          "amount": 620
+        },
+        {
+          "symbol": "Ni",
+          "amount": 240
+        },
+        {
+          "symbol": "Cr",
+          "amount": 10
+        },
+        {
+          "symbol": "Mn",
+          "amount": 10
+        },
+        {
+          "symbol": "H",
+          "amount": 18
+        },
+        {
+          "symbol": "O",
+          "amount": 18
+        },
+        {
+          "symbol": "N",
+          "amount": 10
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 8440,
+    "required_tech": "tech.human_frontier_civic_megaforge_t6"
+  },
+  {
+    "id": "hull.peregrine_expedition_carrier_t6",
+    "name": "Peregrine Expedition Carrier T6",
+    "description": "A long-range carrier with survey capacity, fighter support, and sustained mission endurance.",
+    "class": "carrier",
+    "tier": 6,
+    "base_stats": {
+      "deck": 36,
+      "cargo": 1100,
+      "cargo_capacity_tons": 9800.0,
+      "crew_min": 260,
+      "crew_capacity": 520,
+      "passenger_capacity": 220,
+      "equipment_volume_m3": 1480.0,
+      "habitable_volume_m3": 860.0,
+      "attack": 210,
+      "defense": 208,
+      "scan": 182,
+      "cloak": 70,
+      "energy": 940,
+      "hull": 2740,
+      "shield": 1810,
+      "mass_tons": 22400.0,
+      "thrust_kn": 1410.0
+    },
+    "module_slots": {
+      "weapon": 7,
+      "defense": 6,
+      "power": 5,
+      "utility": 6,
+      "special": 4
+    },
+    "build_cost": {
+      "credits": 8840000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 1880
+        },
+        {
+          "symbol": "Ti",
+          "amount": 760
+        },
+        {
+          "symbol": "Al",
+          "amount": 1120
+        },
+        {
+          "symbol": "Si",
+          "amount": 620
+        },
+        {
+          "symbol": "Cu",
+          "amount": 840
+        },
+        {
+          "symbol": "Ni",
+          "amount": 420
+        },
+        {
+          "symbol": "Cr",
+          "amount": 14
+        },
+        {
+          "symbol": "Mn",
+          "amount": 14
+        },
+        {
+          "symbol": "H",
+          "amount": 25
+        },
+        {
+          "symbol": "O",
+          "amount": 25
+        },
+        {
+          "symbol": "N",
+          "amount": 14
+        },
+        {
+          "symbol": "C",
+          "amount": 14
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 11900,
+    "required_tech": "tech.peregrine_expedition_doctrine_t6"
+  },
+  {
+    "id": "hull.helios_refinery_dreadnought_t8",
+    "name": "Helios Refinery Dreadnought T8",
+    "description": "A stellar-industrial dreadnought optimized for hydrogen lifting, isotope processing, and strategic power export.",
+    "class": "dreadnought",
+    "tier": 8,
+    "base_stats": {
+      "deck": 46,
+      "cargo": 1900,
+      "cargo_capacity_tons": 22000.0,
+      "crew_min": 420,
+      "crew_capacity": 880,
+      "passenger_capacity": 320,
+      "equipment_volume_m3": 2120.0,
+      "habitable_volume_m3": 1180.0,
+      "attack": 304,
+      "defense": 286,
+      "scan": 198,
+      "cloak": 62,
+      "energy": 1320,
+      "hull": 3980,
+      "shield": 2540,
+      "mass_tons": 36200.0,
+      "thrust_kn": 1280.0
+    },
+    "module_slots": {
+      "weapon": 9,
+      "defense": 8,
+      "power": 6,
+      "utility": 7,
+      "special": 5
+    },
+    "build_cost": {
+      "credits": 15400000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 2840
+        },
+        {
+          "symbol": "Ni",
+          "amount": 920
+        },
+        {
+          "symbol": "Ti",
+          "amount": 860
+        },
+        {
+          "symbol": "W",
+          "amount": 340
+        },
+        {
+          "symbol": "Hf",
+          "amount": 220
+        },
+        {
+          "symbol": "U",
+          "amount": 110
+        },
+        {
+          "symbol": "He",
+          "amount": 1800
+        },
+        {
+          "symbol": "Cr",
+          "amount": 18
+        },
+        {
+          "symbol": "Mn",
+          "amount": 18
+        },
+        {
+          "symbol": "H",
+          "amount": 32
+        },
+        {
+          "symbol": "O",
+          "amount": 32
+        },
+        {
+          "symbol": "N",
+          "amount": 18
+        },
+        {
+          "symbol": "C",
+          "amount": 18
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Mg",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_day": 18600,
+    "required_tech": "tech.stellar_hydrogen_crown_t7"
+  }
+]

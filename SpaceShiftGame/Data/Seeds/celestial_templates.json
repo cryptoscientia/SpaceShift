@@ -1,0 +1,2111 @@
+[
+  {
+    "id": "celestial.asteroid_c_type",
+    "name": "Carbonaceous Asteroid",
+    "body_class": "asteroid",
+    "subtype": "c_type",
+    "scan_difficulty": 1.15,
+    "habitability_score": 0.0,
+    "mining_yield_factor": 0.95,
+    "major_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 44.0
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 20.0
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 11.0
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 10.0
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 4.0
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 4.0
+      },
+      {
+        "symbol": "H",
+        "ratio_pct": 2.0
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 1.3
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 1.1
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 0.9
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.5
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.12
+      },
+      {
+        "symbol": "Cr",
+        "ratio_pct": 0.35
+      },
+      {
+        "symbol": "Mn",
+        "ratio_pct": 0.25
+      },
+      {
+        "symbol": "Co",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ti",
+        "ratio_pct": 0.2
+      },
+      {
+        "symbol": "V",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Zn",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Cu",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Pd",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Pt",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ir",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ru",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Re",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "C-type modeled from carbonaceous-chondrite analog chemistry (oxygen-rich silicates + hydrated carbon phases) with asteroid-class constraints.",
+    "references": [
+      "https://science.nasa.gov/solar-system/asteroids/facts/",
+      "https://science.nasa.gov/solar-system/asteroids/253-mathilde/",
+      "https://academic.oup.com/mnras/article/469/Suppl_2/S712/4670835"
+    ]
+  },
+  {
+    "id": "celestial.asteroid_s_type",
+    "name": "Silicaceous Asteroid",
+    "body_class": "asteroid",
+    "subtype": "s_type",
+    "scan_difficulty": 1.2,
+    "habitability_score": 0.0,
+    "mining_yield_factor": 1.0,
+    "major_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 37.0
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 24.0
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 18.0
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 14.0
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 2.0
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 1.6
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 1.3
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 1.2
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.5
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.1
+      },
+      {
+        "symbol": "Cr",
+        "ratio_pct": 0.45
+      },
+      {
+        "symbol": "Mn",
+        "ratio_pct": 0.3
+      },
+      {
+        "symbol": "Co",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ti",
+        "ratio_pct": 0.2
+      },
+      {
+        "symbol": "V",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.15
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 0.3
+      },
+      {
+        "symbol": "H",
+        "ratio_pct": 0.1
+      },
+      {
+        "symbol": "Cu",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Zn",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "S-type anchored to stony LL-chondrite-like silicate assemblages (olivine/pyroxene rich) seen in Itokawa-return samples.",
+    "references": [
+      "https://science.nasa.gov/solar-system/asteroids/facts/",
+      "https://earth-planets-space.springeropen.com/articles/10.1186/1880-5981-66-82",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3306700/"
+    ]
+  },
+  {
+    "id": "celestial.asteroid_m_type",
+    "name": "Metallic Asteroid",
+    "body_class": "asteroid",
+    "subtype": "m_type",
+    "scan_difficulty": 1.45,
+    "habitability_score": 0.0,
+    "mining_yield_factor": 1.25,
+    "major_composition": [
+      {
+        "symbol": "Fe",
+        "ratio_pct": 78.0
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 14.0
+      },
+      {
+        "symbol": "Co",
+        "ratio_pct": 1.2
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 1.6
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.6
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 1.8
+      },
+      {
+        "symbol": "O",
+        "ratio_pct": 1.2
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "Cr",
+        "ratio_pct": 0.4
+      },
+      {
+        "symbol": "Mn",
+        "ratio_pct": 0.2
+      },
+      {
+        "symbol": "Cu",
+        "ratio_pct": 0.1
+      },
+      {
+        "symbol": "Zn",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ga",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ge",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ru",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Rh",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Pd",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ag",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Os",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ir",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Pt",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Au",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Re",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "M-type reflects iron-nickel dominated metallic bodies with silicate admixture and platinum-group traces.",
+    "references": [
+      "https://science.nasa.gov/solar-system/asteroids/16-psyche/",
+      "https://www.jpl.nasa.gov/press-kits/psyche/mission/science",
+      "https://science.nasa.gov/solar-system/asteroids/facts/"
+    ]
+  },
+  {
+    "id": "celestial.comet_jfc_volatile",
+    "name": "Jupiter-Family Comet",
+    "body_class": "comet",
+    "subtype": "jfc_volatile",
+    "scan_difficulty": 1.42,
+    "habitability_score": 0.01,
+    "mining_yield_factor": 0.82,
+    "major_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 47.0
+      },
+      {
+        "symbol": "H",
+        "ratio_pct": 31.0
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 12.0
+      },
+      {
+        "symbol": "N",
+        "ratio_pct": 2.1
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 2.3
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 1.6
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 1.2
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 0.9
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.25
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 0.18
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 0.12
+      },
+      {
+        "symbol": "Cr",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Mn",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.1
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ar",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Kr",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Xe",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Cl",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Jupiter-family comet chemistry anchored to Rosetta volatile + dust measurements (water/CO/CO2 dominant with carbon-rich dust and minor metals).",
+    "references": [
+      "https://sci.esa.int/web/rosetta/-/14615-comet-67p",
+      "https://sci.esa.int/web/rosetta/-/56727-first-detection-of-molecular-oxygen-at-a-comet",
+      "https://academic.oup.com/mnras/article/469/Suppl_2/S712/4670835"
+    ]
+  },
+  {
+    "id": "celestial.comet_oort_long_period",
+    "name": "Long-Period Oort Comet",
+    "body_class": "comet",
+    "subtype": "oort_long_period",
+    "scan_difficulty": 1.62,
+    "habitability_score": 0.0,
+    "mining_yield_factor": 0.9,
+    "major_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 49.0
+      },
+      {
+        "symbol": "H",
+        "ratio_pct": 32.0
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 10.0
+      },
+      {
+        "symbol": "N",
+        "ratio_pct": 2.6
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 1.9
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 1.3
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 0.9
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 0.8
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.2
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 0.12
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Cr",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Mn",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ar",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Kr",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Xe",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Cl",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Long-period comet template uses high-volatile O/H dominance with lower refractory fractions than most asteroid classes.",
+    "references": [
+      "https://sci.esa.int/web/rosetta/-/14615-comet-67p",
+      "https://blogs.esa.int/rosetta/2014/09/11/rosina-tastes-the-comets-gases/",
+      "https://science.nasa.gov/solar-system/nasa-peeks-inside-first-interstellar-comet-2iborisov-revealing-its-alien-composition/"
+    ]
+  },
+  {
+    "id": "celestial.moon_rocky",
+    "name": "Rocky Moon",
+    "body_class": "moon",
+    "subtype": "rocky_moon",
+    "scan_difficulty": 1.05,
+    "habitability_score": 0.08,
+    "mining_yield_factor": 1.0,
+    "major_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 45.0
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 21.0
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 13.0
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 9.0
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 8.0
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 4.5
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "Ti",
+        "ratio_pct": 1.2
+      },
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.45
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.12
+      },
+      {
+        "symbol": "Cr",
+        "ratio_pct": 0.2
+      },
+      {
+        "symbol": "Mn",
+        "ratio_pct": 0.17
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 0.15
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.1
+      },
+      {
+        "symbol": "Th",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "U",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "H",
+        "ratio_pct": 0.12
+      }
+    ],
+    "scientific_basis": "Rocky moon compositions follow Apollo-era lunar oxide/element ranges: oxygen-silicate dominant with Fe/Ca/Al variation between maria and highlands.",
+    "references": [
+      "https://science.nasa.gov/moon/composition/",
+      "https://science.nasa.gov/moon/facts/",
+      "https://ntrs.nasa.gov/api/citations/20210013748/downloads/Gruener-Short%20Course.pdf"
+    ]
+  },
+  {
+    "id": "celestial.moon_icy",
+    "name": "Icy Moon",
+    "body_class": "moon",
+    "subtype": "icy_moon",
+    "scan_difficulty": 1.35,
+    "habitability_score": 0.22,
+    "mining_yield_factor": 0.9,
+    "major_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 52.0
+      },
+      {
+        "symbol": "H",
+        "ratio_pct": 24.0
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 7.5
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 5.5
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 4.0
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 3.0
+      },
+      {
+        "symbol": "N",
+        "ratio_pct": 1.2
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 0.7
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.35
+      },
+      {
+        "symbol": "Cl",
+        "ratio_pct": 0.25
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 0.3
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 0.4
+      },
+      {
+        "symbol": "Ar",
+        "ratio_pct": 0.1
+      },
+      {
+        "symbol": "Kr",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Xe",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Icy moon template emphasizes water-ice and volatile inventory with mixed silicate-rock fraction and salty trace chemistry.",
+    "references": [
+      "https://science.nasa.gov/solar-system/moons/",
+      "https://science.nasa.gov/moon/facts/",
+      "https://sci.esa.int/web/rosetta/-/56727-first-detection-of-molecular-oxygen-at-a-comet"
+    ]
+  },
+  {
+    "id": "celestial.planet_rocky",
+    "name": "Rocky Planet",
+    "body_class": "planet",
+    "subtype": "rocky",
+    "scan_difficulty": 1.1,
+    "habitability_score": 0.42,
+    "mining_yield_factor": 1.05,
+    "major_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 44.0
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 21.0
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 18.0
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 12.0
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 2.2
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 1.8
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 0.9
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.35
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.18
+      },
+      {
+        "symbol": "Ti",
+        "ratio_pct": 0.24
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.9
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Cr",
+        "ratio_pct": 0.15
+      },
+      {
+        "symbol": "Mn",
+        "ratio_pct": 0.12
+      },
+      {
+        "symbol": "Co",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "V",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 0.15
+      },
+      {
+        "symbol": "H",
+        "ratio_pct": 0.12
+      },
+      {
+        "symbol": "Cl",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Rocky planet ratios blend measured silicate-rock compositions (Moon/Mars/Mercury analogs) with differentiated iron-rich interiors.",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/marspath/apxs_table1.html",
+      "https://science.nasa.gov/photojournal/major-element-composition-of-mercury-surface-materials/",
+      "https://science.nasa.gov/moon/composition/"
+    ]
+  },
+  {
+    "id": "celestial.planet_metal_rich",
+    "name": "Metal-Rich Planet",
+    "body_class": "planet",
+    "subtype": "metal_rich",
+    "scan_difficulty": 1.55,
+    "habitability_score": 0.1,
+    "mining_yield_factor": 1.3,
+    "major_composition": [
+      {
+        "symbol": "Fe",
+        "ratio_pct": 62.0
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 14.0
+      },
+      {
+        "symbol": "O",
+        "ratio_pct": 8.0
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 7.0
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 4.0
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 2.5
+      },
+      {
+        "symbol": "Co",
+        "ratio_pct": 0.8
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "Cr",
+        "ratio_pct": 0.45
+      },
+      {
+        "symbol": "Mn",
+        "ratio_pct": 0.2
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.25
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 0.3
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 0.3
+      },
+      {
+        "symbol": "Cu",
+        "ratio_pct": 0.12
+      },
+      {
+        "symbol": "Zn",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ga",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ge",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Pd",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Pt",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ir",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Au",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Os",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Re",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Metal-rich differentiated worlds are modeled with iron-nickel dominance and siderophile trace enrichment akin to metallic asteroidal precursors.",
+    "references": [
+      "https://science.nasa.gov/solar-system/asteroids/16-psyche/",
+      "https://www.jpl.nasa.gov/press-kits/psyche/mission/science",
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+    ]
+  },
+  {
+    "id": "celestial.planet_oceanic",
+    "name": "Oceanic Planet",
+    "body_class": "planet",
+    "subtype": "oceanic",
+    "scan_difficulty": 1.25,
+    "habitability_score": 0.72,
+    "mining_yield_factor": 0.85,
+    "major_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 50.0
+      },
+      {
+        "symbol": "H",
+        "ratio_pct": 24.0
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 9.0
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 5.0
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 4.0
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 2.0
+      },
+      {
+        "symbol": "N",
+        "ratio_pct": 1.2
+      },
+      {
+        "symbol": "Na",
+        "ratio_pct": 1.1
+      },
+      {
+        "symbol": "Cl",
+        "ratio_pct": 0.7
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "K",
+        "ratio_pct": 0.15
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 0.5
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 0.4
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 0.25
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Br",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "I",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ar",
+        "ratio_pct": 0.12
+      },
+      {
+        "symbol": "Ne",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Kr",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Xe",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Oceanic planets emphasize water-rich oxygen-hydrogen chemistry plus dissolved-salt and crustal silicate/metal contributions.",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
+      "https://science.nasa.gov/exoplanets/planet-types/overview/"
+    ]
+  },
+  {
+    "id": "celestial.gas_giant_hydrogen_helium",
+    "name": "Hydrogen-Helium Giant",
+    "body_class": "gas_giant",
+    "subtype": "jovian",
+    "scan_difficulty": 1.8,
+    "habitability_score": 0.02,
+    "mining_yield_factor": 0.65,
+    "major_composition": [
+      {
+        "symbol": "H",
+        "ratio_pct": 89.8
+      },
+      {
+        "symbol": "He",
+        "ratio_pct": 10.0
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "C",
+        "ratio_pct": 0.3
+      },
+      {
+        "symbol": "N",
+        "ratio_pct": 0.03
+      },
+      {
+        "symbol": "O",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ar",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ne",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Kr",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Xe",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Hydrogen-helium giant ratios are anchored to Jovian/Saturnian atmospheric measurements (H2+He dominated with ppm-level volatiles).",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+      "https://science.nasa.gov/jupiter/facts/"
+    ]
+  },
+  {
+    "id": "celestial.gas_giant_ice_giant",
+    "name": "Ice Giant",
+    "body_class": "gas_giant",
+    "subtype": "ice_giant",
+    "scan_difficulty": 1.95,
+    "habitability_score": 0.03,
+    "mining_yield_factor": 0.72,
+    "major_composition": [
+      {
+        "symbol": "H",
+        "ratio_pct": 81.0
+      },
+      {
+        "symbol": "He",
+        "ratio_pct": 17.0
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 1.7
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "N",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "O",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ar",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ne",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Kr",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Xe",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Ice-giant template follows Uranus/Neptune atmospheric constraints (H2-He with methane enrichment and minor heavy species).",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html",
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html",
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+    ]
+  },
+  {
+    "id": "celestial.moon_saline_ocean",
+    "name": "Saline Ocean Moon",
+    "body_class": "moon",
+    "subtype": "saline_ocean_moon",
+    "scan_difficulty": 1.5,
+    "habitability_score": 0.31,
+    "mining_yield_factor": 0.92,
+    "major_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 54.0
+      },
+      {
+        "symbol": "H",
+        "ratio_pct": 25.0
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 5.5
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 4.5
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 3.5
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 2.5
+      },
+      {
+        "symbol": "N",
+        "ratio_pct": 1.0
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 0.9
+      },
+      {
+        "symbol": "Na",
+        "ratio_pct": 1.2
+      },
+      {
+        "symbol": "Cl",
+        "ratio_pct": 0.8
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "K",
+        "ratio_pct": 0.18
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 0.45
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 0.35
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Br",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "I",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ar",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Kr",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Xe",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Saline-ocean moon chemistry models brine-linked sodium/chlorine enrichment over icy-silicate backgrounds.",
+    "references": [
+      "https://science.nasa.gov/solar-system/moons/",
+      "https://science.nasa.gov/moon/composition/",
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html"
+    ]
+  },
+  {
+    "id": "celestial.star_k_type",
+    "name": "K-Type Main Sequence Star",
+    "body_class": "star",
+    "subtype": "k_type",
+    "scan_difficulty": 2.2,
+    "habitability_score": 0.0,
+    "mining_yield_factor": 0.4,
+    "major_composition": [
+      {
+        "symbol": "H",
+        "ratio_pct": 72.8
+      },
+      {
+        "symbol": "He",
+        "ratio_pct": 25.8
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 0.82
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 0.33
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 0.19
+      },
+      {
+        "symbol": "Ne",
+        "ratio_pct": 0.12
+      },
+      {
+        "symbol": "N",
+        "ratio_pct": 0.1
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 0.06
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 0.045
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ar",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "K-type stellar abundance anchored to solar-like photospheric baselines with modest metallicity spread.",
+    "references": [
+      "https://www.aanda.org/articles/aa/full_html/2024/01/aa46928-23/aa46928-23.html",
+      "https://solar-center.stanford.edu/vitalstats.html",
+      "https://orfeo.belnet.be/handle/internal/3705"
+    ]
+  },
+  {
+    "id": "celestial.star_g_type",
+    "name": "G-Type Main Sequence Star",
+    "body_class": "star",
+    "subtype": "g_type",
+    "scan_difficulty": 2.4,
+    "habitability_score": 0.0,
+    "mining_yield_factor": 0.35,
+    "major_composition": [
+      {
+        "symbol": "H",
+        "ratio_pct": 73.46
+      },
+      {
+        "symbol": "He",
+        "ratio_pct": 24.85
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 0.77
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 0.29
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 0.16
+      },
+      {
+        "symbol": "Ne",
+        "ratio_pct": 0.12
+      },
+      {
+        "symbol": "N",
+        "ratio_pct": 0.09
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 0.07
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 0.05
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 0.04
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ar",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "G-type composition follows solar photospheric mass-fraction anchors (H/He dominant, metals at low-percent level).",
+    "references": [
+      "https://solar-center.stanford.edu/vitalstats.html",
+      "https://www.aanda.org/articles/aa/full_html/2024/01/aa46928-23/aa46928-23.html",
+      "https://orfeo.belnet.be/handle/internal/3705"
+    ]
+  },
+  {
+    "id": "celestial.asteroid_d_type",
+    "name": "Dark D-Type Asteroid",
+    "body_class": "asteroid",
+    "subtype": "d_type",
+    "scan_difficulty": 1.34,
+    "habitability_score": 0.0,
+    "mining_yield_factor": 0.88,
+    "major_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 38.0
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 20.0
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 12.0
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 10.0
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 9.0
+      },
+      {
+        "symbol": "H",
+        "ratio_pct": 5.0
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 2.0
+      },
+      {
+        "symbol": "N",
+        "ratio_pct": 1.0
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.4
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.1
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.15
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.8
+      },
+      {
+        "symbol": "Co",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Cr",
+        "ratio_pct": 0.2
+      },
+      {
+        "symbol": "Mn",
+        "ratio_pct": 0.15
+      },
+      {
+        "symbol": "Cl",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Br",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "I",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "D-type modeled as volatile/organic-rich outer-belt bodies with dark carbonaceous and sulfur-bearing material.",
+    "references": [
+      "https://science.nasa.gov/solar-system/asteroids/facts/",
+      "https://science.nasa.gov/solar-system/asteroids/253-mathilde/",
+      "https://sci.esa.int/web/rosetta/-/14615-comet-67p"
+    ]
+  },
+  {
+    "id": "celestial.comet_halley_type",
+    "name": "Halley-Type Comet",
+    "body_class": "comet",
+    "subtype": "halley_type",
+    "scan_difficulty": 1.78,
+    "habitability_score": 0.0,
+    "mining_yield_factor": 0.86,
+    "major_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 46.0
+      },
+      {
+        "symbol": "H",
+        "ratio_pct": 30.0
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 14.0
+      },
+      {
+        "symbol": "N",
+        "ratio_pct": 2.2
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 2.5
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 1.8
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 1.4
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 1.0
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.3
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 0.2
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 0.14
+      },
+      {
+        "symbol": "Cr",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Mn",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.12
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ar",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Kr",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Xe",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Cl",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Halley-type template balances volatile-rich coma chemistry with a somewhat more refractory dust fraction.",
+    "references": [
+      "https://sci.esa.int/web/rosetta/-/14615-comet-67p",
+      "https://blogs.esa.int/rosetta/2014/09/11/rosina-tastes-the-comets-gases/",
+      "https://academic.oup.com/mnras/article/469/Suppl_2/S712/4670835"
+    ]
+  },
+  {
+    "id": "celestial.moon_volcanic_sulfur",
+    "name": "Volcanic Sulfur Moon",
+    "body_class": "moon",
+    "subtype": "volcanic_sulfur_moon",
+    "scan_difficulty": 1.68,
+    "habitability_score": 0.06,
+    "mining_yield_factor": 1.08,
+    "major_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 43.0
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 18.0
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 11.0
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 12.0
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 7.0
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 4.0
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 3.0
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "Ti",
+        "ratio_pct": 1.8
+      },
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.5
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.1
+      },
+      {
+        "symbol": "Cl",
+        "ratio_pct": 0.2
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.1
+      },
+      {
+        "symbol": "Cr",
+        "ratio_pct": 0.3
+      },
+      {
+        "symbol": "Mn",
+        "ratio_pct": 0.2
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.15
+      },
+      {
+        "symbol": "Cu",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Zn",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "H",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Volcanic moon template emphasizes sulfur-rich volcanogenic chemistry with mafic silicate and iron-titanium enrichment.",
+    "references": [
+      "https://science.nasa.gov/moon/composition/",
+      "https://science.nasa.gov/moon/facts/",
+      "https://ntrs.nasa.gov/api/citations/20210013748/downloads/Gruener-Short%20Course.pdf"
+    ]
+  },
+  {
+    "id": "celestial.planet_arid_super_earth",
+    "name": "Arid Super-Earth",
+    "body_class": "planet",
+    "subtype": "arid_super_earth",
+    "scan_difficulty": 1.36,
+    "habitability_score": 0.34,
+    "mining_yield_factor": 1.12,
+    "major_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 41.0
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 19.0
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 18.0
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 10.0
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 5.0
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 3.0
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 1.5
+      },
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.9
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.4
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "Ti",
+        "ratio_pct": 0.35
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.7
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.1
+      },
+      {
+        "symbol": "Cr",
+        "ratio_pct": 0.2
+      },
+      {
+        "symbol": "Mn",
+        "ratio_pct": 0.15
+      },
+      {
+        "symbol": "Cl",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "H",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Zr",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "V",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Arid super-Earths are represented as oxidized silicate worlds with elevated refractory and iron fractions and low volatile inventory.",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+      "https://nssdc.gsfc.nasa.gov/planetary/marspath/apxs_table1.html",
+      "https://science.nasa.gov/exoplanets/planet-types/overview/"
+    ]
+  },
+  {
+    "id": "celestial.planet_sub_neptune",
+    "name": "Sub-Neptune Planet",
+    "body_class": "planet",
+    "subtype": "sub_neptune",
+    "scan_difficulty": 1.64,
+    "habitability_score": 0.12,
+    "mining_yield_factor": 0.74,
+    "major_composition": [
+      {
+        "symbol": "H",
+        "ratio_pct": 58.0
+      },
+      {
+        "symbol": "He",
+        "ratio_pct": 24.0
+      },
+      {
+        "symbol": "O",
+        "ratio_pct": 6.5
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 4.5
+      },
+      {
+        "symbol": "N",
+        "ratio_pct": 1.3
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 1.6
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 1.0
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 0.8
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 0.4
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "Ne",
+        "ratio_pct": 0.25
+      },
+      {
+        "symbol": "Ar",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 0.09
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Kr",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Xe",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Cl",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Sub-Neptunes are hydrogen-helium envelope worlds enriched by volatile ices and rocky core/mantle materials.",
+    "references": [
+      "https://science.nasa.gov/exoplanets/planet-types/overview/",
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html",
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+    ]
+  },
+  {
+    "id": "celestial.gas_giant_hot_jupiter",
+    "name": "Hot Jupiter",
+    "body_class": "gas_giant",
+    "subtype": "hot_jupiter",
+    "scan_difficulty": 2.08,
+    "habitability_score": 0.0,
+    "mining_yield_factor": 0.55,
+    "major_composition": [
+      {
+        "symbol": "H",
+        "ratio_pct": 88.0
+      },
+      {
+        "symbol": "He",
+        "ratio_pct": 11.0
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "C",
+        "ratio_pct": 0.55
+      },
+      {
+        "symbol": "O",
+        "ratio_pct": 0.35
+      },
+      {
+        "symbol": "N",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.12
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ti",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "V",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Hot-Jupiter chemistry emphasizes alkali and metal-oxide spectroscopic signatures on top of H/He envelopes.",
+    "references": [
+      "https://science.nasa.gov/exoplanets/planet-types/overview/",
+      "https://science.nasa.gov/jupiter/facts/",
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+    ]
+  },
+  {
+    "id": "celestial.gas_giant_ammonia_cloud",
+    "name": "Ammonia-Cloud Giant",
+    "body_class": "gas_giant",
+    "subtype": "ammonia_cloud_giant",
+    "scan_difficulty": 1.88,
+    "habitability_score": 0.03,
+    "mining_yield_factor": 0.68,
+    "major_composition": [
+      {
+        "symbol": "H",
+        "ratio_pct": 84.0
+      },
+      {
+        "symbol": "He",
+        "ratio_pct": 14.5
+      },
+      {
+        "symbol": "N",
+        "ratio_pct": 0.9
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 0.45
+      },
+      {
+        "symbol": "O",
+        "ratio_pct": 0.08
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "S",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "P",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ar",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ne",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Kr",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Xe",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "K",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "Ammonia-cloud giant reflects nitrogen-bearing cloud chemistry with sulfur/phosphorus and noble-gas traces.",
+    "references": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+      "https://science.nasa.gov/jupiter/facts/"
+    ]
+  },
+  {
+    "id": "celestial.star_m_type_flare",
+    "name": "M-Type Flare Star",
+    "body_class": "star",
+    "subtype": "m_type_flare",
+    "scan_difficulty": 2.58,
+    "habitability_score": 0.0,
+    "mining_yield_factor": 0.32,
+    "major_composition": [
+      {
+        "symbol": "H",
+        "ratio_pct": 74.2
+      },
+      {
+        "symbol": "He",
+        "ratio_pct": 24.2
+      }
+    ],
+    "trace_composition": [
+      {
+        "symbol": "O",
+        "ratio_pct": 0.74
+      },
+      {
+        "symbol": "C",
+        "ratio_pct": 0.31
+      },
+      {
+        "symbol": "Fe",
+        "ratio_pct": 0.18
+      },
+      {
+        "symbol": "Ne",
+        "ratio_pct": 0.11
+      },
+      {
+        "symbol": "N",
+        "ratio_pct": 0.09
+      },
+      {
+        "symbol": "Si",
+        "ratio_pct": 0.07
+      },
+      {
+        "symbol": "Mg",
+        "ratio_pct": 0.05
+      },
+      {
+        "symbol": "S",
+        "ratio_pct": 0.04
+      },
+      {
+        "symbol": "Ni",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ca",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Al",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Na",
+        "ratio_pct": 0.08
+      },
+      {
+        "symbol": "Ar",
+        "ratio_pct": 0.08
+      }
+    ],
+    "scientific_basis": "M-type flare-star template keeps low-metal stellar composition with slight C/O and Fe offsets for cooler photospheres.",
+    "references": [
+      "https://www.aanda.org/articles/aa/full_html/2024/01/aa46928-23/aa46928-23.html",
+      "https://solar-center.stanford.edu/vitalstats.html",
+      "https://orfeo.belnet.be/handle/internal/3705"
+    ]
+  }
+]

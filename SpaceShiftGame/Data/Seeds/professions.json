@@ -1,0 +1,107 @@
+[
+  {
+    "id": "profession.explorer",
+    "name": "Explorer",
+    "description": "Specialists in deep scanning, route discovery, and anomaly handling.",
+    "passive_name": "Deep Survey",
+    "passive_effect": {
+      "scan_pct": 20
+    },
+    "active_ability_id": "ability.deep_sweep_ping"
+  },
+  {
+    "id": "profession.builder",
+    "name": "Builder",
+    "description": "Engineers focused on efficient construction and maintenance.",
+    "passive_name": "Industrial Efficiency",
+    "passive_effect": {
+      "upkeep_reduction_pct": 40,
+      "hull_pct": 10
+    },
+    "active_ability_id": "ability.rapid_fabrication"
+  },
+  {
+    "id": "profession.fixer",
+    "name": "Fixer",
+    "description": "Damage-control masters with reinforced hull operations.",
+    "passive_name": "Emergency Reinforcement",
+    "passive_effect": {
+      "hull_pct": 30
+    },
+    "active_ability_id": "ability.emergency_bulkhead"
+  },
+  {
+    "id": "profession.merchant",
+    "name": "Merchant",
+    "description": "Trade magnates who optimize transport and cargo turn-rate.",
+    "passive_name": "Freight Network",
+    "passive_effect": {
+      "cargo_pct": 30
+    },
+    "active_ability_id": "ability.dynamic_hedge"
+  },
+  {
+    "id": "profession.raider",
+    "name": "Raider",
+    "description": "Assault captains built for fast wins and pressure play.",
+    "passive_name": "Strike Doctrine",
+    "passive_effect": {
+      "attack_pct": 15,
+      "defense_pct": 5
+    },
+    "active_ability_id": "ability.strike_overclock"
+  },
+  {
+    "id": "profession.hacker",
+    "name": "Hacker",
+    "description": "Electronic warfare experts for disruption and theft actions.",
+    "passive_name": "Intrusion Suite",
+    "passive_effect": {
+      "hacking_pct": 30,
+      "scan_pct": 10
+    },
+    "active_ability_id": "ability.packet_injection"
+  },
+  {
+    "id": "profession.physicist",
+    "name": "Physicist",
+    "description": "Shield and power theorists who maximize defensive fields.",
+    "passive_name": "Field Coherence",
+    "passive_effect": {
+      "shield_pct": 30,
+      "energy_pct": 10
+    },
+    "active_ability_id": "ability.phase_stabilize"
+  },
+  {
+    "id": "profession.miner",
+    "name": "Miner",
+    "description": "Extraction specialists with superior ore output.",
+    "passive_name": "Ore Discipline",
+    "passive_effect": {
+      "mineral_production_pct": 12
+    },
+    "active_ability_id": "ability.vein_lock"
+  },
+  {
+    "id": "profession.excavator",
+    "name": "Excavator",
+    "description": "Artifact and relic recovery experts.",
+    "passive_name": "Relic Recovery",
+    "passive_effect": {
+      "artifact_production_pct": 12
+    },
+    "active_ability_id": "ability.relic_resonance"
+  },
+  {
+    "id": "profession.biologist",
+    "name": "Biologist",
+    "description": "Evolution and xenobiology specialists for long-form progression.",
+    "passive_name": "Adaptive Geneforge",
+    "passive_effect": {
+      "research_production_pct": 8,
+      "hull_pct": 8
+    },
+    "active_ability_id": "ability.genomic_adaptation"
+  }
+]

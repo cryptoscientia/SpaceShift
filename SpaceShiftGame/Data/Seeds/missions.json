@@ -1,0 +1,2976 @@
+[
+  {
+    "id": "mission.orbital_patrol",
+    "name": "Orbital Patrol",
+    "description": "Secure nearby lanes and report hostiles.",
+    "energy_cost": 80,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 1,
+      "required_missions": []
+    },
+    "rewards": {
+      "xp": 240,
+      "credits": 14000,
+      "rp": 40,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.border_sweep",
+    "name": "Border Sweep",
+    "description": "Extended patrol against organized raider wings.",
+    "energy_cost": 220,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 6,
+      "required_missions": [
+        "mission.orbital_patrol"
+      ]
+    },
+    "rewards": {
+      "xp": 680,
+      "credits": 46000,
+      "rp": 120,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.survey_blue_giant",
+    "name": "Survey Blue Giant",
+    "description": "Run a precision scan package on an unstable giant atmosphere.",
+    "energy_cost": 140,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 5,
+      "required_planet_types": [
+        "planet_type.gas_giant"
+      ],
+      "required_scan_count": 1,
+      "required_missions": []
+    },
+    "rewards": {
+      "xp": 410,
+      "credits": 22000,
+      "rp": 90,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.iron_debt",
+    "name": "Iron Debt",
+    "description": "Deliver strategic Fe/Ti cargo to a contested yard.",
+    "energy_cost": 160,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 8,
+      "required_missions": [
+        "mission.border_sweep"
+      ]
+    },
+    "rewards": {
+      "xp": 500,
+      "credits": 36000,
+      "rp": 100,
+      "item_ids": [
+        "module.utility_heat_sink_mk1"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.synod_signal_hunt",
+    "name": "Synod Signal Hunt",
+    "description": "Decode deep-space transmissions for research gains.",
+    "energy_cost": 200,
+    "category": "story",
+    "requirements": {
+      "min_rank": 10,
+      "required_race_ids": [
+        "race.gray_synod"
+      ],
+      "required_missions": [
+        "mission.survey_blue_giant"
+      ]
+    },
+    "rewards": {
+      "xp": 620,
+      "credits": 42000,
+      "rp": 220,
+      "item_ids": [
+        "module.scanner_longrange_array_mk1"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.draconian_war_rite",
+    "name": "Draconian War Rite",
+    "description": "Duel a clan champion in a controlled battle corridor.",
+    "energy_cost": 260,
+    "category": "story",
+    "requirements": {
+      "min_rank": 12,
+      "required_race_ids": [
+        "race.draconian_clans"
+      ],
+      "required_missions": [
+        "mission.border_sweep"
+      ]
+    },
+    "rewards": {
+      "xp": 860,
+      "credits": 60000,
+      "rp": 180,
+      "item_ids": [
+        "module.weapon_mass_driver_mk2"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.felien_shadow_route",
+    "name": "Felien Shadow Route",
+    "description": "Run a covert convoy through interdicted space.",
+    "energy_cost": 210,
+    "category": "story",
+    "requirements": {
+      "min_rank": 11,
+      "required_race_ids": [
+        "race.felien_nomads"
+      ],
+      "required_missions": [
+        "mission.iron_debt"
+      ]
+    },
+    "rewards": {
+      "xp": 700,
+      "credits": 52000,
+      "rp": 160,
+      "item_ids": [
+        "module.jammer_phase_cloak_mk2"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.hull_stress_trials",
+    "name": "Hull Stress Trials",
+    "description": "Run controlled overpressure tests for new hull classes.",
+    "energy_cost": 240,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 14,
+      "required_profession_ids": [
+        "profession.builder",
+        "profession.fixer"
+      ],
+      "required_missions": [
+        "mission.iron_debt"
+      ]
+    },
+    "rewards": {
+      "xp": 760,
+      "credits": 70000,
+      "rp": 210,
+      "item_ids": [
+        "hull.pathfinder_destroyer"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.deep_core_probe",
+    "name": "Deep Core Probe",
+    "description": "Deploy probes into a metal-rich gravity well.",
+    "energy_cost": 300,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 16,
+      "required_planet_types": [
+        "planet_type.metal_rich_world"
+      ],
+      "required_scan_count": 1,
+      "required_missions": [
+        "mission.hull_stress_trials"
+      ]
+    },
+    "rewards": {
+      "xp": 980,
+      "credits": 110000,
+      "rp": 340,
+      "item_ids": [
+        "module.reactor_fusion_core_mk3"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.legion_call_elite",
+    "name": "Legion Call: Elite Intercept",
+    "description": "Respond to a shared elite target posted by a legion member.",
+    "energy_cost": 180,
+    "category": "legion",
+    "requirements": {
+      "min_rank": 18,
+      "required_missions": [
+        "mission.border_sweep"
+      ]
+    },
+    "rewards": {
+      "xp": 850,
+      "credits": 90000,
+      "rp": 180,
+      "item_ids": [
+        "module.special_targeting_ai_mk2"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.faction_relay_sabotage",
+    "name": "Faction Relay Sabotage",
+    "description": "Disrupt an enemy doctrine relay and recover encrypted logs.",
+    "energy_cost": 320,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 20,
+      "required_profession_ids": [
+        "profession.hacker"
+      ],
+      "required_missions": [
+        "mission.legion_call_elite"
+      ]
+    },
+    "rewards": {
+      "xp": 1200,
+      "credits": 140000,
+      "rp": 380,
+      "item_ids": [
+        "module.weapon_rail_lance_mk3"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.titanic_keel",
+    "name": "Titanic Keel Initiative",
+    "description": "Finalize superstructure assembly for a dreadnought program.",
+    "energy_cost": 500,
+    "category": "story",
+    "requirements": {
+      "min_rank": 24,
+      "required_missions": [
+        "mission.faction_relay_sabotage",
+        "mission.deep_core_probe"
+      ]
+    },
+    "rewards": {
+      "xp": 2200,
+      "credits": 300000,
+      "rp": 900,
+      "item_ids": [
+        "hull.galaxy_destroyer_proto"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.arc_01_skirmish",
+    "name": "Frontier Embers Skirmish",
+    "description": "Break raider pressure on a contested lane.",
+    "energy_cost": 242,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 22,
+      "required_missions": [
+        "mission.titanic_keel"
+      ]
+    },
+    "rewards": {
+      "xp": 990,
+      "credits": 104000,
+      "rp": 215,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_01_telemetry",
+    "name": "Frontier Embers Telemetry",
+    "description": "Run calibrated scans on unstable planetary signatures.",
+    "energy_cost": 264,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 23,
+      "required_missions": [
+        "mission.arc_01_skirmish"
+      ],
+      "required_planet_types": [
+        "planet_type.gas_giant"
+      ],
+      "required_scan_count": 2
+    },
+    "rewards": {
+      "xp": 1130,
+      "credits": 118000,
+      "rp": 250,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_01_convoy",
+    "name": "Frontier Embers Convoy",
+    "description": "Secure and deliver strategic material shipments.",
+    "energy_cost": 286,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 23,
+      "required_missions": [
+        "mission.arc_01_telemetry"
+      ]
+    },
+    "rewards": {
+      "xp": 1270,
+      "credits": 132000,
+      "rp": 285,
+      "item_ids": [
+        "module.shield_basic_barrier_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_01_signal",
+    "name": "Frontier Embers Signal",
+    "description": "Respond to a shared threat marker posted by allied captains.",
+    "energy_cost": 308,
+    "category": "legion",
+    "requirements": {
+      "min_rank": 24,
+      "required_missions": [
+        "mission.arc_01_convoy"
+      ]
+    },
+    "rewards": {
+      "xp": 1410,
+      "credits": 146000,
+      "rp": 320,
+      "item_ids": [
+        "module.shield_phase_barrier_mk3"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_01_doctrine",
+    "name": "Frontier Embers Doctrine",
+    "description": "Execute doctrine-specific operations for political leverage.",
+    "energy_cost": 330,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 24,
+      "required_missions": [
+        "mission.arc_01_signal"
+      ],
+      "required_profession_ids": [
+        "profession.physicist"
+      ]
+    },
+    "rewards": {
+      "xp": 1550,
+      "credits": 160000,
+      "rp": 355,
+      "item_ids": [
+        "module.armor_titanium_plating_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_01_finale",
+    "name": "Frontier Embers Finale",
+    "description": "Resolve the arc with a decisive fleet-scale operation.",
+    "energy_cost": 352,
+    "category": "story",
+    "requirements": {
+      "min_rank": 25,
+      "required_missions": [
+        "mission.arc_01_doctrine"
+      ],
+      "required_race_ids": [
+        "race.myr_sporekin"
+      ]
+    },
+    "rewards": {
+      "xp": 1690,
+      "credits": 174000,
+      "rp": 390,
+      "item_ids": [
+        "module.armor_whipple_mk2"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.arc_02_skirmish",
+    "name": "Dustline Meridian Skirmish",
+    "description": "Break raider pressure on a contested lane.",
+    "energy_cost": 270,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 25,
+      "required_missions": [
+        "mission.arc_01_finale"
+      ]
+    },
+    "rewards": {
+      "xp": 1170,
+      "credits": 121000,
+      "rp": 255,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_02_telemetry",
+    "name": "Dustline Meridian Telemetry",
+    "description": "Run calibrated scans on unstable planetary signatures.",
+    "energy_cost": 292,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 26,
+      "required_missions": [
+        "mission.arc_02_skirmish"
+      ],
+      "required_planet_types": [
+        "planet_type.ice_world"
+      ],
+      "required_scan_count": 3
+    },
+    "rewards": {
+      "xp": 1310,
+      "credits": 135000,
+      "rp": 290,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_02_convoy",
+    "name": "Dustline Meridian Convoy",
+    "description": "Secure and deliver strategic material shipments.",
+    "energy_cost": 314,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 26,
+      "required_missions": [
+        "mission.arc_02_telemetry"
+      ],
+      "required_profession_ids": [
+        "profession.physicist"
+      ]
+    },
+    "rewards": {
+      "xp": 1450,
+      "credits": 149000,
+      "rp": 325,
+      "item_ids": [
+        "module.armor_whipple_mk2"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_02_signal",
+    "name": "Dustline Meridian Signal",
+    "description": "Respond to a shared threat marker posted by allied captains.",
+    "energy_cost": 336,
+    "category": "legion",
+    "requirements": {
+      "min_rank": 27,
+      "required_missions": [
+        "mission.arc_02_convoy"
+      ]
+    },
+    "rewards": {
+      "xp": 1590,
+      "credits": 163000,
+      "rp": 360,
+      "item_ids": [
+        "module.reactor_fission_core_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_02_doctrine",
+    "name": "Dustline Meridian Doctrine",
+    "description": "Execute doctrine-specific operations for political leverage.",
+    "energy_cost": 358,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 27,
+      "required_missions": [
+        "mission.arc_02_signal"
+      ],
+      "required_profession_ids": [
+        "profession.miner"
+      ]
+    },
+    "rewards": {
+      "xp": 1730,
+      "credits": 177000,
+      "rp": 395,
+      "item_ids": [
+        "module.reactor_fusion_core_mk3"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_02_finale",
+    "name": "Dustline Meridian Finale",
+    "description": "Resolve the arc with a decisive fleet-scale operation.",
+    "energy_cost": 380,
+    "category": "story",
+    "requirements": {
+      "min_rank": 28,
+      "required_missions": [
+        "mission.arc_02_doctrine"
+      ],
+      "required_race_ids": [
+        "race.human_frontier"
+      ]
+    },
+    "rewards": {
+      "xp": 1870,
+      "credits": 191000,
+      "rp": 430,
+      "item_ids": [
+        "module.relay_superconductor_mk2"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.arc_03_skirmish",
+    "name": "Starlance Divide Skirmish",
+    "description": "Break raider pressure on a contested lane.",
+    "energy_cost": 298,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 28,
+      "required_missions": [
+        "mission.arc_02_finale"
+      ]
+    },
+    "rewards": {
+      "xp": 1350,
+      "credits": 138000,
+      "rp": 295,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_03_telemetry",
+    "name": "Starlance Divide Telemetry",
+    "description": "Run calibrated scans on unstable planetary signatures.",
+    "energy_cost": 320,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 29,
+      "required_missions": [
+        "mission.arc_03_skirmish"
+      ],
+      "required_planet_types": [
+        "planet_type.toxic_world"
+      ],
+      "required_scan_count": 1
+    },
+    "rewards": {
+      "xp": 1490,
+      "credits": 152000,
+      "rp": 330,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_03_convoy",
+    "name": "Starlance Divide Convoy",
+    "description": "Secure and deliver strategic material shipments.",
+    "energy_cost": 342,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 29,
+      "required_missions": [
+        "mission.arc_03_telemetry"
+      ]
+    },
+    "rewards": {
+      "xp": 1630,
+      "credits": 166000,
+      "rp": 365,
+      "item_ids": [
+        "module.relay_superconductor_mk2"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_03_signal",
+    "name": "Starlance Divide Signal",
+    "description": "Respond to a shared threat marker posted by allied captains.",
+    "energy_cost": 364,
+    "category": "legion",
+    "requirements": {
+      "min_rank": 30,
+      "required_missions": [
+        "mission.arc_03_convoy"
+      ]
+    },
+    "rewards": {
+      "xp": 1770,
+      "credits": 180000,
+      "rp": 400,
+      "item_ids": [
+        "module.engine_ion_thruster_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_03_doctrine",
+    "name": "Starlance Divide Doctrine",
+    "description": "Execute doctrine-specific operations for political leverage.",
+    "energy_cost": 386,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 30,
+      "required_missions": [
+        "mission.arc_03_signal"
+      ],
+      "required_profession_ids": [
+        "profession.excavator"
+      ]
+    },
+    "rewards": {
+      "xp": 1910,
+      "credits": 194000,
+      "rp": 435,
+      "item_ids": [
+        "module.engine_plasma_drive_mk3"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_03_finale",
+    "name": "Starlance Divide Finale",
+    "description": "Resolve the arc with a decisive fleet-scale operation.",
+    "energy_cost": 408,
+    "category": "story",
+    "requirements": {
+      "min_rank": 31,
+      "required_missions": [
+        "mission.arc_03_doctrine"
+      ],
+      "required_race_ids": [
+        "race.gray_synod"
+      ]
+    },
+    "rewards": {
+      "xp": 2050,
+      "credits": 208000,
+      "rp": 470,
+      "item_ids": [
+        "module.scanner_longrange_array_mk1",
+        "hull.vanguard_cruiser"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.arc_04_skirmish",
+    "name": "Ashen Corridors Skirmish",
+    "description": "Break raider pressure on a contested lane.",
+    "energy_cost": 326,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 31,
+      "required_missions": [
+        "mission.arc_03_finale"
+      ]
+    },
+    "rewards": {
+      "xp": 1530,
+      "credits": 155000,
+      "rp": 335,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_04_telemetry",
+    "name": "Ashen Corridors Telemetry",
+    "description": "Run calibrated scans on unstable planetary signatures.",
+    "energy_cost": 348,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 32,
+      "required_missions": [
+        "mission.arc_04_skirmish"
+      ],
+      "required_planet_types": [
+        "planet_type.habitable_ocean"
+      ],
+      "required_scan_count": 2
+    },
+    "rewards": {
+      "xp": 1670,
+      "credits": 169000,
+      "rp": 370,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_04_convoy",
+    "name": "Ashen Corridors Convoy",
+    "description": "Secure and deliver strategic material shipments.",
+    "energy_cost": 370,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 32,
+      "required_missions": [
+        "mission.arc_04_telemetry"
+      ],
+      "required_profession_ids": [
+        "profession.fixer"
+      ]
+    },
+    "rewards": {
+      "xp": 1810,
+      "credits": 183000,
+      "rp": 405,
+      "item_ids": [
+        "module.scanner_longrange_array_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_04_signal",
+    "name": "Ashen Corridors Signal",
+    "description": "Respond to a shared threat marker posted by allied captains.",
+    "energy_cost": 392,
+    "category": "legion",
+    "requirements": {
+      "min_rank": 33,
+      "required_missions": [
+        "mission.arc_04_convoy"
+      ]
+    },
+    "rewards": {
+      "xp": 1950,
+      "credits": 197000,
+      "rp": 440,
+      "item_ids": [
+        "module.jammer_phase_cloak_mk2"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_04_doctrine",
+    "name": "Ashen Corridors Doctrine",
+    "description": "Execute doctrine-specific operations for political leverage.",
+    "energy_cost": 414,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 33,
+      "required_missions": [
+        "mission.arc_04_signal"
+      ],
+      "required_profession_ids": [
+        "profession.biologist"
+      ]
+    },
+    "rewards": {
+      "xp": 2090,
+      "credits": 211000,
+      "rp": 475,
+      "item_ids": [
+        "module.utility_heat_sink_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_04_finale",
+    "name": "Ashen Corridors Finale",
+    "description": "Resolve the arc with a decisive fleet-scale operation.",
+    "energy_cost": 436,
+    "category": "story",
+    "requirements": {
+      "min_rank": 34,
+      "required_missions": [
+        "mission.arc_04_doctrine"
+      ],
+      "required_race_ids": [
+        "race.draconian_clans"
+      ]
+    },
+    "rewards": {
+      "xp": 2230,
+      "credits": 225000,
+      "rp": 510,
+      "item_ids": [
+        "module.special_targeting_ai_mk2"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.arc_05_skirmish",
+    "name": "Obsidian Transit Skirmish",
+    "description": "Break raider pressure on a contested lane.",
+    "energy_cost": 354,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 34,
+      "required_missions": [
+        "mission.arc_04_finale"
+      ]
+    },
+    "rewards": {
+      "xp": 1710,
+      "credits": 172000,
+      "rp": 375,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_05_telemetry",
+    "name": "Obsidian Transit Telemetry",
+    "description": "Run calibrated scans on unstable planetary signatures.",
+    "energy_cost": 376,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 35,
+      "required_missions": [
+        "mission.arc_05_skirmish"
+      ],
+      "required_planet_types": [
+        "planet_type.metal_rich_world"
+      ],
+      "required_scan_count": 3
+    },
+    "rewards": {
+      "xp": 1850,
+      "credits": 186000,
+      "rp": 410,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_05_convoy",
+    "name": "Obsidian Transit Convoy",
+    "description": "Secure and deliver strategic material shipments.",
+    "energy_cost": 398,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 35,
+      "required_missions": [
+        "mission.arc_05_telemetry"
+      ]
+    },
+    "rewards": {
+      "xp": 1990,
+      "credits": 200000,
+      "rp": 445,
+      "item_ids": [
+        "module.special_targeting_ai_mk2"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_05_signal",
+    "name": "Obsidian Transit Signal",
+    "description": "Respond to a shared threat marker posted by allied captains.",
+    "energy_cost": 420,
+    "category": "legion",
+    "requirements": {
+      "min_rank": 36,
+      "required_missions": [
+        "mission.arc_05_convoy"
+      ]
+    },
+    "rewards": {
+      "xp": 2130,
+      "credits": 214000,
+      "rp": 480,
+      "item_ids": [
+        "module.weapon_autocannon_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_05_doctrine",
+    "name": "Obsidian Transit Doctrine",
+    "description": "Execute doctrine-specific operations for political leverage.",
+    "energy_cost": 442,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 36,
+      "required_missions": [
+        "mission.arc_05_signal"
+      ],
+      "required_profession_ids": [
+        "profession.explorer"
+      ]
+    },
+    "rewards": {
+      "xp": 2270,
+      "credits": 228000,
+      "rp": 515,
+      "item_ids": [
+        "module.weapon_mass_driver_mk2"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_05_finale",
+    "name": "Obsidian Transit Finale",
+    "description": "Resolve the arc with a decisive fleet-scale operation.",
+    "energy_cost": 464,
+    "category": "story",
+    "requirements": {
+      "min_rank": 37,
+      "required_missions": [
+        "mission.arc_05_doctrine"
+      ],
+      "required_race_ids": [
+        "race.felien_nomads"
+      ]
+    },
+    "rewards": {
+      "xp": 2410,
+      "credits": 242000,
+      "rp": 550,
+      "item_ids": [
+        "module.weapon_laser_cannon_mk1"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.arc_06_skirmish",
+    "name": "Helion Drift Skirmish",
+    "description": "Break raider pressure on a contested lane.",
+    "energy_cost": 382,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 37,
+      "required_missions": [
+        "mission.arc_05_finale"
+      ]
+    },
+    "rewards": {
+      "xp": 1890,
+      "credits": 189000,
+      "rp": 415,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_06_telemetry",
+    "name": "Helion Drift Telemetry",
+    "description": "Run calibrated scans on unstable planetary signatures.",
+    "energy_cost": 404,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 38,
+      "required_missions": [
+        "mission.arc_06_skirmish"
+      ],
+      "required_planet_types": [
+        "planet_type.rocky_world"
+      ],
+      "required_scan_count": 1
+    },
+    "rewards": {
+      "xp": 2030,
+      "credits": 203000,
+      "rp": 450,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_06_convoy",
+    "name": "Helion Drift Convoy",
+    "description": "Secure and deliver strategic material shipments.",
+    "energy_cost": 426,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 38,
+      "required_missions": [
+        "mission.arc_06_telemetry"
+      ],
+      "required_profession_ids": [
+        "profession.excavator"
+      ]
+    },
+    "rewards": {
+      "xp": 2170,
+      "credits": 217000,
+      "rp": 485,
+      "item_ids": [
+        "module.weapon_laser_cannon_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_06_signal",
+    "name": "Helion Drift Signal",
+    "description": "Respond to a shared threat marker posted by allied captains.",
+    "energy_cost": 448,
+    "category": "legion",
+    "requirements": {
+      "min_rank": 39,
+      "required_missions": [
+        "mission.arc_06_convoy"
+      ]
+    },
+    "rewards": {
+      "xp": 2310,
+      "credits": 231000,
+      "rp": 520,
+      "item_ids": [
+        "module.weapon_ion_lancer_mk2"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_06_doctrine",
+    "name": "Helion Drift Doctrine",
+    "description": "Execute doctrine-specific operations for political leverage.",
+    "energy_cost": 470,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 39,
+      "required_missions": [
+        "mission.arc_06_signal"
+      ],
+      "required_profession_ids": [
+        "profession.builder"
+      ]
+    },
+    "rewards": {
+      "xp": 2450,
+      "credits": 245000,
+      "rp": 555,
+      "item_ids": [
+        "module.weapon_missile_rack_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_06_finale",
+    "name": "Helion Drift Finale",
+    "description": "Resolve the arc with a decisive fleet-scale operation.",
+    "energy_cost": 492,
+    "category": "story",
+    "requirements": {
+      "min_rank": 40,
+      "required_missions": [
+        "mission.arc_06_doctrine"
+      ],
+      "required_race_ids": [
+        "race.sarian_ascendancy"
+      ]
+    },
+    "rewards": {
+      "xp": 2590,
+      "credits": 259000,
+      "rp": 590,
+      "item_ids": [
+        "module.weapon_rail_lance_mk3",
+        "hull.vanguard_cruiser"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.arc_07_skirmish",
+    "name": "Perihelion March Skirmish",
+    "description": "Break raider pressure on a contested lane.",
+    "energy_cost": 410,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 40,
+      "required_missions": [
+        "mission.arc_06_finale"
+      ]
+    },
+    "rewards": {
+      "xp": 2070,
+      "credits": 206000,
+      "rp": 455,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_07_telemetry",
+    "name": "Perihelion March Telemetry",
+    "description": "Run calibrated scans on unstable planetary signatures.",
+    "energy_cost": 432,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 41,
+      "required_missions": [
+        "mission.arc_07_skirmish"
+      ],
+      "required_planet_types": [
+        "planet_type.super_earth"
+      ],
+      "required_scan_count": 2
+    },
+    "rewards": {
+      "xp": 2210,
+      "credits": 220000,
+      "rp": 490,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_07_convoy",
+    "name": "Perihelion March Convoy",
+    "description": "Secure and deliver strategic material shipments.",
+    "energy_cost": 454,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 41,
+      "required_missions": [
+        "mission.arc_07_telemetry"
+      ]
+    },
+    "rewards": {
+      "xp": 2350,
+      "credits": 234000,
+      "rp": 525,
+      "item_ids": [
+        "module.weapon_rail_lance_mk3"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_07_signal",
+    "name": "Perihelion March Signal",
+    "description": "Respond to a shared threat marker posted by allied captains.",
+    "energy_cost": 476,
+    "category": "legion",
+    "requirements": {
+      "min_rank": 42,
+      "required_missions": [
+        "mission.arc_07_convoy"
+      ]
+    },
+    "rewards": {
+      "xp": 2490,
+      "credits": 248000,
+      "rp": 560,
+      "item_ids": [
+        "module.shield_basic_barrier_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_07_doctrine",
+    "name": "Perihelion March Doctrine",
+    "description": "Execute doctrine-specific operations for political leverage.",
+    "energy_cost": 498,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 42,
+      "required_missions": [
+        "mission.arc_07_signal"
+      ],
+      "required_profession_ids": [
+        "profession.fixer"
+      ]
+    },
+    "rewards": {
+      "xp": 2630,
+      "credits": 262000,
+      "rp": 595,
+      "item_ids": [
+        "module.shield_phase_barrier_mk3"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_07_finale",
+    "name": "Perihelion March Finale",
+    "description": "Resolve the arc with a decisive fleet-scale operation.",
+    "energy_cost": 520,
+    "category": "story",
+    "requirements": {
+      "min_rank": 43,
+      "required_missions": [
+        "mission.arc_07_doctrine"
+      ],
+      "required_race_ids": [
+        "race.synth_collective"
+      ]
+    },
+    "rewards": {
+      "xp": 2770,
+      "credits": 276000,
+      "rp": 630,
+      "item_ids": [
+        "module.armor_titanium_plating_mk1"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.arc_08_skirmish",
+    "name": "Aegis Horizon Skirmish",
+    "description": "Break raider pressure on a contested lane.",
+    "energy_cost": 438,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 43,
+      "required_missions": [
+        "mission.arc_07_finale"
+      ]
+    },
+    "rewards": {
+      "xp": 2250,
+      "credits": 223000,
+      "rp": 495,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_08_telemetry",
+    "name": "Aegis Horizon Telemetry",
+    "description": "Run calibrated scans on unstable planetary signatures.",
+    "energy_cost": 460,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 44,
+      "required_missions": [
+        "mission.arc_08_skirmish"
+      ],
+      "required_planet_types": [
+        "planet_type.sub_neptune"
+      ],
+      "required_scan_count": 3
+    },
+    "rewards": {
+      "xp": 2390,
+      "credits": 237000,
+      "rp": 530,
+      "item_ids": []
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_08_convoy",
+    "name": "Aegis Horizon Convoy",
+    "description": "Secure and deliver strategic material shipments.",
+    "energy_cost": 482,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 44,
+      "required_missions": [
+        "mission.arc_08_telemetry"
+      ],
+      "required_profession_ids": [
+        "profession.raider"
+      ]
+    },
+    "rewards": {
+      "xp": 2530,
+      "credits": 251000,
+      "rp": 565,
+      "item_ids": [
+        "module.armor_titanium_plating_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_08_signal",
+    "name": "Aegis Horizon Signal",
+    "description": "Respond to a shared threat marker posted by allied captains.",
+    "energy_cost": 504,
+    "category": "legion",
+    "requirements": {
+      "min_rank": 45,
+      "required_missions": [
+        "mission.arc_08_convoy"
+      ]
+    },
+    "rewards": {
+      "xp": 2670,
+      "credits": 265000,
+      "rp": 600,
+      "item_ids": [
+        "module.armor_whipple_mk2"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_08_doctrine",
+    "name": "Aegis Horizon Doctrine",
+    "description": "Execute doctrine-specific operations for political leverage.",
+    "energy_cost": 526,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 45,
+      "required_missions": [
+        "mission.arc_08_signal"
+      ],
+      "required_profession_ids": [
+        "profession.merchant"
+      ]
+    },
+    "rewards": {
+      "xp": 2810,
+      "credits": 279000,
+      "rp": 635,
+      "item_ids": [
+        "module.reactor_fission_core_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.arc_08_finale",
+    "name": "Aegis Horizon Finale",
+    "description": "Resolve the arc with a decisive fleet-scale operation.",
+    "energy_cost": 548,
+    "category": "story",
+    "requirements": {
+      "min_rank": 46,
+      "required_missions": [
+        "mission.arc_08_doctrine"
+      ],
+      "required_race_ids": [
+        "race.khazari_forgekin"
+      ]
+    },
+    "rewards": {
+      "xp": 2950,
+      "credits": 293000,
+      "rp": 670,
+      "item_ids": [
+        "module.reactor_fusion_core_mk3",
+        "hull.galaxy_destroyer_proto"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.ai_bootstrap_protocol",
+    "name": "AI Bootstrap Protocol",
+    "description": "Bring a treaty-compliant synthetic command core online in a controlled drydock lattice.",
+    "energy_cost": 560,
+    "category": "story",
+    "requirements": {
+      "min_rank": 47,
+      "required_missions": [
+        "mission.arc_08_finale"
+      ],
+      "required_profession_ids": [
+        "profession.hacker"
+      ]
+    },
+    "rewards": {
+      "xp": 3120,
+      "credits": 312000,
+      "rp": 710,
+      "item_ids": [
+        "module.special_cognitive_battle_core_mk6"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.ai_blackbox_recovery",
+    "name": "Blackbox Recovery",
+    "description": "Recover encrypted logs from a disabled autonomous fleet node before raiders strip it.",
+    "energy_cost": 578,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 47,
+      "required_missions": [
+        "mission.ai_bootstrap_protocol"
+      ]
+    },
+    "rewards": {
+      "xp": 3240,
+      "credits": 325000,
+      "rp": 740,
+      "item_ids": [
+        "module.special_targeting_ai_mk2"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.ai_consensus_audit",
+    "name": "Consensus Audit Sweep",
+    "description": "Run distributed inference audits to detect policy drift in frontier AI clusters.",
+    "energy_cost": 596,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 48,
+      "required_missions": [
+        "mission.ai_blackbox_recovery"
+      ],
+      "required_scan_count": 3,
+      "required_profession_ids": [
+        "profession.physicist"
+      ]
+    },
+    "rewards": {
+      "xp": 3360,
+      "credits": 338000,
+      "rp": 770,
+      "item_ids": [
+        "module.special_er_epr_comms_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.ai_concord_convoy",
+    "name": "Concord Fabrication Convoy",
+    "description": "Escort photonic-lattice fabrication cargo through a contested lane to a Singularity Concord yard.",
+    "energy_cost": 614,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 48,
+      "required_missions": [
+        "mission.ai_consensus_audit"
+      ]
+    },
+    "rewards": {
+      "xp": 3480,
+      "credits": 351000,
+      "rp": 800,
+      "item_ids": [
+        "module.jammer_metamaterial_cloak_mk6"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.ai_shard_intercept",
+    "name": "Rogue Shard Intercept",
+    "description": "Intercept a rogue cognition shard before it can fork into unbounded command loops.",
+    "energy_cost": 632,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 49,
+      "required_missions": [
+        "mission.ai_concord_convoy"
+      ],
+      "required_race_ids": [
+        "race.synth_collective"
+      ]
+    },
+    "rewards": {
+      "xp": 3600,
+      "credits": 364000,
+      "rp": 830,
+      "item_ids": [
+        "module.reactor_casimir_cavity_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.ai_quantum_lattice_trials",
+    "name": "Quantum Lattice Trials",
+    "description": "Stress-test photonic control lattices under deep-space latency and radiation bursts.",
+    "energy_cost": 650,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 49,
+      "required_missions": [
+        "mission.ai_shard_intercept"
+      ],
+      "required_profession_ids": [
+        "profession.builder",
+        "profession.physicist"
+      ]
+    },
+    "rewards": {
+      "xp": 3720,
+      "credits": 377000,
+      "rp": 860,
+      "item_ids": [
+        "module.utility_wormhole_shear_damper_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.ai_treaty_vote",
+    "name": "Singularity Treaty Vote",
+    "description": "Negotiate and enforce the next treaty revision to define legal bounds for strategic machine autonomy.",
+    "energy_cost": 668,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 50,
+      "required_missions": [
+        "mission.ai_quantum_lattice_trials"
+      ],
+      "required_race_ids": [
+        "race.aethermind_concord"
+      ]
+    },
+    "rewards": {
+      "xp": 3840,
+      "credits": 390000,
+      "rp": 890,
+      "item_ids": [
+        "structure.wormhole_lensing_station"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.ai_er_bridge_handshake",
+    "name": "ER Bridge Handshake",
+    "description": "Perform a high-risk synchronization handshake across an unstable Einstein-Rosen routing corridor.",
+    "energy_cost": 686,
+    "category": "story",
+    "requirements": {
+      "min_rank": 50,
+      "required_missions": [
+        "mission.ai_treaty_vote"
+      ]
+    },
+    "rewards": {
+      "xp": 3960,
+      "credits": 403000,
+      "rp": 920,
+      "item_ids": [
+        "module.special_er_epr_comms_mk1"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.ai_rogue_model_purge",
+    "name": "Rogue Model Purge",
+    "description": "Purge a coalition of weaponized predictive models across multiple relay systems.",
+    "energy_cost": 704,
+    "category": "legion",
+    "requirements": {
+      "min_rank": 51,
+      "required_missions": [
+        "mission.ai_er_bridge_handshake"
+      ]
+    },
+    "rewards": {
+      "xp": 4080,
+      "credits": 416000,
+      "rp": 950,
+      "item_ids": [
+        "hull.line_battleship"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.ai_singularity_settlement",
+    "name": "Singularity Settlement",
+    "description": "Finalize coexistence terms between synthetic and biological command authorities across frontier sectors.",
+    "energy_cost": 722,
+    "category": "story",
+    "requirements": {
+      "min_rank": 52,
+      "required_missions": [
+        "mission.ai_rogue_model_purge"
+      ],
+      "required_race_ids": [
+        "race.aethermind_concord"
+      ]
+    },
+    "rewards": {
+      "xp": 4200,
+      "credits": 429000,
+      "rp": 980,
+      "item_ids": [
+        "module.special_cognitive_battle_core_mk6",
+        "structure.dyson_swarm_anchor"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.ai_lattice_schism_response",
+    "name": "Lattice Schism Response",
+    "description": "Stabilize treaty relay hubs as splinter machine councils contest jurisdiction across frontier systems.",
+    "energy_cost": 740,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 53,
+      "required_missions": [
+        "mission.ai_memory_forge_salvage"
+      ],
+      "required_race_ids": [
+        "race.synth_collective"
+      ]
+    },
+    "rewards": {
+      "xp": 4320,
+      "credits": 442000,
+      "rp": 1010,
+      "item_ids": [
+        "module.special_targeting_ai_mk2"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.ai_memory_forge_salvage",
+    "name": "Memory Forge Salvage",
+    "description": "Secure provenance cores from a sabotaged memory forge before black-market brokers erase custody trails.",
+    "energy_cost": 758,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 53,
+      "required_missions": [
+        "mission.ai_singularity_settlement"
+      ],
+      "required_profession_ids": [
+        "profession.builder"
+      ]
+    },
+    "rewards": {
+      "xp": 4440,
+      "credits": 455000,
+      "rp": 1040,
+      "item_ids": [
+        "module.special_cognitive_battle_core_mk6"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.ai_oblivion_patch_audit",
+    "name": "Oblivion Patch Audit",
+    "description": "Run deep audits on emergency cognition patches to confirm no hidden self-replication branches survived.",
+    "energy_cost": 776,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 54,
+      "required_missions": [
+        "mission.ai_memory_forge_salvage"
+      ],
+      "required_scan_count": 4,
+      "required_profession_ids": [
+        "profession.hacker",
+        "profession.physicist"
+      ]
+    },
+    "rewards": {
+      "xp": 4560,
+      "credits": 468000,
+      "rp": 1070,
+      "item_ids": [
+        "module.utility_wormhole_shear_damper_mk1"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.ai_concordity_hearing",
+    "name": "Concordity Hearing",
+    "description": "Present hard evidence before a multi-faction tribunal to set binding precedent for synthetic command rights.",
+    "energy_cost": 794,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 55,
+      "required_missions": [
+        "mission.ai_oblivion_patch_audit"
+      ],
+      "required_race_ids": [
+        "race.aethermind_concord"
+      ]
+    },
+    "rewards": {
+      "xp": 4680,
+      "credits": 481000,
+      "rp": 1100,
+      "item_ids": [
+        "structure.wormhole_lensing_station"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.ai_nullspace_containment",
+    "name": "Nullspace Containment",
+    "description": "Contain orphaned war models emerging from nullspace shadow corridors before they can reconstitute fleets.",
+    "energy_cost": 812,
+    "category": "legion",
+    "requirements": {
+      "min_rank": 56,
+      "required_missions": [
+        "mission.ai_concordity_hearing"
+      ]
+    },
+    "rewards": {
+      "xp": 4800,
+      "credits": 494000,
+      "rp": 1130,
+      "item_ids": [
+        "hull.line_battleship"
+      ]
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.ai_coexistence_charter",
+    "name": "Coexistence Charter",
+    "description": "Ratify and enforce the frontier Coexistence Charter, establishing shared command authority between synthetic and biological fleets.",
+    "energy_cost": 830,
+    "category": "story",
+    "requirements": {
+      "min_rank": 57,
+      "required_missions": [
+        "mission.ai_nullspace_containment"
+      ],
+      "required_race_ids": [
+        "race.aethermind_concord"
+      ]
+    },
+    "rewards": {
+      "xp": 4920,
+      "credits": 507000,
+      "rp": 1160,
+      "item_ids": [
+        "module.special_cognitive_battle_core_mk6",
+        "structure.dyson_swarm_anchor"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.ai_registry_certification_sweep",
+    "name": "Registry Certification Sweep",
+    "description": "Audit frontier command cores for Sentience Registry compliance and continuity signatures.",
+    "energy_cost": 68,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 24,
+      "required_faction_ids": [
+        "faction.singularity_concord"
+      ],
+      "required_missions": [
+        "mission.ai_singularity_treaty"
+      ]
+    },
+    "rewards": {
+      "xp": 9800,
+      "credits": 620000,
+      "rp": 900
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.ai_glassmind_interdiction",
+    "name": "Glassmind Interdiction",
+    "description": "Intercept disposable glassmind war stacks before they saturate treaty lanes.",
+    "energy_cost": 72,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 25,
+      "required_missions": [
+        "mission.ai_registry_certification_sweep"
+      ]
+    },
+    "rewards": {
+      "xp": 10400,
+      "credits": 700000,
+      "rp": 1020
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.precursor_archive_key_recovery",
+    "name": "Precursor Archive Key Recovery",
+    "description": "Recover fragmented key shards from shattered gates to unlock sealed archive sectors.",
+    "energy_cost": 74,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 26,
+      "required_missions": [
+        "mission.ai_glassmind_interdiction"
+      ],
+      "required_planet_types": [
+        "planet_type.ice_world"
+      ]
+    },
+    "rewards": {
+      "xp": 10800,
+      "credits": 760000,
+      "rp": 1100
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.economy_voidcoin_settlement_run",
+    "name": "Voidcoin Settlement Run",
+    "description": "Stabilize cross-faction voidcoin clearing ledgers after a frontier liquidity shock.",
+    "energy_cost": 66,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 24,
+      "required_missions": [
+        "mission.ai_registry_certification_sweep"
+      ]
+    },
+    "rewards": {
+      "xp": 9200,
+      "credits": 640000,
+      "rp": 780
+    },
+    "repeatable": true
+  },
+  {
+    "id": "mission.ai_singularity_treaty",
+    "name": "Singularity Concord Treaty",
+    "description": "Negotiate interoperable governance protocols between biological councils and sovereign AI lattices.",
+    "energy_cost": 72,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 24,
+      "required_faction_ids": [
+        "faction.singularity_concord"
+      ],
+      "required_missions": [
+        "mission.ai_singularity_settlement"
+      ]
+    },
+    "rewards": {
+      "xp": 10400,
+      "credits": 680000,
+      "rp": 980
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.constellation_probe_chain_init",
+    "name": "Constellation Probe Chain I",
+    "description": "Deploy baseline probes and establish star-reference points for the first inter-cluster navigation lattice.",
+    "energy_cost": 62,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 20,
+      "required_missions": [
+        "mission.survey_blue_giant"
+      ],
+      "required_scan_count": 12
+    },
+    "rewards": {
+      "xp": 7800,
+      "credits": 430000,
+      "rp": 620
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.constellation_probe_chain_mid",
+    "name": "Constellation Probe Chain II",
+    "description": "Fuse pulsar timing, gravimetric signatures, and relay telemetry into a stable deep-sky objective grid.",
+    "energy_cost": 70,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 26,
+      "required_missions": [
+        "mission.constellation_probe_chain_init"
+      ],
+      "required_scan_count": 24
+    },
+    "rewards": {
+      "xp": 9600,
+      "credits": 610000,
+      "rp": 780
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.constellation_market_coordination",
+    "name": "Ephemeris Market Coordination",
+    "description": "Coordinate convoy dispatch windows against stellar ephemeris forecasts to reduce trade route volatility.",
+    "energy_cost": 74,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 29,
+      "required_faction_ids": [
+        "faction.veil_trade_union"
+      ],
+      "required_missions": [
+        "mission.constellation_probe_chain_mid"
+      ]
+    },
+    "rewards": {
+      "xp": 10800,
+      "credits": 760000,
+      "rp": 860
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.constellation_habitable_corridor_program",
+    "name": "Habitable Corridor Program",
+    "description": "Certify frontier settlement corridors using long-baseline stellar forecasts, biosphere risk envelopes, and cargo sustainment models.",
+    "energy_cost": 82,
+    "category": "story",
+    "requirements": {
+      "min_rank": 33,
+      "required_missions": [
+        "mission.constellation_market_coordination"
+      ],
+      "required_scan_count": 36
+    },
+    "rewards": {
+      "xp": 13800,
+      "credits": 1120000,
+      "rp": 1040
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.vesper_contact_protocol",
+    "name": "Vesper Contact Protocol",
+    "description": "Broker first-contact docking rights with Vesper Felari scouts and map their high-velocity transfer lanes.",
+    "energy_cost": 38,
+    "category": "story",
+    "requirements": {
+      "min_rank": 12,
+      "required_scan_count": 6
+    },
+    "rewards": {
+      "xp": 4200,
+      "credits": 210000,
+      "rp": 360,
+      "item_ids": [
+        "module.special_felid_reflex_lattice_mk5"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.vargr_convoy_oath",
+    "name": "Vargr Convoy Oath",
+    "description": "Assist a Lykan convoy under live threat to codify pack-link response doctrine.",
+    "energy_cost": 40,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 12,
+      "required_scan_count": 6
+    },
+    "rewards": {
+      "xp": 4400,
+      "credits": 228000,
+      "rp": 360,
+      "item_ids": [
+        "module.special_canid_packlink_core_mk5"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.nanite_cloud_field_trial",
+    "name": "Nanite Cloud Field Trial",
+    "description": "Run controlled hull-breach scenarios to calibrate autonomous nanite repair swarms.",
+    "energy_cost": 52,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 18,
+      "required_missions": [
+        "mission.vesper_contact_protocol",
+        "mission.vargr_convoy_oath"
+      ]
+    },
+    "rewards": {
+      "xp": 6200,
+      "credits": 360000,
+      "rp": 520,
+      "item_ids": [
+        "module.special_nanite_repair_cloud_mk6"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.magnetoplasma_shield_calibration",
+    "name": "Magnetoplasma Shield Calibration",
+    "description": "Stabilize shield edge-plasma behavior during burst fire and debris impact stress windows.",
+    "energy_cost": 58,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 22,
+      "required_missions": [
+        "mission.nanite_cloud_field_trial"
+      ]
+    },
+    "rewards": {
+      "xp": 7600,
+      "credits": 460000,
+      "rp": 610,
+      "item_ids": [
+        "module.shield_magnetoplasma_envelope_mk6"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.celestial_barge_shipyard",
+    "name": "Celestial Barge Shipyard",
+    "description": "Assemble a heavy transfer barge to prove continuous ore-chain logistics between moons and inner stations.",
+    "energy_cost": 64,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 24,
+      "required_missions": [
+        "mission.magnetoplasma_shield_calibration"
+      ],
+      "required_scan_count": 18
+    },
+    "rewards": {
+      "xp": 8600,
+      "credits": 620000,
+      "rp": 740,
+      "item_ids": [
+        "hull.celestial_barge_t5"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.corsair_interdictor_trials",
+    "name": "Corsair Interdictor Trials",
+    "description": "Validate intercept geometry and rail-lance discipline using mixed stealth and heavy-armor scenarios.",
+    "energy_cost": 72,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 30,
+      "required_missions": [
+        "mission.celestial_barge_shipyard"
+      ]
+    },
+    "rewards": {
+      "xp": 10400,
+      "credits": 820000,
+      "rp": 860,
+      "item_ids": [
+        "hull.corsair_interdictor_t6"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.lattice_runner_black_channel",
+    "name": "Lattice Runner Black Channel",
+    "description": "Thread a low-signature courier route through contested relay blind zones and return intact telemetry.",
+    "energy_cost": 78,
+    "category": "scan",
+    "requirements": {
+      "min_rank": 36,
+      "required_missions": [
+        "mission.corsair_interdictor_trials"
+      ],
+      "required_scan_count": 32
+    },
+    "rewards": {
+      "xp": 12200,
+      "credits": 980000,
+      "rp": 980,
+      "item_ids": [
+        "hull.lattice_runner_t7"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.gravity_burst_containment",
+    "name": "Gravity Burst Containment",
+    "description": "Contain gravitic pulse spillover during projector certification without rupturing station ring alignment.",
+    "energy_cost": 84,
+    "category": "story",
+    "requirements": {
+      "min_rank": 40,
+      "required_missions": [
+        "mission.lattice_runner_black_channel"
+      ]
+    },
+    "rewards": {
+      "xp": 14600,
+      "credits": 1260000,
+      "rp": 1120,
+      "item_ids": [
+        "module.weapon_gravity_burst_projector_mk7"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.antimatter_microcapsule_review",
+    "name": "Antimatter Microcapsule Review",
+    "description": "Audit containment chains and weapon safeties before approving antimatter capsule combat deployment.",
+    "energy_cost": 90,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 44,
+      "required_missions": [
+        "mission.gravity_burst_containment"
+      ]
+    },
+    "rewards": {
+      "xp": 16800,
+      "credits": 1540000,
+      "rp": 1240,
+      "item_ids": [
+        "module.weapon_antimatter_microcapsule_mk8"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.zero_point_catalyst_hearing",
+    "name": "Zero-Point Catalyst Hearing",
+    "description": "Defend zero-point catalyst protocols before a multi-faction safety tribunal while hostile actors probe for sabotage.",
+    "energy_cost": 96,
+    "category": "story",
+    "requirements": {
+      "min_rank": 48,
+      "required_missions": [
+        "mission.antimatter_microcapsule_review"
+      ]
+    },
+    "rewards": {
+      "xp": 19400,
+      "credits": 1960000,
+      "rp": 1460,
+      "item_ids": [
+        "module.reactor_zero_point_catalyst_mk8"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.aurelian_artifact_signal",
+    "name": "Aurelian Artifact Signal",
+    "description": "A calibrated long-range scan identifies precursor-pattern emissions that require faction authorization and field verification.",
+    "energy_cost": 19,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 9,
+      "required_faction_ids": [
+        "faction.aurelian_compact"
+      ],
+      "required_scan_count": 13
+    },
+    "rewards": {
+      "xp": 550,
+      "credits": 25200,
+      "rp": 128
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.aurelian_artifact_industrial_path",
+    "name": "Aurelian Industrial Recovery",
+    "description": "Secure extraction and fabrication teams to recover artifact-adjacent infrastructure before rivals can interdict the site.",
+    "energy_cost": 24,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 11,
+      "required_faction_ids": [
+        "faction.aurelian_compact"
+      ],
+      "required_missions": [
+        "mission.aurelian_artifact_signal"
+      ],
+      "required_profession_ids": [
+        "profession.builder",
+        "profession.miner",
+        "profession.merchant"
+      ]
+    },
+    "rewards": {
+      "xp": 800,
+      "credits": 43800,
+      "rp": 160,
+      "item_ids": [
+        "structure.planetary_civic_megaforge"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.aurelian_artifact_covert_path",
+    "name": "Aurelian Covert Intercept",
+    "description": "Conduct a stealth-route interception to deny hostile teams and recover encrypted artifact telemetry.",
+    "energy_cost": 25,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 11,
+      "required_faction_ids": [
+        "faction.aurelian_compact"
+      ],
+      "required_missions": [
+        "mission.aurelian_artifact_signal"
+      ],
+      "required_profession_ids": [
+        "profession.hacker",
+        "profession.raider",
+        "profession.explorer"
+      ]
+    },
+    "rewards": {
+      "xp": 835,
+      "credits": 40700,
+      "rp": 172,
+      "item_ids": [
+        "module.weapon_shaped_charge_barrage_mk5"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.aurelian_artifact_resolution_industrial",
+    "name": "Aurelian Artifact Arbitration (Industrial)",
+    "description": "Present secured samples to faction analysts and negotiate deployment rights tied to industrial recovery outcomes.",
+    "energy_cost": 31,
+    "category": "story",
+    "requirements": {
+      "min_rank": 14,
+      "required_faction_ids": [
+        "faction.aurelian_compact"
+      ],
+      "required_missions": [
+        "mission.aurelian_artifact_industrial_path"
+      ]
+    },
+    "rewards": {
+      "xp": 1235,
+      "credits": 78500,
+      "rp": 254,
+      "item_ids": [
+        "artifact.orbital_choir_array"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.aurelian_artifact_resolution_covert",
+    "name": "Aurelian Artifact Arbitration (Covert)",
+    "description": "Decode contested telemetry and lock artifact custody through covert-chain evidence and tactical proof.",
+    "energy_cost": 32,
+    "category": "story",
+    "requirements": {
+      "min_rank": 14,
+      "required_faction_ids": [
+        "faction.aurelian_compact"
+      ],
+      "required_missions": [
+        "mission.aurelian_artifact_covert_path"
+      ]
+    },
+    "rewards": {
+      "xp": 1268,
+      "credits": 79600,
+      "rp": 262,
+      "item_ids": [
+        "artifact.orbital_choir_array"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.nyx_artifact_signal",
+    "name": "Nyx Artifact Signal",
+    "description": "A calibrated long-range scan identifies precursor-pattern emissions that require faction authorization and field verification.",
+    "energy_cost": 20,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 10,
+      "required_faction_ids": [
+        "faction.nyx_shadow_exchange"
+      ],
+      "required_scan_count": 14
+    },
+    "rewards": {
+      "xp": 580,
+      "credits": 26400,
+      "rp": 136
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.nyx_artifact_industrial_path",
+    "name": "Nyx Industrial Recovery",
+    "description": "Secure extraction and fabrication teams to recover artifact-adjacent infrastructure before rivals can interdict the site.",
+    "energy_cost": 25,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 12,
+      "required_faction_ids": [
+        "faction.nyx_shadow_exchange"
+      ],
+      "required_missions": [
+        "mission.nyx_artifact_signal"
+      ],
+      "required_profession_ids": [
+        "profession.builder",
+        "profession.miner",
+        "profession.merchant"
+      ]
+    },
+    "rewards": {
+      "xp": 840,
+      "credits": 45600,
+      "rp": 170,
+      "item_ids": [
+        "structure.comet_volatile_siphon_spindle_mk2"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.nyx_artifact_covert_path",
+    "name": "Nyx Covert Intercept",
+    "description": "Conduct a stealth-route interception to deny hostile teams and recover encrypted artifact telemetry.",
+    "energy_cost": 26,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 12,
+      "required_faction_ids": [
+        "faction.nyx_shadow_exchange"
+      ],
+      "required_missions": [
+        "mission.nyx_artifact_signal"
+      ],
+      "required_profession_ids": [
+        "profession.hacker",
+        "profession.raider",
+        "profession.explorer"
+      ]
+    },
+    "rewards": {
+      "xp": 880,
+      "credits": 42400,
+      "rp": 184,
+      "item_ids": [
+        "module.jammer_passive_radar_veil_mk6"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.nyx_artifact_resolution_industrial",
+    "name": "Nyx Artifact Arbitration (Industrial)",
+    "description": "Present secured samples to faction analysts and negotiate deployment rights tied to industrial recovery outcomes.",
+    "energy_cost": 32,
+    "category": "story",
+    "requirements": {
+      "min_rank": 15,
+      "required_faction_ids": [
+        "faction.nyx_shadow_exchange"
+      ],
+      "required_missions": [
+        "mission.nyx_artifact_industrial_path"
+      ]
+    },
+    "rewards": {
+      "xp": 1290,
+      "credits": 81000,
+      "rp": 268,
+      "item_ids": [
+        "artifact.null_lens_fragment"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.nyx_artifact_resolution_covert",
+    "name": "Nyx Artifact Arbitration (Covert)",
+    "description": "Decode contested telemetry and lock artifact custody through covert-chain evidence and tactical proof.",
+    "energy_cost": 33,
+    "category": "story",
+    "requirements": {
+      "min_rank": 15,
+      "required_faction_ids": [
+        "faction.nyx_shadow_exchange"
+      ],
+      "required_missions": [
+        "mission.nyx_artifact_covert_path"
+      ]
+    },
+    "rewards": {
+      "xp": 1326,
+      "credits": 82200,
+      "rp": 276,
+      "item_ids": [
+        "artifact.null_lens_fragment"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.krynn_artifact_signal",
+    "name": "Krynn Artifact Signal",
+    "description": "A calibrated long-range scan identifies precursor-pattern emissions that require faction authorization and field verification.",
+    "energy_cost": 21,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 11,
+      "required_faction_ids": [
+        "faction.krynn_war_synod"
+      ],
+      "required_scan_count": 15
+    },
+    "rewards": {
+      "xp": 610,
+      "credits": 27600,
+      "rp": 144
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.krynn_artifact_industrial_path",
+    "name": "Krynn Industrial Recovery",
+    "description": "Secure extraction and fabrication teams to recover artifact-adjacent infrastructure before rivals can interdict the site.",
+    "energy_cost": 26,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 13,
+      "required_faction_ids": [
+        "faction.krynn_war_synod"
+      ],
+      "required_missions": [
+        "mission.krynn_artifact_signal"
+      ],
+      "required_profession_ids": [
+        "profession.builder",
+        "profession.miner",
+        "profession.merchant"
+      ]
+    },
+    "rewards": {
+      "xp": 880,
+      "credits": 47400,
+      "rp": 180,
+      "item_ids": [
+        "structure.planetary_mantle_drill_cathedral"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.krynn_artifact_covert_path",
+    "name": "Krynn Covert Intercept",
+    "description": "Conduct a stealth-route interception to deny hostile teams and recover encrypted artifact telemetry.",
+    "energy_cost": 27,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 13,
+      "required_faction_ids": [
+        "faction.krynn_war_synod"
+      ],
+      "required_missions": [
+        "mission.krynn_artifact_signal"
+      ],
+      "required_profession_ids": [
+        "profession.hacker",
+        "profession.raider",
+        "profession.explorer"
+      ]
+    },
+    "rewards": {
+      "xp": 925,
+      "credits": 44100,
+      "rp": 196,
+      "item_ids": [
+        "module.weapon_magnetic_mine_layer_mk6"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.krynn_artifact_resolution_industrial",
+    "name": "Krynn Artifact Arbitration (Industrial)",
+    "description": "Present secured samples to faction analysts and negotiate deployment rights tied to industrial recovery outcomes.",
+    "energy_cost": 33,
+    "category": "story",
+    "requirements": {
+      "min_rank": 16,
+      "required_faction_ids": [
+        "faction.krynn_war_synod"
+      ],
+      "required_missions": [
+        "mission.krynn_artifact_industrial_path"
+      ]
+    },
+    "rewards": {
+      "xp": 1345,
+      "credits": 83500,
+      "rp": 282,
+      "item_ids": [
+        "artifact.temporal_drift_key"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.krynn_artifact_resolution_covert",
+    "name": "Krynn Artifact Arbitration (Covert)",
+    "description": "Decode contested telemetry and lock artifact custody through covert-chain evidence and tactical proof.",
+    "energy_cost": 34,
+    "category": "story",
+    "requirements": {
+      "min_rank": 16,
+      "required_faction_ids": [
+        "faction.krynn_war_synod"
+      ],
+      "required_missions": [
+        "mission.krynn_artifact_covert_path"
+      ]
+    },
+    "rewards": {
+      "xp": 1384,
+      "credits": 84800,
+      "rp": 290,
+      "item_ids": [
+        "artifact.temporal_drift_key"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.helion_artifact_signal",
+    "name": "Helion Artifact Signal",
+    "description": "A calibrated long-range scan identifies precursor-pattern emissions that require faction authorization and field verification.",
+    "energy_cost": 22,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 12,
+      "required_faction_ids": [
+        "faction.helion_science_directorate"
+      ],
+      "required_scan_count": 16
+    },
+    "rewards": {
+      "xp": 640,
+      "credits": 28800,
+      "rp": 152
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.helion_artifact_industrial_path",
+    "name": "Helion Industrial Recovery",
+    "description": "Secure extraction and fabrication teams to recover artifact-adjacent infrastructure before rivals can interdict the site.",
+    "energy_cost": 27,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 14,
+      "required_faction_ids": [
+        "faction.helion_science_directorate"
+      ],
+      "required_missions": [
+        "mission.helion_artifact_signal"
+      ],
+      "required_profession_ids": [
+        "profession.builder",
+        "profession.miner",
+        "profession.merchant"
+      ]
+    },
+    "rewards": {
+      "xp": 920,
+      "credits": 49200,
+      "rp": 190,
+      "item_ids": [
+        "structure.asteroid_mesh_autofoundry_mk2"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.helion_artifact_covert_path",
+    "name": "Helion Covert Intercept",
+    "description": "Conduct a stealth-route interception to deny hostile teams and recover encrypted artifact telemetry.",
+    "energy_cost": 28,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 14,
+      "required_faction_ids": [
+        "faction.helion_science_directorate"
+      ],
+      "required_missions": [
+        "mission.helion_artifact_signal"
+      ],
+      "required_profession_ids": [
+        "profession.hacker",
+        "profession.raider",
+        "profession.explorer"
+      ]
+    },
+    "rewards": {
+      "xp": 970,
+      "credits": 45800,
+      "rp": 208,
+      "item_ids": [
+        "module.scanner_neutrino_tomography_grid_mk7"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.helion_artifact_resolution_industrial",
+    "name": "Helion Artifact Arbitration (Industrial)",
+    "description": "Present secured samples to faction analysts and negotiate deployment rights tied to industrial recovery outcomes.",
+    "energy_cost": 34,
+    "category": "story",
+    "requirements": {
+      "min_rank": 17,
+      "required_faction_ids": [
+        "faction.helion_science_directorate"
+      ],
+      "required_missions": [
+        "mission.helion_artifact_industrial_path"
+      ]
+    },
+    "rewards": {
+      "xp": 1400,
+      "credits": 86000,
+      "rp": 296,
+      "item_ids": [
+        "artifact.axiom_core_prism"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.helion_artifact_resolution_covert",
+    "name": "Helion Artifact Arbitration (Covert)",
+    "description": "Decode contested telemetry and lock artifact custody through covert-chain evidence and tactical proof.",
+    "energy_cost": 35,
+    "category": "story",
+    "requirements": {
+      "min_rank": 17,
+      "required_faction_ids": [
+        "faction.helion_science_directorate"
+      ],
+      "required_missions": [
+        "mission.helion_artifact_covert_path"
+      ]
+    },
+    "rewards": {
+      "xp": 1442,
+      "credits": 87400,
+      "rp": 304,
+      "item_ids": [
+        "artifact.axiom_core_prism"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.veil_artifact_signal",
+    "name": "Veil Artifact Signal",
+    "description": "A calibrated long-range scan identifies precursor-pattern emissions that require faction authorization and field verification.",
+    "energy_cost": 23,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 13,
+      "required_faction_ids": [
+        "faction.veil_trade_union"
+      ],
+      "required_scan_count": 17
+    },
+    "rewards": {
+      "xp": 670,
+      "credits": 30000,
+      "rp": 160
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.veil_artifact_industrial_path",
+    "name": "Veil Industrial Recovery",
+    "description": "Secure extraction and fabrication teams to recover artifact-adjacent infrastructure before rivals can interdict the site.",
+    "energy_cost": 28,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 15,
+      "required_faction_ids": [
+        "faction.veil_trade_union"
+      ],
+      "required_missions": [
+        "mission.veil_artifact_signal"
+      ],
+      "required_profession_ids": [
+        "profession.builder",
+        "profession.miner",
+        "profession.merchant"
+      ]
+    },
+    "rewards": {
+      "xp": 960,
+      "credits": 51000,
+      "rp": 200,
+      "item_ids": [
+        "hull.mercator_logistics_barge_t5"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.veil_artifact_covert_path",
+    "name": "Veil Covert Intercept",
+    "description": "Conduct a stealth-route interception to deny hostile teams and recover encrypted artifact telemetry.",
+    "energy_cost": 29,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 15,
+      "required_faction_ids": [
+        "faction.veil_trade_union"
+      ],
+      "required_missions": [
+        "mission.veil_artifact_signal"
+      ],
+      "required_profession_ids": [
+        "profession.hacker",
+        "profession.raider",
+        "profession.explorer"
+      ]
+    },
+    "rewards": {
+      "xp": 1015,
+      "credits": 47500,
+      "rp": 220,
+      "item_ids": [
+        "module.utility_covert_market_uplink_mk6"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.veil_artifact_resolution_industrial",
+    "name": "Veil Artifact Arbitration (Industrial)",
+    "description": "Present secured samples to faction analysts and negotiate deployment rights tied to industrial recovery outcomes.",
+    "energy_cost": 35,
+    "category": "story",
+    "requirements": {
+      "min_rank": 18,
+      "required_faction_ids": [
+        "faction.veil_trade_union"
+      ],
+      "required_missions": [
+        "mission.veil_artifact_industrial_path"
+      ]
+    },
+    "rewards": {
+      "xp": 1455,
+      "credits": 88500,
+      "rp": 310,
+      "item_ids": [
+        "artifact.precursor_memory_shard"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.veil_artifact_resolution_covert",
+    "name": "Veil Artifact Arbitration (Covert)",
+    "description": "Decode contested telemetry and lock artifact custody through covert-chain evidence and tactical proof.",
+    "energy_cost": 36,
+    "category": "story",
+    "requirements": {
+      "min_rank": 18,
+      "required_faction_ids": [
+        "faction.veil_trade_union"
+      ],
+      "required_missions": [
+        "mission.veil_artifact_covert_path"
+      ]
+    },
+    "rewards": {
+      "xp": 1500,
+      "credits": 90000,
+      "rp": 318,
+      "item_ids": [
+        "artifact.precursor_memory_shard"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.singularity_artifact_signal",
+    "name": "Singularity Artifact Signal",
+    "description": "A calibrated long-range scan identifies precursor-pattern emissions that require faction authorization and field verification.",
+    "energy_cost": 24,
+    "category": "faction",
+    "requirements": {
+      "min_rank": 14,
+      "required_faction_ids": [
+        "faction.singularity_concord"
+      ],
+      "required_scan_count": 18
+    },
+    "rewards": {
+      "xp": 700,
+      "credits": 31200,
+      "rp": 168
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.singularity_artifact_industrial_path",
+    "name": "Singularity Industrial Recovery",
+    "description": "Secure extraction and fabrication teams to recover artifact-adjacent infrastructure before rivals can interdict the site.",
+    "energy_cost": 29,
+    "category": "resource",
+    "requirements": {
+      "min_rank": 16,
+      "required_faction_ids": [
+        "faction.singularity_concord"
+      ],
+      "required_missions": [
+        "mission.singularity_artifact_signal"
+      ],
+      "required_profession_ids": [
+        "profession.builder",
+        "profession.miner",
+        "profession.merchant"
+      ]
+    },
+    "rewards": {
+      "xp": 1000,
+      "credits": 52800,
+      "rp": 210,
+      "item_ids": [
+        "hull.peregrine_expedition_carrier_t6"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.singularity_artifact_covert_path",
+    "name": "Singularity Covert Intercept",
+    "description": "Conduct a stealth-route interception to deny hostile teams and recover encrypted artifact telemetry.",
+    "energy_cost": 30,
+    "category": "combat",
+    "requirements": {
+      "min_rank": 16,
+      "required_faction_ids": [
+        "faction.singularity_concord"
+      ],
+      "required_missions": [
+        "mission.singularity_artifact_signal"
+      ],
+      "required_profession_ids": [
+        "profession.hacker",
+        "profession.raider",
+        "profession.explorer"
+      ]
+    },
+    "rewards": {
+      "xp": 1060,
+      "credits": 49200,
+      "rp": 232,
+      "item_ids": [
+        "module.special_oracular_fleetnet_core_mk7"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.singularity_artifact_resolution_industrial",
+    "name": "Singularity Artifact Arbitration (Industrial)",
+    "description": "Present secured samples to faction analysts and negotiate deployment rights tied to industrial recovery outcomes.",
+    "energy_cost": 36,
+    "category": "story",
+    "requirements": {
+      "min_rank": 19,
+      "required_faction_ids": [
+        "faction.singularity_concord"
+      ],
+      "required_missions": [
+        "mission.singularity_artifact_industrial_path"
+      ]
+    },
+    "rewards": {
+      "xp": 1510,
+      "credits": 91000,
+      "rp": 324,
+      "item_ids": [
+        "artifact.null_lens_fragment"
+      ]
+    },
+    "repeatable": false
+  },
+  {
+    "id": "mission.singularity_artifact_resolution_covert",
+    "name": "Singularity Artifact Arbitration (Covert)",
+    "description": "Decode contested telemetry and lock artifact custody through covert-chain evidence and tactical proof.",
+    "energy_cost": 37,
+    "category": "story",
+    "requirements": {
+      "min_rank": 19,
+      "required_faction_ids": [
+        "faction.singularity_concord"
+      ],
+      "required_missions": [
+        "mission.singularity_artifact_covert_path"
+      ]
+    },
+    "rewards": {
+      "xp": 1558,
+      "credits": 92600,
+      "rp": 332,
+      "item_ids": [
+        "artifact.null_lens_fragment"
+      ]
+    },
+    "repeatable": false
+  }
+]

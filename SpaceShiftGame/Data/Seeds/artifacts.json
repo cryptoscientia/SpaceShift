@@ -1,0 +1,37 @@
+[
+  {
+    "id": "artifact.precursor_memory_shard",
+    "name": "Precursor Memory Shard",
+    "tier": "rare",
+    "description": "Fragmented data crystal with compressed navigation traces from a lost polity.",
+    "lore_hook": "Suggests non-human relay infrastructure predating known empires."
+  },
+  {
+    "id": "artifact.null_lens_fragment",
+    "name": "Null Lens Fragment",
+    "tier": "epic",
+    "description": "Damaged field lens section that manipulates local EM propagation.",
+    "lore_hook": "Often linked to abandoned stealth observatories in deep sectors."
+  },
+  {
+    "id": "artifact.orbital_choir_array",
+    "name": "Orbital Choir Array",
+    "tier": "legendary",
+    "description": "Resonant ring segment tuned for synchronized long-range signal phasing.",
+    "lore_hook": "May have coordinated autonomous fleets across interstellar baselines."
+  },
+  {
+    "id": "artifact.temporal_drift_key",
+    "name": "Temporal Drift Key",
+    "tier": "legendary",
+    "description": "Metastable lock element with anomalous tick drift under high-energy scans.",
+    "lore_hook": "Field notes imply interaction with extreme gravitational shear corridors."
+  },
+  {
+    "id": "artifact.axiom_core_prism",
+    "name": "Axiom Core Prism",
+    "tier": "epic",
+    "description": "Prismatic core with nonlinear phase transitions under coherent beam load.",
+    "lore_hook": "Used by archivists to encode scientific treaties in tamper-resistant form."
+  }
+]

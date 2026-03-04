@@ -1,0 +1,3805 @@
+[
+  {
+    "id": "tech.armor_plating_t1",
+    "name": "Titanium Armor Foundations",
+    "branch": "armor_systems",
+    "tier": 1,
+    "rp_cost": 240,
+    "research_time_seconds": 900,
+    "prerequisites": [],
+    "unlocks": [
+      "module.armor_titanium_plating_mk1"
+    ]
+  },
+  {
+    "id": "tech.hull_foundations_t1",
+    "name": "Hull Foundations",
+    "branch": "armor_systems",
+    "tier": 1,
+    "rp_cost": 240,
+    "research_time_seconds": 900,
+    "prerequisites": [],
+    "unlocks": [
+      "hull.settler_scout"
+    ]
+  },
+  {
+    "id": "tech.armor_plating_t2",
+    "name": "Whipple Composite Armor",
+    "branch": "armor_systems",
+    "tier": 2,
+    "rp_cost": 1100,
+    "research_time_seconds": 1800,
+    "prerequisites": [
+      "tech.armor_plating_t1"
+    ],
+    "unlocks": [
+      "module.armor_whipple_mk2"
+    ]
+  },
+  {
+    "id": "tech.hull_assault_t2",
+    "name": "Assault Hull Geometry",
+    "branch": "armor_systems",
+    "tier": 2,
+    "rp_cost": 1500,
+    "research_time_seconds": 2200,
+    "prerequisites": [
+      "tech.hull_foundations_t1",
+      "tech.weapons_ballistic_t2"
+    ],
+    "unlocks": [
+      "hull.raider_frigate"
+    ]
+  },
+  {
+    "id": "tech.hull_foundations_t2",
+    "name": "Frigate Hullworks",
+    "branch": "armor_systems",
+    "tier": 2,
+    "rp_cost": 1200,
+    "research_time_seconds": 2000,
+    "prerequisites": [
+      "tech.hull_foundations_t1"
+    ],
+    "unlocks": [
+      "hull.frigate_mk1"
+    ]
+  },
+  {
+    "id": "tech.armor_systems_t3",
+    "name": "Armor Lattice Systems T3",
+    "branch": "armor_systems",
+    "tier": 3,
+    "rp_cost": 1340,
+    "research_time_seconds": 2800,
+    "prerequisites": [
+      "tech.armor_plating_t2",
+      "tech.hull_foundations_t2"
+    ],
+    "unlocks": [
+      "module.armor_lattice_mk3"
+    ]
+  },
+  {
+    "id": "tech.hull_navigation_t3",
+    "name": "Destroyer Navigation Frame",
+    "branch": "armor_systems",
+    "tier": 3,
+    "rp_cost": 4200,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.hull_foundations_t2",
+      "tech.engine_ion_t2"
+    ],
+    "unlocks": [
+      "hull.pathfinder_destroyer"
+    ]
+  },
+  {
+    "id": "tech.armor_systems_t4",
+    "name": "Armor Lattice Systems T4",
+    "branch": "armor_systems",
+    "tier": 4,
+    "rp_cost": 2180,
+    "research_time_seconds": 3500,
+    "prerequisites": [
+      "tech.armor_systems_t3"
+    ],
+    "unlocks": [
+      "module.armor_lattice_mk4"
+    ]
+  },
+  {
+    "id": "tech.hull_bastion_t4",
+    "name": "Cruiser Bastion Architecture",
+    "branch": "armor_systems",
+    "tier": 4,
+    "rp_cost": 10000,
+    "research_time_seconds": 7600,
+    "prerequisites": [
+      "tech.hull_navigation_t3",
+      "tech.shield_phase_t3"
+    ],
+    "unlocks": [
+      "hull.vanguard_cruiser"
+    ]
+  },
+  {
+    "id": "tech.armor_systems_t5",
+    "name": "Armor Lattice Systems T5",
+    "branch": "armor_systems",
+    "tier": 5,
+    "rp_cost": 3260,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.armor_systems_t4"
+    ],
+    "unlocks": [
+      "module.armor_lattice_mk5"
+    ]
+  },
+  {
+    "id": "tech.hull_titanic_t5",
+    "name": "Titanic Superstructure",
+    "branch": "armor_systems",
+    "tier": 5,
+    "rp_cost": 26000,
+    "research_time_seconds": 14400,
+    "prerequisites": [
+      "tech.hull_bastion_t4",
+      "tech.weapons_rail_t4",
+      "tech.power_fusion_t3"
+    ],
+    "unlocks": [
+      "hull.galaxy_destroyer_proto"
+    ]
+  },
+  {
+    "id": "tech.engine_systems_t1",
+    "name": "Vector Engine Systems T1",
+    "branch": "defensive_systems",
+    "tier": 1,
+    "rp_cost": 475,
+    "research_time_seconds": 1400,
+    "prerequisites": [],
+    "unlocks": [
+      "module.engine_vector_mk1"
+    ]
+  },
+  {
+    "id": "tech.utility_thermal_t1",
+    "name": "Thermal Dissipation",
+    "branch": "defensive_systems",
+    "tier": 1,
+    "rp_cost": 300,
+    "research_time_seconds": 900,
+    "prerequisites": [],
+    "unlocks": [
+      "module.utility_heat_sink_mk1"
+    ]
+  },
+  {
+    "id": "tech.engine_ion_t2",
+    "name": "Ion Maneuver Drives",
+    "branch": "defensive_systems",
+    "tier": 2,
+    "rp_cost": 1500,
+    "research_time_seconds": 2200,
+    "prerequisites": [
+      "tech.power_fission_t1"
+    ],
+    "unlocks": [
+      "module.engine_ion_thruster_mk1"
+    ]
+  },
+  {
+    "id": "tech.utility_systems_t2",
+    "name": "Overclock Utility Systems T2",
+    "branch": "defensive_systems",
+    "tier": 2,
+    "rp_cost": 703,
+    "research_time_seconds": 2100,
+    "prerequisites": [
+      "tech.engine_systems_t1",
+      "tech.utility_thermal_t1"
+    ],
+    "unlocks": [
+      "module.utility_overclock_mk2"
+    ]
+  },
+  {
+    "id": "tech.engine_systems_t3",
+    "name": "Vector Engine Systems T3",
+    "branch": "defensive_systems",
+    "tier": 3,
+    "rp_cost": 1675,
+    "research_time_seconds": 2800,
+    "prerequisites": [
+      "tech.engine_systems_t1",
+      "tech.engine_ion_t2"
+    ],
+    "unlocks": [
+      "module.engine_vector_mk3"
+    ]
+  },
+  {
+    "id": "tech.utility_systems_t3",
+    "name": "Overclock Utility Systems T3",
+    "branch": "defensive_systems",
+    "tier": 3,
+    "rp_cost": 1273,
+    "research_time_seconds": 2800,
+    "prerequisites": [
+      "tech.utility_systems_t2"
+    ],
+    "unlocks": [
+      "module.utility_overclock_mk3"
+    ]
+  },
+  {
+    "id": "tech.engine_plasma_t4",
+    "name": "Plasma Vector Drives",
+    "branch": "defensive_systems",
+    "tier": 4,
+    "rp_cost": 9800,
+    "research_time_seconds": 7600,
+    "prerequisites": [
+      "tech.engine_ion_t2",
+      "tech.power_fusion_t3"
+    ],
+    "unlocks": [
+      "module.engine_plasma_drive_mk3"
+    ]
+  },
+  {
+    "id": "tech.utility_systems_t4",
+    "name": "Overclock Utility Systems T4",
+    "branch": "defensive_systems",
+    "tier": 4,
+    "rp_cost": 2071,
+    "research_time_seconds": 3500,
+    "prerequisites": [
+      "tech.utility_systems_t3"
+    ],
+    "unlocks": [
+      "module.utility_overclock_mk4"
+    ]
+  },
+  {
+    "id": "tech.engine_systems_t5",
+    "name": "Vector Engine Systems T5",
+    "branch": "defensive_systems",
+    "tier": 5,
+    "rp_cost": 4075,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.engine_systems_t3",
+      "tech.engine_plasma_t4"
+    ],
+    "unlocks": [
+      "module.engine_vector_mk5"
+    ]
+  },
+  {
+    "id": "tech.utility_systems_t5",
+    "name": "Overclock Utility Systems T5",
+    "branch": "defensive_systems",
+    "tier": 5,
+    "rp_cost": 3097,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.utility_systems_t4"
+    ],
+    "unlocks": [
+      "module.utility_overclock_mk5"
+    ]
+  },
+  {
+    "id": "tech.orbital_logistics_t2",
+    "name": "Orbital Logistics",
+    "branch": "faction_infrastructure",
+    "tier": 2,
+    "rp_cost": 1480,
+    "research_time_seconds": 2300,
+    "prerequisites": [
+      "tech.planetary_geology_t1"
+    ],
+    "unlocks": [
+      "structure.orbital_logistics_node"
+    ]
+  },
+  {
+    "id": "tech.planetary_geology_t1",
+    "name": "Planetary Geology",
+    "branch": "planetary_construction",
+    "tier": 1,
+    "rp_cost": 520,
+    "research_time_seconds": 1400,
+    "prerequisites": [],
+    "unlocks": [
+      "structure.planetary_mining_array_mk1"
+    ]
+  },
+  {
+    "id": "tech.frontier_defense_grids_t2",
+    "name": "Frontier Defense Grids",
+    "branch": "planetary_construction",
+    "tier": 2,
+    "rp_cost": 1500,
+    "research_time_seconds": 2400,
+    "prerequisites": [
+      "tech.planetary_geology_t1"
+    ],
+    "unlocks": [
+      "structure.defense_bastion_grid"
+    ]
+  },
+  {
+    "id": "tech.volatile_harvesting_t2",
+    "name": "Volatile Harvesting",
+    "branch": "planetary_construction",
+    "tier": 2,
+    "rp_cost": 1640,
+    "research_time_seconds": 2400,
+    "prerequisites": [
+      "tech.planetary_geology_t1"
+    ],
+    "unlocks": [
+      "structure.moon_cryo_extractor"
+    ]
+  },
+  {
+    "id": "tech.deep_core_boreholes_t3",
+    "name": "Deep-Core Boreholes",
+    "branch": "planetary_construction",
+    "tier": 3,
+    "rp_cost": 4100,
+    "research_time_seconds": 4600,
+    "prerequisites": [
+      "tech.planetary_geology_t1"
+    ],
+    "unlocks": [
+      "structure.deep_core_borehole_mk2"
+    ]
+  },
+  {
+    "id": "tech.in_situ_refining_t3",
+    "name": "In-Situ Refining",
+    "branch": "planetary_construction",
+    "tier": 3,
+    "rp_cost": 3900,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.asteroid_prospecting_t2",
+      "tech.volatile_harvesting_t2"
+    ],
+    "unlocks": [
+      "structure.moon_refinery_hub"
+    ]
+  },
+  {
+    "id": "tech.power_fission_t1",
+    "name": "Compact Fission Cores",
+    "branch": "power_systems",
+    "tier": 1,
+    "rp_cost": 320,
+    "research_time_seconds": 900,
+    "prerequisites": [],
+    "unlocks": [
+      "module.reactor_fission_core_mk1"
+    ]
+  },
+  {
+    "id": "tech.relay_systems_t1",
+    "name": "Relay Grid Systems T1",
+    "branch": "power_systems",
+    "tier": 1,
+    "rp_cost": 418,
+    "research_time_seconds": 1400,
+    "prerequisites": [],
+    "unlocks": [
+      "module.relay_grid_mk1"
+    ]
+  },
+  {
+    "id": "tech.power_relay_t2",
+    "name": "Superconductor Relays",
+    "branch": "power_systems",
+    "tier": 2,
+    "rp_cost": 1400,
+    "research_time_seconds": 2000,
+    "prerequisites": [
+      "tech.power_fission_t1"
+    ],
+    "unlocks": [
+      "module.relay_superconductor_mk2"
+    ]
+  },
+  {
+    "id": "tech.reactor_systems_t2",
+    "name": "Reactor Core Systems T2",
+    "branch": "power_systems",
+    "tier": 2,
+    "rp_cost": 1073,
+    "research_time_seconds": 2100,
+    "prerequisites": [
+      "tech.power_fission_t1",
+      "tech.relay_systems_t1"
+    ],
+    "unlocks": [
+      "module.reactor_core_mk2"
+    ]
+  },
+  {
+    "id": "tech.gas_scoop_engineering_t3",
+    "name": "Gas Scoop Engineering",
+    "branch": "power_systems",
+    "tier": 3,
+    "rp_cost": 4500,
+    "research_time_seconds": 5000,
+    "prerequisites": [
+      "tech.power_fusion_t3"
+    ],
+    "unlocks": [
+      "structure.gas_scoop_platform"
+    ]
+  },
+  {
+    "id": "tech.power_fusion_t3",
+    "name": "High-Density Fusion",
+    "branch": "power_systems",
+    "tier": 3,
+    "rp_cost": 4200,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.power_relay_t2"
+    ],
+    "unlocks": [
+      "module.reactor_fusion_core_mk3"
+    ]
+  },
+  {
+    "id": "tech.relay_systems_t3",
+    "name": "Relay Grid Systems T3",
+    "branch": "power_systems",
+    "tier": 3,
+    "rp_cost": 1474,
+    "research_time_seconds": 2800,
+    "prerequisites": [
+      "tech.relay_systems_t1",
+      "tech.reactor_systems_t2"
+    ],
+    "unlocks": [
+      "module.relay_grid_mk3"
+    ]
+  },
+  {
+    "id": "tech.reactor_systems_t4",
+    "name": "Reactor Core Systems T4",
+    "branch": "power_systems",
+    "tier": 4,
+    "rp_cost": 3161,
+    "research_time_seconds": 3500,
+    "prerequisites": [
+      "tech.reactor_systems_t2",
+      "tech.relay_systems_t3",
+      "tech.power_fusion_t3"
+    ],
+    "unlocks": [
+      "module.reactor_core_mk4"
+    ]
+  },
+  {
+    "id": "tech.relay_systems_t4",
+    "name": "Relay Grid Systems T4",
+    "branch": "power_systems",
+    "tier": 4,
+    "rp_cost": 2398,
+    "research_time_seconds": 3500,
+    "prerequisites": [
+      "tech.relay_systems_t3"
+    ],
+    "unlocks": [
+      "module.relay_grid_mk4"
+    ]
+  },
+  {
+    "id": "tech.action_energy_capacitors_t4",
+    "name": "Action-Energy Capacitors",
+    "branch": "power_systems",
+    "tier": 4,
+    "rp_cost": 19200,
+    "research_time_seconds": 9800,
+    "prerequisites": [
+      "tech.reactor_systems_t4",
+      "tech.utility_systems_t4",
+      "tech.relay_systems_t4"
+    ],
+    "unlocks": [
+      "module.utility_action_capacitor_bank_mk4"
+    ],
+    "science_basis": "Applies high-cycle supercapacitor and pulse-power buffering concepts to mission action-energy reserves.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.energy.gov/eere/articles/supercapacitors-and-batteries-how-compare",
+      "https://www.nature.com/subjects/supercapacitors"
+    ]
+  },
+  {
+    "id": "tech.reactor_systems_t5",
+    "name": "Reactor Core Systems T5",
+    "branch": "power_systems",
+    "tier": 5,
+    "rp_cost": 4727,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.reactor_systems_t4"
+    ],
+    "unlocks": [
+      "module.reactor_core_mk5"
+    ]
+  },
+  {
+    "id": "tech.relay_systems_t5",
+    "name": "Relay Grid Systems T5",
+    "branch": "power_systems",
+    "tier": 5,
+    "rp_cost": 3586,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.relay_systems_t4"
+    ],
+    "unlocks": [
+      "module.relay_grid_mk5"
+    ]
+  },
+  {
+    "id": "tech.action_energy_recovery_loops_t5",
+    "name": "Action-Energy Recovery Loops",
+    "branch": "power_systems",
+    "tier": 5,
+    "rp_cost": 26800,
+    "research_time_seconds": 13200,
+    "prerequisites": [
+      "tech.action_energy_capacitors_t4",
+      "tech.relay_systems_t5",
+      "tech.utility_systems_t5"
+    ],
+    "unlocks": [
+      "module.special_circadian_recharge_director_mk5"
+    ],
+    "science_basis": "Extends regenerative power-management loops and demand forecasting to improve action-energy recharge cadence.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.nasa.gov/directorates/stmd/space-technology-mission-directorate/",
+      "https://www.nrel.gov/grid/"
+    ]
+  },
+  {
+    "id": "tech.stellar_scoop_arrays_t5",
+    "name": "Stellar Scoop Arrays",
+    "branch": "power_systems",
+    "tier": 5,
+    "rp_cost": 24000,
+    "research_time_seconds": 12800,
+    "prerequisites": [
+      "tech.gas_scoop_engineering_t3",
+      "tech.reactor_systems_t5"
+    ],
+    "unlocks": [
+      "structure.stellar_scoop_array"
+    ]
+  },
+  {
+    "id": "tech.action_energy_reactor_feedback_t6",
+    "name": "Action-Energy Reactor Feedback",
+    "branch": "power_systems",
+    "tier": 6,
+    "rp_cost": 47200,
+    "research_time_seconds": 18800,
+    "prerequisites": [
+      "tech.action_energy_recovery_loops_t5",
+      "tech.reactor_systems_t5",
+      "tech.thermal_management_networks_t5"
+    ],
+    "unlocks": [
+      "module.reactor_idle_recovery_loop_mk6"
+    ],
+    "science_basis": "Uses closed-loop reactor telemetry and thermal recapture to sustain higher combat and mission action throughput.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.iaea.org/topics/nuclear-power-reactors",
+      "https://www.nasa.gov/isru/"
+    ]
+  },
+  {
+    "id": "tech.sensor_scan_t1",
+    "name": "Long-Range Sensor Arrays",
+    "branch": "sensor_systems",
+    "tier": 1,
+    "rp_cost": 260,
+    "research_time_seconds": 900,
+    "prerequisites": [],
+    "unlocks": [
+      "module.scanner_longrange_array_mk1"
+    ]
+  },
+  {
+    "id": "tech.special_systems_t1",
+    "name": "Command AI Suite Systems T1",
+    "branch": "sensor_systems",
+    "tier": 1,
+    "rp_cost": 532,
+    "research_time_seconds": 1400,
+    "prerequisites": [],
+    "unlocks": [
+      "module.special_command_ai_mk1"
+    ]
+  },
+  {
+    "id": "tech.spectral_geology_t1",
+    "name": "Spectral Geology",
+    "branch": "sensor_systems",
+    "tier": 1,
+    "rp_cost": 420,
+    "research_time_seconds": 1200,
+    "prerequisites": [],
+    "unlocks": [
+      "structure.asteroid_spectral_lab"
+    ]
+  },
+  {
+    "id": "tech.asteroid_prospecting_t2",
+    "name": "Asteroid Prospecting Networks",
+    "branch": "sensor_systems",
+    "tier": 2,
+    "rp_cost": 1720,
+    "research_time_seconds": 2500,
+    "prerequisites": [
+      "tech.spectral_geology_t1"
+    ],
+    "unlocks": [
+      "structure.asteroid_mass_driver_rig"
+    ]
+  },
+  {
+    "id": "tech.scanner_systems_t2",
+    "name": "Deep Scan Telescope Systems T2",
+    "branch": "sensor_systems",
+    "tier": 2,
+    "rp_cost": 740,
+    "research_time_seconds": 2100,
+    "prerequisites": [
+      "tech.special_systems_t1",
+      "tech.power_fission_t1"
+    ],
+    "unlocks": [
+      "module.scanner_telescope_mk2"
+    ]
+  },
+  {
+    "id": "tech.utility_targeting_t2",
+    "name": "Combat Targeting AI",
+    "branch": "sensor_systems",
+    "tier": 2,
+    "rp_cost": 1600,
+    "research_time_seconds": 2200,
+    "prerequisites": [
+      "tech.sensor_scan_t1"
+    ],
+    "unlocks": [
+      "module.special_targeting_ai_mk2"
+    ]
+  },
+  {
+    "id": "tech.scanner_systems_t3",
+    "name": "Deep Scan Telescope Systems T3",
+    "branch": "sensor_systems",
+    "tier": 3,
+    "rp_cost": 1340,
+    "research_time_seconds": 2800,
+    "prerequisites": [
+      "tech.scanner_systems_t2"
+    ],
+    "unlocks": [
+      "module.scanner_telescope_mk3"
+    ]
+  },
+  {
+    "id": "tech.special_systems_t3",
+    "name": "Command AI Suite Systems T3",
+    "branch": "sensor_systems",
+    "tier": 3,
+    "rp_cost": 1875,
+    "research_time_seconds": 2800,
+    "prerequisites": [
+      "tech.special_systems_t1",
+      "tech.scanner_systems_t2"
+    ],
+    "unlocks": [
+      "module.special_command_ai_mk3"
+    ]
+  },
+  {
+    "id": "tech.scanner_systems_t4",
+    "name": "Deep Scan Telescope Systems T4",
+    "branch": "sensor_systems",
+    "tier": 4,
+    "rp_cost": 2180,
+    "research_time_seconds": 3500,
+    "prerequisites": [
+      "tech.scanner_systems_t3"
+    ],
+    "unlocks": [
+      "module.scanner_telescope_mk4"
+    ]
+  },
+  {
+    "id": "tech.special_systems_t4",
+    "name": "Command AI Suite Systems T4",
+    "branch": "sensor_systems",
+    "tier": 4,
+    "rp_cost": 3052,
+    "research_time_seconds": 3500,
+    "prerequisites": [
+      "tech.special_systems_t3"
+    ],
+    "unlocks": [
+      "module.special_command_ai_mk4"
+    ]
+  },
+  {
+    "id": "tech.scanner_systems_t5",
+    "name": "Deep Scan Telescope Systems T5",
+    "branch": "sensor_systems",
+    "tier": 5,
+    "rp_cost": 3260,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.scanner_systems_t4"
+    ],
+    "unlocks": [
+      "module.scanner_telescope_mk5"
+    ]
+  },
+  {
+    "id": "tech.special_systems_t5",
+    "name": "Command AI Suite Systems T5",
+    "branch": "sensor_systems",
+    "tier": 5,
+    "rp_cost": 4564,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.special_systems_t4"
+    ],
+    "unlocks": [
+      "module.special_command_ai_mk5"
+    ]
+  },
+  {
+    "id": "tech.shield_barrier_t1",
+    "name": "Barrier Shielding",
+    "branch": "shield_systems",
+    "tier": 1,
+    "rp_cost": 280,
+    "research_time_seconds": 900,
+    "prerequisites": [],
+    "unlocks": [
+      "module.shield_basic_barrier_mk1"
+    ]
+  },
+  {
+    "id": "tech.shield_systems_t2",
+    "name": "Shield Matrix Systems T2",
+    "branch": "shield_systems",
+    "tier": 2,
+    "rp_cost": 814,
+    "research_time_seconds": 2100,
+    "prerequisites": [
+      "tech.power_fission_t1",
+      "tech.utility_thermal_t1"
+    ],
+    "unlocks": [
+      "module.shield_matrix_mk2"
+    ]
+  },
+  {
+    "id": "tech.shield_phase_t3",
+    "name": "Phase Shield Harmonics",
+    "branch": "shield_systems",
+    "tier": 3,
+    "rp_cost": 3600,
+    "research_time_seconds": 3600,
+    "prerequisites": [
+      "tech.shield_barrier_t1",
+      "tech.power_relay_t2"
+    ],
+    "unlocks": [
+      "module.shield_phase_barrier_mk3"
+    ]
+  },
+  {
+    "id": "tech.shield_systems_t4",
+    "name": "Shield Matrix Systems T4",
+    "branch": "shield_systems",
+    "tier": 4,
+    "rp_cost": 2398,
+    "research_time_seconds": 3500,
+    "prerequisites": [
+      "tech.shield_systems_t2",
+      "tech.shield_phase_t3"
+    ],
+    "unlocks": [
+      "module.shield_matrix_mk4"
+    ]
+  },
+  {
+    "id": "tech.shield_systems_t5",
+    "name": "Shield Matrix Systems T5",
+    "branch": "shield_systems",
+    "tier": 5,
+    "rp_cost": 3586,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.shield_systems_t4"
+    ],
+    "unlocks": [
+      "module.shield_matrix_mk5"
+    ]
+  },
+  {
+    "id": "tech.jammer_systems_t1",
+    "name": "Spectrum Jammer Systems T1",
+    "branch": "stealth_systems",
+    "tier": 1,
+    "rp_cost": 436,
+    "research_time_seconds": 1400,
+    "prerequisites": [],
+    "unlocks": [
+      "module.jammer_spectrum_mk1"
+    ]
+  },
+  {
+    "id": "tech.stealth_jammer_t2",
+    "name": "Phase Jamming",
+    "branch": "stealth_systems",
+    "tier": 2,
+    "rp_cost": 1700,
+    "research_time_seconds": 2400,
+    "prerequisites": [
+      "tech.sensor_scan_t1"
+    ],
+    "unlocks": [
+      "module.jammer_phase_cloak_mk2"
+    ]
+  },
+  {
+    "id": "tech.jammer_systems_t3",
+    "name": "Spectrum Jammer Systems T3",
+    "branch": "stealth_systems",
+    "tier": 3,
+    "rp_cost": 1540,
+    "research_time_seconds": 2800,
+    "prerequisites": [
+      "tech.jammer_systems_t1",
+      "tech.scanner_systems_t2"
+    ],
+    "unlocks": [
+      "module.jammer_spectrum_mk3"
+    ]
+  },
+  {
+    "id": "tech.jammer_systems_t4",
+    "name": "Spectrum Jammer Systems T4",
+    "branch": "stealth_systems",
+    "tier": 4,
+    "rp_cost": 2507,
+    "research_time_seconds": 3500,
+    "prerequisites": [
+      "tech.jammer_systems_t3"
+    ],
+    "unlocks": [
+      "module.jammer_spectrum_mk4"
+    ]
+  },
+  {
+    "id": "tech.jammer_systems_t5",
+    "name": "Spectrum Jammer Systems T5",
+    "branch": "stealth_systems",
+    "tier": 5,
+    "rp_cost": 3748,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.jammer_systems_t4"
+    ],
+    "unlocks": [
+      "module.jammer_spectrum_mk5"
+    ]
+  },
+  {
+    "id": "tech.laser_systems_t1",
+    "name": "Laser Bank Systems T1",
+    "branch": "weapons",
+    "tier": 1,
+    "rp_cost": 456,
+    "research_time_seconds": 1400,
+    "prerequisites": [],
+    "unlocks": [
+      "module.weapon_laser_bank_mk1"
+    ]
+  },
+  {
+    "id": "tech.missile_systems_t1",
+    "name": "Missile Battery Systems T1",
+    "branch": "weapons",
+    "tier": 1,
+    "rp_cost": 436,
+    "research_time_seconds": 1400,
+    "prerequisites": [],
+    "unlocks": [
+      "module.weapon_missile_battery_mk1"
+    ]
+  },
+  {
+    "id": "tech.plasma_systems_t1",
+    "name": "Plasma Spindle Systems T1",
+    "branch": "weapons",
+    "tier": 1,
+    "rp_cost": 513,
+    "research_time_seconds": 1400,
+    "prerequisites": [],
+    "unlocks": [
+      "module.weapon_plasma_spindle_mk1"
+    ]
+  },
+  {
+    "id": "tech.railgun_systems_t1",
+    "name": "Rail Lance Systems T1",
+    "branch": "weapons",
+    "tier": 1,
+    "rp_cost": 589,
+    "research_time_seconds": 1400,
+    "prerequisites": [],
+    "unlocks": [
+      "module.weapon_railgun_lance_mk1"
+    ]
+  },
+  {
+    "id": "tech.weapons_ballistic_t1",
+    "name": "Ballistic Foundations",
+    "branch": "weapons",
+    "tier": 1,
+    "rp_cost": 200,
+    "research_time_seconds": 900,
+    "prerequisites": [],
+    "unlocks": [
+      "module.weapon_autocannon_mk1"
+    ]
+  },
+  {
+    "id": "tech.plasma_systems_t2",
+    "name": "Plasma Spindle Systems T2",
+    "branch": "weapons",
+    "tier": 2,
+    "rp_cost": 999,
+    "research_time_seconds": 2100,
+    "prerequisites": [
+      "tech.plasma_systems_t1"
+    ],
+    "unlocks": [
+      "module.weapon_plasma_spindle_mk2"
+    ]
+  },
+  {
+    "id": "tech.railgun_systems_t2",
+    "name": "Rail Lance Systems T2",
+    "branch": "weapons",
+    "tier": 2,
+    "rp_cost": 1147,
+    "research_time_seconds": 2100,
+    "prerequisites": [
+      "tech.railgun_systems_t1"
+    ],
+    "unlocks": [
+      "module.weapon_railgun_lance_mk2"
+    ]
+  },
+  {
+    "id": "tech.weapons_ballistic_t2",
+    "name": "Mass Driver Engineering",
+    "branch": "weapons",
+    "tier": 2,
+    "rp_cost": 900,
+    "research_time_seconds": 1800,
+    "prerequisites": [
+      "tech.weapons_ballistic_t1"
+    ],
+    "unlocks": [
+      "module.weapon_mass_driver_mk2"
+    ]
+  },
+  {
+    "id": "tech.weapons_laser_t2",
+    "name": "Laser Focusing",
+    "branch": "weapons",
+    "tier": 2,
+    "rp_cost": 1200,
+    "research_time_seconds": 2000,
+    "prerequisites": [
+      "tech.weapons_ballistic_t1"
+    ],
+    "unlocks": [
+      "module.weapon_laser_cannon_mk1"
+    ]
+  },
+  {
+    "id": "tech.weapons_missile_t2",
+    "name": "Guided Payload Systems",
+    "branch": "weapons",
+    "tier": 2,
+    "rp_cost": 1300,
+    "research_time_seconds": 2200,
+    "prerequisites": [
+      "tech.weapons_ballistic_t1"
+    ],
+    "unlocks": [
+      "module.weapon_missile_rack_mk1"
+    ]
+  },
+  {
+    "id": "tech.ballistic_systems_t3",
+    "name": "Ballistic Array Systems T3",
+    "branch": "weapons",
+    "tier": 3,
+    "rp_cost": 1340,
+    "research_time_seconds": 2800,
+    "prerequisites": [
+      "tech.weapons_ballistic_t2",
+      "tech.reactor_systems_t2"
+    ],
+    "unlocks": [
+      "module.weapon_ballistic_array_mk3"
+    ]
+  },
+  {
+    "id": "tech.laser_systems_t3",
+    "name": "Laser Bank Systems T3",
+    "branch": "weapons",
+    "tier": 3,
+    "rp_cost": 1608,
+    "research_time_seconds": 2800,
+    "prerequisites": [
+      "tech.weapons_laser_t2",
+      "tech.reactor_systems_t2"
+    ],
+    "unlocks": [
+      "module.weapon_laser_bank_mk3"
+    ]
+  },
+  {
+    "id": "tech.missile_systems_t3",
+    "name": "Missile Battery Systems T3",
+    "branch": "weapons",
+    "tier": 3,
+    "rp_cost": 1540,
+    "research_time_seconds": 2800,
+    "prerequisites": [
+      "tech.weapons_missile_t2",
+      "tech.reactor_systems_t2"
+    ],
+    "unlocks": [
+      "module.weapon_missile_battery_mk3"
+    ]
+  },
+  {
+    "id": "tech.railgun_systems_t3",
+    "name": "Rail Lance Systems T3",
+    "branch": "weapons",
+    "tier": 3,
+    "rp_cost": 2077,
+    "research_time_seconds": 2800,
+    "prerequisites": [
+      "tech.railgun_systems_t2"
+    ],
+    "unlocks": [
+      "module.weapon_railgun_lance_mk3"
+    ]
+  },
+  {
+    "id": "tech.weapons_ion_t3",
+    "name": "Ion Channeling",
+    "branch": "weapons",
+    "tier": 3,
+    "rp_cost": 3200,
+    "research_time_seconds": 3600,
+    "prerequisites": [
+      "tech.weapons_laser_t2"
+    ],
+    "unlocks": [
+      "module.weapon_ion_lancer_mk2"
+    ]
+  },
+  {
+    "id": "tech.ballistic_systems_t4",
+    "name": "Ballistic Array Systems T4",
+    "branch": "weapons",
+    "tier": 4,
+    "rp_cost": 2180,
+    "research_time_seconds": 3500,
+    "prerequisites": [
+      "tech.ballistic_systems_t3"
+    ],
+    "unlocks": [
+      "module.weapon_ballistic_array_mk4"
+    ]
+  },
+  {
+    "id": "tech.laser_systems_t4",
+    "name": "Laser Bank Systems T4",
+    "branch": "weapons",
+    "tier": 4,
+    "rp_cost": 2616,
+    "research_time_seconds": 3500,
+    "prerequisites": [
+      "tech.laser_systems_t3"
+    ],
+    "unlocks": [
+      "module.weapon_laser_bank_mk4"
+    ]
+  },
+  {
+    "id": "tech.missile_systems_t4",
+    "name": "Missile Battery Systems T4",
+    "branch": "weapons",
+    "tier": 4,
+    "rp_cost": 2507,
+    "research_time_seconds": 3500,
+    "prerequisites": [
+      "tech.missile_systems_t3"
+    ],
+    "unlocks": [
+      "module.weapon_missile_battery_mk4"
+    ]
+  },
+  {
+    "id": "tech.plasma_systems_t4",
+    "name": "Plasma Spindle Systems T4",
+    "branch": "weapons",
+    "tier": 4,
+    "rp_cost": 2943,
+    "research_time_seconds": 3500,
+    "prerequisites": [
+      "tech.plasma_systems_t2",
+      "tech.power_fusion_t3"
+    ],
+    "unlocks": [
+      "module.weapon_plasma_spindle_mk4"
+    ]
+  },
+  {
+    "id": "tech.weapons_rail_t4",
+    "name": "Magnetic Lance Systems",
+    "branch": "weapons",
+    "tier": 4,
+    "rp_cost": 9000,
+    "research_time_seconds": 7200,
+    "prerequisites": [
+      "tech.weapons_ballistic_t2",
+      "tech.power_fusion_t3"
+    ],
+    "unlocks": [
+      "module.weapon_rail_lance_mk3"
+    ]
+  },
+  {
+    "id": "tech.ballistic_systems_t5",
+    "name": "Ballistic Array Systems T5",
+    "branch": "weapons",
+    "tier": 5,
+    "rp_cost": 3260,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.ballistic_systems_t4"
+    ],
+    "unlocks": [
+      "module.weapon_ballistic_array_mk5"
+    ]
+  },
+  {
+    "id": "tech.laser_systems_t5",
+    "name": "Laser Bank Systems T5",
+    "branch": "weapons",
+    "tier": 5,
+    "rp_cost": 3912,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.laser_systems_t4"
+    ],
+    "unlocks": [
+      "module.weapon_laser_bank_mk5"
+    ]
+  },
+  {
+    "id": "tech.missile_systems_t5",
+    "name": "Missile Battery Systems T5",
+    "branch": "weapons",
+    "tier": 5,
+    "rp_cost": 3748,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.missile_systems_t4"
+    ],
+    "unlocks": [
+      "module.weapon_missile_battery_mk5"
+    ]
+  },
+  {
+    "id": "tech.plasma_systems_t5",
+    "name": "Plasma Spindle Systems T5",
+    "branch": "weapons",
+    "tier": 5,
+    "rp_cost": 4401,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.plasma_systems_t4"
+    ],
+    "unlocks": [
+      "module.weapon_plasma_spindle_mk5"
+    ]
+  },
+  {
+    "id": "tech.railgun_systems_t5",
+    "name": "Rail Lance Systems T5",
+    "branch": "weapons",
+    "tier": 5,
+    "rp_cost": 5053,
+    "research_time_seconds": 4200,
+    "prerequisites": [
+      "tech.railgun_systems_t3",
+      "tech.power_fusion_t3"
+    ],
+    "unlocks": [
+      "module.weapon_railgun_lance_mk5"
+    ]
+  },
+  {
+    "id": "tech.comet_cryoprocessing_t3",
+    "name": "Comet Cryoprocessing",
+    "branch": "planetary_construction",
+    "tier": 3,
+    "rp_cost": 9600,
+    "research_time_seconds": 5600,
+    "prerequisites": [
+      "tech.spectral_geology_t1",
+      "tech.volatile_harvesting_t2"
+    ],
+    "unlocks": [
+      "structure.comet_cryogenic_processor"
+    ]
+  },
+  {
+    "id": "tech.asteroid_smelter_hubs_t4",
+    "name": "Asteroid Smelter Hubs",
+    "branch": "planetary_construction",
+    "tier": 4,
+    "rp_cost": 11800,
+    "research_time_seconds": 7600,
+    "prerequisites": [
+      "tech.asteroid_prospecting_t2",
+      "tech.in_situ_refining_t3"
+    ],
+    "unlocks": [
+      "structure.asteroid_smelter_hub"
+    ]
+  },
+  {
+    "id": "tech.mass_driver_logistics_t4",
+    "name": "Mass Driver Logistics",
+    "branch": "planetary_construction",
+    "tier": 4,
+    "rp_cost": 12600,
+    "research_time_seconds": 8200,
+    "prerequisites": [
+      "tech.orbital_logistics_t2",
+      "tech.volatile_harvesting_t2"
+    ],
+    "unlocks": [
+      "structure.moon_mass_driver_port"
+    ]
+  },
+  {
+    "id": "tech.geothermal_extraction_t4",
+    "name": "Geothermal Extraction",
+    "branch": "planetary_construction",
+    "tier": 4,
+    "rp_cost": 13200,
+    "research_time_seconds": 8800,
+    "prerequisites": [
+      "tech.deep_core_boreholes_t3",
+      "tech.power_fusion_t3"
+    ],
+    "unlocks": [
+      "structure.planet_geothermal_tap"
+    ]
+  },
+  {
+    "id": "tech.deuterium_fractionation_t4",
+    "name": "Deuterium Fractionation",
+    "branch": "planetary_construction",
+    "tier": 4,
+    "rp_cost": 15400,
+    "research_time_seconds": 9400,
+    "prerequisites": [
+      "tech.gas_scoop_engineering_t3",
+      "tech.in_situ_refining_t3"
+    ],
+    "unlocks": [
+      "structure.gas_deuterium_harvester"
+    ]
+  },
+  {
+    "id": "tech.corona_ion_forging_t5",
+    "name": "Corona Ion Forging",
+    "branch": "planetary_construction",
+    "tier": 5,
+    "rp_cost": 29800,
+    "research_time_seconds": 15600,
+    "prerequisites": [
+      "tech.stellar_scoop_arrays_t5",
+      "tech.mass_driver_logistics_t4"
+    ],
+    "unlocks": [
+      "structure.stellar_heavy_ion_forge"
+    ]
+  },
+  {
+    "id": "tech.hull_siege_t5",
+    "name": "Siege Battlecruiser Architecture",
+    "branch": "armor_systems",
+    "tier": 5,
+    "rp_cost": 34000,
+    "research_time_seconds": 16800,
+    "prerequisites": [
+      "tech.hull_bastion_t4",
+      "tech.weapons_rail_t4",
+      "tech.power_fusion_t3"
+    ],
+    "unlocks": [
+      "hull.aegis_battlecruiser"
+    ]
+  },
+  {
+    "id": "tech.hull_line_battleship_t6",
+    "name": "Line Battleship Doctrine",
+    "branch": "armor_systems",
+    "tier": 6,
+    "rp_cost": 58000,
+    "research_time_seconds": 22800,
+    "prerequisites": [
+      "tech.hull_titanic_t5",
+      "tech.shield_systems_t5",
+      "tech.reactor_systems_t5"
+    ],
+    "unlocks": [
+      "hull.line_battleship"
+    ]
+  },
+  {
+    "id": "tech.hull_carrier_doctrine_t6",
+    "name": "Carrier Command Architecture",
+    "branch": "armor_systems",
+    "tier": 6,
+    "rp_cost": 56000,
+    "research_time_seconds": 22400,
+    "prerequisites": [
+      "tech.hull_line_battleship_t6",
+      "tech.orbital_logistics_t2",
+      "tech.special_systems_t5"
+    ],
+    "unlocks": [
+      "hull.carrier_command_t6"
+    ]
+  },
+  {
+    "id": "tech.hull_leviathan_t7",
+    "name": "Leviathan Dreadnought Program",
+    "branch": "armor_systems",
+    "tier": 7,
+    "rp_cost": 92000,
+    "research_time_seconds": 28800,
+    "prerequisites": [
+      "tech.hull_line_battleship_t6",
+      "tech.hull_carrier_doctrine_t6",
+      "tech.stellar_scoop_arrays_t5",
+      "tech.weapons_rail_t4"
+    ],
+    "unlocks": [
+      "hull.leviathan_dreadnought_t7"
+    ]
+  },
+  {
+    "id": "tech.casimir_field_arrays_t6",
+    "name": "Casimir Field Arrays",
+    "branch": "power_systems",
+    "tier": 6,
+    "rp_cost": 64000,
+    "research_time_seconds": 24200,
+    "prerequisites": [
+      "tech.reactor_systems_t5",
+      "tech.relay_systems_t5"
+    ],
+    "unlocks": [
+      "module.reactor_casimir_cavity_mk1"
+    ],
+    "science_basis": "Grounded in Casimir-force research and nanoscale boundary-condition energy effects.",
+    "realism_band": "emerging",
+    "references": [
+      "https://doi.org/10.1103/RevModPhys.81.1827"
+    ]
+  },
+  {
+    "id": "tech.alcubierre_metric_research_t7",
+    "name": "Alcubierre Metric Research",
+    "branch": "power_systems",
+    "tier": 7,
+    "rp_cost": 98000,
+    "research_time_seconds": 31200,
+    "prerequisites": [
+      "tech.casimir_field_arrays_t6",
+      "tech.reactor_systems_t5",
+      "tech.power_fusion_t3"
+    ],
+    "unlocks": [
+      "module.special_metric_lens_mk1"
+    ],
+    "science_basis": "Directly references Alcubierre metric solutions as a late-game theoretical propulsion framework.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://doi.org/10.1088/0264-9381/11/5/001"
+    ]
+  },
+  {
+    "id": "tech.einstein_rosen_lensing_t7",
+    "name": "Einstein-Rosen Lensing",
+    "branch": "sensor_systems",
+    "tier": 7,
+    "rp_cost": 102000,
+    "research_time_seconds": 32000,
+    "prerequisites": [
+      "tech.scanner_systems_t5",
+      "tech.special_systems_t5",
+      "tech.casimir_field_arrays_t6"
+    ],
+    "unlocks": [
+      "module.utility_wormhole_shear_damper_mk1",
+      "structure.wormhole_lensing_station"
+    ],
+    "science_basis": "Applies Einstein-Rosen bridge geometry concepts to high-risk anomaly sensing and lensing controls.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://arxiv.org/abs/1306.0533"
+    ]
+  },
+  {
+    "id": "tech.er_epr_sync_t7",
+    "name": "ER=EPR Synchronization",
+    "branch": "sensor_systems",
+    "tier": 7,
+    "rp_cost": 106000,
+    "research_time_seconds": 33000,
+    "prerequisites": [
+      "tech.einstein_rosen_lensing_t7",
+      "tech.special_systems_t5"
+    ],
+    "unlocks": [
+      "module.special_er_epr_comms_mk1"
+    ],
+    "science_basis": "Based on ER=EPR conjecture linking entanglement structure and spacetime geometry at a conceptual level.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://arxiv.org/abs/1306.0533"
+    ]
+  },
+  {
+    "id": "tech.dyson_swarm_fabrication_t8",
+    "name": "Dyson Swarm Fabrication",
+    "branch": "faction_infrastructure",
+    "tier": 8,
+    "rp_cost": 148000,
+    "research_time_seconds": 42000,
+    "prerequisites": [
+      "tech.corona_ion_forging_t5",
+      "tech.casimir_field_arrays_t6",
+      "tech.orbital_logistics_t2"
+    ],
+    "unlocks": [
+      "structure.dyson_swarm_anchor"
+    ]
+  },
+  {
+    "id": "tech.metamaterial_stealth_t6",
+    "name": "Metamaterial Stealth Engineering",
+    "branch": "stealth_systems",
+    "tier": 6,
+    "rp_cost": 62000,
+    "research_time_seconds": 23200,
+    "prerequisites": [
+      "tech.jammer_systems_t5",
+      "tech.scanner_systems_t5"
+    ],
+    "unlocks": [
+      "module.jammer_metamaterial_cloak_mk6"
+    ]
+  },
+  {
+    "id": "tech.armor_tiau_lattice_t6",
+    "name": "TiAu Lattice Armor",
+    "branch": "armor_systems",
+    "tier": 6,
+    "rp_cost": 67000,
+    "research_time_seconds": 24800,
+    "prerequisites": [
+      "tech.armor_systems_t5",
+      "tech.hull_siege_t5"
+    ],
+    "unlocks": [
+      "module.armor_tiau_laminate_mk6"
+    ]
+  },
+  {
+    "id": "tech.shield_nanoceramic_t6",
+    "name": "Nanoceramic Shielding",
+    "branch": "shield_systems",
+    "tier": 6,
+    "rp_cost": 65000,
+    "research_time_seconds": 24000,
+    "prerequisites": [
+      "tech.shield_systems_t5",
+      "tech.power_fusion_t3"
+    ],
+    "unlocks": [
+      "module.shield_nanoceramic_mesh_mk6"
+    ]
+  },
+  {
+    "id": "tech.synthetic_command_intelligence_t6",
+    "name": "Synthetic Command Intelligence",
+    "branch": "sensor_systems",
+    "tier": 6,
+    "rp_cost": 69000,
+    "research_time_seconds": 25200,
+    "prerequisites": [
+      "tech.special_systems_t5",
+      "tech.scanner_systems_t5",
+      "tech.metamaterial_stealth_t6"
+    ],
+    "unlocks": [
+      "module.special_cognitive_battle_core_mk6"
+    ]
+  },
+  {
+    "id": "tech.ai_material_convergence_t6",
+    "name": "AI-Material Convergence",
+    "branch": "sensor_systems",
+    "tier": 6,
+    "rp_cost": 72000,
+    "research_time_seconds": 25800,
+    "prerequisites": [
+      "tech.synthetic_command_intelligence_t6",
+      "tech.armor_tiau_lattice_t6",
+      "tech.shield_nanoceramic_t6",
+      "tech.casimir_field_arrays_t6"
+    ],
+    "unlocks": [
+      "module.special_adaptive_directive_core_mk6"
+    ]
+  },
+  {
+    "id": "tech.autonomous_nanoforge_t6",
+    "name": "Autonomous Nanoforge Control",
+    "branch": "planetary_construction",
+    "tier": 6,
+    "rp_cost": 74000,
+    "research_time_seconds": 26400,
+    "prerequisites": [
+      "tech.ai_material_convergence_t6",
+      "tech.corona_ion_forging_t5"
+    ],
+    "unlocks": [
+      "structure.autonomous_nanoforge_complex"
+    ]
+  },
+  {
+    "id": "tech.hea_smart_lattice_t7",
+    "name": "HEA Smart Lattice Armor",
+    "branch": "armor_systems",
+    "tier": 7,
+    "rp_cost": 104000,
+    "research_time_seconds": 32200,
+    "prerequisites": [
+      "tech.ai_material_convergence_t6",
+      "tech.hull_leviathan_t7"
+    ],
+    "unlocks": [
+      "module.armor_hea_smart_lattice_mk7"
+    ]
+  },
+  {
+    "id": "tech.predictive_ghost_cloak_t7",
+    "name": "Predictive Ghost Cloaking",
+    "branch": "stealth_systems",
+    "tier": 7,
+    "rp_cost": 101000,
+    "research_time_seconds": 31800,
+    "prerequisites": [
+      "tech.ai_material_convergence_t6",
+      "tech.metamaterial_stealth_t6",
+      "tech.er_epr_sync_t7"
+    ],
+    "unlocks": [
+      "module.jammer_predictive_ghost_cloak_mk7"
+    ]
+  },
+  {
+    "id": "tech.quantum_director_cores_t7",
+    "name": "Quantum Director Cores",
+    "branch": "sensor_systems",
+    "tier": 7,
+    "rp_cost": 108000,
+    "research_time_seconds": 33400,
+    "prerequisites": [
+      "tech.ai_material_convergence_t6",
+      "tech.er_epr_sync_t7",
+      "tech.alcubierre_metric_research_t7"
+    ],
+    "unlocks": [
+      "module.special_quantum_director_core_mk7"
+    ]
+  },
+  {
+    "id": "tech.exotic_field_reactors_t7",
+    "name": "Exotic-Field Reactor Matrices",
+    "branch": "power_systems",
+    "tier": 7,
+    "rp_cost": 112000,
+    "research_time_seconds": 33800,
+    "prerequisites": [
+      "tech.quantum_director_cores_t7",
+      "tech.autonomous_nanoforge_t6",
+      "tech.casimir_field_arrays_t6",
+      "tech.alcubierre_metric_research_t7"
+    ],
+    "unlocks": [
+      "module.reactor_exotic_field_matrix_mk7"
+    ]
+  },
+  {
+    "id": "tech.neural_rail_lances_t7",
+    "name": "Neural Rail Lance Targeting",
+    "branch": "weapons",
+    "tier": 7,
+    "rp_cost": 105000,
+    "research_time_seconds": 32600,
+    "prerequisites": [
+      "tech.quantum_director_cores_t7",
+      "tech.railgun_systems_t5",
+      "tech.er_epr_sync_t7"
+    ],
+    "unlocks": [
+      "module.weapon_neural_rail_lance_mk7"
+    ]
+  },
+  {
+    "id": "tech.cognitive_fabrication_network_t7",
+    "name": "Cognitive Fabrication Network",
+    "branch": "faction_infrastructure",
+    "tier": 7,
+    "rp_cost": 110000,
+    "research_time_seconds": 34000,
+    "prerequisites": [
+      "tech.autonomous_nanoforge_t6",
+      "tech.quantum_director_cores_t7"
+    ],
+    "unlocks": [
+      "module.shield_phase_metamaterial_weave_mk7",
+      "structure.cognitive_fabrication_spire",
+      "module.utility_autonomous_repair_nanites_mk7"
+    ]
+  },
+  {
+    "id": "tech.hull_synaptic_battleship_t7",
+    "name": "Synaptic Battleship Doctrine",
+    "branch": "armor_systems",
+    "tier": 7,
+    "rp_cost": 118000,
+    "research_time_seconds": 35200,
+    "prerequisites": [
+      "tech.hull_leviathan_t7",
+      "tech.hea_smart_lattice_t7",
+      "tech.neural_rail_lances_t7",
+      "tech.exotic_field_reactors_t7"
+    ],
+    "unlocks": [
+      "hull.synaptic_battleship_t7"
+    ]
+  },
+  {
+    "id": "tech.stellar_matter_printing_t8",
+    "name": "Stellar Matter Printing",
+    "branch": "planetary_construction",
+    "tier": 8,
+    "rp_cost": 152000,
+    "research_time_seconds": 42600,
+    "prerequisites": [
+      "tech.cognitive_fabrication_network_t7",
+      "tech.dyson_swarm_fabrication_t8",
+      "tech.corona_ion_forging_t5"
+    ],
+    "unlocks": [
+      "structure.stellar_matter_printer"
+    ]
+  },
+  {
+    "id": "tech.hull_autonomous_carrier_t8",
+    "name": "Autonomous Carrier Overmind",
+    "branch": "armor_systems",
+    "tier": 8,
+    "rp_cost": 160000,
+    "research_time_seconds": 43800,
+    "prerequisites": [
+      "tech.hull_synaptic_battleship_t7",
+      "tech.cognitive_fabrication_network_t7",
+      "tech.predictive_ghost_cloak_t7",
+      "tech.stellar_matter_printing_t8"
+    ],
+    "unlocks": [
+      "hull.autonomous_carrier_t8"
+    ]
+  },
+  {
+    "id": "tech.hull_singularity_flagship_t8",
+    "name": "Singularity Flagship Program",
+    "branch": "armor_systems",
+    "tier": 8,
+    "rp_cost": 172000,
+    "research_time_seconds": 45200,
+    "prerequisites": [
+      "tech.hull_autonomous_carrier_t8",
+      "tech.exotic_field_reactors_t7",
+      "tech.neural_rail_lances_t7",
+      "tech.quantum_director_cores_t7"
+    ],
+    "unlocks": [
+      "hull.singularity_flagship_t8",
+      "module.special_singularity_battle_oracle_mk8"
+    ]
+  },
+  {
+    "id": "tech.quantum_processor_fabric_t6",
+    "name": "Quantum Processor Fabric",
+    "branch": "sensor_systems",
+    "tier": 6,
+    "rp_cost": 76000,
+    "research_time_seconds": 26800,
+    "prerequisites": [
+      "tech.special_systems_t5",
+      "tech.scanner_systems_t5",
+      "tech.relay_systems_t5"
+    ],
+    "unlocks": [
+      "module.special_quantum_processor_fabric_mk6"
+    ],
+    "science_basis": "Extends superconducting and photonic quantum processor fabrication trends into deployable command systems.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.nist.gov/quantum-information-science",
+      "https://doi.org/10.1038/s41586-022-05434-1"
+    ]
+  },
+  {
+    "id": "tech.plasma_wave_accelerators_t6",
+    "name": "Plasma Wave Accelerators",
+    "branch": "weapons",
+    "tier": 6,
+    "rp_cost": 78000,
+    "research_time_seconds": 27600,
+    "prerequisites": [
+      "tech.plasma_systems_t5",
+      "tech.power_fusion_t3",
+      "tech.scanner_systems_t5"
+    ],
+    "unlocks": [
+      "module.weapon_plasma_wave_accelerator_mk6"
+    ],
+    "science_basis": "Inspired by plasma wakefield acceleration programs and high-gradient charged-particle acceleration research.",
+    "realism_band": "emerging",
+    "references": [
+      "https://facet-ii.slac.stanford.edu/",
+      "https://www6.slac.stanford.edu/research/plasma-accelerator-research"
+    ]
+  },
+  {
+    "id": "tech.xray_undulator_arrays_t6",
+    "name": "X-ray Undulator Arrays",
+    "branch": "weapons",
+    "tier": 6,
+    "rp_cost": 80000,
+    "research_time_seconds": 28200,
+    "prerequisites": [
+      "tech.laser_systems_t5",
+      "tech.reactor_systems_t5",
+      "tech.scanner_systems_t5"
+    ],
+    "unlocks": [
+      "module.weapon_xray_undulator_laser_mk6"
+    ],
+    "science_basis": "Builds on free-electron laser undulator physics and coherent X-ray generation infrastructure.",
+    "realism_band": "emerging",
+    "references": [
+      "https://lcls.slac.stanford.edu/science/how-lcls-works",
+      "https://www.xfel.eu/facility/overview/index_eng.html"
+    ]
+  },
+  {
+    "id": "tech.quantum_error_corrected_processors_t7",
+    "name": "Quantum Error-Corrected Processors",
+    "branch": "sensor_systems",
+    "tier": 7,
+    "rp_cost": 112000,
+    "research_time_seconds": 34400,
+    "prerequisites": [
+      "tech.quantum_processor_fabric_t6",
+      "tech.er_epr_sync_t7",
+      "tech.quantum_director_cores_t7"
+    ],
+    "unlocks": [
+      "module.special_fault_tolerant_quantum_core_mk7"
+    ],
+    "science_basis": "Uses logical-qubit error-correction principles (surface-code style) for resilient strategic compute.",
+    "realism_band": "emerging",
+    "references": [
+      "https://doi.org/10.1038/s41586-022-05434-1",
+      "https://arxiv.org/abs/1306.0533"
+    ]
+  },
+  {
+    "id": "tech.plasma_casimir_cells_t7",
+    "name": "Plasma-Casimir Cells",
+    "branch": "power_systems",
+    "tier": 7,
+    "rp_cost": 118000,
+    "research_time_seconds": 35200,
+    "prerequisites": [
+      "tech.casimir_field_arrays_t6",
+      "tech.plasma_wave_accelerators_t6",
+      "tech.quantum_processor_fabric_t6",
+      "tech.exotic_field_reactors_t7"
+    ],
+    "unlocks": [
+      "module.reactor_plasma_casimir_cell_mk7"
+    ],
+    "science_basis": "Speculative integration of controlled Casimir-energy geometries with high-density plasma confinement stages.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://doi.org/10.1103/RevModPhys.81.1827",
+      "https://doi.org/10.1088/0264-9381/11/5/001"
+    ]
+  },
+  {
+    "id": "tech.nullspace_echo_disambiguation_t7",
+    "name": "Nullspace Echo Disambiguation",
+    "branch": "sensor_systems",
+    "tier": 7,
+    "rp_cost": 114000,
+    "research_time_seconds": 34800,
+    "science_basis": "Extends signal processing and anomaly tomography concepts for separating overlapping relativistic and gravitational signatures.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://lisa.nasa.gov/",
+      "https://www.esa.int/Science_Exploration/Space_Science/LISA"
+    ],
+    "prerequisites": [
+      "tech.scanner_systems_t5",
+      "tech.er_epr_sync_t7",
+      "tech.einstein_rosen_lensing_t7"
+    ],
+    "unlocks": [
+      "module.scanner_nullspace_resonator_mk7"
+    ]
+  },
+  {
+    "id": "tech.stellar_cartography_lattice_t6",
+    "name": "Stellar Cartography Lattice",
+    "branch": "sensor_systems",
+    "tier": 6,
+    "rp_cost": 79000,
+    "research_time_seconds": 27400,
+    "prerequisites": [
+      "tech.scanner_systems_t5",
+      "tech.relay_systems_t5",
+      "tech.quantum_processor_fabric_t6"
+    ],
+    "unlocks": [
+      "research_track.constellation_navigation_arc",
+      "mission.constellation_probe_chain_init"
+    ],
+    "science_basis": "Uses astrometric baseline fusion and pulsar timing concepts to improve deep-space navigation certainty.",
+    "realism_band": "emerging",
+    "references": [
+      "https://lisa.nasa.gov/",
+      "https://www.esa.int/Science_Exploration/Space_Science/LISA"
+    ]
+  },
+  {
+    "id": "tech.constellation_inference_engines_t7",
+    "name": "Constellation Inference Engines",
+    "branch": "sensor_systems",
+    "tier": 7,
+    "rp_cost": 116000,
+    "research_time_seconds": 34600,
+    "prerequisites": [
+      "tech.stellar_cartography_lattice_t6",
+      "tech.er_epr_sync_t7",
+      "tech.quantum_error_corrected_processors_t7"
+    ],
+    "unlocks": [
+      "research_track.deep_sky_objective_arc",
+      "mission.constellation_probe_chain_mid"
+    ],
+    "science_basis": "Combines probabilistic orbital inference and error-corrected compute to stabilize multi-constellation objective planning.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://doi.org/10.1038/s41586-022-05434-1",
+      "https://doi.org/10.1103/PhysRevLett.111.060401"
+    ]
+  },
+  {
+    "id": "tech.ephemeris_market_forecasting_t7",
+    "name": "Ephemeris Market Forecasting",
+    "branch": "faction_infrastructure",
+    "tier": 7,
+    "rp_cost": 114000,
+    "research_time_seconds": 33600,
+    "prerequisites": [
+      "tech.constellation_inference_engines_t7",
+      "tech.cognitive_fabrication_network_t7"
+    ],
+    "unlocks": [
+      "research_track.ephemeris_trade_arc",
+      "mission.constellation_market_coordination"
+    ],
+    "science_basis": "Links orbital ephemerides and route risk models to commodity flow prediction and convoy dispatch planning.",
+    "realism_band": "emerging",
+    "references": [
+      "https://lisa.nasa.gov/",
+      "https://www.esa.int/Science_Exploration/Space_Science/LISA"
+    ]
+  },
+  {
+    "id": "tech.habitable_corridor_forecasting_t8",
+    "name": "Habitable Corridor Forecasting",
+    "branch": "planetary_construction",
+    "tier": 8,
+    "rp_cost": 166000,
+    "research_time_seconds": 44000,
+    "prerequisites": [
+      "tech.ephemeris_market_forecasting_t7",
+      "tech.stellar_matter_printing_t8",
+      "tech.nullspace_echo_disambiguation_t7"
+    ],
+    "unlocks": [
+      "research_track.habitable_corridor_arc",
+      "mission.constellation_habitable_corridor_program"
+    ],
+    "science_basis": "Extends stellar evolution and anomaly-disambiguation models to forecast safer long-horizon settlement corridors.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://www.esa.int/Science_Exploration/Space_Science/LISA",
+      "https://lisa.nasa.gov/"
+    ]
+  },
+  {
+    "id": "tech.thermal_management_networks_t5",
+    "name": "Thermal Management Networks",
+    "branch": "defensive_systems",
+    "tier": 5,
+    "rp_cost": 54000,
+    "research_time_seconds": 18800,
+    "prerequisites": [
+      "tech.utility_systems_t5",
+      "tech.engine_plasma_t4"
+    ],
+    "unlocks": [
+      "module.utility_microchannel_heat_exchanger_mk5",
+      "module.utility_radiative_sail_fins_mk6"
+    ],
+    "science_basis": "Combines aerospace microchannel heat exchanger and deployable radiator research into high-load ship thermal controls.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.nasa.gov/directorates/stmd/space-tech-research-grants/radworks/",
+      "https://www.nasa.gov/directorates/stmd/space-tech-research-grants/tipping-point/"
+    ]
+  },
+  {
+    "id": "tech.multiband_aesa_tracking_t5",
+    "name": "Multiband AESA Tracking",
+    "branch": "sensor_systems",
+    "tier": 5,
+    "rp_cost": 56000,
+    "research_time_seconds": 19200,
+    "prerequisites": [
+      "tech.scanner_systems_t5",
+      "tech.utility_targeting_t2"
+    ],
+    "unlocks": [
+      "module.scanner_multiband_aesa_tracker_mk5"
+    ],
+    "science_basis": "Builds on active electronically scanned array concepts and modern track-while-scan fusion.",
+    "realism_band": "established",
+    "references": [
+      "https://www.nasa.gov/directorates/somd/space-communications-navigation-program/",
+      "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Telecommunications"
+    ]
+  },
+  {
+    "id": "tech.trade_exchange_automation_t5",
+    "name": "Trade Exchange Automation",
+    "branch": "faction_infrastructure",
+    "tier": 5,
+    "rp_cost": 52000,
+    "research_time_seconds": 18400,
+    "prerequisites": [
+      "tech.relay_systems_t5",
+      "tech.scanner_systems_t5"
+    ],
+    "unlocks": [
+      "module.utility_trade_exchange_suite_mk5"
+    ],
+    "science_basis": "Applies exchange automation and route optimization algorithms to interstellar trade operations.",
+    "realism_band": "established",
+    "references": [
+      "https://www.bis.org/publ/qtrpdf/r_qt2012f.htm",
+      "https://www.nasa.gov/directorates/somd/space-communications-navigation-program/"
+    ]
+  },
+  {
+    "id": "tech.mobile_mining_refinery_t5",
+    "name": "Mobile Mining Refinery",
+    "branch": "planetary_construction",
+    "tier": 5,
+    "rp_cost": 53000,
+    "research_time_seconds": 18600,
+    "prerequisites": [
+      "tech.orbital_logistics_t2",
+      "tech.utility_systems_t5"
+    ],
+    "unlocks": [
+      "module.utility_mining_refinery_pod_mk5"
+    ],
+    "science_basis": "Uses compact ore sorting and in-situ refinement methods inspired by current ISRU processing lines.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.nasa.gov/isru/",
+      "https://www.esa.int/Enabling_Support/Preparing_for_the_Future/Space_for_Earth/ISRU"
+    ]
+  },
+  {
+    "id": "tech.modular_habitat_expansions_t5",
+    "name": "Modular Habitat Expansions",
+    "branch": "faction_infrastructure",
+    "tier": 5,
+    "rp_cost": 56000,
+    "research_time_seconds": 19400,
+    "prerequisites": [
+      "tech.hull_bastion_t4",
+      "tech.orbital_logistics_t2"
+    ],
+    "unlocks": [
+      "module.utility_modular_habitat_ring_mk5"
+    ],
+    "science_basis": "Extends modular habitat architecture to mobile fleet logistics and passenger-capable mission profiles.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.nasa.gov/gateway/",
+      "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Lunar_Gateway"
+    ]
+  },
+  {
+    "id": "tech.shaped_charge_missiles_t4",
+    "name": "Shaped-Charge Missile Buses",
+    "branch": "weapons",
+    "tier": 4,
+    "rp_cost": 34000,
+    "research_time_seconds": 14800,
+    "prerequisites": [
+      "tech.missile_systems_t4",
+      "tech.utility_targeting_t2"
+    ],
+    "unlocks": [
+      "module.weapon_shaped_charge_bus_mk4"
+    ],
+    "science_basis": "Adapts shaped-charge jet and terminal guidance concepts to space-optimized missile warheads.",
+    "realism_band": "established",
+    "references": [
+      "https://apps.dtic.mil/sti/",
+      "https://www.nasa.gov/"
+    ]
+  },
+  {
+    "id": "tech.cryo_embrittlement_weapons_t5",
+    "name": "Cryo-Embrittlement Weapons",
+    "branch": "weapons",
+    "tier": 5,
+    "rp_cost": 59000,
+    "research_time_seconds": 20200,
+    "prerequisites": [
+      "tech.railgun_systems_t5",
+      "tech.thermal_management_networks_t5"
+    ],
+    "unlocks": [
+      "module.weapon_cryo_shatter_driver_mk5"
+    ],
+    "science_basis": "Uses rapid thermal gradients and brittle-fracture windows in selected alloys for penetrator effectiveness.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.nist.gov/programs-projects/materials-reliability",
+      "https://www.osti.gov/"
+    ]
+  },
+  {
+    "id": "tech.armor_metallic_foam_t6",
+    "name": "Metallic Foam Armor",
+    "branch": "armor_systems",
+    "tier": 6,
+    "rp_cost": 68000,
+    "research_time_seconds": 24800,
+    "prerequisites": [
+      "tech.armor_tiau_lattice_t6",
+      "tech.autonomous_nanoforge_t6"
+    ],
+    "unlocks": [
+      "module.armor_metallic_foam_matrix_mk6"
+    ],
+    "science_basis": "Derives from closed-cell metallic foam and sandwich-core impact absorption studies.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.sciencedirect.com/topics/materials-science/metal-foam",
+      "https://www.nasa.gov/"
+    ]
+  },
+  {
+    "id": "tech.magnetic_flux_weapons_t6",
+    "name": "Magnetic Flux Weapons",
+    "branch": "weapons",
+    "tier": 6,
+    "rp_cost": 74000,
+    "research_time_seconds": 26400,
+    "prerequisites": [
+      "tech.railgun_systems_t5",
+      "tech.multiband_aesa_tracking_t5",
+      "tech.quantum_processor_fabric_t6"
+    ],
+    "unlocks": [
+      "module.weapon_magnetic_flux_lance_mk6"
+    ],
+    "science_basis": "Extends pulsed magnetic acceleration and magnetic material coupling into directed anti-hull attack systems.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.onr.navy.mil/en/Science-Technology/Departments/Code-35/All-Programs/35P-Naval-Railgun",
+      "https://www.osti.gov/"
+    ]
+  },
+  {
+    "id": "tech.passive_radar_stealth_ops_t6",
+    "name": "Passive Radar Stealth Operations",
+    "branch": "stealth_systems",
+    "tier": 6,
+    "rp_cost": 72000,
+    "research_time_seconds": 25800,
+    "prerequisites": [
+      "tech.metamaterial_stealth_t6",
+      "tech.multiband_aesa_tracking_t5",
+      "tech.scanner_systems_t5"
+    ],
+    "unlocks": [
+      "module.scanner_passive_stealth_receiver_mk6"
+    ],
+    "science_basis": "Uses passive emitter-of-opportunity localization for target tracking while limiting active-signature exposure.",
+    "realism_band": "established",
+    "references": [
+      "https://www.nato.int/",
+      "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Telecommunications"
+    ]
+  },
+  {
+    "id": "tech.aneutronic_fusion_torus_t6",
+    "name": "Aneutronic Fusion Torus",
+    "branch": "power_systems",
+    "tier": 6,
+    "rp_cost": 76000,
+    "research_time_seconds": 27200,
+    "prerequisites": [
+      "tech.reactor_systems_t5",
+      "tech.power_fusion_t3",
+      "tech.thermal_management_networks_t5"
+    ],
+    "unlocks": [
+      "module.reactor_aneutronic_fusion_torus_mk6"
+    ],
+    "science_basis": "Uses advanced fusion confinement and aneutronic fuel-cycle concepts for high-density naval power systems.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.iter.org/",
+      "https://www.iaea.org/topics/fusion-energy"
+    ]
+  },
+  {
+    "id": "tech.photonic_processor_mesh_t6",
+    "name": "Photonic Processor Mesh",
+    "branch": "sensor_systems",
+    "tier": 6,
+    "rp_cost": 78000,
+    "research_time_seconds": 27800,
+    "prerequisites": [
+      "tech.quantum_processor_fabric_t6",
+      "tech.relay_systems_t5"
+    ],
+    "unlocks": [
+      "module.special_photonic_compute_mesh_mk6"
+    ],
+    "science_basis": "Combines integrated photonics and co-processor fabrics for fast targeting and fleet decision support.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.nist.gov/programs-projects/quantum-networks",
+      "https://www.nature.com/subjects/silicon-photonics"
+    ]
+  },
+  {
+    "id": "tech.microhangar_swarm_doctrine_t6",
+    "name": "Microhangar Swarm Doctrine",
+    "branch": "armor_systems",
+    "tier": 6,
+    "rp_cost": 80000,
+    "research_time_seconds": 28400,
+    "prerequisites": [
+      "tech.hull_carrier_doctrine_t6",
+      "tech.modular_habitat_expansions_t5",
+      "tech.multiband_aesa_tracking_t5"
+    ],
+    "unlocks": [
+      "module.special_microhangar_swarm_bay_mk6"
+    ],
+    "science_basis": "Extends carrier doctrine to distributed small-craft launch/recovery and swarm-control command loops.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.nasa.gov/smallsat-institute/",
+      "https://www.darpa.mil/"
+    ]
+  },
+  {
+    "id": "tech.antimatter_ordnance_t7",
+    "name": "Antimatter Ordnance",
+    "branch": "weapons",
+    "tier": 7,
+    "rp_cost": 122000,
+    "research_time_seconds": 35800,
+    "prerequisites": [
+      "tech.aneutronic_fusion_torus_t6",
+      "tech.casimir_field_arrays_t6",
+      "tech.missile_systems_t5",
+      "tech.passive_radar_stealth_ops_t6"
+    ],
+    "unlocks": [
+      "module.weapon_antimatter_torpedo_spine_mk7"
+    ],
+    "science_basis": "Based on antimatter production, storage, and annihilation-energy studies with severe containment constraints.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://home.cern/science/physics/antimatter",
+      "https://www.nasa.gov/"
+    ]
+  },
+  {
+    "id": "tech.quantum_navigation_cores_t7",
+    "name": "Quantum Navigation Cores",
+    "branch": "sensor_systems",
+    "tier": 7,
+    "rp_cost": 126000,
+    "research_time_seconds": 36600,
+    "prerequisites": [
+      "tech.photonic_processor_mesh_t6",
+      "tech.quantum_error_corrected_processors_t7",
+      "tech.constellation_inference_engines_t7"
+    ],
+    "unlocks": [
+      "module.special_quantum_navigation_core_mk7"
+    ],
+    "science_basis": "Integrates quantum-enhanced error correction, astrometric inference, and fleet navigation coordination.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://doi.org/10.1038/s41586-022-05434-1",
+      "https://lisa.nasa.gov/"
+    ]
+  },
+  {
+    "id": "tech.antimatter_containment_lattices_t8",
+    "name": "Antimatter Containment Lattices",
+    "branch": "power_systems",
+    "tier": 8,
+    "rp_cost": 178000,
+    "research_time_seconds": 45600,
+    "prerequisites": [
+      "tech.antimatter_ordnance_t7",
+      "tech.exotic_field_reactors_t7",
+      "tech.plasma_casimir_cells_t7",
+      "tech.hull_singularity_flagship_t8"
+    ],
+    "unlocks": [
+      "module.reactor_antimatter_bottle_mk8"
+    ],
+    "science_basis": "Applies high-stability magnetic bottle and fault-isolated containment architectures to antimatter reactor concepts.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://home.cern/science/physics/antimatter",
+      "https://www.iaea.org/topics/plasma-physics"
+    ]
+  },
+  {
+    "id": "tech.psionic_resonance_systems_t8",
+    "name": "Psionic Resonance Systems",
+    "branch": "sensor_systems",
+    "tier": 8,
+    "rp_cost": 182000,
+    "research_time_seconds": 46200,
+    "prerequisites": [
+      "tech.er_epr_sync_t7",
+      "tech.quantum_navigation_cores_t7",
+      "tech.hull_singularity_flagship_t8"
+    ],
+    "unlocks": [
+      "module.weapon_psionic_resonance_emitter_mk8"
+    ],
+    "science_basis": "Speculative cognition-signal coupling branch inspired by historical remote-perception programs and modern neuro-sensing research.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://www.cia.gov/readingroom/collection/stargate",
+      "https://www.nature.com/subjects/neurotechnology"
+    ]
+  },
+  {
+    "id": "tech.nanite_field_repair_t6",
+    "name": "Nanite Field Repair Clouds",
+    "branch": "defensive_systems",
+    "tier": 6,
+    "rp_cost": 84000,
+    "research_time_seconds": 28600,
+    "prerequisites": [
+      "tech.autonomous_nanoforge_t6",
+      "tech.thermal_management_networks_t5",
+      "tech.armor_metallic_foam_t6"
+    ],
+    "unlocks": [
+      "module.special_nanite_repair_cloud_mk6"
+    ],
+    "science_basis": "Builds on self-healing material systems and distributed robotic maintenance swarms coordinated by localized fault maps.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.nasa.gov/",
+      "https://www.nist.gov/"
+    ]
+  },
+  {
+    "id": "tech.magnetoplasma_shielding_t6",
+    "name": "Magnetoplasma Shielding",
+    "branch": "shield_systems",
+    "tier": 6,
+    "rp_cost": 86000,
+    "research_time_seconds": 29400,
+    "prerequisites": [
+      "tech.shield_nanoceramic_t6",
+      "tech.plasma_systems_t5",
+      "tech.thermal_management_networks_t5"
+    ],
+    "unlocks": [
+      "module.shield_magnetoplasma_envelope_mk6"
+    ],
+    "science_basis": "Combines plasma sheath confinement and fast magnetic shaping to spread beam load over a wider shield surface.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.iaea.org/topics/plasma-physics",
+      "https://www.nasa.gov/"
+    ]
+  },
+  {
+    "id": "tech.coilgun_hypervelocity_t6",
+    "name": "Hypervelocity Coilgun Lines",
+    "branch": "weapons",
+    "tier": 6,
+    "rp_cost": 82000,
+    "research_time_seconds": 27600,
+    "prerequisites": [
+      "tech.railgun_systems_t5",
+      "tech.weapons_ballistic_t2",
+      "tech.multiband_aesa_tracking_t5"
+    ],
+    "unlocks": [
+      "module.weapon_coilgun_hypervelocity_mk6"
+    ],
+    "science_basis": "Extends staged electromagnetic launch with active thermal envelope control and adaptive barrel timing.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.onr.navy.mil/",
+      "https://www.osti.gov/"
+    ]
+  },
+  {
+    "id": "tech.radiological_warfare_t6",
+    "name": "Radiological Salt Lance Systems",
+    "branch": "weapons",
+    "tier": 6,
+    "rp_cost": 90000,
+    "research_time_seconds": 30200,
+    "prerequisites": [
+      "tech.missile_systems_t5",
+      "tech.reactor_systems_t5",
+      "tech.utility_targeting_t2"
+    ],
+    "unlocks": [
+      "module.weapon_radiological_salt_lance_mk6"
+    ],
+    "science_basis": "Packages high-activity isotope salts into delayed-fracture penetrators to suppress crew and electronics through radiation exposure.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://www.iaea.org/",
+      "https://www.nrc.gov/"
+    ]
+  },
+  {
+    "id": "tech.cryo_superfluid_radiators_t6",
+    "name": "Cryo Superfluid Radiator Nets",
+    "branch": "power_systems",
+    "tier": 6,
+    "rp_cost": 78000,
+    "research_time_seconds": 26800,
+    "prerequisites": [
+      "tech.thermal_management_networks_t5",
+      "tech.aneutronic_fusion_torus_t6"
+    ],
+    "unlocks": [
+      "module.utility_cryo_superfluid_radiator_mk6"
+    ],
+    "science_basis": "Uses low-temperature circulation and superfluid-inspired transport layers to flatten transient heat spikes.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.nist.gov/",
+      "https://www.osti.gov/"
+    ]
+  },
+  {
+    "id": "tech.biomimetic_electrosense_t6",
+    "name": "Biomimetic Electrosense Arrays",
+    "branch": "sensor_systems",
+    "tier": 6,
+    "rp_cost": 80500,
+    "research_time_seconds": 27200,
+    "prerequisites": [
+      "tech.scanner_systems_t5",
+      "tech.jammer_systems_t5",
+      "tech.synthetic_command_intelligence_t6"
+    ],
+    "unlocks": [
+      "module.scanner_biomimetic_electrosense_mk6"
+    ],
+    "science_basis": "Adapts electric-field sensing concepts from aquatic biology into low-noise passive gradient tracking hardware.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.nature.com/subjects/bioinspired-materials",
+      "https://www.nasa.gov/"
+    ]
+  },
+  {
+    "id": "tech.hull_celestial_barge_t5",
+    "name": "Celestial Barge Frames",
+    "branch": "planetary_construction",
+    "tier": 5,
+    "rp_cost": 64000,
+    "research_time_seconds": 22600,
+    "prerequisites": [
+      "tech.hull_titanic_t5",
+      "tech.mobile_mining_refinery_t5",
+      "tech.trade_exchange_automation_t5"
+    ],
+    "unlocks": [
+      "hull.celestial_barge_t5"
+    ],
+    "science_basis": "Optimizes heavy-lift hull geometry for ore transfer, station logistics, and population-support modules.",
+    "realism_band": "established",
+    "references": [
+      "https://www.nasa.gov/",
+      "https://www.esa.int/"
+    ]
+  },
+  {
+    "id": "tech.hull_corsair_interdictor_t6",
+    "name": "Corsair Interdictor Hulls",
+    "branch": "armor_systems",
+    "tier": 6,
+    "rp_cost": 93000,
+    "research_time_seconds": 31800,
+    "prerequisites": [
+      "tech.hull_line_battleship_t6",
+      "tech.passive_radar_stealth_ops_t6",
+      "tech.magnetic_flux_weapons_t6"
+    ],
+    "unlocks": [
+      "hull.corsair_interdictor_t6"
+    ],
+    "science_basis": "Combines stealth-aware superstructure shaping with reinforced spine rails for controlled intercept geometry.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.darpa.mil/",
+      "https://www.osti.gov/"
+    ]
+  },
+  {
+    "id": "tech.superconductor_tractor_arrays_t7",
+    "name": "Superconductor Tractor Arrays",
+    "branch": "defensive_systems",
+    "tier": 7,
+    "rp_cost": 132000,
+    "research_time_seconds": 37200,
+    "prerequisites": [
+      "tech.quantum_navigation_cores_t7",
+      "tech.photonic_processor_mesh_t6",
+      "tech.magnetic_flux_weapons_t6"
+    ],
+    "unlocks": [
+      "module.utility_quantum_superconductor_lock_mk7"
+    ],
+    "science_basis": "Uses high-current superconducting rings to project constrained magnetic wells for cargo capture and target drag.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://home.cern/science/accelerators",
+      "https://www.nasa.gov/"
+    ]
+  },
+  {
+    "id": "tech.inertial_shear_fields_t7",
+    "name": "Inertial Shear Field Weaves",
+    "branch": "armor_systems",
+    "tier": 7,
+    "rp_cost": 136000,
+    "research_time_seconds": 38400,
+    "prerequisites": [
+      "tech.exotic_field_reactors_t7",
+      "tech.casimir_field_arrays_t6",
+      "tech.armor_metallic_foam_t6"
+    ],
+    "unlocks": [
+      "module.armor_inertial_shear_weave_mk7"
+    ],
+    "science_basis": "Projects short-lived gradient fields across multilayer armor to reduce penetration coherence from high-velocity impacts.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://doi.org/10.1103/RevModPhys.81.1827",
+      "https://www.osti.gov/"
+    ]
+  },
+  {
+    "id": "tech.gravity_burst_projectors_t7",
+    "name": "Gravity Burst Projectors",
+    "branch": "weapons",
+    "tier": 7,
+    "rp_cost": 144000,
+    "research_time_seconds": 39600,
+    "prerequisites": [
+      "tech.er_epr_sync_t7",
+      "tech.quantum_navigation_cores_t7",
+      "tech.exotic_field_reactors_t7"
+    ],
+    "unlocks": [
+      "module.weapon_gravity_burst_projector_mk7"
+    ],
+    "science_basis": "Theoretical gravitic lensing pulse system that induces transient structural load spikes in target frames.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://arxiv.org/abs/1306.0533",
+      "https://www.nasa.gov/"
+    ]
+  },
+  {
+    "id": "tech.nanocarbon_ramfield_t7",
+    "name": "Nanocarbon Ramfield Drivers",
+    "branch": "weapons",
+    "tier": 7,
+    "rp_cost": 138000,
+    "research_time_seconds": 38800,
+    "prerequisites": [
+      "tech.armor_tiau_lattice_t6",
+      "tech.magnetic_flux_weapons_t6",
+      "tech.exotic_field_reactors_t7"
+    ],
+    "unlocks": [
+      "module.weapon_mass_ramfield_driver_mk7"
+    ],
+    "science_basis": "Uses reinforced nanocarbon penetrators accelerated inside compressed magnetic ramfields for anti-armor strikes.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.sciencedirect.com/topics/materials-science/nanocarbon",
+      "https://www.osti.gov/"
+    ]
+  },
+  {
+    "id": "tech.hull_lattice_runner_t7",
+    "name": "Lattice Runner Hulls",
+    "branch": "stealth_systems",
+    "tier": 7,
+    "rp_cost": 142000,
+    "research_time_seconds": 40200,
+    "prerequisites": [
+      "tech.hull_leviathan_t7",
+      "tech.quantum_navigation_cores_t7",
+      "tech.metamaterial_stealth_t6"
+    ],
+    "unlocks": [
+      "hull.lattice_runner_t7"
+    ],
+    "science_basis": "Prioritizes low-observable truss lattices and high-thrust vectoring for deep recon and interdiction escape profiles.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://www.nasa.gov/",
+      "https://www.darpa.mil/"
+    ]
+  },
+  {
+    "id": "tech.symbiotic_crew_recovery_t6",
+    "name": "Symbiotic Crew Recovery Systems",
+    "branch": "defensive_systems",
+    "tier": 6,
+    "rp_cost": 79000,
+    "research_time_seconds": 27400,
+    "prerequisites": [
+      "tech.modular_habitat_expansions_t5",
+      "tech.synthetic_command_intelligence_t6",
+      "tech.autonomous_nanoforge_t6"
+    ],
+    "unlocks": [
+      "module.special_lifeboat_genevault_mk6"
+    ],
+    "science_basis": "Integrates automated medpods, gene archives, and adaptive life-support capsules for post-battle crew survival.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.nasa.gov/human-spaceflight",
+      "https://www.nih.gov/"
+    ]
+  },
+  {
+    "id": "tech.antimatter_microcapsule_fabrication_t8",
+    "name": "Antimatter Microcapsule Fabrication",
+    "branch": "weapons",
+    "tier": 8,
+    "rp_cost": 194000,
+    "research_time_seconds": 48800,
+    "prerequisites": [
+      "tech.antimatter_ordnance_t7",
+      "tech.antimatter_containment_lattices_t8",
+      "tech.hull_singularity_flagship_t8"
+    ],
+    "unlocks": [
+      "module.weapon_antimatter_microcapsule_mk8"
+    ],
+    "science_basis": "Advances picogram-scale antimatter capsule handling for controlled burst munitions with layered fail-safe triggers.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://home.cern/science/physics/antimatter",
+      "https://www.nasa.gov/"
+    ]
+  },
+  {
+    "id": "tech.zero_point_catalysis_t8",
+    "name": "Zero-Point Catalysis",
+    "branch": "power_systems",
+    "tier": 8,
+    "rp_cost": 202000,
+    "research_time_seconds": 50600,
+    "prerequisites": [
+      "tech.plasma_casimir_cells_t7",
+      "tech.antimatter_containment_lattices_t8",
+      "tech.dyson_swarm_fabrication_t8"
+    ],
+    "unlocks": [
+      "module.reactor_zero_point_catalyst_mk8"
+    ],
+    "science_basis": "Speculative vacuum-energy catalysis framework using Casimir cavity staging and ultra-stable field confinement.",
+    "realism_band": "theoretical",
+    "references": [
+      "https://doi.org/10.1103/RevModPhys.81.1827",
+      "https://www.nasa.gov/"
+    ]
+  },
+  {
+    "id": "tech.felid_reflex_doctrine_t5",
+    "name": "Felari Reflex Doctrine",
+    "branch": "sensor_systems",
+    "tier": 5,
+    "rp_cost": 62000,
+    "research_time_seconds": 21600,
+    "required_race_ids": [
+      "race.vesper_felari"
+    ],
+    "prerequisites": [
+      "tech.scanner_systems_t5",
+      "tech.utility_targeting_t2"
+    ],
+    "unlocks": [
+      "module.special_felid_reflex_lattice_mk5"
+    ],
+    "science_basis": "Formalizes rapid threat triage and reflexive sensor fusion modeled after Felari vestibular adaptation studies.",
+    "realism_band": "established",
+    "references": [
+      "https://www.nature.com/subjects/sensory-systems",
+      "https://www.nasa.gov/"
+    ]
+  },
+  {
+    "id": "tech.canid_pack_tactics_t5",
+    "name": "Lykan Pack Tactical Mesh",
+    "branch": "defensive_systems",
+    "tier": 5,
+    "rp_cost": 61500,
+    "research_time_seconds": 21400,
+    "required_race_ids": [
+      "race.vargr_lykans"
+    ],
+    "prerequisites": [
+      "tech.relay_systems_t5",
+      "tech.jammer_systems_t5"
+    ],
+    "unlocks": [
+      "module.special_canid_packlink_core_mk5"
+    ],
+    "science_basis": "Transforms distributed pack coordination principles into low-latency fleet link doctrine for coordinated interception.",
+    "realism_band": "established",
+    "references": [
+      "https://www.nasa.gov/",
+      "https://www.darpa.mil/"
+    ]
+  },
+  {
+    "id": "tech.human_frontier_adaptive_fabrication_t5",
+    "name": "Human Frontier Adaptive Fabrication",
+    "branch": "faction_infrastructure",
+    "tier": 5,
+    "rp_cost": 4600,
+    "research_time_seconds": 6800,
+    "science_basis": "Flexible manufacturing lines and modular process control reduce retool downtime in distributed shipyards.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.trade_exchange_automation_t5",
+      "tech.utility_systems_t5"
+    ],
+    "unlocks": [
+      "module.special_adaptive_fabricator_mk5",
+      "mission.aurelian_artifact_signal"
+    ],
+    "required_race_ids": [
+      "race.human_frontier"
+    ],
+    "references": [
+      "Flexible manufacturing systems",
+      "Digital twins in industrial control"
+    ]
+  },
+  {
+    "id": "tech.gray_synod_cryocognition_t5",
+    "name": "Gray Synod Cryocognition Arrays",
+    "branch": "sensor_systems",
+    "tier": 5,
+    "rp_cost": 4700,
+    "research_time_seconds": 7000,
+    "science_basis": "Low-noise cryogenic sensor stacks suppress thermal shot noise and improve weak-signal extraction.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.scanner_systems_t5",
+      "tech.cryo_superfluid_radiators_t6"
+    ],
+    "unlocks": [
+      "module.scanner_cryocognition_array_mk5",
+      "mission.helion_artifact_signal"
+    ],
+    "required_race_ids": [
+      "race.gray_synod"
+    ],
+    "references": [
+      "Cryogenic detector arrays",
+      "Low-noise signal processing"
+    ]
+  },
+  {
+    "id": "tech.draconian_clan_impact_doctrine_t5",
+    "name": "Draconian Clan Impact Doctrine",
+    "branch": "weapons",
+    "tier": 5,
+    "rp_cost": 4550,
+    "research_time_seconds": 6500,
+    "science_basis": "High-momentum penetrator sequencing improves armor spall damage against layered hulls.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.ballistic_systems_t5",
+      "tech.hull_titanic_t5"
+    ],
+    "unlocks": [
+      "module.weapon_impact_lance_autocannon_mk5",
+      "mission.krynn_artifact_signal"
+    ],
+    "required_race_ids": [
+      "race.draconian_clans"
+    ],
+    "references": [
+      "Terminal ballistics",
+      "Hypervelocity impact modeling"
+    ]
+  },
+  {
+    "id": "tech.felien_nomad_shadow_caravans_t5",
+    "name": "Felien Nomad Shadow Caravans",
+    "branch": "stealth_systems",
+    "tier": 5,
+    "rp_cost": 4520,
+    "research_time_seconds": 6400,
+    "science_basis": "Passive masking and route discipline reduce emission profiles without full active cloaking.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.jammer_systems_t5",
+      "tech.trade_exchange_automation_t5"
+    ],
+    "unlocks": [
+      "module.jammer_shadow_caravan_masker_mk5",
+      "mission.nyx_artifact_signal"
+    ],
+    "required_race_ids": [
+      "race.felien_nomads"
+    ],
+    "references": [
+      "Low probability of intercept tactics",
+      "Passive RF sensing"
+    ]
+  },
+  {
+    "id": "tech.sarian_harmonic_fieldcraft_t5",
+    "name": "Sarian Harmonic Fieldcraft",
+    "branch": "shield_systems",
+    "tier": 5,
+    "rp_cost": 4680,
+    "research_time_seconds": 6900,
+    "science_basis": "Phase-locked emitter arrays reduce destructive interference in distributed plasma shield meshes.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.shield_systems_t5",
+      "tech.relay_systems_t5"
+    ],
+    "unlocks": [
+      "module.shield_harmonic_ward_mesh_mk5",
+      "mission.veil_artifact_signal"
+    ],
+    "required_race_ids": [
+      "race.sarian_ascendancy"
+    ],
+    "references": [
+      "Phased array coherence",
+      "Magnetoplasma confinement"
+    ]
+  },
+  {
+    "id": "tech.synth_collective_forge_logic_t5",
+    "name": "Synth Collective Forge Logic",
+    "branch": "power_systems",
+    "tier": 5,
+    "rp_cost": 4720,
+    "research_time_seconds": 7100,
+    "science_basis": "Closed-loop machine scheduling stabilizes reactor transients and improves energy dispatch fidelity.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.reactor_systems_t5",
+      "tech.utility_systems_t5"
+    ],
+    "unlocks": [
+      "module.reactor_forge_logic_core_mk5",
+      "mission.singularity_artifact_signal"
+    ],
+    "required_race_ids": [
+      "race.synth_collective"
+    ],
+    "references": [
+      "Model predictive control",
+      "Industrial automation"
+    ]
+  },
+  {
+    "id": "tech.khazari_gravity_foundry_t5",
+    "name": "Khazari Gravity Foundry",
+    "branch": "armor_systems",
+    "tier": 5,
+    "rp_cost": 4580,
+    "research_time_seconds": 6650,
+    "science_basis": "High-pressure sintering improves grain-boundary control for dense armor laminates.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.armor_systems_t5",
+      "tech.deep_core_boreholes_t3"
+    ],
+    "unlocks": [
+      "module.armor_gravity_foundry_plate_mk5"
+    ],
+    "required_race_ids": [
+      "race.khazari_forgekin"
+    ],
+    "references": [
+      "Powder metallurgy",
+      "High-pressure materials synthesis"
+    ]
+  },
+  {
+    "id": "tech.myr_symbiotic_bioforge_t5",
+    "name": "Myr Symbiotic Bioforge",
+    "branch": "defensive_systems",
+    "tier": 5,
+    "rp_cost": 4500,
+    "research_time_seconds": 6550,
+    "science_basis": "Bio-synthetic repair cultures accelerate localized hull recovery under controlled nutrient loops.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.special_systems_t5",
+      "tech.modular_habitat_expansions_t5"
+    ],
+    "unlocks": [
+      "module.special_symbiotic_sporeforge_mk5"
+    ],
+    "required_race_ids": [
+      "race.myr_sporekin"
+    ],
+    "references": [
+      "Self-healing materials",
+      "Biofabrication"
+    ]
+  },
+  {
+    "id": "tech.aethermind_probability_mesh_t6",
+    "name": "Aethermind Probability Mesh",
+    "branch": "sensor_systems",
+    "tier": 6,
+    "rp_cost": 6250,
+    "research_time_seconds": 8600,
+    "science_basis": "Photonic compute meshes run probabilistic fleet-state inference with low latency across contested links.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.photonic_processor_mesh_t6",
+      "tech.quantum_processor_fabric_t6"
+    ],
+    "unlocks": [
+      "module.relay_probability_mesh_node_mk6"
+    ],
+    "required_race_ids": [
+      "race.aethermind_concord"
+    ],
+    "references": [
+      "Photonic computing",
+      "Bayesian sensor fusion"
+    ]
+  },
+  {
+    "id": "tech.vesper_vector_predation_t6",
+    "name": "Vesper Vector Predation",
+    "branch": "stealth_systems",
+    "tier": 6,
+    "rp_cost": 6180,
+    "research_time_seconds": 8450,
+    "science_basis": "Vestibular compensation algorithms and fast-vector thrusters tighten pursuit geometry in 2D combat planes.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.felid_reflex_doctrine_t5",
+      "tech.multiband_aesa_tracking_t5"
+    ],
+    "unlocks": [
+      "module.engine_vector_predation_thrusters_mk6"
+    ],
+    "required_race_ids": [
+      "race.vesper_felari"
+    ],
+    "references": [
+      "Guidance and control",
+      "Reaction control systems"
+    ]
+  },
+  {
+    "id": "tech.vargr_pack_command_t6",
+    "name": "Vargr Pack Command Networks",
+    "branch": "defensive_systems",
+    "tier": 6,
+    "rp_cost": 6160,
+    "research_time_seconds": 8400,
+    "science_basis": "Distributed command relays lower reaction lag and improve convoy defensive cohesion.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.canid_pack_tactics_t5",
+      "tech.relay_systems_t5"
+    ],
+    "unlocks": [
+      "module.relay_pack_command_beacon_mk6"
+    ],
+    "required_race_ids": [
+      "race.vargr_lykans"
+    ],
+    "references": [
+      "Distributed systems",
+      "Mission command doctrine"
+    ]
+  },
+  {
+    "id": "tech.caelith_avari_aeroelastic_frames_t5",
+    "name": "Caelith Avari Aeroelastic Frames",
+    "branch": "armor_systems",
+    "tier": 5,
+    "rp_cost": 4620,
+    "research_time_seconds": 6700,
+    "science_basis": "Variable-stiffness structural members absorb maneuver loads while preserving frame mass budgets.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.engine_systems_t5",
+      "tech.armor_systems_t5"
+    ],
+    "unlocks": [
+      "module.engine_aeroelastic_maneuver_web_mk5"
+    ],
+    "required_race_ids": [
+      "race.caelith_avari"
+    ],
+    "references": [
+      "Aeroelasticity",
+      "Adaptive structures"
+    ]
+  },
+  {
+    "id": "tech.thaloran_cetid_pressure_logic_t5",
+    "name": "Thaloran Cetid Pressure Logic",
+    "branch": "shield_systems",
+    "tier": 5,
+    "rp_cost": 4650,
+    "research_time_seconds": 6750,
+    "science_basis": "Pressure-gradient models improve field shaping during asymmetric impulse loads.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.shield_systems_t5",
+      "tech.reactor_systems_t5"
+    ],
+    "unlocks": [
+      "module.special_pressure_logic_hullweave_mk5"
+    ],
+    "required_race_ids": [
+      "race.thaloran_cetids"
+    ],
+    "references": [
+      "Continuum mechanics",
+      "Field control"
+    ]
+  },
+  {
+    "id": "tech.human_frontier_civic_megaforge_t6",
+    "name": "Human Frontier Civic Megaforge",
+    "branch": "planetary_construction",
+    "tier": 6,
+    "rp_cost": 6340,
+    "research_time_seconds": 8800,
+    "science_basis": "Civic-scale orbital fabrication combines autonomous assembly with public logistics channels.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.human_frontier_adaptive_fabrication_t5",
+      "tech.autonomous_nanoforge_t6"
+    ],
+    "unlocks": [
+      "structure.planetary_civic_megaforge",
+      "hull.mercator_logistics_barge_t5"
+    ],
+    "required_race_ids": [
+      "race.human_frontier"
+    ],
+    "references": [
+      "Automated manufacturing",
+      "Orbital construction logistics"
+    ]
+  },
+  {
+    "id": "tech.synth_collective_autonomous_retooling_t6",
+    "name": "Synth Autonomous Retooling",
+    "branch": "faction_infrastructure",
+    "tier": 6,
+    "rp_cost": 6400,
+    "research_time_seconds": 9000,
+    "science_basis": "Self-directed fabrication cells reprioritize spare-part production based on fleet telemetry.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.synth_collective_forge_logic_t5",
+      "tech.autonomous_nanoforge_t6"
+    ],
+    "unlocks": [
+      "module.special_autonomous_retool_swarm_mk6"
+    ],
+    "required_race_ids": [
+      "race.synth_collective"
+    ],
+    "references": [
+      "Autonomous robotics",
+      "Industrial optimization"
+    ]
+  },
+  {
+    "id": "tech.aethermind_oracular_fleetnets_t7",
+    "name": "Aethermind Oracular Fleetnets",
+    "branch": "sensor_systems",
+    "tier": 7,
+    "rp_cost": 8900,
+    "research_time_seconds": 11800,
+    "science_basis": "Long-horizon prediction meshes assign confidence-weighted tactics under partial information.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.aethermind_probability_mesh_t6",
+      "tech.constellation_inference_engines_t7"
+    ],
+    "unlocks": [
+      "module.special_oracular_fleetnet_core_mk7"
+    ],
+    "required_race_ids": [
+      "race.aethermind_concord"
+    ],
+    "references": [
+      "Probabilistic forecasting",
+      "Decision theory under uncertainty"
+    ]
+  },
+  {
+    "id": "tech.vesper_silent_hyperlanes_t7",
+    "name": "Vesper Silent Hyperlane Tactics",
+    "branch": "stealth_systems",
+    "tier": 7,
+    "rp_cost": 9000,
+    "research_time_seconds": 11900,
+    "science_basis": "Emission discipline and predictive route windows reduce intercept probability on contested lanes.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.vesper_vector_predation_t6",
+      "tech.predictive_ghost_cloak_t7"
+    ],
+    "unlocks": [
+      "hull.vesper_silent_courser_t7"
+    ],
+    "required_race_ids": [
+      "race.vesper_felari"
+    ],
+    "references": [
+      "Traffic analysis resistance",
+      "Stealth operations research"
+    ]
+  },
+  {
+    "id": "tech.vargr_guard_packline_t7",
+    "name": "Vargr Guard Packline Doctrine",
+    "branch": "defensive_systems",
+    "tier": 7,
+    "rp_cost": 8920,
+    "research_time_seconds": 11700,
+    "science_basis": "Layered escort geometries maximize overlap between interceptor arcs and defensive sensor cones.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.vargr_pack_command_t6",
+      "tech.hull_line_battleship_t6"
+    ],
+    "unlocks": [
+      "hull.vargr_packline_guard_t7"
+    ],
+    "required_race_ids": [
+      "race.vargr_lykans"
+    ],
+    "references": [
+      "Convoy doctrine",
+      "Defensive formations"
+    ]
+  },
+  {
+    "id": "tech.khazari_mantle_drills_t6",
+    "name": "Khazari Mantle Drills",
+    "branch": "planetary_construction",
+    "tier": 6,
+    "rp_cost": 6280,
+    "research_time_seconds": 8700,
+    "science_basis": "Directional drilling and refractory lining allow sustained extraction from deeper planetary strata.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.khazari_gravity_foundry_t5",
+      "tech.mobile_mining_refinery_t5"
+    ],
+    "unlocks": [
+      "structure.planetary_mantle_drill_cathedral"
+    ],
+    "required_race_ids": [
+      "race.khazari_forgekin"
+    ],
+    "references": [
+      "Deep drilling engineering",
+      "Refractory materials"
+    ]
+  },
+  {
+    "id": "tech.myr_biospore_colonies_t6",
+    "name": "Myr Biospore Colonies",
+    "branch": "planetary_construction",
+    "tier": 6,
+    "rp_cost": 6220,
+    "research_time_seconds": 8600,
+    "science_basis": "Engineered microbial ecologies convert trace volatiles into habitat support substrates.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.myr_symbiotic_bioforge_t5",
+      "tech.modular_habitat_expansions_t5"
+    ],
+    "unlocks": [
+      "structure.planetary_biospore_dome"
+    ],
+    "required_race_ids": [
+      "race.myr_sporekin"
+    ],
+    "references": [
+      "Closed-loop life support",
+      "Synthetic ecology"
+    ]
+  },
+  {
+    "id": "tech.caelith_thermal_glide_control_t6",
+    "name": "Caelith Thermal Glide Control",
+    "branch": "power_systems",
+    "tier": 6,
+    "rp_cost": 6300,
+    "research_time_seconds": 8750,
+    "science_basis": "Thermal boundary management keeps engine plumes coherent during aggressive maneuver transitions.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.caelith_avari_aeroelastic_frames_t5",
+      "tech.thermal_management_networks_t5"
+    ],
+    "unlocks": [
+      "module.utility_thermal_glide_controller_mk6",
+      "hull.caelith_aurora_skimmer_t6"
+    ],
+    "required_race_ids": [
+      "race.caelith_avari"
+    ],
+    "references": [
+      "Thermal control",
+      "High-thrust vehicle dynamics"
+    ]
+  },
+  {
+    "id": "tech.thaloran_gravity_tide_weaving_t6",
+    "name": "Thaloran Gravity Tide Weaving",
+    "branch": "weapons",
+    "tier": 6,
+    "rp_cost": 6360,
+    "research_time_seconds": 8850,
+    "science_basis": "Dynamic gravity-gradient shaping destabilizes target attitude control and shield coherence.",
+    "realism_band": "theoretical",
+    "prerequisites": [
+      "tech.thaloran_cetid_pressure_logic_t5",
+      "tech.casimir_field_arrays_t6"
+    ],
+    "unlocks": [
+      "module.weapon_gravity_tide_projector_mk6",
+      "hull.thaloran_tidebreaker_t6"
+    ],
+    "required_race_ids": [
+      "race.thaloran_cetids"
+    ],
+    "references": [
+      "Gradient field control",
+      "Attitude dynamics"
+    ]
+  },
+  {
+    "id": "tech.mine_warfare_orchestration_t6",
+    "name": "Mine Warfare Orchestration",
+    "branch": "weapons",
+    "tier": 6,
+    "rp_cost": 6100,
+    "research_time_seconds": 8300,
+    "science_basis": "Networked mine dispersal improves denial coverage with lower munition waste.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.missile_systems_t5",
+      "tech.relay_systems_t5"
+    ],
+    "unlocks": [
+      "module.weapon_magnetic_mine_layer_mk6"
+    ],
+    "references": [
+      "Area denial doctrine",
+      "Swarm munition control"
+    ]
+  },
+  {
+    "id": "tech.gas_giant_convoy_extraction_t6",
+    "name": "Gas Giant Convoy Extraction",
+    "branch": "planetary_construction",
+    "tier": 6,
+    "rp_cost": 6200,
+    "research_time_seconds": 8500,
+    "science_basis": "Coordinated atmospheric skimming routes improve deuterium and helium fraction throughput.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.stellar_scoop_arrays_t5",
+      "tech.trade_exchange_automation_t5"
+    ],
+    "unlocks": [
+      "structure.gas_giant_skimmer_convoy_hub",
+      "structure.gas_giant_fusion_separator_mk2"
+    ],
+    "references": [
+      "Atmospheric harvesting",
+      "Fleet logistics optimization"
+    ]
+  },
+  {
+    "id": "tech.stellar_hydrogen_crown_t7",
+    "name": "Stellar Hydrogen Crown Arrays",
+    "branch": "planetary_construction",
+    "tier": 7,
+    "rp_cost": 9050,
+    "research_time_seconds": 12000,
+    "science_basis": "Magnetically confined stellar skimming networks support high-volume hydrogen and isotope lifting.",
+    "realism_band": "theoretical",
+    "prerequisites": [
+      "tech.stellar_matter_printing_t8",
+      "tech.dyson_swarm_fabrication_t8"
+    ],
+    "unlocks": [
+      "structure.star_hydrogen_crown_array",
+      "structure.star_corona_magnetic_catapult",
+      "hull.helios_refinery_dreadnought_t8"
+    ],
+    "references": [
+      "Stellar plasma dynamics",
+      "Magnetic confinement systems"
+    ]
+  },
+  {
+    "id": "tech.modular_logistics_barges_t5",
+    "name": "Modular Logistics Barges",
+    "branch": "faction_infrastructure",
+    "tier": 5,
+    "rp_cost": 4400,
+    "research_time_seconds": 6200,
+    "science_basis": "Containerized cargo architecture improves transfer efficiency and emergency jettison safety.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.trade_exchange_automation_t5",
+      "tech.hull_celestial_barge_t5"
+    ],
+    "unlocks": [
+      "module.utility_cargo_ejecta_bulwark_mk5"
+    ],
+    "references": [
+      "Container logistics",
+      "Emergency payload management"
+    ]
+  },
+  {
+    "id": "tech.peregrine_expedition_doctrine_t6",
+    "name": "Peregrine Expedition Doctrine",
+    "branch": "armor_systems",
+    "tier": 6,
+    "rp_cost": 6120,
+    "research_time_seconds": 8350,
+    "science_basis": "Long-range expedition carriers pair hangar automation with deep-range survey workflows.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.microhangar_swarm_doctrine_t6",
+      "tech.quantum_navigation_cores_t7"
+    ],
+    "unlocks": [
+      "hull.peregrine_expedition_carrier_t6",
+      "module.scanner_neutrino_tomography_grid_mk7"
+    ],
+    "references": [
+      "Carrier operations",
+      "Long-range navigation planning"
+    ]
+  },
+  {
+    "id": "tech.antimatter_lance_optics_t8",
+    "name": "Antimatter Lance Optics",
+    "branch": "weapons",
+    "tier": 8,
+    "rp_cost": 11800,
+    "research_time_seconds": 14600,
+    "science_basis": "Ultra-stable beam optics and containment timing reduce premature annihilation losses.",
+    "realism_band": "theoretical",
+    "prerequisites": [
+      "tech.antimatter_containment_lattices_t8",
+      "tech.xray_undulator_arrays_t6"
+    ],
+    "unlocks": [
+      "module.weapon_antimatter_lance_beam_mk8",
+      "module.reactor_dark_matter_seeded_tap_mk8"
+    ],
+    "references": [
+      "Beam physics",
+      "Antimatter containment"
+    ]
+  },
+  {
+    "id": "tech.plasma_sheath_regeneration_t7",
+    "name": "Plasma Sheath Regeneration",
+    "branch": "shield_systems",
+    "tier": 7,
+    "rp_cost": 9020,
+    "research_time_seconds": 12100,
+    "science_basis": "Regenerative plasma boundary layers recover shield density during intermittent fire windows.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.magnetoplasma_shielding_t6",
+      "tech.plasma_casimir_cells_t7"
+    ],
+    "unlocks": [
+      "module.shield_plasma_sheath_array_mk7",
+      "module.armor_metallic_foam_honeycomb_mk6"
+    ],
+    "references": [
+      "Plasma sheath stability",
+      "Adaptive shielding"
+    ]
+  },
+  {
+    "id": "tech.emp_flux_cascades_t6",
+    "name": "EMP Flux Cascades",
+    "branch": "defensive_systems",
+    "tier": 6,
+    "rp_cost": 6050,
+    "research_time_seconds": 8200,
+    "science_basis": "Directed electromagnetic pulses can disrupt guidance loops while preserving own-fleet hardening.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.magnetic_flux_weapons_t6",
+      "tech.jammer_systems_t5"
+    ],
+    "unlocks": [
+      "module.weapon_emp_flux_mortar_mk6",
+      "module.jammer_passive_radar_veil_mk6",
+      "module.utility_null_temperature_sink_mk6"
+    ],
+    "references": [
+      "EMP hardening",
+      "Electronic warfare"
+    ]
+  },
+  {
+    "id": "tech.railgun_plasma_sabot_t7",
+    "name": "Railgun Plasma Sabot Packages",
+    "branch": "weapons",
+    "tier": 7,
+    "rp_cost": 8880,
+    "research_time_seconds": 11650,
+    "science_basis": "Thermally conditioned sabots reduce barrel wear while preserving terminal kinetic yield.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.neural_rail_lances_t7",
+      "tech.coilgun_hypervelocity_t6"
+    ],
+    "unlocks": [
+      "module.weapon_railgun_plasma_sabot_mk7",
+      "module.weapon_coilgun_flechette_burst_mk6"
+    ],
+    "references": [
+      "Electromagnetic launch systems",
+      "Thermal materials engineering"
+    ]
+  },
+  {
+    "id": "tech.shaped_charge_swarm_t5",
+    "name": "Shaped Charge Swarm Guidance",
+    "branch": "weapons",
+    "tier": 5,
+    "rp_cost": 4480,
+    "research_time_seconds": 6400,
+    "science_basis": "Guided charge synchronization increases stand-off penetration reliability.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.shaped_charge_missiles_t4",
+      "tech.multiband_aesa_tracking_t5"
+    ],
+    "unlocks": [
+      "module.weapon_shaped_charge_barrage_mk5"
+    ],
+    "references": [
+      "Shaped charge engineering",
+      "Guidance systems"
+    ]
+  },
+  {
+    "id": "tech.nanite_strike_doctrine_t7",
+    "name": "Nanite Strike Doctrine",
+    "branch": "defensive_systems",
+    "tier": 7,
+    "rp_cost": 8950,
+    "research_time_seconds": 11750,
+    "science_basis": "Nanite clouds can be switched between repair and abrasive attack modes via control spectrum changes.",
+    "realism_band": "theoretical",
+    "prerequisites": [
+      "tech.nanite_field_repair_t6",
+      "tech.exotic_field_reactors_t7"
+    ],
+    "unlocks": [
+      "module.special_nanite_strike_cloud_mk7"
+    ],
+    "references": [
+      "Nanorobotics",
+      "Adaptive control systems"
+    ]
+  },
+  {
+    "id": "tech.aneutronic_cycle_control_t6",
+    "name": "Aneutronic Cycle Control",
+    "branch": "power_systems",
+    "tier": 6,
+    "rp_cost": 6120,
+    "research_time_seconds": 8360,
+    "science_basis": "Closed-cycle control for aneutronic regimes smooths power output and lowers thermal spikes.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.aneutronic_fusion_torus_t6",
+      "tech.engine_systems_t5"
+    ],
+    "unlocks": [
+      "module.reactor_aneutronic_cycle_core_mk6",
+      "module.engine_magnetoplasmadynamic_drive_mk6"
+    ],
+    "references": [
+      "Fusion control systems",
+      "Power electronics"
+    ]
+  },
+  {
+    "id": "tech.comet_volatile_siphon_t5",
+    "name": "Comet Volatile Siphon Engineering",
+    "branch": "planetary_construction",
+    "tier": 5,
+    "rp_cost": 4380,
+    "research_time_seconds": 6100,
+    "science_basis": "Cryogenic phase-management improves volatile retention during comet extraction cycles.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.comet_cryoprocessing_t3",
+      "tech.volatile_harvesting_t2"
+    ],
+    "unlocks": [
+      "structure.comet_volatile_siphon_spindle_mk2"
+    ],
+    "references": [
+      "Cryogenic process engineering",
+      "Volatile capture systems"
+    ]
+  },
+  {
+    "id": "tech.asteroid_mesh_autofoundry_t6",
+    "name": "Asteroid Mesh Autofoundries",
+    "branch": "planetary_construction",
+    "tier": 6,
+    "rp_cost": 6180,
+    "research_time_seconds": 8480,
+    "science_basis": "Autonomous foundry meshes convert in-situ asteroid feedstocks into fabrication billets.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.asteroid_smelter_hubs_t4",
+      "tech.autonomous_nanoforge_t6"
+    ],
+    "unlocks": [
+      "structure.asteroid_mesh_autofoundry_mk2"
+    ],
+    "references": [
+      "In-situ resource utilization",
+      "Autonomous manufacturing"
+    ]
+  },
+  {
+    "id": "tech.moon_tidal_lift_logistics_t5",
+    "name": "Moon Tidal Lift Logistics",
+    "branch": "planetary_construction",
+    "tier": 5,
+    "rp_cost": 4420,
+    "research_time_seconds": 6180,
+    "science_basis": "Mass-lift synchronization with orbital windows cuts transfer losses for lunar export chains.",
+    "realism_band": "emerging",
+    "prerequisites": [
+      "tech.mass_driver_logistics_t4",
+      "tech.orbital_logistics_t2"
+    ],
+    "unlocks": [
+      "structure.moon_tidal_mass_lift_mk2"
+    ],
+    "references": [
+      "Launch window optimization",
+      "Mass driver logistics"
+    ]
+  },
+  {
+    "id": "tech.closed_loop_life_support_t5",
+    "name": "Closed-Loop Life Support",
+    "branch": "planetary_construction",
+    "tier": 5,
+    "rp_cost": 4720,
+    "research_time_seconds": 6900,
+    "science_basis": "Closed ecological control recycles air, water, and organics to sustain crews and colonies with lower resupply mass.",
+    "realism_band": "established",
+    "references": [
+      "https://ntrs.nasa.gov/citations/20150022077",
+      "https://www.nasa.gov/directorates/esdmd/hhp/iss-research/recycling-water-on-the-iss/"
+    ],
+    "prerequisites": [
+      "tech.modular_habitat_expansions_t5",
+      "tech.reactor_systems_t5"
+    ],
+    "unlocks": [
+      "module.utility_closed_loop_life_support_mk5",
+      "structure.planetary_life_support_nexus"
+    ]
+  },
+  {
+    "id": "tech.hydroponic_bioreactors_t5",
+    "name": "Hydroponic Bioreactors",
+    "branch": "planetary_construction",
+    "tier": 5,
+    "rp_cost": 4680,
+    "research_time_seconds": 6750,
+    "science_basis": "Hydroponic nutrient loops and algal bioreactors stabilize oxygen and calorie output under variable gravity conditions.",
+    "realism_band": "established",
+    "references": [
+      "https://www.nasa.gov/feature/next-step-in-plant-growth-research-on-space-station",
+      "https://ntrs.nasa.gov/citations/20210019638"
+    ],
+    "prerequisites": [
+      "tech.closed_loop_life_support_t5",
+      "tech.utility_systems_t5"
+    ],
+    "unlocks": [
+      "module.special_hydroponic_bioreactor_bay_mk5",
+      "structure.planetary_hydroponic_arcology"
+    ]
+  },
+  {
+    "id": "tech.atmospheric_water_reclamation_t5",
+    "name": "Atmospheric Water Reclamation",
+    "branch": "planetary_construction",
+    "tier": 5,
+    "rp_cost": 4520,
+    "research_time_seconds": 6480,
+    "science_basis": "Membrane and sorption systems recover potable water from air and industrial vapor streams.",
+    "realism_band": "established",
+    "references": [
+      "https://www.nasa.gov/directorates/esdmd/hhp/iss-research/recycling-water-on-the-iss/",
+      "https://www.nasa.gov/wp-content/uploads/2022/07/sswp-17-004-life_support_baseline_values_and_assumptions_document.pdf"
+    ],
+    "prerequisites": [
+      "tech.closed_loop_life_support_t5",
+      "tech.utility_thermal_t1"
+    ],
+    "unlocks": [
+      "module.utility_atmospheric_water_reclaimer_mk5",
+      "structure.moon_water_reclamation_array"
+    ]
+  },
+  {
+    "id": "tech.additive_microfactory_printing_t5",
+    "name": "Additive Microfactory Printing",
+    "branch": "faction_infrastructure",
+    "tier": 5,
+    "rp_cost": 4840,
+    "research_time_seconds": 7050,
+    "science_basis": "Distributed additive manufacturing cells reduce logistics bottlenecks and accelerate field repairs.",
+    "realism_band": "established",
+    "references": [
+      "https://www.nasa.gov/mission/3d-printing-in-space/",
+      "https://www.nasa.gov/centers-and-facilities/glenn/in-space-manufacturing/"
+    ],
+    "prerequisites": [
+      "tech.trade_exchange_automation_t5",
+      "tech.utility_systems_t5"
+    ],
+    "unlocks": [
+      "module.special_field_3d_printer_forge_mk5",
+      "structure.additive_fabrication_foundry"
+    ]
+  },
+  {
+    "id": "tech.distributed_food_synthesis_t6",
+    "name": "Distributed Food Synthesis",
+    "branch": "planetary_construction",
+    "tier": 6,
+    "rp_cost": 6280,
+    "research_time_seconds": 8700,
+    "science_basis": "Autonomous nutrient synthesis and fermentation nets raise habitat resilience during disrupted shipping windows.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.nasa.gov/humans-in-space/how-space-station-sustains-astronauts/",
+      "https://www.nasa.gov/mission/3d-printing-in-space/"
+    ],
+    "prerequisites": [
+      "tech.hydroponic_bioreactors_t5",
+      "tech.synthetic_command_intelligence_t6"
+    ],
+    "unlocks": [
+      "module.special_nutrient_bioforge_pod_mk6",
+      "structure.planetary_nutrient_biorefinery"
+    ]
+  },
+  {
+    "id": "tech.emergency_biosphere_hardening_t6",
+    "name": "Emergency Biosphere Hardening",
+    "branch": "defensive_systems",
+    "tier": 6,
+    "rp_cost": 6140,
+    "research_time_seconds": 8420,
+    "science_basis": "Layered pressure compartments and fault-tolerant life-support routing improve survivability during combat and disasters.",
+    "realism_band": "established",
+    "references": [
+      "https://www.nasa.gov/humans-in-space/how-space-station-sustains-astronauts/",
+      "https://ntrs.nasa.gov/citations/20150022077"
+    ],
+    "prerequisites": [
+      "tech.closed_loop_life_support_t5",
+      "tech.frontier_defense_grids_t2"
+    ],
+    "unlocks": [
+      "module.utility_emergency_biosphere_core_mk6",
+      "structure.habitat_emergency_biosphere_bunker"
+    ]
+  },
+  {
+    "id": "tech.offgrid_nanofab_mesh_t6",
+    "name": "Offgrid Nanofab Mesh",
+    "branch": "faction_infrastructure",
+    "tier": 6,
+    "rp_cost": 6360,
+    "research_time_seconds": 8860,
+    "science_basis": "Self-routing microfactories combine additive manufacturing with local scrap reprocessing for expeditionary fleets.",
+    "realism_band": "emerging",
+    "references": [
+      "https://www.nasa.gov/mission/3d-printing-in-space/",
+      "https://www.nasa.gov/centers-and-facilities/glenn/in-space-manufacturing/"
+    ],
+    "prerequisites": [
+      "tech.additive_microfactory_printing_t5",
+      "tech.autonomous_nanoforge_t6"
+    ],
+    "unlocks": [
+      "module.special_offgrid_nanofab_mesh_mk6"
+    ]
+  },
+  {
+    "id": "tech.cryogenic_seedbanks_t6",
+    "name": "Cryogenic Seedbank Vaults",
+    "branch": "defensive_systems",
+    "tier": 6,
+    "rp_cost": 6020,
+    "research_time_seconds": 8280,
+    "science_basis": "Cryogenic biodiversity vaults preserve agricultural and medical biostocks across long mission horizons.",
+    "realism_band": "established",
+    "references": [
+      "https://www.nasa.gov/feature/next-step-in-plant-growth-research-on-space-station",
+      "https://ntrs.nasa.gov/citations/20210019638"
+    ],
+    "prerequisites": [
+      "tech.distributed_food_synthesis_t6",
+      "tech.biomimetic_electrosense_t6"
+    ],
+    "unlocks": [
+      "module.special_cryogenic_seedbank_vault_mk6"
+    ]
+  }
+]

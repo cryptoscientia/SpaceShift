@@ -1,0 +1,130 @@
+[
+  {
+    "id": "planet_type.rocky_world",
+    "name": "Rocky World",
+    "category": "rocky",
+    "base_scan_difficulty": 1.0,
+    "habitability_score": 0.45,
+    "base_resource_modifiers": {
+      "mineral_yield_pct": 10,
+      "artifact_yield_pct": -5,
+      "research_yield_pct": 0,
+      "element_rarity_roll_pct": 5
+    },
+    "special_events": [
+      "event.tectonic_surge"
+    ]
+  },
+  {
+    "id": "planet_type.super_earth",
+    "name": "Super-Earth",
+    "category": "super_earth",
+    "base_scan_difficulty": 1.2,
+    "habitability_score": 0.55,
+    "base_resource_modifiers": {
+      "mineral_yield_pct": 15,
+      "artifact_yield_pct": 0,
+      "research_yield_pct": 5,
+      "element_rarity_roll_pct": 8
+    },
+    "special_events": [
+      "event.deep_core_echo"
+    ]
+  },
+  {
+    "id": "planet_type.sub_neptune",
+    "name": "Sub-Neptune",
+    "category": "sub_neptune",
+    "base_scan_difficulty": 1.5,
+    "habitability_score": 0.2,
+    "base_resource_modifiers": {
+      "mineral_yield_pct": -8,
+      "artifact_yield_pct": 12,
+      "research_yield_pct": 8,
+      "element_rarity_roll_pct": 10
+    },
+    "special_events": [
+      "event.atmospheric_lensing"
+    ]
+  },
+  {
+    "id": "planet_type.gas_giant",
+    "name": "Gas Giant",
+    "category": "gas_giant",
+    "base_scan_difficulty": 1.8,
+    "habitability_score": 0.05,
+    "base_resource_modifiers": {
+      "mineral_yield_pct": -20,
+      "artifact_yield_pct": 10,
+      "research_yield_pct": 12,
+      "element_rarity_roll_pct": 14
+    },
+    "special_events": [
+      "event.storm_harvest"
+    ]
+  },
+  {
+    "id": "planet_type.ice_world",
+    "name": "Ice World",
+    "category": "ice",
+    "base_scan_difficulty": 1.1,
+    "habitability_score": 0.25,
+    "base_resource_modifiers": {
+      "mineral_yield_pct": 2,
+      "artifact_yield_pct": 6,
+      "research_yield_pct": 4,
+      "element_rarity_roll_pct": 6
+    },
+    "special_events": [
+      "event.cryovolcanic_vent"
+    ]
+  },
+  {
+    "id": "planet_type.toxic_world",
+    "name": "Toxic World",
+    "category": "toxic",
+    "base_scan_difficulty": 1.6,
+    "habitability_score": 0.08,
+    "base_resource_modifiers": {
+      "mineral_yield_pct": 8,
+      "artifact_yield_pct": 10,
+      "research_yield_pct": 0,
+      "element_rarity_roll_pct": 12
+    },
+    "special_events": [
+      "event.biohazard_bloom"
+    ]
+  },
+  {
+    "id": "planet_type.habitable_ocean",
+    "name": "Habitable Ocean World",
+    "category": "habitable",
+    "base_scan_difficulty": 1.3,
+    "habitability_score": 0.8,
+    "base_resource_modifiers": {
+      "mineral_yield_pct": -4,
+      "artifact_yield_pct": 4,
+      "research_yield_pct": 10,
+      "element_rarity_roll_pct": 4
+    },
+    "special_events": [
+      "event.life_signature_burst"
+    ]
+  },
+  {
+    "id": "planet_type.metal_rich_world",
+    "name": "Metal-Rich World",
+    "category": "metal_rich",
+    "base_scan_difficulty": 1.7,
+    "habitability_score": 0.12,
+    "base_resource_modifiers": {
+      "mineral_yield_pct": 25,
+      "artifact_yield_pct": -6,
+      "research_yield_pct": 2,
+      "element_rarity_roll_pct": 18
+    },
+    "special_events": [
+      "event.rare_lode_exposure"
+    ]
+  }
+]

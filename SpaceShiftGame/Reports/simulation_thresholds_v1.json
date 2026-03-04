@@ -1,0 +1,34 @@
+{
+  "version": "v1",
+  "name": "SpaceShift Simulation Regression Thresholds",
+  "required": {
+    "smoke_pass_count_min": 17,
+    "worlds_scanned_min": 288,
+    "structures_built_min": 3,
+    "quality_sample_size_min": 120,
+    "required_quality_modules": [
+      "module.special_command_ai_mk5",
+      "module.special_microhangar_swarm_bay_mk6",
+      "module.special_singularity_battle_oracle_mk8"
+    ],
+    "market_credits_delta_min": -500.0,
+    "market_executed_trades_min": 1,
+    "ship_space_balanced_can_fit": true,
+    "ship_space_overloaded_can_fit": false,
+    "ai_progression_monotonic_non_decreasing": true,
+    "ai_min_average_win_rates": {
+      "build.expedition_t2": 0.03,
+      "build.battleline_t5": 0.25,
+      "build.carrier_t6": 0.4,
+      "build.nullspace_t7": 0.55,
+      "build.singularity_t8": 0.7
+    },
+    "ai_max_average_win_rates": {
+      "build.expedition_t2": 0.35,
+      "build.battleline_t5": 0.75,
+      "build.carrier_t6": 0.9,
+      "build.nullspace_t7": 0.98,
+      "build.singularity_t8": 0.995
+    }
+  }
+}

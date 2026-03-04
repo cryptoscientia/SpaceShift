@@ -1,0 +1,26 @@
+[
+  {
+    "id": "region.core_worlds",
+    "name": "Core Worlds Exchange",
+    "description": "High-liquidity lawful exchange with narrow spreads and fast settlement.",
+    "liquidity_multiplier": 1.2,
+    "risk_premium_pct": -4.0,
+    "spread_multiplier": 0.85
+  },
+  {
+    "id": "region.frontier_corridors",
+    "name": "Frontier Corridor Markets",
+    "description": "Mixed-liquidity trade lanes with convoy risks and moderate volatility premiums.",
+    "liquidity_multiplier": 0.95,
+    "risk_premium_pct": 6.5,
+    "spread_multiplier": 1.1
+  },
+  {
+    "id": "region.anomaly_fringe",
+    "name": "Anomaly Fringe Bazaars",
+    "description": "Thin markets around unstable sectors; high spreads and risk-adjusted pricing.",
+    "liquidity_multiplier": 0.72,
+    "risk_premium_pct": 14.0,
+    "spread_multiplier": 1.32
+  }
+]

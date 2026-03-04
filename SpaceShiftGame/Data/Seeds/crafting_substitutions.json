@@ -1,0 +1,1820 @@
+[
+  {
+    "id": "sub.tiau_refractory_variant",
+    "item_id": "module.armor_tiau_laminate_mk6",
+    "name": "TiAu Refractory Variant",
+    "description": "Reduce Au dependency by using heavier refractory stack and thicker Ti lattice.",
+    "tradeoff_notes": [
+      "Lower gold demand; higher refractory demand.",
+      "Slightly higher credit fabrication overhead."
+    ],
+    "override_cost": {
+      "credits": 1180000,
+      "elements": [
+        {
+          "symbol": "Ti",
+          "amount": 620
+        },
+        {
+          "symbol": "Au",
+          "amount": 110
+        },
+        {
+          "symbol": "W",
+          "amount": 130
+        },
+        {
+          "symbol": "Ta",
+          "amount": 90
+        },
+        {
+          "symbol": "C",
+          "amount": 220
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.metamaterial_oxide_stack",
+    "item_id": "module.jammer_metamaterial_cloak_mk6",
+    "name": "Oxide Stack Cloak Matrix",
+    "description": "Use oxide-rich metamaterial layers to reduce gallium pressure at the cost of added ceramics.",
+    "tradeoff_notes": [
+      "Lower Ga usage; more Al/Si and Nb process support.",
+      "Slight increase in assembly credits."
+    ],
+    "override_cost": {
+      "credits": 990000,
+      "elements": [
+        {
+          "symbol": "C",
+          "amount": 470
+        },
+        {
+          "symbol": "Si",
+          "amount": 360
+        },
+        {
+          "symbol": "Ga",
+          "amount": 85
+        },
+        {
+          "symbol": "Ge",
+          "amount": 120
+        },
+        {
+          "symbol": "Al",
+          "amount": 210
+        },
+        {
+          "symbol": "Nb",
+          "amount": 95
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.nanoceramic_boron_weave",
+    "item_id": "module.shield_nanoceramic_mesh_mk6",
+    "name": "Boron Weave Shield Mesh",
+    "description": "Increase boron-carbide layering to reduce hafnium and niobium dependency in shield lattice fabrication.",
+    "tradeoff_notes": [
+      "Lower Hf/Nb use in constrained markets.",
+      "Higher boron and carbon feedstock demand."
+    ],
+    "override_cost": {
+      "credits": 1005000,
+      "elements": [
+        {
+          "symbol": "B",
+          "amount": 310
+        },
+        {
+          "symbol": "C",
+          "amount": 390
+        },
+        {
+          "symbol": "Si",
+          "amount": 280
+        },
+        {
+          "symbol": "Ti",
+          "amount": 170
+        },
+        {
+          "symbol": "Hf",
+          "amount": 60
+        },
+        {
+          "symbol": "Nb",
+          "amount": 45
+        },
+        {
+          "symbol": "Al",
+          "amount": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.cognitive_core_palladium_saver",
+    "item_id": "module.special_cognitive_battle_core_mk6",
+    "name": "Pd-Saver Cognitive Core",
+    "description": "Photonic matrix routing variant that lowers Pd and shifts toward gold and silicon volume.",
+    "tradeoff_notes": [
+      "Lower Pd demand in constrained markets.",
+      "Higher Si wafer and Au interconnect demand."
+    ],
+    "override_cost": {
+      "credits": 1050000,
+      "elements": [
+        {
+          "symbol": "Si",
+          "amount": 480
+        },
+        {
+          "symbol": "Ge",
+          "amount": 220
+        },
+        {
+          "symbol": "Ga",
+          "amount": 170
+        },
+        {
+          "symbol": "In",
+          "amount": 120
+        },
+        {
+          "symbol": "Pd",
+          "amount": 35
+        },
+        {
+          "symbol": "Au",
+          "amount": 85
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.casimir_graphene_bus",
+    "item_id": "module.reactor_casimir_cavity_mk1",
+    "name": "Graphene Bus Casimir Core",
+    "description": "Shift cavity bus architecture to graphene-rich conductors, reducing niobium and gold pressure.",
+    "tradeoff_notes": [
+      "Lower Au/Nb use in reactor production runs.",
+      "Higher copper and carbon throughput requirements."
+    ],
+    "override_cost": {
+      "credits": 812000,
+      "elements": [
+        {
+          "symbol": "Cu",
+          "amount": 620
+        },
+        {
+          "symbol": "Nb",
+          "amount": 130
+        },
+        {
+          "symbol": "Mo",
+          "amount": 260
+        },
+        {
+          "symbol": "C",
+          "amount": 430
+        },
+        {
+          "symbol": "Au",
+          "amount": 34
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.er_epr_optical_bus_variant",
+    "item_id": "module.special_er_epr_comms_mk1",
+    "name": "Optical Bus ER=EPR Relay",
+    "description": "Switch relay bus to optical-heavy architecture to mitigate platinum bottlenecks.",
+    "tradeoff_notes": [
+      "Lower Pt dependency.",
+      "Higher Ge and Si optical substrate usage."
+    ],
+    "override_cost": {
+      "credits": 1080000,
+      "elements": [
+        {
+          "symbol": "Si",
+          "amount": 500
+        },
+        {
+          "symbol": "Ga",
+          "amount": 150
+        },
+        {
+          "symbol": "Ge",
+          "amount": 260
+        },
+        {
+          "symbol": "Pd",
+          "amount": 68
+        },
+        {
+          "symbol": "Pt",
+          "amount": 28
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.wormhole_damper_ta_saver",
+    "item_id": "module.utility_wormhole_shear_damper_mk1",
+    "name": "Tantalum-Saver Shear Damper",
+    "description": "Retune inertial dampers toward titanium-niobium framing to reduce reliance on tantalum-heavy parts.",
+    "tradeoff_notes": [
+      "Lower Ta/Re dependency.",
+      "Higher Ti/Nb/W machining demand."
+    ],
+    "override_cost": {
+      "credits": 1210000,
+      "elements": [
+        {
+          "symbol": "Ti",
+          "amount": 420
+        },
+        {
+          "symbol": "Nb",
+          "amount": 210
+        },
+        {
+          "symbol": "Hf",
+          "amount": 90
+        },
+        {
+          "symbol": "W",
+          "amount": 210
+        },
+        {
+          "symbol": "Re",
+          "amount": 52
+        },
+        {
+          "symbol": "Ta",
+          "amount": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.settler_composite_frame",
+    "item_id": "hull.settler_scout",
+    "name": "Composite Settler Frame",
+    "description": "Use mixed alloy composites for early scout hulls to reduce primary iron load.",
+    "tradeoff_notes": [
+      "Lower Fe requirement for starter hull builds.",
+      "Higher aluminum and carbon composite demand."
+    ],
+    "override_cost": {
+      "credits": 12800,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 150
+        },
+        {
+          "symbol": "Al",
+          "amount": 180
+        },
+        {
+          "symbol": "C",
+          "amount": 60
+        },
+        {
+          "symbol": "Ti",
+          "amount": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.logistics_fiber_backbone",
+    "item_id": "structure.orbital_logistics_node",
+    "name": "Fiber Backbone Logistics Node",
+    "description": "Fiber-optic and ceramic relay backbone that trims copper bus demand.",
+    "tradeoff_notes": [
+      "Lower copper dependency for logistics expansion.",
+      "Higher silicon/aluminum and ceramic process load."
+    ],
+    "override_cost": {
+      "credits": 296000,
+      "elements": [
+        {
+          "symbol": "Al",
+          "amount": 150
+        },
+        {
+          "symbol": "Cu",
+          "amount": 35
+        },
+        {
+          "symbol": "Si",
+          "amount": 95
+        },
+        {
+          "symbol": "C",
+          "amount": 70
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.wormhole_lensing_ceramic_truss",
+    "item_id": "structure.wormhole_lensing_station",
+    "name": "Ceramic Truss Lensing Station",
+    "description": "Shift wormhole lens support to ceramic truss assemblies to reduce platinum bottlenecks.",
+    "tradeoff_notes": [
+      "Lower Pt demand for deep-space lensing builds.",
+      "Higher Nb/Hf/Ta precision metallurgy demand."
+    ],
+    "override_cost": {
+      "credits": 7480000,
+      "elements": [
+        {
+          "symbol": "Si",
+          "amount": 700
+        },
+        {
+          "symbol": "Ga",
+          "amount": 210
+        },
+        {
+          "symbol": "Ge",
+          "amount": 300
+        },
+        {
+          "symbol": "Nb",
+          "amount": 220
+        },
+        {
+          "symbol": "Hf",
+          "amount": 140
+        },
+        {
+          "symbol": "Pt",
+          "amount": 45
+        },
+        {
+          "symbol": "Ta",
+          "amount": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.dyson_anchor_iridium_saver",
+    "item_id": "structure.dyson_swarm_anchor",
+    "name": "Iridium-Saver Anchor Truss",
+    "description": "Replace part of iridium cluster with molybdenum/tantalum truss reinforcement.",
+    "tradeoff_notes": [
+      "Lower Ir use for swarm anchor builds.",
+      "Higher Mo/Ta metallurgy requirement."
+    ],
+    "override_cost": {
+      "credits": 4950000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 4600
+        },
+        {
+          "symbol": "Ni",
+          "amount": 2200
+        },
+        {
+          "symbol": "Ti",
+          "amount": 1700
+        },
+        {
+          "symbol": "Mo",
+          "amount": 820
+        },
+        {
+          "symbol": "Ta",
+          "amount": 760
+        },
+        {
+          "symbol": "Ir",
+          "amount": 260
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.metamaterial_stealth_carbon_route",
+    "item_id": "tech.metamaterial_stealth_t6",
+    "name": "Carbon-Lattice Stealth Path",
+    "description": "Research variant emphasizing carbon-lattice absorber design to reduce platinum exposure.",
+    "tradeoff_notes": [
+      "Lower Pt and Ga requirement in stealth R&D.",
+      "Higher carbon and silicon process burden."
+    ],
+    "override_cost": {
+      "credits": 6180000,
+      "elements": [
+        {
+          "symbol": "C",
+          "amount": 1850
+        },
+        {
+          "symbol": "Si",
+          "amount": 1500
+        },
+        {
+          "symbol": "Ge",
+          "amount": 700
+        },
+        {
+          "symbol": "Ga",
+          "amount": 280
+        },
+        {
+          "symbol": "Pt",
+          "amount": 110
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.synthetic_command_low_power_path",
+    "item_id": "tech.synthetic_command_intelligence_t6",
+    "name": "Low-Power Cognition Path",
+    "description": "Research route emphasizing efficient inference hardware and moderated reactor burden.",
+    "tradeoff_notes": [
+      "Lower Ga/In requirements.",
+      "Higher C and Si process envelope."
+    ],
+    "override_cost": {
+      "credits": 6920000,
+      "elements": [
+        {
+          "symbol": "Si",
+          "amount": 1640
+        },
+        {
+          "symbol": "Ga",
+          "amount": 380
+        },
+        {
+          "symbol": "Ge",
+          "amount": 760
+        },
+        {
+          "symbol": "In",
+          "amount": 180
+        },
+        {
+          "symbol": "C",
+          "amount": 1360
+        },
+        {
+          "symbol": "Pd",
+          "amount": 210
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.dyson_swarm_modular_path",
+    "item_id": "tech.dyson_swarm_fabrication_t8",
+    "name": "Modular Swarm Fabrication Path",
+    "description": "Research route favoring modular scaffold automation over precious-metal-heavy control assemblies.",
+    "tradeoff_notes": [
+      "Lower Au and Re exposure in mega-structure research.",
+      "Higher Fe/Si/C process and tooling requirements."
+    ],
+    "override_cost": {
+      "credits": 14300000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 4200
+        },
+        {
+          "symbol": "Si",
+          "amount": 3900
+        },
+        {
+          "symbol": "C",
+          "amount": 3600
+        },
+        {
+          "symbol": "Cu",
+          "amount": 2200
+        },
+        {
+          "symbol": "Ni",
+          "amount": 1800
+        },
+        {
+          "symbol": "Au",
+          "amount": 240
+        },
+        {
+          "symbol": "Re",
+          "amount": 220
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.nanite_repair_carbide_route",
+    "item_id": "tech.nanite_field_repair_t6",
+    "name": "Carbide Repair Route",
+    "description": "Research path emphasizing carbide scaffold durability over palladium-rich swarm catalysts.",
+    "tradeoff_notes": [
+      "Lower Pd demand.",
+      "Higher C and Ti process burden."
+    ],
+    "override_cost": {
+      "credits": 6720000,
+      "elements": [
+        {
+          "symbol": "C",
+          "amount": 2200
+        },
+        {
+          "symbol": "Ti",
+          "amount": 980
+        },
+        {
+          "symbol": "Ni",
+          "amount": 820
+        },
+        {
+          "symbol": "Si",
+          "amount": 1260
+        },
+        {
+          "symbol": "Pd",
+          "amount": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.magnetoplasma_rare_gas_route",
+    "item_id": "module.shield_magnetoplasma_envelope_mk6",
+    "name": "Rare-Gas Envelope Route",
+    "description": "Build variant that shifts shield plasma stability toward noble-gas control loops.",
+    "tradeoff_notes": [
+      "Lower Nb/Ta tooling pressure.",
+      "Higher Xe/Kr storage requirement."
+    ],
+    "override_cost": {
+      "credits": 2310000,
+      "elements": [
+        {
+          "symbol": "Al",
+          "amount": 620
+        },
+        {
+          "symbol": "Cu",
+          "amount": 620
+        },
+        {
+          "symbol": "Xe",
+          "amount": 180
+        },
+        {
+          "symbol": "Kr",
+          "amount": 150
+        },
+        {
+          "symbol": "Nb",
+          "amount": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.celestial_barge_ceramic_frame",
+    "item_id": "hull.celestial_barge_t5",
+    "name": "Ceramic Frame Barge Path",
+    "description": "Hull route favoring ceramic-composite spars to reduce nickel-heavy frame dependency.",
+    "tradeoff_notes": [
+      "Lower Ni and Co usage.",
+      "Higher Si/C and refractory ceramic processing."
+    ],
+    "override_cost": {
+      "credits": 9120000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 3900
+        },
+        {
+          "symbol": "Si",
+          "amount": 3300
+        },
+        {
+          "symbol": "C",
+          "amount": 2800
+        },
+        {
+          "symbol": "Al",
+          "amount": 2700
+        },
+        {
+          "symbol": "Ni",
+          "amount": 620
+        },
+        {
+          "symbol": "Zr",
+          "amount": 280
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.corsair_interdictor_mass_lite",
+    "item_id": "hull.corsair_interdictor_t6",
+    "name": "Mass-Lite Interdictor Path",
+    "description": "Interdictor frame option reducing heavy tungsten armor in exchange for advanced truss geometry.",
+    "tradeoff_notes": [
+      "Lower W requirement.",
+      "Higher Ti/C truss fabrication demand."
+    ],
+    "override_cost": {
+      "credits": 13200000,
+      "elements": [
+        {
+          "symbol": "Ti",
+          "amount": 2600
+        },
+        {
+          "symbol": "C",
+          "amount": 2600
+        },
+        {
+          "symbol": "Fe",
+          "amount": 3400
+        },
+        {
+          "symbol": "Ni",
+          "amount": 1200
+        },
+        {
+          "symbol": "W",
+          "amount": 360
+        },
+        {
+          "symbol": "Hf",
+          "amount": 220
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.lattice_runner_stealth_dense",
+    "item_id": "hull.lattice_runner_t7",
+    "name": "Dense-Stealth Runner Path",
+    "description": "Stealth runner design prioritizing signature suppression at the cost of additional rare coating inputs.",
+    "tradeoff_notes": [
+      "Better stealth material stack.",
+      "Higher Pt/Ga procurement exposure."
+    ],
+    "override_cost": {
+      "credits": 16200000,
+      "elements": [
+        {
+          "symbol": "C",
+          "amount": 3000
+        },
+        {
+          "symbol": "Ti",
+          "amount": 2200
+        },
+        {
+          "symbol": "Si",
+          "amount": 1900
+        },
+        {
+          "symbol": "Ga",
+          "amount": 420
+        },
+        {
+          "symbol": "Pt",
+          "amount": 220
+        },
+        {
+          "symbol": "Re",
+          "amount": 160
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.gravity_projector_tantalum_route",
+    "item_id": "module.weapon_gravity_burst_projector_mk7",
+    "name": "Tantalum Lens Route",
+    "description": "Projector lens stack that substitutes tantalum-rich phase meshes for iridium-heavy emitter rings.",
+    "tradeoff_notes": [
+      "Lower Ir usage.",
+      "Higher Ta/Nb precision machining."
+    ],
+    "override_cost": {
+      "credits": 3520000,
+      "elements": [
+        {
+          "symbol": "Ta",
+          "amount": 320
+        },
+        {
+          "symbol": "Nb",
+          "amount": 360
+        },
+        {
+          "symbol": "W",
+          "amount": 480
+        },
+        {
+          "symbol": "Cu",
+          "amount": 700
+        },
+        {
+          "symbol": "Ir",
+          "amount": 90
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.ramfield_driver_tungsten_route",
+    "item_id": "module.weapon_mass_ramfield_driver_mk7",
+    "name": "Tungsten Ramfield Route",
+    "description": "Manufacturing route pushing dense tungsten penetrator tolerances for improved ballistic coherence.",
+    "tradeoff_notes": [
+      "Higher W and Mo demand.",
+      "Lower Ti and C processing complexity."
+    ],
+    "override_cost": {
+      "credits": 3280000,
+      "elements": [
+        {
+          "symbol": "W",
+          "amount": 520
+        },
+        {
+          "symbol": "Mo",
+          "amount": 360
+        },
+        {
+          "symbol": "Fe",
+          "amount": 860
+        },
+        {
+          "symbol": "Ti",
+          "amount": 420
+        },
+        {
+          "symbol": "C",
+          "amount": 620
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.superconductor_lock_nitride_route",
+    "item_id": "module.utility_quantum_superconductor_lock_mk7",
+    "name": "Nitride Lock Route",
+    "description": "Rebalances lock-core fabrication toward nitride layers and lower silver bus fractions.",
+    "tradeoff_notes": [
+      "Lower Ag requirement.",
+      "Higher Y/Ba/Cu ceramic superconductor burden."
+    ],
+    "override_cost": {
+      "credits": 2820000,
+      "elements": [
+        {
+          "symbol": "Y",
+          "amount": 260
+        },
+        {
+          "symbol": "Ba",
+          "amount": 240
+        },
+        {
+          "symbol": "Cu",
+          "amount": 760
+        },
+        {
+          "symbol": "Nb",
+          "amount": 420
+        },
+        {
+          "symbol": "Ag",
+          "amount": 110
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.antimatter_microcapsule_safety_route",
+    "item_id": "tech.antimatter_microcapsule_fabrication_t8",
+    "name": "Safety-First Capsule Route",
+    "description": "Research route that expands containment redundancy and reduces fissile capsule density per unit.",
+    "tradeoff_notes": [
+      "Lower Pu demand in research prototypes.",
+      "Higher Pt/Ir containment instrumentation requirements."
+    ],
+    "override_cost": {
+      "credits": 18800000,
+      "elements": [
+        {
+          "symbol": "Pt",
+          "amount": 520
+        },
+        {
+          "symbol": "Ir",
+          "amount": 460
+        },
+        {
+          "symbol": "Au",
+          "amount": 340
+        },
+        {
+          "symbol": "Ta",
+          "amount": 380
+        },
+        {
+          "symbol": "Pu",
+          "amount": 80
+        },
+        {
+          "symbol": "U",
+          "amount": 210
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.zero_point_catalyst_preheater_route",
+    "item_id": "tech.zero_point_catalysis_t8",
+    "name": "Catalyst Preheater Route",
+    "description": "Front-loads thermal preconditioning arrays to reduce rare-field igniter material stress.",
+    "tradeoff_notes": [
+      "Lower Re/Hf igniter burden.",
+      "Higher Xe/Kr conditioning demand."
+    ],
+    "override_cost": {
+      "credits": 19600000,
+      "elements": [
+        {
+          "symbol": "W",
+          "amount": 620
+        },
+        {
+          "symbol": "Nb",
+          "amount": 480
+        },
+        {
+          "symbol": "Ta",
+          "amount": 460
+        },
+        {
+          "symbol": "Xe",
+          "amount": 420
+        },
+        {
+          "symbol": "Kr",
+          "amount": 380
+        },
+        {
+          "symbol": "Re",
+          "amount": 140
+        },
+        {
+          "symbol": "Hf",
+          "amount": 170
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.special_adaptive_fabricator_mk5_alternate_route",
+    "item_id": "module.special_adaptive_fabricator_mk5",
+    "name": "Adaptive Fabricator Core Mk5 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 959200,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 406
+        },
+        {
+          "symbol": "Si",
+          "amount": 446
+        },
+        {
+          "symbol": "Cu",
+          "amount": 358
+        },
+        {
+          "symbol": "Ni",
+          "amount": 173
+        },
+        {
+          "symbol": "Ag",
+          "amount": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.scanner_cryocognition_array_mk5_alternate_route",
+    "item_id": "module.scanner_cryocognition_array_mk5",
+    "name": "Cryocognition Sensor Array Mk5 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 991900,
+      "elements": [
+        {
+          "symbol": "Si",
+          "amount": 328
+        },
+        {
+          "symbol": "He",
+          "amount": 298
+        },
+        {
+          "symbol": "Ge",
+          "amount": 202
+        },
+        {
+          "symbol": "Ga",
+          "amount": 119
+        },
+        {
+          "symbol": "In",
+          "amount": 70
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.weapon_impact_lance_autocannon_mk5_alternate_route",
+    "item_id": "module.weapon_impact_lance_autocannon_mk5",
+    "name": "Impact Lance Autocannon Mk5 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1046400,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 546
+        },
+        {
+          "symbol": "C",
+          "amount": 471
+        },
+        {
+          "symbol": "Cr",
+          "amount": 190
+        },
+        {
+          "symbol": "Ti",
+          "amount": 151
+        },
+        {
+          "symbol": "W",
+          "amount": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.jammer_shadow_caravan_masker_mk5_alternate_route",
+    "item_id": "module.jammer_shadow_caravan_masker_mk5",
+    "name": "Shadow Caravan Masker Mk5 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 915600,
+      "elements": [
+        {
+          "symbol": "C",
+          "amount": 390
+        },
+        {
+          "symbol": "Si",
+          "amount": 372
+        },
+        {
+          "symbol": "Ga",
+          "amount": 101
+        },
+        {
+          "symbol": "Nb",
+          "amount": 65
+        },
+        {
+          "symbol": "Ag",
+          "amount": 55
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.shield_harmonic_ward_mesh_mk5_alternate_route",
+    "item_id": "module.shield_harmonic_ward_mesh_mk5",
+    "name": "Harmonic Ward Mesh Mk5 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1079100,
+      "elements": [
+        {
+          "symbol": "Si",
+          "amount": 328
+        },
+        {
+          "symbol": "B",
+          "amount": 298
+        },
+        {
+          "symbol": "Ti",
+          "amount": 202
+        },
+        {
+          "symbol": "Nb",
+          "amount": 73
+        },
+        {
+          "symbol": "Hf",
+          "amount": 52
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.reactor_forge_logic_core_mk5_alternate_route",
+    "item_id": "module.reactor_forge_logic_core_mk5",
+    "name": "Forge Logic Reactor Core Mk5 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1111800,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 484
+        },
+        {
+          "symbol": "Cu",
+          "amount": 471
+        },
+        {
+          "symbol": "Li",
+          "amount": 291
+        },
+        {
+          "symbol": "Mo",
+          "amount": 151
+        },
+        {
+          "symbol": "Nb",
+          "amount": 90
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.armor_gravity_foundry_plate_mk5_alternate_route",
+    "item_id": "module.armor_gravity_foundry_plate_mk5",
+    "name": "Gravity Foundry Plate Mk5 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1013700,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 608
+        },
+        {
+          "symbol": "Ni",
+          "amount": 273
+        },
+        {
+          "symbol": "Cr",
+          "amount": 235
+        },
+        {
+          "symbol": "Ti",
+          "amount": 173
+        },
+        {
+          "symbol": "W",
+          "amount": 95
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.special_symbiotic_sporeforge_mk5_alternate_route",
+    "item_id": "module.special_symbiotic_sporeforge_mk5",
+    "name": "Symbiotic Sporeforge Mk5 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 942850,
+      "elements": [
+        {
+          "symbol": "C",
+          "amount": 320
+        },
+        {
+          "symbol": "N",
+          "amount": 372
+        },
+        {
+          "symbol": "K",
+          "amount": 246
+        },
+        {
+          "symbol": "P",
+          "amount": 194
+        },
+        {
+          "symbol": "S",
+          "amount": 140
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.relay_probability_mesh_node_mk6_alternate_route",
+    "item_id": "module.relay_probability_mesh_node_mk6",
+    "name": "Probability Mesh Relay Mk6 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1351600,
+      "elements": [
+        {
+          "symbol": "Si",
+          "amount": 413
+        },
+        {
+          "symbol": "Ge",
+          "amount": 298
+        },
+        {
+          "symbol": "Ga",
+          "amount": 157
+        },
+        {
+          "symbol": "Pd",
+          "amount": 71
+        },
+        {
+          "symbol": "Au",
+          "amount": 48
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.engine_vector_predation_thrusters_mk6_alternate_route",
+    "item_id": "module.engine_vector_predation_thrusters_mk6",
+    "name": "Vector Predation Thrusters Mk6 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1291650,
+      "elements": [
+        {
+          "symbol": "Al",
+          "amount": 335
+        },
+        {
+          "symbol": "Ti",
+          "amount": 446
+        },
+        {
+          "symbol": "He",
+          "amount": 336
+        },
+        {
+          "symbol": "Ni",
+          "amount": 194
+        },
+        {
+          "symbol": "Re",
+          "amount": 52
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.relay_pack_command_beacon_mk6_alternate_route",
+    "item_id": "module.relay_pack_command_beacon_mk6",
+    "name": "Pack Command Beacon Mk6 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1318900,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 421
+        },
+        {
+          "symbol": "Cu",
+          "amount": 409
+        },
+        {
+          "symbol": "Si",
+          "amount": 347
+        },
+        {
+          "symbol": "Ag",
+          "amount": 84
+        },
+        {
+          "symbol": "Ta",
+          "amount": 58
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.engine_aeroelastic_maneuver_web_mk5_alternate_route",
+    "item_id": "module.engine_aeroelastic_maneuver_web_mk5",
+    "name": "Aeroelastic Maneuver Web Mk5 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1024600,
+      "elements": [
+        {
+          "symbol": "Al",
+          "amount": 406
+        },
+        {
+          "symbol": "C",
+          "amount": 372
+        },
+        {
+          "symbol": "Ti",
+          "amount": 291
+        },
+        {
+          "symbol": "Mg",
+          "amount": 194
+        },
+        {
+          "symbol": "V",
+          "amount": 88
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.special_pressure_logic_hullweave_mk5_alternate_route",
+    "item_id": "module.special_pressure_logic_hullweave_mk5",
+    "name": "Pressure Logic Hullweave Mk5 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1062750,
+      "elements": [
+        {
+          "symbol": "Si",
+          "amount": 351
+        },
+        {
+          "symbol": "C",
+          "amount": 446
+        },
+        {
+          "symbol": "Ti",
+          "amount": 213
+        },
+        {
+          "symbol": "Mo",
+          "amount": 130
+        },
+        {
+          "symbol": "Ru",
+          "amount": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.weapon_magnetic_mine_layer_mk6_alternate_route",
+    "item_id": "module.weapon_magnetic_mine_layer_mk6",
+    "name": "Magnetic Mine Layer Mk6 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1286200,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 406
+        },
+        {
+          "symbol": "Cu",
+          "amount": 372
+        },
+        {
+          "symbol": "Ni",
+          "amount": 202
+        },
+        {
+          "symbol": "Nd",
+          "amount": 78
+        },
+        {
+          "symbol": "Sm",
+          "amount": 48
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.weapon_emp_flux_mortar_mk6_alternate_route",
+    "item_id": "module.weapon_emp_flux_mortar_mk6",
+    "name": "EMP Flux Mortar Mk6 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1395200,
+      "elements": [
+        {
+          "symbol": "Cu",
+          "amount": 328
+        },
+        {
+          "symbol": "Al",
+          "amount": 397
+        },
+        {
+          "symbol": "Fe",
+          "amount": 314
+        },
+        {
+          "symbol": "Nd",
+          "amount": 82
+        },
+        {
+          "symbol": "Gd",
+          "amount": 52
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.weapon_shaped_charge_barrage_mk5_alternate_route",
+    "item_id": "module.weapon_shaped_charge_barrage_mk5",
+    "name": "Shaped Charge Barrage Mk5 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1013700,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 374
+        },
+        {
+          "symbol": "Al",
+          "amount": 422
+        },
+        {
+          "symbol": "N",
+          "amount": 291
+        },
+        {
+          "symbol": "Cu",
+          "amount": 194
+        },
+        {
+          "symbol": "Mo",
+          "amount": 88
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.weapon_railgun_plasma_sabot_mk7_alternate_route",
+    "item_id": "module.weapon_railgun_plasma_sabot_mk7",
+    "name": "Railgun Plasma Sabot Mk7 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1863900,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 484
+        },
+        {
+          "symbol": "C",
+          "amount": 508
+        },
+        {
+          "symbol": "W",
+          "amount": 202
+        },
+        {
+          "symbol": "Nb",
+          "amount": 119
+        },
+        {
+          "symbol": "Ta",
+          "amount": 92
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.reactor_aneutronic_cycle_core_mk6_alternate_route",
+    "item_id": "module.reactor_aneutronic_cycle_core_mk6",
+    "name": "Aneutronic Cycle Core Mk6 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1515100,
+      "elements": [
+        {
+          "symbol": "Li",
+          "amount": 359
+        },
+        {
+          "symbol": "Cu",
+          "amount": 397
+        },
+        {
+          "symbol": "B",
+          "amount": 291
+        },
+        {
+          "symbol": "Be",
+          "amount": 151
+        },
+        {
+          "symbol": "Mo",
+          "amount": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.caelith_aurora_skimmer_t6_alternate_route",
+    "item_id": "hull.caelith_aurora_skimmer_t6",
+    "name": "Caelith Aurora Skimmer T6 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 7651800,
+      "elements": [
+        {
+          "symbol": "Al",
+          "amount": 952
+        },
+        {
+          "symbol": "C",
+          "amount": 1066
+        },
+        {
+          "symbol": "He",
+          "amount": 717
+        },
+        {
+          "symbol": "Ti",
+          "amount": 670
+        },
+        {
+          "symbol": "Si",
+          "amount": 420
+        },
+        {
+          "symbol": "V",
+          "amount": 180
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.thaloran_tidebreaker_t6_alternate_route",
+    "item_id": "hull.thaloran_tidebreaker_t6",
+    "name": "Thaloran Tidebreaker T6 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 7891600,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 1030
+        },
+        {
+          "symbol": "Si",
+          "amount": 670
+        },
+        {
+          "symbol": "Ti",
+          "amount": 582
+        },
+        {
+          "symbol": "Xe",
+          "amount": 518
+        },
+        {
+          "symbol": "Nb",
+          "amount": 190
+        },
+        {
+          "symbol": "Hf",
+          "amount": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.mercator_logistics_barge_t5_alternate_route",
+    "item_id": "hull.mercator_logistics_barge_t5",
+    "name": "Mercator Logistics Barge T5 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 6518200,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 1154
+        },
+        {
+          "symbol": "Al",
+          "amount": 1190
+        },
+        {
+          "symbol": "C",
+          "amount": 806
+        },
+        {
+          "symbol": "Cu",
+          "amount": 670
+        },
+        {
+          "symbol": "Ni",
+          "amount": 240
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.planetary_civic_megaforge_alternate_route",
+    "item_id": "structure.planetary_civic_megaforge",
+    "name": "Planetary Civic Megaforge Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 2463400,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 952
+        },
+        {
+          "symbol": "Al",
+          "amount": 1166
+        },
+        {
+          "symbol": "Cu",
+          "amount": 851
+        },
+        {
+          "symbol": "Si",
+          "amount": 670
+        },
+        {
+          "symbol": "Ni",
+          "amount": 320
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.planetary_mantle_drill_cathedral_alternate_route",
+    "item_id": "structure.planetary_mantle_drill_cathedral",
+    "name": "Mantle Drill Cathedral Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 2659600,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 1061
+        },
+        {
+          "symbol": "Ti",
+          "amount": 521
+        },
+        {
+          "symbol": "Cr",
+          "amount": 291
+        },
+        {
+          "symbol": "W",
+          "amount": 259
+        },
+        {
+          "symbol": "Mo",
+          "amount": 180
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.gas_giant_skimmer_convoy_hub_alternate_route",
+    "item_id": "structure.gas_giant_skimmer_convoy_hub",
+    "name": "Gas Giant Skimmer Convoy Hub Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 2158200,
+      "elements": [
+        {
+          "symbol": "He",
+          "amount": 936
+        },
+        {
+          "symbol": "Al",
+          "amount": 1042
+        },
+        {
+          "symbol": "Cu",
+          "amount": 605
+        },
+        {
+          "symbol": "Si",
+          "amount": 454
+        },
+        {
+          "symbol": "Ti",
+          "amount": 360
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.star_hydrogen_crown_array_alternate_route",
+    "item_id": "structure.star_hydrogen_crown_array",
+    "name": "Hydrogen Crown Array Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 3400800,
+      "elements": [
+        {
+          "symbol": "He",
+          "amount": 1872
+        },
+        {
+          "symbol": "Cu",
+          "amount": 942
+        },
+        {
+          "symbol": "W",
+          "amount": 358
+        },
+        {
+          "symbol": "Nb",
+          "amount": 238
+        },
+        {
+          "symbol": "Hf",
+          "amount": 180
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub.moon_tidal_mass_lift_mk2_alternate_route",
+    "item_id": "structure.moon_tidal_mass_lift_mk2",
+    "name": "Tidal Mass Lift Mk2 Alternate Route",
+    "description": "Alternative fabrication route that trades scarce high-purity feedstock for higher bulk-material throughput.",
+    "tradeoff_notes": [
+      "Reduces pressure on the primary high-volume element in this blueprint.",
+      "Increases dependence on secondary feedstocks and process overhead."
+    ],
+    "override_cost": {
+      "credits": 1983800,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 749
+        },
+        {
+          "symbol": "Al",
+          "amount": 769
+        },
+        {
+          "symbol": "Cu",
+          "amount": 538
+        },
+        {
+          "symbol": "C",
+          "amount": 367
+        },
+        {
+          "symbol": "Ti",
+          "amount": 210
+        }
+      ]
+    }
+  }
+]

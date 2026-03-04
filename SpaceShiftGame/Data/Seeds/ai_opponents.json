@@ -1,0 +1,107 @@
+[
+  {
+    "id": "ai_opponent.scrapline_drone_pack",
+    "name": "Scrapline Drone Pack",
+    "role": "interceptor",
+    "description": "Low-cost autonomous raiders tuned for early ambushes and rapid retreats.",
+    "hull_id": "hull.settler_scout",
+    "threat_rating": 1.6,
+    "reward_multiplier": 0.9,
+    "preferred_tactics": ["boost_thrust", "evade"],
+    "modules": [
+      { "id": "module.weapon_laser_bank_mk1", "quantity": 1, "level": 2 },
+      { "id": "module.weapon_missile_battery_mk1", "quantity": 1, "level": 2 },
+      { "id": "module.shield_basic_barrier_mk1", "quantity": 1, "level": 2 },
+      { "id": "module.reactor_fission_core_mk1", "quantity": 1, "level": 2 },
+      { "id": "module.jammer_spectrum_mk1", "quantity": 1, "level": 2 }
+    ]
+  },
+  {
+    "id": "ai_opponent.rail_bastion",
+    "name": "Rail Bastion",
+    "role": "tank",
+    "description": "Heavy forward line platform with layered armor and rail-focused alpha damage.",
+    "hull_id": "hull.vanguard_cruiser",
+    "threat_rating": 3.8,
+    "reward_multiplier": 1.2,
+    "preferred_tactics": ["main_ability"],
+    "modules": [
+      { "id": "module.weapon_railgun_lance_mk5", "quantity": 2, "level": 5 },
+      { "id": "module.armor_lattice_mk5", "quantity": 2, "level": 5 },
+      { "id": "module.shield_matrix_mk5", "quantity": 1, "level": 5 },
+      { "id": "module.reactor_core_mk5", "quantity": 1, "level": 5 },
+      { "id": "module.special_command_ai_mk5", "quantity": 1, "level": 5 }
+    ]
+  },
+  {
+    "id": "ai_opponent.cloak_stalker",
+    "name": "Cloak Stalker",
+    "role": "assassin",
+    "description": "Mid-line AI hunter built around stealth bursts and precision strike windows.",
+    "hull_id": "hull.pathfinder_destroyer",
+    "threat_rating": 4.2,
+    "reward_multiplier": 1.28,
+    "preferred_tactics": ["stealth_burst", "main_ability", "evade"],
+    "modules": [
+      { "id": "module.weapon_laser_bank_mk5", "quantity": 1, "level": 5 },
+      { "id": "module.weapon_cryo_shatter_driver_mk5", "quantity": 1, "level": 5 },
+      { "id": "module.jammer_spectrum_mk5", "quantity": 1, "level": 5 },
+      { "id": "module.scanner_telescope_mk5", "quantity": 1, "level": 5 },
+      { "id": "module.shield_matrix_mk5", "quantity": 1, "level": 5 },
+      { "id": "module.reactor_core_mk5", "quantity": 1, "level": 5 }
+    ]
+  },
+  {
+    "id": "ai_opponent.carrier_lattice_overseer",
+    "name": "Carrier Lattice Overseer",
+    "role": "carrier",
+    "description": "Distributed AI carrier commander that scales through microhangar attrition pressure.",
+    "hull_id": "hull.carrier_command_t6",
+    "threat_rating": 5.4,
+    "reward_multiplier": 1.45,
+    "preferred_tactics": ["boost_thrust", "main_ability"],
+    "modules": [
+      { "id": "module.special_microhangar_swarm_bay_mk6", "quantity": 1, "level": 6 },
+      { "id": "module.weapon_missile_battery_mk5", "quantity": 2, "level": 6 },
+      { "id": "module.scanner_multiband_aesa_tracker_mk5", "quantity": 1, "level": 6 },
+      { "id": "module.shield_nanoceramic_mesh_mk6", "quantity": 1, "level": 6 },
+      { "id": "module.reactor_aneutronic_fusion_torus_mk6", "quantity": 1, "level": 6 }
+    ]
+  },
+  {
+    "id": "ai_opponent.nullspace_predator",
+    "name": "Nullspace Predator",
+    "role": "elite",
+    "description": "Late-game hunter with high scan lock, stealth denial, and burst weapons.",
+    "hull_id": "hull.synaptic_battleship_t7",
+    "threat_rating": 7.2,
+    "reward_multiplier": 1.8,
+    "preferred_tactics": ["stealth_burst", "main_ability", "boost_thrust"],
+    "modules": [
+      { "id": "module.weapon_neural_rail_lance_mk7", "quantity": 2, "level": 7 },
+      { "id": "module.scanner_nullspace_resonator_mk7", "quantity": 1, "level": 7 },
+      { "id": "module.jammer_predictive_ghost_cloak_mk7", "quantity": 1, "level": 7 },
+      { "id": "module.shield_phase_metamaterial_weave_mk7", "quantity": 1, "level": 7 },
+      { "id": "module.reactor_plasma_casimir_cell_mk7", "quantity": 1, "level": 7 },
+      { "id": "module.special_quantum_navigation_core_mk7", "quantity": 1, "level": 7 }
+    ]
+  },
+  {
+    "id": "ai_opponent.antimatter_revenant",
+    "name": "Antimatter Revenant",
+    "role": "boss",
+    "description": "Top-end autonomous siege platform with unstable antimatter payload doctrine.",
+    "hull_id": "hull.singularity_flagship_t8",
+    "threat_rating": 9.5,
+    "reward_multiplier": 2.3,
+    "preferred_tactics": ["main_ability", "boost_thrust", "stealth_burst"],
+    "modules": [
+      { "id": "module.weapon_antimatter_torpedo_spine_mk7", "quantity": 2, "level": 8 },
+      { "id": "module.weapon_psionic_resonance_emitter_mk8", "quantity": 1, "level": 8 },
+      { "id": "module.armor_hea_smart_lattice_mk7", "quantity": 2, "level": 8 },
+      { "id": "module.shield_phase_metamaterial_weave_mk7", "quantity": 1, "level": 8 },
+      { "id": "module.reactor_antimatter_bottle_mk8", "quantity": 1, "level": 8 },
+      { "id": "module.special_singularity_battle_oracle_mk8", "quantity": 1, "level": 8 }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "event.tectonic_surge",
+    "name": "Tectonic Surge",
+    "description": "Lithosphere fracture exposes deep mineral seams and transient heat vents.",
+    "effects": {
+      "mineral_yield_pct": 14,
+      "hazard_delta": 0.08
+    }
+  },
+  {
+    "id": "event.deep_core_echo",
+    "name": "Deep Core Echo",
+    "description": "Resonant seismic pulses reveal ultra-dense metallic pockets.",
+    "effects": {
+      "mineral_yield_pct": 18,
+      "scan_difficulty_delta": -0.05
+    }
+  },
+  {
+    "id": "event.atmospheric_lensing",
+    "name": "Atmospheric Lensing",
+    "description": "Exotic upper-atmosphere stratification amplifies long-baseline sensors.",
+    "effects": {
+      "research_yield_pct": 10,
+      "scan_range_pct": 6
+    }
+  },
+  {
+    "id": "event.storm_harvest",
+    "name": "Storm Harvest",
+    "description": "Magnetized storm bands let skimmers extract volatile isotopes at scale.",
+    "effects": {
+      "volatile_yield_pct": 20,
+      "hazard_delta": 0.1
+    }
+  },
+  {
+    "id": "event.cryovolcanic_vent",
+    "name": "Cryovolcanic Vent",
+    "description": "Subsurface plumes deliver trace elements and bound organics to collection zones.",
+    "effects": {
+      "artifact_yield_pct": 8,
+      "mineral_yield_pct": 6
+    }
+  },
+  {
+    "id": "event.biohazard_bloom",
+    "name": "Biohazard Bloom",
+    "description": "Reactive aerosols and extremophile blooms increase maintenance complexity.",
+    "effects": {
+      "hazard_delta": 0.15,
+      "research_yield_pct": 4
+    }
+  },
+  {
+    "id": "event.life_signature_burst",
+    "name": "Life Signature Burst",
+    "description": "Broad-spectrum biosignature spikes accelerate xenobiology insight loops.",
+    "effects": {
+      "research_yield_pct": 12,
+      "population_growth_pct": 3
+    }
+  },
+  {
+    "id": "event.rare_lode_exposure",
+    "name": "Rare Lode Exposure",
+    "description": "Impact-driven mantle uplift exposes high-value refractory deposits.",
+    "effects": {
+      "element_rarity_roll_pct": 22,
+      "mineral_yield_pct": 9
+    }
+  }
+]

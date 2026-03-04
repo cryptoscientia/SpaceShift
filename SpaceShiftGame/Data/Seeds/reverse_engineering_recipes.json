@@ -1,0 +1,28 @@
+[
+  {
+    "id": "re_recipe.neural_rail_lance",
+    "target_item_id": "module.weapon_neural_rail_lance_mk7",
+    "required_consumable_id": "consumable.reverse_engineering_core",
+    "required_race_ids": ["race.aethermind_concord"],
+    "duration_seconds": 28800,
+    "compute_cost": 98000,
+    "unlock_blueprint_id": "blueprint.neural_rail_lance_mk7"
+  },
+  {
+    "id": "re_recipe.synaptic_battleship",
+    "target_item_id": "hull.synaptic_battleship_t7",
+    "required_consumable_id": "consumable.reverse_engineering_core",
+    "duration_seconds": 43200,
+    "compute_cost": 128000,
+    "unlock_blueprint_id": "blueprint.synaptic_battleship_t7"
+  },
+  {
+    "id": "re_recipe.cognitive_fabrication_spire",
+    "target_item_id": "structure.cognitive_fabrication_spire",
+    "required_consumable_id": "consumable.reverse_engineering_core",
+    "required_race_ids": ["race.synth_collective"],
+    "duration_seconds": 25600,
+    "compute_cost": 76000,
+    "unlock_blueprint_id": "blueprint.cognitive_fabrication_spire"
+  }
+]
