@@ -15,8 +15,14 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Ensure webhook is configured
-        if: secrets.SPACESHIFT_CI_ALERT_WEBHOOK == ''
+        env:
+          SPACESHIFT_CI_ALERT_WEBHOOK: ${{ secrets.SPACESHIFT_CI_ALERT_WEBHOOK }}
         run: |
+          set -euo pipefail
+          if [[ -n "${SPACESHIFT_CI_ALERT_WEBHOOK:-}" ]]; then
+            echo "SPACESHIFT_CI_ALERT_WEBHOOK configured."
+            exit 0
+          fi
           echo "::error::SPACESHIFT_CI_ALERT_WEBHOOK is not configured."
           exit 1
 

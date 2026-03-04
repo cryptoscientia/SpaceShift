@@ -57,7 +57,7 @@ jobs:
             SpaceShiftGame/Reports/simulation_regression_latest.json
 
       - name: Notify CI webhook on failure
-        if: failure() && secrets.SPACESHIFT_CI_ALERT_WEBHOOK != ''
+        if: failure()
         env:
           SPACESHIFT_CI_ALERT_WEBHOOK: ${{ secrets.SPACESHIFT_CI_ALERT_WEBHOOK }}
           CI_WORKFLOW: ${{ github.workflow }}
@@ -69,6 +69,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          if [[ -z "${SPACESHIFT_CI_ALERT_WEBHOOK:-}" ]]; then
+            echo "SPACESHIFT_CI_ALERT_WEBHOOK not configured; skipping notification."
+            exit 0
+          fi
           payload="$(printf '{"text":"SpaceShift backend-ci-gate failed (%s, py%s) on %s (%s). Run: %s"}' \
             "${CI_OS}" "${CI_PYTHON}" "${CI_REF}" "${CI_SHA}" "${CI_RUN_URL}")"
           curl -fsS -X POST \
