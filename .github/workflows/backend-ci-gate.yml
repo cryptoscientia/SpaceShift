@@ -24,6 +24,7 @@ jobs:
       SPACESHIFT_DETERMINISTIC: "1"
       SIM_PROFILE: standard
       SIM_SEED: "20260304"
+      SMOKE_STARTUP_TIMEOUT: "30"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
