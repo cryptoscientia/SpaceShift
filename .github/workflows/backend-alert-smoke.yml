@@ -36,6 +36,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          if [[ ! "${SPACESHIFT_CI_ALERT_WEBHOOK}" =~ ^https?:// ]]; then
+            echo "::error::SPACESHIFT_CI_ALERT_WEBHOOK must be a valid http(s) URL."
+            exit 1
+          fi
           payload="$(printf '{"text":"SpaceShift alert smoke test succeeded on %s (%s). Run: %s %s"}' \
             "${CI_REF}" "${CI_SHA}" "${CI_RUN_URL}" "${EXTRA_MESSAGE}")"
           curl -fsS -X POST \

@@ -33,6 +33,13 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
+      - name: Install backend dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          python -m pip install -r SpaceShiftGame/Code/server/requirements.txt
+
       - name: Prepare matrix simulation tag
         shell: bash
         run: |
@@ -71,6 +78,10 @@ jobs:
           set -euo pipefail
           if [[ -z "${SPACESHIFT_CI_ALERT_WEBHOOK:-}" ]]; then
             echo "SPACESHIFT_CI_ALERT_WEBHOOK not configured; skipping notification."
+            exit 0
+          fi
+          if [[ ! "${SPACESHIFT_CI_ALERT_WEBHOOK}" =~ ^https?:// ]]; then
+            echo "SPACESHIFT_CI_ALERT_WEBHOOK is not a valid http(s) URL; skipping notification."
             exit 0
           fi
           payload="$(printf '{"text":"SpaceShift backend-ci-gate failed (%s, py%s) on %s (%s). Run: %s"}' \
