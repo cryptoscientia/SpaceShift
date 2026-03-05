@@ -1,0 +1,127 @@
+{
+  "content_version": "0.1.0",
+  "published_utc": "2026-03-04T07:10:39Z",
+  "files": [
+    {
+      "path": "Seeds/abilities.json",
+      "sha256": "fbaf0e3e8f90bade1ef83451a47096353540b046a135921c49d199954c6e7f81"
+    },
+    {
+      "path": "Seeds/ai_opponents.json",
+      "sha256": "700a9accaa05c63e991f30ec45c7ccc4b141dde5aa1c8a70a07507b4b57382e1"
+    },
+    {
+      "path": "Seeds/artifacts.json",
+      "sha256": "75f6841618ee564e89c8c074799a79288140b33940707a41772f0687cb4624e0"
+    },
+    {
+      "path": "Seeds/blueprints.json",
+      "sha256": "3c7fef9942c08f33e606c9693a9c2422687157a74df6c06f502a2889eb9e1d1f"
+    },
+    {
+      "path": "Seeds/celestial_templates.json",
+      "sha256": "7217349090863c5bb5863a10f1346701bebce82c3a51c1efcd7e3c643a41f093"
+    },
+    {
+      "path": "Seeds/consumables.json",
+      "sha256": "245ad172482ca29a73600fb25ae2d9a2e8715e6e026adafc7d938611e2a0c6f1"
+    },
+    {
+      "path": "Seeds/contract_templates.json",
+      "sha256": "f980e8713dd9f4b1512a4795f49a5ae1312432edb20be1a56e1da12c266d972f"
+    },
+    {
+      "path": "Seeds/crafting_substitutions.json",
+      "sha256": "cff991adc6e34937a39a3690417b31589b82fbb40b2f1f5674b525fd7920bbf1"
+    },
+    {
+      "path": "Seeds/element_resource_tiers.json",
+      "sha256": "3e3afe96c08c9abad19dd894ba350c313aca2184fbf6195b9ef67f840a0b9276"
+    },
+    {
+      "path": "Seeds/elements_full.json",
+      "sha256": "135d223dc09467dced62b0d8de6114469189a611666c55879d25a13ef4f53096"
+    },
+    {
+      "path": "Seeds/events.json",
+      "sha256": "819752dcbd7a69e7bd4ce9eefdf6d9a4b33ab3eca4629b4446fc3aa87697b734"
+    },
+    {
+      "path": "Seeds/factions.json",
+      "sha256": "33257a4283a59f34ecde35db499574340da15f4f171c71d8346fe2c7e76255f0"
+    },
+    {
+      "path": "Seeds/formulas_v0.json",
+      "sha256": "a74d38445d134a7dbee412e7b335fd52d60c66c6ff46d983c34fd4cb7f6a67fb"
+    },
+    {
+      "path": "Seeds/lore_codex.json",
+      "sha256": "92fb783c0ef95dcc9f334516aa219942a5e9b7d99079ad27e22f7c3417ad8000"
+    },
+    {
+      "path": "Seeds/manufacturing_profiles.json",
+      "sha256": "0068932268d4f157d2a069d5a326a86d47a03e4ab36cedd1147da3af7ffd04e2"
+    },
+    {
+      "path": "Seeds/market_regions.json",
+      "sha256": "d5e5d9e8baa657ae18ff278cb2691e18706ca1224a31585c97294377a487054a"
+    },
+    {
+      "path": "Seeds/materials.json",
+      "sha256": "e1ab9153a7aa36e96f877a61f94f4e0ba8e6157860ff295f41c498bed51b4244"
+    },
+    {
+      "path": "Seeds/missions.json",
+      "sha256": "744fdad5dde70f41ac1990085048dcbd2bddd2fbad6b4b759083663a9c1b3ba0"
+    },
+    {
+      "path": "Seeds/modules.json",
+      "sha256": "6ce508e704e9f811e922a4ebe32080132c13c1aa96d151147425a3dc2d729d3c"
+    },
+    {
+      "path": "Seeds/p2p_listing_policy.json",
+      "sha256": "0ff72a5fb6d598506ba12a1125918e797a9bf8b8a5c4eff2340d142555088534"
+    },
+    {
+      "path": "Seeds/planet_types.json",
+      "sha256": "efab3c09df8d87fab3e4b2b7bb90155ba958d38cb85edccbbaa6c5a3fc1c74db"
+    },
+    {
+      "path": "Seeds/professions.json",
+      "sha256": "f1e0cb4e3ed76007e72a92cc6d2f458b9f35683c427cc1689843cba7f6b974f3"
+    },
+    {
+      "path": "Seeds/races.json",
+      "sha256": "14a5cfc857f9cd15b85a6fdd276c77d855afcd3bb48e51938d307784949a3e84"
+    },
+    {
+      "path": "Seeds/research_tracks.json",
+      "sha256": "0a0e39bfb08cec66c0d92c6df8fc025b94df52f62f55c4ebb546d0bafbbdbf51"
+    },
+    {
+      "path": "Seeds/reverse_engineering_recipes.json",
+      "sha256": "a8e5396a174b737b29e3fa98092aba8042e0a57b195b91b6a785d27de4d16215"
+    },
+    {
+      "path": "Seeds/ship_hulls.json",
+      "sha256": "6f60b5126402a3f0cce6e134f3ff3e4a6370b2e3303a9c78e18dbcf7807e9fc0"
+    },
+    {
+      "path": "Seeds/starter_ships.json",
+      "sha256": "d0b0429f60646ec103b6185b10acc2d149863cea527d1ea14e238e3a842db4af"
+    },
+    {
+      "path": "Seeds/structures.json",
+      "sha256": "5f9269d27c6d4d9efda42b22f46fe89b4c5b5aa0a98462f7cd9e861178a2c3d4"
+    },
+    {
+      "path": "Seeds/tech_tree_core.json",
+      "sha256": "efa8158dd106f4bcf50547f5ae0551ba81730ac1c448ff3edd6b7571c9428a2b"
+    },
+    {
+      "path": "Sources/periodic_table_pubchem.json",
+      "sha256": "4665f7d330e700b77598f3b2eaa874ed6bcac81ae4ad196cebe6768629c43f71"
+    }
+  ],
+  "notes": "Initial SpaceShift research-driven seed content."
+}

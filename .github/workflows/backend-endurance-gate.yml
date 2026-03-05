@@ -1,0 +1,167 @@
+name: Backend Endurance Gate
+
+on:
+  workflow_dispatch:
+    inputs:
+      profile_scope:
+        description: "Run standard, long, or both profiles"
+        required: false
+        default: "all"
+      sim_seeds_standard:
+        description: "Comma-separated seeds for standard profile (>=2)"
+        required: false
+        default: "20260304,20260305,20260306"
+      sim_seeds_long:
+        description: "Comma-separated seeds for long profile (>=2)"
+        required: false
+        default: "20260304,20260305,20260306"
+  schedule:
+    - cron: "17 3 * * *"
+
+concurrency:
+  group: backend-endurance-gate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  backend-endurance-gate:
+    name: Backend Endurance Gate (${{ matrix.profile }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      matrix:
+        profile: [standard, long]
+    env:
+      PYTHONHASHSEED: "0"
+      TZ: UTC
+      SPACESHIFT_DETERMINISTIC: "1"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install backend dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          python -m pip install -r SpaceShiftGame/Code/server/requirements.txt
+
+      - name: Resolve endurance inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          profile="${{ matrix.profile }}"
+          scope="${{ github.event.inputs.profile_scope }}"
+          seeds_standard="${{ github.event.inputs.sim_seeds_standard }}"
+          seeds_long="${{ github.event.inputs.sim_seeds_long }}"
+          if [[ -z "${scope}" ]]; then
+            scope="all"
+          fi
+          if [[ "${scope}" != "all" && "${scope}" != "standard" && "${scope}" != "long" ]]; then
+            echo "::error::profile_scope must be one of: all, standard, long"
+            exit 1
+          fi
+          if [[ "${scope}" != "all" && "${scope}" != "${profile}" ]]; then
+            echo "SKIP_JOB=1" >> "${GITHUB_ENV}"
+            echo "SIM_PROFILE=${profile}" >> "${GITHUB_ENV}"
+            echo "SIM_SEEDS=" >> "${GITHUB_ENV}"
+            echo "SIM_TAG_PREFIX=ci_endurance_${{ github.run_id }}" >> "${GITHUB_ENV}"
+            exit 0
+          fi
+          if [[ "${profile}" == "standard" ]]; then
+            seeds="${seeds_standard}"
+            default_seeds="20260304,20260305,20260306"
+          else
+            seeds="${seeds_long}"
+            default_seeds="20260304,20260305,20260306"
+          fi
+          if [[ -z "${profile}" ]]; then
+            profile="${{ matrix.profile }}"
+          fi
+          if [[ -z "${seeds}" ]]; then
+            seeds="${default_seeds}"
+          fi
+          tag_prefix="ci_endurance_${{ github.run_id }}"
+          echo "SKIP_JOB=0" >> "${GITHUB_ENV}"
+          echo "SIM_PROFILE=${profile}" >> "${GITHUB_ENV}"
+          echo "SIM_SEEDS=${seeds}" >> "${GITHUB_ENV}"
+          echo "SIM_TAG_PREFIX=${tag_prefix}" >> "${GITHUB_ENV}"
+
+      - name: Run backend endurance CI gate
+        if: env.SKIP_JOB != '1'
+        run: bash SpaceShiftGame/Code/server/run_ci_endurance_gate.sh
+
+      - name: Publish endurance summary
+        if: always() && env.SKIP_JOB != '1'
+        shell: bash
+        run: |
+          set -euo pipefail
+          aggregate_json="SpaceShiftGame/Reports/simulation_endurance_summary_${SIM_TAG_PREFIX}_${SIM_PROFILE}.json"
+          if [[ ! -f "${aggregate_json}" ]]; then
+            echo "No aggregate file found: ${aggregate_json}" >> "${GITHUB_STEP_SUMMARY}"
+            exit 0
+          fi
+          run_count="$(jq -r '.smoke.pass_count.count // 0' "${aggregate_json}")"
+          smoke_mean="$(jq -r '.smoke.pass_count.mean // 0' "${aggregate_json}")"
+          regression_pass_rate="$(jq -r '.regression.pass_rate // 0' "${aggregate_json}")"
+          worlds_mean="$(jq -r '.discovery.worlds_scanned.mean // 0' "${aggregate_json}")"
+          market_mean="$(jq -r '.market.credits_delta.mean // 0' "${aggregate_json}")"
+          {
+            echo "### Endurance Summary (${SIM_PROFILE})"
+            echo ""
+            echo "- Runs: \`${run_count}\`"
+            echo "- Smoke mean: \`${smoke_mean}\`"
+            echo "- Regression pass rate: \`${regression_pass_rate}\`"
+            echo "- Worlds scanned mean: \`${worlds_mean}\`"
+            echo "- Market credits delta mean: \`${market_mean}\`"
+          } >> "${GITHUB_STEP_SUMMARY}"
+
+      - name: Upload endurance artifacts
+        if: always() && env.SKIP_JOB != '1'
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-endurance-gate-${{ env.SIM_TAG_PREFIX }}-${{ env.SIM_PROFILE }}
+          if-no-files-found: warn
+          path: |
+            SpaceShiftGame/Reports/simulation_suite_${{ env.SIM_TAG_PREFIX }}_${{ env.SIM_PROFILE }}_s*_seed*.json
+            SpaceShiftGame/Reports/simulation_suite_${{ env.SIM_TAG_PREFIX }}_${{ env.SIM_PROFILE }}_s*_seed*.md
+            SpaceShiftGame/Reports/simulation_regression_${{ env.SIM_TAG_PREFIX }}_${{ env.SIM_PROFILE }}_s*_seed*.json
+            SpaceShiftGame/Reports/simulation_endurance_summary_${{ env.SIM_TAG_PREFIX }}_${{ env.SIM_PROFILE }}.json
+            SpaceShiftGame/Reports/simulation_endurance_summary_${{ env.SIM_TAG_PREFIX }}_${{ env.SIM_PROFILE }}.md
+            SpaceShiftGame/Reports/endurance_regression_${{ env.SIM_TAG_PREFIX }}_${{ env.SIM_PROFILE }}.json
+            SpaceShiftGame/Reports/latest_endurance_${{ env.SIM_PROFILE }}.json
+            SpaceShiftGame/Reports/latest_endurance_${{ env.SIM_PROFILE }}.md
+            SpaceShiftGame/Reports/endurance_regression_latest_${{ env.SIM_PROFILE }}.json
+
+      - name: Notify CI webhook on failure
+        if: failure() && env.SKIP_JOB != '1'
+        env:
+          SPACESHIFT_CI_ALERT_WEBHOOK: ${{ secrets.SPACESHIFT_CI_ALERT_WEBHOOK }}
+          CI_WORKFLOW: ${{ github.workflow }}
+          CI_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          CI_REF: ${{ github.ref }}
+          CI_SHA: ${{ github.sha }}
+          CI_PROFILE: ${{ env.SIM_PROFILE }}
+          CI_SEEDS: ${{ env.SIM_SEEDS }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${SPACESHIFT_CI_ALERT_WEBHOOK:-}" ]]; then
+            echo "SPACESHIFT_CI_ALERT_WEBHOOK not configured; skipping notification."
+            exit 0
+          fi
+          if [[ ! "${SPACESHIFT_CI_ALERT_WEBHOOK}" =~ ^https?:// ]]; then
+            echo "SPACESHIFT_CI_ALERT_WEBHOOK is not a valid http(s) URL; skipping notification."
+            exit 0
+          fi
+          payload="$(printf '{"text":"SpaceShift backend-endurance-gate failed (profile=%s, seeds=%s) on %s (%s). Run: %s"}' \
+            "${CI_PROFILE}" "${CI_SEEDS}" "${CI_REF}" "${CI_SHA}" "${CI_RUN_URL}")"
+          curl -fsS -X POST \
+            -H "Content-Type: application/json" \
+            -d "${payload}" \
+            "${SPACESHIFT_CI_ALERT_WEBHOOK}"

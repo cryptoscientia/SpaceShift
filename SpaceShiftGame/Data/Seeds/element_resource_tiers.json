@@ -1,0 +1,301 @@
+{
+  "notes": "Gameplay rarity, scarcity classes, and market/crafting tuning for periodic-table resources.",
+  "tiers": [
+    {
+      "tier": 1,
+      "label": "Common Structural",
+      "elements": ["H", "C", "N", "O", "Na", "Mg", "Al", "Si", "P", "S", "K", "Ca", "Fe"]
+    },
+    {
+      "tier": 2,
+      "label": "Industrial Alloy and Process",
+      "elements": ["Li", "B", "Ti", "V", "Cr", "Mn", "Co", "Ni", "Cu", "Zn", "Zr", "Nb", "Mo", "Sn"]
+    },
+    {
+      "tier": 3,
+      "label": "Advanced Energy, Optics, and Cryogenics",
+      "elements": ["He", "Ga", "Ge", "As", "Se", "Br", "Kr", "Ag", "Cd", "In", "Te", "Xe", "Hf", "Ta", "W", "Sc"]
+    },
+    {
+      "tier": 4,
+      "label": "Exotic Strategic",
+      "elements": ["Re", "Pd", "Ir", "Pt", "Au", "Hg", "Pb", "Bi", "Th", "U", "Np", "Pu"]
+    }
+  ],
+  "usage_tags": {
+    "reactor_fuel": ["H", "He", "Li", "U", "Pu"],
+    "armor_alloy": ["Ti", "Cr", "Ni", "W", "Ta"],
+    "sensor_material": ["Si", "Ge", "Ga", "As", "In", "Te"],
+    "high_temp_components": ["W", "Re", "Hf", "Ta"],
+    "propulsion_propellant": ["H", "He", "N", "Xe"],
+    "battery_and_capacitors": ["Li", "C", "Ni", "Co", "Mn"],
+    "quantum_photonics": ["Si", "Ge", "Ga", "In", "Pd", "Pt"],
+    "catalyst_stack": ["Pd", "Pt", "Ir", "Ag", "Au"]
+  },
+  "scarcity_classes": {
+    "abundant_bulk": {
+      "label": "Abundant Bulk",
+      "description": "Wide crustal abundance and diversified mining/refining footprint.",
+      "base_scarcity_index": 0.7,
+      "short_run_supply_elasticity": 0.85,
+      "substitution_elasticity": 0.8,
+      "recycling_recovery_rate": 0.35,
+      "baseline_volatility": 0.05,
+      "byproduct_dependency": 0.05,
+      "stockpiling_sensitivity": 0.15
+    },
+    "refining_constrained": {
+      "label": "Refining Constrained",
+      "description": "Supply growth limited by smelting/refining bottlenecks or energy intensity.",
+      "base_scarcity_index": 1.05,
+      "short_run_supply_elasticity": 0.55,
+      "substitution_elasticity": 0.5,
+      "recycling_recovery_rate": 0.45,
+      "baseline_volatility": 0.09,
+      "byproduct_dependency": 0.2,
+      "stockpiling_sensitivity": 0.3
+    },
+    "byproduct_critical": {
+      "label": "Byproduct Critical",
+      "description": "Output mostly tied to extraction of other host metals, causing rigid short-run supply.",
+      "base_scarcity_index": 1.35,
+      "short_run_supply_elasticity": 0.3,
+      "substitution_elasticity": 0.35,
+      "recycling_recovery_rate": 0.55,
+      "baseline_volatility": 0.14,
+      "byproduct_dependency": 0.8,
+      "stockpiling_sensitivity": 0.45
+    },
+    "precious_catalytic": {
+      "label": "Precious Catalytic",
+      "description": "Low absolute abundance, high value-density, strong recycling loops, concentrated production.",
+      "base_scarcity_index": 1.55,
+      "short_run_supply_elasticity": 0.4,
+      "substitution_elasticity": 0.28,
+      "recycling_recovery_rate": 0.7,
+      "baseline_volatility": 0.12,
+      "byproduct_dependency": 0.35,
+      "geopolitical_concentration": 0.65,
+      "stockpiling_sensitivity": 0.5
+    },
+    "noble_gas_logistics": {
+      "label": "Noble Gas Logistics",
+      "description": "Rare atmospheric/cryogenic separation outputs with storage and transport constraints.",
+      "base_scarcity_index": 1.4,
+      "short_run_supply_elasticity": 0.25,
+      "substitution_elasticity": 0.22,
+      "recycling_recovery_rate": 0.25,
+      "baseline_volatility": 0.16,
+      "byproduct_dependency": 0.1,
+      "storage_loss_factor": 0.18,
+      "stockpiling_sensitivity": 0.42
+    },
+    "regulated_radiological": {
+      "label": "Regulated Radiological",
+      "description": "Regulatory controls and handling requirements dominate lead times and effective supply.",
+      "base_scarcity_index": 1.75,
+      "short_run_supply_elasticity": 0.2,
+      "substitution_elasticity": 0.18,
+      "recycling_recovery_rate": 0.32,
+      "baseline_volatility": 0.11,
+      "byproduct_dependency": 0.15,
+      "compliance_burden": 0.75,
+      "stockpiling_sensitivity": 0.6
+    },
+    "toxic_phaseout": {
+      "label": "Toxic Phaseout",
+      "description": "Legacy supply with declining allowed use; volatility driven by policy and disposal costs.",
+      "base_scarcity_index": 1.2,
+      "short_run_supply_elasticity": 0.5,
+      "substitution_elasticity": 0.72,
+      "recycling_recovery_rate": 0.58,
+      "baseline_volatility": 0.1,
+      "byproduct_dependency": 0.25,
+      "compliance_burden": 0.48,
+      "stockpiling_sensitivity": 0.2
+    }
+  },
+  "tier_default_scarcity_class": {
+    "1": "abundant_bulk",
+    "2": "refining_constrained",
+    "3": "byproduct_critical",
+    "4": "precious_catalytic"
+  },
+  "element_scarcity_overrides": {
+    "He": {
+      "class": "noble_gas_logistics",
+      "scarcity_bias": 0.2,
+      "supply_notes": "Helium is often co-produced with natural gas, creating concentration risk."
+    },
+    "Kr": {
+      "class": "noble_gas_logistics",
+      "scarcity_bias": 0.08
+    },
+    "Xe": {
+      "class": "noble_gas_logistics",
+      "scarcity_bias": 0.16
+    },
+    "Li": {
+      "class": "refining_constrained",
+      "scarcity_bias": 0.18
+    },
+    "B": {
+      "class": "refining_constrained",
+      "scarcity_bias": 0.08
+    },
+    "Sc": {
+      "class": "byproduct_critical",
+      "scarcity_bias": 0.28
+    },
+    "Ga": {
+      "class": "byproduct_critical",
+      "scarcity_bias": 0.18
+    },
+    "Ge": {
+      "class": "byproduct_critical",
+      "scarcity_bias": 0.12
+    },
+    "In": {
+      "class": "byproduct_critical",
+      "scarcity_bias": 0.2
+    },
+    "Se": {
+      "class": "byproduct_critical",
+      "scarcity_bias": 0.1
+    },
+    "Te": {
+      "class": "byproduct_critical",
+      "scarcity_bias": 0.19
+    },
+    "Hf": {
+      "class": "byproduct_critical",
+      "scarcity_bias": 0.14
+    },
+    "Re": {
+      "class": "byproduct_critical",
+      "scarcity_bias": 0.24
+    },
+    "Ta": {
+      "class": "byproduct_critical",
+      "scarcity_bias": 0.1
+    },
+    "W": {
+      "class": "refining_constrained",
+      "scarcity_bias": 0.1
+    },
+    "Pd": {
+      "class": "precious_catalytic",
+      "scarcity_bias": 0.22
+    },
+    "Ag": {
+      "class": "precious_catalytic",
+      "scarcity_bias": 0.05
+    },
+    "Ir": {
+      "class": "precious_catalytic",
+      "scarcity_bias": 0.24
+    },
+    "Pt": {
+      "class": "precious_catalytic",
+      "scarcity_bias": 0.18
+    },
+    "Au": {
+      "class": "precious_catalytic",
+      "scarcity_bias": 0.16
+    },
+    "Cd": {
+      "class": "toxic_phaseout",
+      "scarcity_bias": 0.09
+    },
+    "Hg": {
+      "class": "toxic_phaseout",
+      "scarcity_bias": 0.16
+    },
+    "Pb": {
+      "class": "toxic_phaseout",
+      "scarcity_bias": 0.06
+    },
+    "Th": {
+      "class": "regulated_radiological",
+      "scarcity_bias": 0.12
+    },
+    "U": {
+      "class": "regulated_radiological",
+      "scarcity_bias": 0.18
+    },
+    "Np": {
+      "class": "regulated_radiological",
+      "scarcity_bias": 0.35
+    },
+    "Pu": {
+      "class": "regulated_radiological",
+      "scarcity_bias": 0.4
+    }
+  },
+  "substitution_networks": {
+    "structural_alloys": {
+      "elements": ["Fe", "Al", "Ti", "Mg", "Cr", "Mn", "Ni"],
+      "max_substitution_share": 0.45,
+      "performance_penalty_per_10pct": 0.01,
+      "credit_delta_per_10pct": -0.015,
+      "unlock_tags": ["armor_alloy"]
+    },
+    "refractory_stack": {
+      "elements": ["W", "Mo", "Ta", "Nb", "Hf", "Re"],
+      "max_substitution_share": 0.35,
+      "performance_penalty_per_10pct": 0.018,
+      "credit_delta_per_10pct": 0.012,
+      "unlock_tags": ["high_temp_components"]
+    },
+    "photonics_semiconductors": {
+      "elements": ["Si", "Ge", "Ga", "In", "As", "Te", "Se"],
+      "max_substitution_share": 0.4,
+      "performance_penalty_per_10pct": 0.02,
+      "credit_delta_per_10pct": 0.008,
+      "unlock_tags": ["sensor_material", "quantum_photonics"]
+    },
+    "propellant_and_cryogenic": {
+      "elements": ["H", "N", "He", "Xe", "Kr"],
+      "max_substitution_share": 0.3,
+      "performance_penalty_per_10pct": 0.022,
+      "credit_delta_per_10pct": 0.01,
+      "unlock_tags": ["propulsion_propellant", "reactor_fuel"]
+    },
+    "catalytic_precious": {
+      "elements": ["Pd", "Pt", "Ir", "Au", "Ag"],
+      "max_substitution_share": 0.25,
+      "performance_penalty_per_10pct": 0.03,
+      "credit_delta_per_10pct": 0.02,
+      "unlock_tags": ["catalyst_stack", "quantum_photonics"]
+    }
+  },
+  "market_crafting_tuning": {
+    "flags": {
+      "enable_dynamic_substitutions": true,
+      "enforce_substitution_network_caps": true,
+      "apply_scarcity_to_crafting_quotes": true,
+      "enable_volatility_damping": true,
+      "enable_stockpile_release_damping": true,
+      "use_weighted_moving_average_midprice": true
+    },
+    "parameters": {
+      "max_substitution_relief": 0.55,
+      "scarcity_shock_gain": 0.65,
+      "byproduct_rigidity_gain": 0.4,
+      "strategic_stockpile_buffer": 0.35,
+      "liquidity_depth_default": 0.5,
+      "volatility_damping_strength": 0.45,
+      "volatility_smoothing_window_days": 7,
+      "max_period_price_step_pct": 0.18,
+      "credit_markup_for_low_fidelity_substitution": 0.08
+    },
+    "formulas": {
+      "effective_scarcity_index": "class.base_scarcity_index * (1 + scarcity_shock_gain * supply_shock) * (1 + class.stockpiling_sensitivity * strategic_demand) * (1 - substitution_relief)",
+      "substitution_relief": "clamp(substitution_coverage * avg_substitution_fidelity * class.substitution_elasticity, 0, max_substitution_relief)",
+      "crafting_material_multiplier": "effective_scarcity_index * (1 + class.byproduct_dependency * byproduct_rigidity_gain * demand_acceleration)",
+      "volatility_undamped": "class.baseline_volatility * (1 + effective_scarcity_index - 1 + supply_shock) * (1 + demand_acceleration)",
+      "volatility_damped": "clamp(volatility_undamped * (1 - volatility_damping_strength * (liquidity_depth + strategic_stockpile_buffer)), 0.02, 0.3)",
+      "midprice_next": "midprice_prev * (1 + clamp(order_flow_imbalance, -max_period_price_step_pct, max_period_price_step_pct))"
+    }
+  }
+}

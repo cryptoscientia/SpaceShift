@@ -1,0 +1,80 @@
+[
+  {
+    "id": "contract.hauling_fe_frontier_bulk",
+    "type": "hauling",
+    "title": "Frontier Iron Relay",
+    "description": "Deliver refined iron cargo to an under-supplied frontier foundry lane.",
+    "objective": {
+      "kind": "deliver_element",
+      "symbol": "Fe",
+      "required_value": 1500
+    },
+    "base_duration_hours": 18,
+    "risk_band": "low",
+    "rewards": {
+      "xp": 4200,
+      "credits": 280000,
+      "rp": 210,
+      "elements": [
+        { "symbol": "Ni", "amount": 90 }
+      ]
+    }
+  },
+  {
+    "id": "contract.escort_convoy_hydrogen_line",
+    "type": "escort",
+    "title": "Hydrogen Tanker Escort",
+    "description": "Escort cryo-tanker formations through pirate-heavy transit lanes.",
+    "objective": {
+      "kind": "win_battles",
+      "required_value": 3
+    },
+    "base_duration_hours": 14,
+    "risk_band": "medium",
+    "rewards": {
+      "xp": 5600,
+      "credits": 360000,
+      "rp": 280,
+      "voidcoin": 1.2
+    }
+  },
+  {
+    "id": "contract.salvage_precursor_spindle",
+    "type": "salvage",
+    "title": "Precursor Spindle Salvage",
+    "description": "Recover anomalous relic fragments from a drifting precursor spindle field.",
+    "objective": {
+      "kind": "scan_worlds",
+      "required_value": 6
+    },
+    "base_duration_hours": 22,
+    "risk_band": "high",
+    "rewards": {
+      "xp": 8400,
+      "credits": 540000,
+      "rp": 460,
+      "elements": [
+        { "symbol": "Pt", "amount": 26 },
+        { "symbol": "Re", "amount": 12 }
+      ]
+    }
+  },
+  {
+    "id": "contract.raid_shadow_cache",
+    "type": "raid",
+    "title": "Shadow Cache Interdiction",
+    "description": "Raid hostile logistics depots and deny black-market ammunition staging.",
+    "objective": {
+      "kind": "build_structures",
+      "required_value": 2
+    },
+    "base_duration_hours": 16,
+    "risk_band": "high",
+    "rewards": {
+      "xp": 7600,
+      "credits": 620000,
+      "rp": 390,
+      "voidcoin": 0.8
+    }
+  }
+]

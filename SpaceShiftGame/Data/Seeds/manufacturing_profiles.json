@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mfg_profile.baseline_fabricator",
+    "name": "Baseline Fabricator",
+    "description": "Standard orbital fabrication profile used by most independent captains.",
+    "max_parallel_jobs": 2,
+    "base_throughput_units_per_hour": 1.0,
+    "workforce_per_tier": 850.0,
+    "cargo_per_tier": 45.0
+  },
+  {
+    "id": "mfg_profile.heavy_shipyard",
+    "name": "Heavy Shipyard",
+    "description": "High-volume heavy-frame assembly profile for large hull and module programs.",
+    "max_parallel_jobs": 4,
+    "base_throughput_units_per_hour": 1.35,
+    "workforce_per_tier": 1200.0,
+    "cargo_per_tier": 70.0
+  },
+  {
+    "id": "mfg_profile.precision_nanoforge",
+    "name": "Precision Nanoforge",
+    "description": "Low-volume, high-precision profile for advanced systems and race-specialized production.",
+    "max_parallel_jobs": 3,
+    "base_throughput_units_per_hour": 0.9,
+    "workforce_per_tier": 1050.0,
+    "cargo_per_tier": 52.0
+  }
+]

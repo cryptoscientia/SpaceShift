@@ -1,0 +1,58 @@
+name: Backend Alert Smoke
+
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        description: "Optional message suffix for the alert smoke test"
+        required: false
+        default: ""
+
+jobs:
+  backend-alert-smoke:
+    name: Backend Alert Smoke
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Ensure webhook is configured
+        env:
+          SPACESHIFT_CI_ALERT_WEBHOOK: ${{ secrets.SPACESHIFT_CI_ALERT_WEBHOOK }}
+        run: |
+          set -euo pipefail
+          if [[ -n "${SPACESHIFT_CI_ALERT_WEBHOOK:-}" ]]; then
+            echo "SPACESHIFT_CI_ALERT_WEBHOOK configured."
+            exit 0
+          fi
+          echo "::error::SPACESHIFT_CI_ALERT_WEBHOOK is not configured."
+          exit 1
+
+      - name: Send webhook smoke alert
+        env:
+          SPACESHIFT_CI_ALERT_WEBHOOK: ${{ secrets.SPACESHIFT_CI_ALERT_WEBHOOK }}
+          CI_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          CI_REF: ${{ github.ref }}
+          CI_SHA: ${{ github.sha }}
+          EXTRA_MESSAGE: ${{ github.event.inputs.message }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ ! "${SPACESHIFT_CI_ALERT_WEBHOOK}" =~ ^https?:// ]]; then
+            echo "::error::SPACESHIFT_CI_ALERT_WEBHOOK must be a valid http(s) URL."
+            exit 1
+          fi
+          payload="$(printf '{"text":"SpaceShift alert smoke test succeeded on %s (%s). Run: %s %s"}' \
+            "${CI_REF}" "${CI_SHA}" "${CI_RUN_URL}" "${EXTRA_MESSAGE}")"
+          curl -fsS -X POST \
+            -H "Content-Type: application/json" \
+            -d "${payload}" \
+            "${SPACESHIFT_CI_ALERT_WEBHOOK}"
+
+      - name: Publish workflow summary
+        run: |
+          {
+            echo "### Alert Smoke Test"
+            echo ""
+            echo "- Result: success"
+            echo "- Webhook secret: configured"
+            echo "- Run URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          } >> "${GITHUB_STEP_SUMMARY}"

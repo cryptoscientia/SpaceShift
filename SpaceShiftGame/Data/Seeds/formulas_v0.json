@@ -1,0 +1,26 @@
+{
+  "notes": "Initial formula set inspired by Galaxy Legion equation references, adapted for SpaceShift. Economy bridge formulas: substitution_relief = clamp(substitution_coverage * avg_substitution_fidelity * scarcity_substitution_elasticity, 0, 0.55); volatility_damped = clamp(volatility_undamped * (1 - damping_strength), 0.02, 0.30). Runtime coefficients and toggles live in element_resource_tiers.market_crafting_tuning.",
+  "xp": {
+    "total_xp_for_rank": "sum(i=1..rank-1)[90 * i^1.24 * (1 + 0.0085 * max(i-10,0)^0.74)]",
+    "xp_to_next_rank": "90 * rank^1.24 * (1 + 0.0085 * max(rank-10,0)^0.74)",
+    "ship_xp_to_next_level": "120 * level^1.35 * (1 + 0.011 * max(level-18,0)^0.72)"
+  },
+  "planet_limits": {
+    "max_planets": "floor(rank / 4 + 1)"
+  },
+  "combat": {
+    "npc_damage_cap": "npc_rank * 2.5",
+    "pvp_damage_cap": "max(deck / 2, (rank + 19) / 2)",
+    "damage_per_shot": "tanh((attack * random_factor) / (defense * 5)) * damage_cap",
+    "random_factor_min": 0.6,
+    "random_factor_max": 1.666
+  },
+  "shield": {
+    "base_regen_per_tick_pct": 2.0
+  },
+  "tuning_flags": {
+    "use_heat_penalties": true,
+    "use_power_deficit_penalties": true,
+    "enable_low_hull_action_lock": true
+  }
+}

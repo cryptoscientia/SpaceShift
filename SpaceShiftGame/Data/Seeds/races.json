@@ -1,0 +1,259 @@
+[
+  {
+    "id": "race.human_frontier",
+    "name": "Human Frontier",
+    "description": "Adaptive explorers and negotiators from fractured colony lines.",
+    "homeworld_archetype": "habitable",
+    "trait_name": "Adaptive Doctrine",
+    "trait_description": "+8% XP gain and +5% all production.",
+    "allowed_professions": [
+      "profession.explorer",
+      "profession.merchant",
+      "profession.hacker",
+      "profession.raider",
+      "profession.miner"
+    ],
+    "stat_modifiers": {
+      "xp_gain_pct": 8,
+      "research_pct": 5,
+      "cargo_pct": 5,
+      "mineral_production_pct": 5,
+      "artifact_production_pct": 5
+    }
+  },
+  {
+    "id": "race.gray_synod",
+    "name": "Gray Synod",
+    "description": "Ancient post-biological researchers focused on fast vessels and precision science.",
+    "homeworld_archetype": "ice",
+    "trait_name": "Cold Cognition",
+    "trait_description": "+15% research, +10% scan, -10% cargo.",
+    "allowed_professions": [
+      "profession.physicist",
+      "profession.hacker",
+      "profession.explorer",
+      "profession.biologist"
+    ],
+    "stat_modifiers": {
+      "research_pct": 15,
+      "scan_pct": 10,
+      "cargo_pct": -10
+    }
+  },
+  {
+    "id": "race.draconian_clans",
+    "name": "Draconian Clans",
+    "description": "Lineage-bound war houses that excel in decisive first strikes.",
+    "homeworld_archetype": "lava",
+    "trait_name": "Clan Assault",
+    "trait_description": "+18% attack, +8% hull, -8% scan.",
+    "allowed_professions": [
+      "profession.raider",
+      "profession.builder",
+      "profession.fixer",
+      "profession.miner"
+    ],
+    "stat_modifiers": {
+      "attack_pct": 18,
+      "hull_pct": 8,
+      "scan_pct": -8
+    }
+  },
+  {
+    "id": "race.felien_nomads",
+    "name": "Felien Nomads",
+    "description": "Distributed fleet families with strong trade and stealth instincts.",
+    "homeworld_archetype": "desert",
+    "trait_name": "Caravan Shadow",
+    "trait_description": "+20% cargo, +10% cloak, -8% shield.",
+    "allowed_professions": [
+      "profession.merchant",
+      "profession.explorer",
+      "profession.hacker",
+      "profession.excavator"
+    ],
+    "stat_modifiers": {
+      "cargo_pct": 20,
+      "cloak_pct": 10,
+      "shield_pct": -8
+    }
+  },
+  {
+    "id": "race.sarian_ascendancy",
+    "name": "Sarian Ascendancy",
+    "description": "Disciplined philosopher-engineers who optimize shield harmonics.",
+    "homeworld_archetype": "super_earth",
+    "trait_name": "Harmonic Wards",
+    "trait_description": "+20% shield, +8% defense, -6% attack.",
+    "allowed_professions": [
+      "profession.physicist",
+      "profession.builder",
+      "profession.fixer",
+      "profession.biologist"
+    ],
+    "stat_modifiers": {
+      "shield_pct": 20,
+      "defense_pct": 8,
+      "attack_pct": -6
+    }
+  },
+  {
+    "id": "race.synth_collective",
+    "name": "Synth Collective",
+    "description": "Machine intelligences that convert energy into relentless throughput.",
+    "homeworld_archetype": "metal_rich",
+    "trait_name": "Machine Throughput",
+    "trait_description": "+15% energy, +10% research, -12% hull.",
+    "allowed_professions": [
+      "profession.builder",
+      "profession.hacker",
+      "profession.physicist",
+      "profession.miner"
+    ],
+    "stat_modifiers": {
+      "energy_pct": 15,
+      "research_pct": 10,
+      "hull_pct": -12
+    }
+  },
+  {
+    "id": "race.khazari_forgekin",
+    "name": "Khazari Forgekin",
+    "description": "High-gravity industrial clans specialized in fabrication and armor.",
+    "homeworld_archetype": "rocky",
+    "trait_name": "Foundry Blood",
+    "trait_description": "+12% hull, +12% mineral output, -8% cloak.",
+    "allowed_professions": [
+      "profession.builder",
+      "profession.miner",
+      "profession.excavator",
+      "profession.fixer"
+    ],
+    "stat_modifiers": {
+      "hull_pct": 12,
+      "research_pct": 4,
+      "cloak_pct": -8,
+      "mineral_production_pct": 12
+    }
+  },
+  {
+    "id": "race.myr_sporekin",
+    "name": "Myr Sporekin",
+    "description": "Bio-symbiotic swarms that spread through habitats and salvage fields.",
+    "homeworld_archetype": "toxic",
+    "trait_name": "Symbiotic Drift",
+    "trait_description": "+12% artifact yield, +10% scan, -10% defense.",
+    "allowed_professions": [
+      "profession.biologist",
+      "profession.excavator",
+      "profession.explorer",
+      "profession.hacker"
+    ],
+    "stat_modifiers": {
+      "scan_pct": 10,
+      "defense_pct": -10,
+      "research_pct": 6,
+      "artifact_production_pct": 12
+    }
+  },
+  {
+    "id": "race.aethermind_concord",
+    "name": "Aethermind Concord",
+    "description": "Distributed synthetic minds running on photonic cognition meshes and long-horizon probability planning.",
+    "homeworld_archetype": "metal_rich",
+    "trait_name": "Predictive Consensus",
+    "trait_description": "+16% research, +12% scan, +8% defense, -10% mineral output.",
+    "allowed_professions": [
+      "profession.hacker",
+      "profession.physicist",
+      "profession.builder",
+      "profession.explorer"
+    ],
+    "stat_modifiers": {
+      "research_pct": 16,
+      "scan_pct": 12,
+      "defense_pct": 8,
+      "mineral_production_pct": -10
+    }
+  },
+  {
+    "id": "race.vesper_felari",
+    "name": "Vesper Felari",
+    "description": "Agile felid-derived navigators whose vestibular microtuning grants exceptional reaction control in high-g maneuvers.",
+    "homeworld_archetype": "temperate",
+    "trait_name": "Predatory Reflex Arc",
+    "trait_description": "+14% scan, +10% cloak, +6% critical tempo, -8% cargo handling.",
+    "allowed_professions": [
+      "profession.explorer",
+      "profession.hacker",
+      "profession.physicist",
+      "profession.raider"
+    ],
+    "stat_modifiers": {
+      "scan_pct": 14,
+      "cloak_pct": 10,
+      "attack_pct": 6,
+      "cargo_pct": -8
+    }
+  },
+  {
+    "id": "race.vargr_lykans",
+    "name": "Vargr Lykans",
+    "description": "Pack-bonded canid clans optimized for convoy defense and pursuit operations under distributed command doctrine.",
+    "homeworld_archetype": "rocky",
+    "trait_name": "Pack Synchrony",
+    "trait_description": "+12% defense, +10% hull, +8% XP gain, -6% cloak.",
+    "allowed_professions": [
+      "profession.fixer",
+      "profession.merchant",
+      "profession.raider",
+      "profession.builder"
+    ],
+    "stat_modifiers": {
+      "defense_pct": 12,
+      "hull_pct": 10,
+      "xp_gain_pct": 8,
+      "cloak_pct": -6
+    }
+  },
+  {
+    "id": "race.caelith_avari",
+    "name": "Caelith Avari",
+    "description": "Avian-descended aeronaut clans evolved for sustained high-g vector changes and precision atmospheric re-entry operations.",
+    "homeworld_archetype": "mountain",
+    "trait_name": "Aeroelastic Reflex Weave",
+    "trait_description": "+12% scan, +10% cloak, +8% thrust handling, -6% hull integrity baseline.",
+    "allowed_professions": [
+      "profession.explorer",
+      "profession.raider",
+      "profession.physicist",
+      "profession.merchant"
+    ],
+    "stat_modifiers": {
+      "scan_pct": 12,
+      "cloak_pct": 10,
+      "attack_pct": 6,
+      "hull_pct": -6
+    }
+  },
+  {
+    "id": "race.thaloran_cetids",
+    "name": "Thaloran Cetids",
+    "description": "Cephalopod-derived abyssal intelligences adapted to pressure gradients, distributed cognition, and gravity-gradient piloting.",
+    "homeworld_archetype": "oceanic",
+    "trait_name": "Pressure Logic Chorus",
+    "trait_description": "+14% shield, +10% defense, +8% research, -8% attack tempo.",
+    "allowed_professions": [
+      "profession.physicist",
+      "profession.biologist",
+      "profession.builder",
+      "profession.explorer"
+    ],
+    "stat_modifiers": {
+      "shield_pct": 14,
+      "defense_pct": 10,
+      "research_pct": 8,
+      "attack_pct": -8
+    }
+  }
+]

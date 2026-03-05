@@ -1,0 +1,65 @@
+[
+  {
+    "id": "faction.aurelian_compact",
+    "name": "Aurelian Compact",
+    "description": "A treaty-driven industrial federation controlling major shipyards.",
+    "doctrine": "industrial",
+    "alignment_bonus": {
+      "mineral_production_pct": 10,
+      "defense_pct": 6
+    }
+  },
+  {
+    "id": "faction.nyx_shadow_exchange",
+    "name": "Nyx Shadow Exchange",
+    "description": "A covert market alliance of smugglers, hackers, and brokers.",
+    "doctrine": "shadow",
+    "alignment_bonus": {
+      "scan_pct": 8,
+      "research_pct": 6,
+      "attack_pct": 4
+    }
+  },
+  {
+    "id": "faction.krynn_war_synod",
+    "name": "Krynn War Synod",
+    "description": "Militarist coalition optimized for fleet pressure and territorial assaults.",
+    "doctrine": "militarist",
+    "alignment_bonus": {
+      "attack_pct": 12,
+      "defense_pct": 4
+    }
+  },
+  {
+    "id": "faction.helion_science_directorate",
+    "name": "Helion Science Directorate",
+    "description": "Research supremacists focused on exotic materials and high-tier technologies.",
+    "doctrine": "scientific",
+    "alignment_bonus": {
+      "research_pct": 14,
+      "artifact_production_pct": 6
+    }
+  },
+  {
+    "id": "faction.veil_trade_union",
+    "name": "Veil Trade Union",
+    "description": "Merchant blocs that dominate interstellar logistics and contracts.",
+    "doctrine": "mercantile",
+    "alignment_bonus": {
+      "mineral_production_pct": 6,
+      "artifact_production_pct": 6,
+      "scan_pct": 4
+    }
+  },
+  {
+    "id": "faction.singularity_concord",
+    "name": "Singularity Concord",
+    "description": "Post-biological polity governed by audited strategic AI assemblies and machine-right treaties.",
+    "doctrine": "scientific",
+    "alignment_bonus": {
+      "research_pct": 12,
+      "scan_pct": 9,
+      "defense_pct": 4
+    }
+  }
+]

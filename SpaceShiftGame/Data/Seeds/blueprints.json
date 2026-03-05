@@ -1,0 +1,26 @@
+[
+  {
+    "id": "blueprint.neural_rail_lance_mk7",
+    "name": "Neural Rail Lance Mk7 Blueprint",
+    "target_item_id": "module.weapon_neural_rail_lance_mk7",
+    "family": "weapon",
+    "tier": 7,
+    "description": "Recovered fabrication lattice for a high-density neural rail weapon."
+  },
+  {
+    "id": "blueprint.synaptic_battleship_t7",
+    "name": "Synaptic Battleship T7 Blueprint",
+    "target_item_id": "hull.synaptic_battleship_t7",
+    "family": "hull",
+    "tier": 7,
+    "description": "Architectural hull matrix encoding for synaptic command battleships."
+  },
+  {
+    "id": "blueprint.cognitive_fabrication_spire",
+    "name": "Cognitive Fabrication Spire Blueprint",
+    "target_item_id": "structure.cognitive_fabrication_spire",
+    "family": "structure",
+    "tier": 6,
+    "description": "Autonomous fabrication spire schematics with adaptive process control."
+  }
+]

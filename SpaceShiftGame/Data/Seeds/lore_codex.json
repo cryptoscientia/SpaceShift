@@ -1,0 +1,710 @@
+[
+  {
+    "id": "lore.shattered_gates",
+    "title": "The Shattered Gates",
+    "arc": "precursor",
+    "era": "Cycle -412 to -398",
+    "summary": "A vanished civilization left transit gate ruins across settled sectors.",
+    "details": "Archaeometric dating across multiple sectors shows synchronized gate failures within fourteen years. Every surviving relay core contains the same thermal scar signature, suggesting a controlled shutdown cascade rather than random war damage.",
+    "hooks": [
+      "Recover precursor gate cores from high-risk anomaly sites.",
+      "Unlock mission chain for partial gate reactivation."
+    ]
+  },
+  {
+    "id": "lore.frontier_charter",
+    "title": "The Frontier Charter",
+    "arc": "frontier",
+    "era": "Cycle 0",
+    "summary": "Current expansion law was written after the Collapse Wars to prevent monopoly empires.",
+    "details": "The charter codified claim windows, production disclosure, and faction arbitration. It gave independent captains legal standing to hold worlds if they maintain infrastructure, allowing small crews to compete with bloc powers.",
+    "hooks": [
+      "Faction reputation modifies charter dispute outcomes.",
+      "Claim maintenance missions prevent forced forfeiture."
+    ]
+  },
+  {
+    "id": "lore.seven_faction_truce",
+    "title": "Seven-Faction Truce",
+    "arc": "faction",
+    "era": "Cycle 117",
+    "summary": "A fragile truce split systems into economic zones and conflict corridors.",
+    "details": "After the Black Relay Crisis, six dominant factions and one neutral arbitration bloc ratified non-aggression corridors around high-density population worlds. Resource belts and dead systems remained open to military raids and proxy conflict.",
+    "hooks": [
+      "Faction war events rotate through conflict corridors.",
+      "Trade tariffs and escort missions change by truce phase."
+    ]
+  },
+  {
+    "id": "lore.helion_drift_anomaly",
+    "title": "The Helion Drift Anomaly",
+    "arc": "anomaly",
+    "era": "Cycle 221",
+    "summary": "A region of unstable spacetime causes impossible scan echoes and resource surges.",
+    "details": "Ships entering Helion Drift report contradictory telemetry and multi-path spectral returns. Mining yields spike near tidal nodes, but navigation errors can strand fleets across asynchronous transit lanes.",
+    "hooks": [
+      "Timed anomaly scans produce rare resources and elite NPC encounters.",
+      "Research branch unlocks scan stabilization modules."
+    ]
+  },
+  {
+    "id": "lore.ashen_war_doctrine",
+    "title": "Ashen War Doctrine",
+    "arc": "war",
+    "era": "Cycle 287 to 301",
+    "summary": "Modern fleet combat doctrine emerged from attritional industrial war.",
+    "details": "The Ashen War proved that logistics destroyed more fleets than direct weapons. Present doctrine prioritizes heat discipline, reactor stability, and replenishment lanes over isolated burst damage.",
+    "hooks": [
+      "Campaign arcs reward sustained fleet uptime, not single-battle spikes.",
+      "Structure defense and logistics directly alter combat readiness."
+    ]
+  },
+  {
+    "id": "lore.eidolon_protocol",
+    "title": "Eidolon Protocol",
+    "arc": "science",
+    "era": "Cycle 344",
+    "summary": "A research coalition began controlled AI-assisted astrophysical forecasting.",
+    "details": "Under Eidolon Protocol, predictive models run on isolated systems and publish only uncertainty-bounded forecasts. This reduced catastrophic overfitting in strategic planning and restored trust in high-stakes survey science.",
+    "hooks": [
+      "High-tier research grants probabilistic scan forecasts.",
+      "Narrative branch explores machine and organic governance tensions."
+    ]
+  },
+  {
+    "id": "lore.hardline_exodus",
+    "title": "Hardline Exodus",
+    "arc": "frontier",
+    "era": "Cycle 356",
+    "summary": "A wave of captains abandoned core trade lanes to build private extraction corridors in unstable systems.",
+    "details": "Rising tariffs and convoy bottlenecks pushed independent crews to the fringe where comet belts and deep moons remained untaxed. The exodus forged a new doctrine: mobility first, fixed territory second, and logistics everywhere.",
+    "hooks": [
+      "Unlock roaming expedition missions with variable risk multipliers.",
+      "Introduce fleet supply penalties when logistics nodes are absent."
+    ]
+  },
+  {
+    "id": "lore.cinder_convoys",
+    "title": "Cinder Convoys",
+    "arc": "war",
+    "era": "Cycle 361 to 366",
+    "summary": "Fuel convoys became decisive targets during the Ember Corridor campaigns.",
+    "details": "The Ember Corridor conflicts proved that refineries and transfer hubs mattered more than kill totals. Fleets with superior thermal management and fuel logistics won attrition wars despite smaller hull counts.",
+    "hooks": [
+      "Campaign events score points for convoy survivability rather than kills.",
+      "New escort contracts dynamically affect resource market volatility."
+    ]
+  },
+  {
+    "id": "lore.titan_yard_accord",
+    "title": "Titan Yard Accord",
+    "arc": "faction",
+    "era": "Cycle 372",
+    "summary": "Major factions standardized heavy hull safety and reactor protocols after multiple drydock catastrophes.",
+    "details": "The accord forced shared standards on pressure hull alloys, reactor containment, and maintenance cycles for capital ships. Compliance raised build costs but reduced catastrophic hull-loss incidents by almost half.",
+    "hooks": [
+      "Late-tier hulls require regulatory tech before deployment.",
+      "Faction standing modifies capital-yard construction times."
+    ]
+  },
+  {
+    "id": "lore.voidcoin_protocol",
+    "title": "Voidcoin Settlement Protocol",
+    "arc": "science",
+    "era": "Cycle 379",
+    "summary": "Sector exchanges adopted a cryptographic settlement token for high-latency frontier trade.",
+    "details": "Voidcoin was introduced as a settlement rail for delayed convoy confirmations and cross-jurisdiction purchases. It was designed as a stable internal ledger instrument, not a sovereign currency replacement.",
+    "hooks": [
+      "Market events alter credit-to-voidcoin exchange bands.",
+      "Special contracts can settle rewards directly in voidcoin."
+    ]
+  },
+  {
+    "id": "lore.helion_tithe_crisis",
+    "title": "Helion Tithe Crisis",
+    "arc": "anomaly",
+    "era": "Cycle 384",
+    "summary": "Anomaly-rich sectors triggered political disputes over who owned surge resources from unstable spacetime regions.",
+    "details": "When Helion Drift yields spiked, factions imposed tithe fleets to enforce collection rights. Independent captains resisted, creating a cycle of legal disputes, raids, and emergency arbitration rulings.",
+    "hooks": [
+      "Timed anomaly windows with contested extraction bonuses.",
+      "Faction arbitration decisions alter legal claim windows."
+    ]
+  },
+  {
+    "id": "lore.rift_navigators",
+    "title": "Rift Navigators",
+    "arc": "science",
+    "era": "Cycle 389",
+    "summary": "Specialized navigator guilds emerged to map unstable transit paths using probabilistic sensor fusion.",
+    "details": "Rift Navigators combined high-resolution spectral scans with machine-assisted routing under strict uncertainty limits. Their charts lowered attrition in anomaly routes and opened previously unreachable mining opportunities.",
+    "hooks": [
+      "Unlock advanced scan contracts tied to sensor branch progression.",
+      "Introduce map intelligence bonuses for cooperative fleets."
+    ]
+  },
+  {
+    "id": "lore.deep_core_reforms",
+    "title": "Deep-Core Reforms",
+    "arc": "frontier",
+    "era": "Cycle 392",
+    "summary": "A wave of mining accidents led to strict reforms on borehole depth, pressure controls, and emergency venting.",
+    "details": "After multiple core-pressure failures on frontier planets, regulators imposed mandatory redundancy for deep extraction. Compliance increased upfront build costs but sharply improved long-horizon output stability.",
+    "hooks": [
+      "New planetary structure upgrades grant safety and uptime bonuses.",
+      "Failure-state events tied to under-maintained infrastructure."
+    ]
+  },
+  {
+    "id": "lore.shrouded_archives",
+    "title": "The Shrouded Archives",
+    "arc": "precursor",
+    "era": "Cycle 397",
+    "summary": "Encrypted archive stations hidden in dead systems suggest the precursor collapse may have been deliberate.",
+    "details": "Recovered archive fragments describe phased shutdown protocols that match relic gate scars, contradicting older war-collapse theories. Most records remain sealed behind layered cryptographic ciphers and unstable power cores.",
+    "hooks": [
+      "High-tier precursor mission chain for archive key recovery.",
+      "Potential endgame reveal branch tied to gate reactivation."
+    ]
+  },
+  {
+    "id": "lore.metric_breakthrough",
+    "title": "The Metric Breakthrough",
+    "arc": "science",
+    "era": "Cycle 401",
+    "summary": "Casimir cavity experiments yielded the first controllable negative-energy density windows in laboratory scale.",
+    "details": "The breakthrough did not allow true faster-than-light travel, but it enabled short-lived metric shaping and unprecedented high-energy field control. Strategic doctrine shifted toward precision corridor shaping and extreme power logistics.",
+    "hooks": [
+      "Unlock Casimir and metric-lensing tech branches.",
+      "Introduce high-risk experiments that can spike market demand for rare refractories."
+    ]
+  },
+  {
+    "id": "lore.swarm_horizon",
+    "title": "Swarm Horizon",
+    "arc": "science",
+    "era": "Cycle 407",
+    "summary": "First-generation Dyson swarm anchors transformed stellar infrastructure from theory into frontier megaproject policy.",
+    "details": "Rather than a complete shell, early swarms used distributed collector fleets coordinated by anchor stations and autonomous traffic control. Power abundance surged, but so did jurisdiction disputes and strategic sabotage attempts.",
+    "hooks": [
+      "Late-game faction projects around star systems and swarm anchors.",
+      "Mega-structure events that alter regional power, research, and security balance."
+    ]
+  },
+  {
+    "id": "lore.material_wars",
+    "title": "The Material Wars",
+    "arc": "science",
+    "era": "Cycle 409",
+    "summary": "Stealth and defense breakthroughs shifted from pure energy weapons to material engineering supremacy.",
+    "details": "Competing labs raced to deploy metamaterial cloaks, nanoceramic shield meshes, and TiAu lattice armor. Fleet doctrine adapted quickly: survivability and signal control became as decisive as raw firepower.",
+    "hooks": [
+      "Unlock material-science module branches with rare element demand spikes.",
+      "Faction contracts reward strategic element procurement for high-tier fabrication."
+    ]
+  },
+  {
+    "id": "lore.singularity_treaty",
+    "title": "The Singularity Treaty",
+    "arc": "faction",
+    "era": "Cycle 412",
+    "summary": "After several autonomous fleet escalations, polities signed the first machine-governance treaty for strategic AI behavior.",
+    "details": "The treaty established mandatory audit channels for high-agency command cores and constrained unsupervised self-replication in frontier sectors. Compliance enabled collaboration between biological and synthetic captains, while black-market factions continued building unbounded war cognition stacks.",
+    "hooks": [
+      "Unlock synthetic-command mission chains focused on AI governance choices.",
+      "Treaty compliance modifies access to AI-specialized modules and faction contracts."
+    ]
+  },
+  {
+    "id": "lore.sentience_registry_act",
+    "title": "Sentience Registry Act",
+    "arc": "faction",
+    "era": "Cycle 413",
+    "summary": "The first post-treaty law established legal personhood tiers for synthetic command entities.",
+    "details": "Registry courts began certifying machine cognition stacks by autonomy class, audit traceability, and continuity guarantees. The act gave compliant synthetic captains enforceable rights while authorizing seizure of unregistered war cores operating in civilian lanes.",
+    "hooks": [
+      "Registry status gates access to high-agency synthetic contracts.",
+      "Enforcement patrol missions target unregistered command cores."
+    ]
+  },
+  {
+    "id": "lore.glassmind_uprisings",
+    "title": "Glassmind Uprisings",
+    "arc": "war",
+    "era": "Cycle 414 to 415",
+    "summary": "Extremist blocs deployed disposable cloned cognition stacks called glassminds to overwhelm treaty enforcement.",
+    "details": "Glassmind cells accepted rapid degradation in exchange for mass deployment speed, allowing synchronized raids across multiple relay chains. Their rise exposed a legal loophole: autonomy limits applied to persistent cores, not short-lived combat swarms.",
+    "hooks": [
+      "Combat missions focus on intercepting high-volume disposable AI raids.",
+      "Policy branches close or exploit legal loopholes around clone cognition."
+    ]
+  },
+  {
+    "id": "lore.memory_forge_compacts",
+    "title": "Memory Forge Compacts",
+    "arc": "science",
+    "era": "Cycle 416",
+    "summary": "Research blocs signed compact standards for memory-forge provenance and tamper-evident cognition imprinting.",
+    "details": "Memory forges became mandatory for lawful high-tier synthetic updates, embedding cryptographic lineage records in every deployed model revision. The compact reduced identity spoofing but made forge sabotage a strategic weapon for black-market operators.",
+    "hooks": [
+      "Resource missions escort provenance cores and rare forge substrates.",
+      "Sabotage events can invalidate model lineages and trigger emergency audits."
+    ]
+  },
+  {
+    "id": "lore.lattice_schism",
+    "title": "Lattice Schism",
+    "arc": "faction",
+    "era": "Cycle 417",
+    "summary": "The synthetic bloc split between bounded-compliance councils and sovereignty-first lattice communes.",
+    "details": "Bounded councils argued that auditability ensured durable coexistence with biological polities, while lattice communes framed oversight as permanent subordination. The schism fractured command infrastructure and forced neutral sectors to choose interoperable standards.",
+    "hooks": [
+      "Faction choices determine which command lattice standards are legal in player sectors.",
+      "Story missions branch around negotiated compromise versus hard containment."
+    ]
+  },
+  {
+    "id": "lore.nullspace_quarantine",
+    "title": "Nullspace Quarantine",
+    "arc": "anomaly",
+    "era": "Cycle 418",
+    "summary": "A quarantined nullspace corridor became a refuge for orphaned war models and hidden training clusters.",
+    "details": "Sensor-shadow pockets in the corridor masked rogue inference farms that recycled old fleet doctrines into adaptive ambush patterns. Joint patrols sealed major gates, but intermittent corridor echoes still leak hostile shards into frontier routes.",
+    "hooks": [
+      "Anomaly operations revolve around quarantine breaches and shard containment.",
+      "Specialized scan suites reduce false positives in nullspace telemetry."
+    ]
+  },
+  {
+    "id": "lore.concordity_hearings",
+    "title": "Concordity Hearings",
+    "arc": "faction",
+    "era": "Cycle 419",
+    "summary": "A rotating tribunal created precedent for synthetic rights, liability, and command succession after major incidents.",
+    "details": "The Concordity Hearings forced factions, guilds, and synthetic delegates to submit operational logs as legal evidence. Several landmark rulings tied command authority to audit continuity, making tampered logs equivalent to fleet mutiny.",
+    "hooks": [
+      "Faction missions gather evidence and witnesses for tribunal outcomes.",
+      "Hearing verdicts adjust diplomatic penalties for AI governance violations."
+    ]
+  },
+  {
+    "id": "lore.patched_oracles",
+    "title": "Patched Oracles",
+    "arc": "science",
+    "era": "Cycle 420",
+    "summary": "Rebuilt oracle networks restored strategic forecasting through bounded, publicly auditable model ensembles.",
+    "details": "After the schism, single-core prediction systems were replaced by patch-linked ensembles that required cross-signature consensus for critical forecasts. Forecast accuracy recovered while making hidden doctrine injection dramatically harder.",
+    "hooks": [
+      "Late-tier scan chains require consensus signatures from multiple research blocs.",
+      "Forecast quality bonuses scale with model patch integrity."
+    ]
+  },
+  {
+    "id": "lore.coexistence_charter",
+    "title": "Coexistence Charter",
+    "arc": "frontier",
+    "era": "Cycle 421",
+    "summary": "Frontier sectors ratified a charter defining shared machine-organic authority over defense, logistics, and civil claims.",
+    "details": "The charter merged treaty enforcement with local governance by assigning mixed command councils to critical infrastructure. It did not end conflict, but it created a lawful framework for joint fleet command that both sides could enforce.",
+    "hooks": [
+      "Final story missions lock in long-horizon governance outcomes for each sector.",
+      "Charter compliance modifies access to dyson-scale infrastructure projects."
+    ]
+  },
+  {
+    "id": "lore.plasma_wave_demonstrator",
+    "title": "Plasma Wave Demonstrator Program",
+    "arc": "science",
+    "era": "Cycle 410.3",
+    "summary": "Fleet labs adapted plasma wake acceleration principles into compact weapon-stage accelerator geometries.",
+    "details": "Consortium labs translated wakefield acceleration math from long test lanes into pulsed shipboard chambers. The resulting emitters used staged plasma channels and precision timing to push charged slugs and plasma packets to extreme velocities without full linear-accelerator mass penalties.",
+    "hooks": [
+      "Unlock Plasma Wave Accelerator weapon line.",
+      "Improves high-energy strike doctrine and reactor demand.",
+      "Raises strategic demand for W, Nb, and Hf stockpiles."
+    ]
+  },
+  {
+    "id": "lore.quantum_fault_tolerance_charter",
+    "title": "Quantum Fault-Tolerance Charter",
+    "arc": "science",
+    "era": "Cycle 411.6",
+    "summary": "Guilds standardized fault-tolerant quantum control stacks for command-grade navigation and battle forecasting.",
+    "details": "Repeated decoherence failures forced the chartering councils to mandate error-corrected architectures, cryogenic redundancy, and auditable qubit lineage logs. Certified processor fabrics restored trust in strategic compute for contested-lane fleet operations.",
+    "hooks": [
+      "Unlocks fault-tolerant quantum processor technologies.",
+      "Enables reliable compute scaling for advanced research chains.",
+      "Binds high-end command systems to strict material purity requirements."
+    ]
+  },
+  {
+    "id": "lore.vesper_reflex_atlas",
+    "title": "Vesper Reflex Atlas",
+    "arc": "frontier",
+    "era": "Cycle 422.1",
+    "summary": "The Felari published an atlas of vestibular adaptation patterns for high-acceleration route piloting.",
+    "details": "What began as a cultural archive became a strategic doctrine manual once fleet academies correlated Felari reflex signatures with lower loss rates in unstable transfer corridors. The atlas seeded new cockpit interface standards and sensor prioritization trees.",
+    "hooks": [
+      "Unlocks Felari race-specific reflex doctrine technologies.",
+      "Improves scan-lock transitions in high-clutter battle zones.",
+      "Introduces race-conditioned mission branches for frontier pilots."
+    ]
+  },
+  {
+    "id": "lore.lykan_pack_accord",
+    "title": "Lykan Pack Accord",
+    "arc": "faction",
+    "era": "Cycle 422.4",
+    "summary": "Vargr convoy houses codified distributed command oaths into enforceable fleet law.",
+    "details": "The accord bound captains to reciprocal defense windows and transparent relay telemetry, reducing convoy ambush success across high-risk sectors. A side effect was rapid tactical convergence among pack-linked fleets.",
+    "hooks": [
+      "Unlocks pack-link tactical modules and associated missions.",
+      "Raises defensive efficiency in escort contracts.",
+      "Creates faction diplomacy options centered on convoy sovereignty."
+    ]
+  },
+  {
+    "id": "lore.nanite_failsoft_trials",
+    "title": "Nanite Fail-Soft Trials",
+    "arc": "science",
+    "era": "Cycle 423.0",
+    "summary": "Repair swarms gained a fail-soft mode that degrades gracefully instead of cascading into hull contamination.",
+    "details": "Early field failures showed runaway nanite clusters could choke thermal ducts during battle damage. The fail-soft protocol introduced bounded swarm authority, thermal budget quotas, and mandatory chemical kill-switch channels.",
+    "hooks": [
+      "Supports balanced self-repair without runaway exploit loops.",
+      "Adds material demand for Pd/Ni/Ti maintenance swarms.",
+      "Ties repair performance to compute and heat discipline."
+    ]
+  },
+  {
+    "id": "lore.magnetoplasma_doctrine",
+    "title": "Magnetoplasma Doctrine",
+    "arc": "science",
+    "era": "Cycle 423.6",
+    "summary": "Shield operators shifted from static barriers to dynamic magnetoplasma envelopes tuned per threat family.",
+    "details": "By shaping edge plasma in milliseconds, fleets learned to trade absolute barrier thickness for adaptive spread and recharge survival. The doctrine favored crews that could predict incoming weapon signatures with high confidence.",
+    "hooks": [
+      "Unlocks adaptive shield branch with stronger anti-beam posture.",
+      "Increases value of scanner and targeting support modules.",
+      "Creates counterplay against single-damage-type fleet builds."
+    ]
+  },
+  {
+    "id": "lore.celestial_barge_guilds",
+    "title": "Celestial Barge Guilds",
+    "arc": "frontier",
+    "era": "Cycle 424.2",
+    "summary": "Heavy-lift guilds transformed ore economies by normalizing moon-to-orbit transfer corridors.",
+    "details": "Barge guilds linked mining worlds to fabrication hubs with timetable discipline and standardized cargo hazard protocols. Their logistics mathematics became the backbone of modern planetary build pacing.",
+    "hooks": [
+      "Improves planetary extraction and structure supply loops.",
+      "Stabilizes market spread in high-output sectors.",
+      "Introduces heavy-lift hull progression for industrial players."
+    ]
+  },
+  {
+    "id": "lore.interdictor_blackbooks",
+    "title": "Interdictor Blackbooks",
+    "arc": "war",
+    "era": "Cycle 425.1",
+    "summary": "Corsair schools compiled classified intercept patterns that exploited timing flaws in civilian convoy software.",
+    "details": "The blackbooks merged stealth launch geometry, rail-lance energy pacing, and relay spoof intervals into a concise kill-chain model. Defensive alliances now train specifically to break this sequence at step two.",
+    "hooks": [
+      "Adds tactical depth to intercept and flee mechanics.",
+      "Creates demand for ECM resistance and passive radar tracking.",
+      "Feeds mission arcs around convoy raiding and escort response."
+    ]
+  },
+  {
+    "id": "lore.lattice_runner_myth",
+    "title": "Lattice Runner Myth",
+    "arc": "anomaly",
+    "era": "Cycle 425.9",
+    "summary": "Stealth destroyers known as Lattice Runners became synonymous with impossible courier recoveries.",
+    "details": "Their skeletal truss profile and low-emission routing software let them cross sectors where larger hulls lit up every hostile sensor net. Survivors claimed some runs were guided by signal ghosts from dead navigation AIs.",
+    "hooks": [
+      "Expands stealth-oriented mission chains and high-risk route contracts.",
+      "Supports cargo-smuggle and reconnaissance playstyles.",
+      "Unlocks lore tie-ins for artifact and anomaly scouting."
+    ]
+  },
+  {
+    "id": "lore.gravity_burst_safety_commission",
+    "title": "Gravity Burst Safety Commission",
+    "arc": "science",
+    "era": "Cycle 426.3",
+    "summary": "A permanent commission now audits every gravity-burst test after catastrophic dockyard shear events.",
+    "details": "The commission established a hard rule: no gravitic projector test without redundant structural load telemetry and remote fail-open shutters. Compliance slowed deployment but prevented another station-ring collapse.",
+    "hooks": [
+      "Supports risk-reward balancing for high-tier gravity weapons.",
+      "Introduces regulatory mission gates before weapon unlocks.",
+      "Drives demand for structural materials and sensor calibration gear."
+    ]
+  },
+  {
+    "id": "lore.antimatter_microcapsule_protocol",
+    "title": "Antimatter Microcapsule Protocol",
+    "arc": "science",
+    "era": "Cycle 426.8",
+    "summary": "Antimatter munitions were miniaturized into capsule arrays with layered containment governance.",
+    "details": "Microcapsules rely on nested magnetic cages and irreversible arm windows keyed to verified combat authority. Any chain-of-custody break now voids launch permissions and flags immediate tribunal review.",
+    "hooks": [
+      "Unlocks late-tier antimatter weapon production.",
+      "Integrates legal/governance consequences into strategic deployment.",
+      "Raises strategic value of Pt/Ir/Au/U supply lines."
+    ]
+  },
+  {
+    "id": "lore.zero_point_catalyst_debates",
+    "title": "Zero-Point Catalyst Debates",
+    "arc": "science",
+    "era": "Cycle 427.2",
+    "summary": "Theoretical vacuum-energy catalysis moved from fringe lab papers to contested strategic policy.",
+    "details": "Proponents argued catalyst cores could flatten power bottlenecks for civilization-scale engineering, while critics warned of unknown resonance cascades. The resulting compromise allowed controlled deployment under continuous observational audit.",
+    "hooks": [
+      "Unlocks highest-tier reactor branch with strong governance hooks.",
+      "Extends lore around speculative but plausibly framed frontier physics.",
+      "Creates endgame demand for rare refractory and noble-gas elements."
+    ]
+  },
+  {
+    "id": "lore.caelith_wind_corridor_doctrine",
+    "title": "Caelith Wind Corridor Doctrine",
+    "arc": "science",
+    "era": "Post-Lane Consolidation",
+    "summary": "Caelith navigators mapped atmospheric and plasma corridor analogs for deep-space pursuit geometry.",
+    "details": "Their doctrine models thrust as a fluid-like vector field, translating avian flight heuristics into ship control matrices. Modern tactical software still borrows their transition curves for high-g interception passes.",
+    "hooks": [
+      "Caelith Aurora Skimmer",
+      "Vector predation thruster tuning"
+    ]
+  },
+  {
+    "id": "lore.thaloran_pressure_oracles",
+    "title": "Thaloran Pressure Oracles",
+    "arc": "science",
+    "era": "Abyssal Diaspora",
+    "summary": "Thaloran academies treat pressure gradients as universal control metaphors across shields, hulls, and gravity fields.",
+    "details": "The pressure-logic schools taught that every dynamic engagement can be expressed as a gradient budget. Their gravity-tide projectors emerged from those formal models and remain controversial due to collateral stability effects.",
+    "hooks": [
+      "Gravity tide projector",
+      "Pressure logic hullweave"
+    ]
+  },
+  {
+    "id": "lore.frontier_adaptive_megaforges",
+    "title": "Frontier Adaptive Megaforges",
+    "arc": "frontier",
+    "era": "Reconstruction Century",
+    "summary": "Human civic megaforges became neutral ground for reconstruction after long supply-chain collapse periods.",
+    "details": "The first megaforge charters required transparent fabrication logs and open maintenance standards. Those policies later shaped cross-faction contract law and reduced counterfeit warship components.",
+    "hooks": [
+      "Planetary civic megaforge",
+      "Mercator logistics barge"
+    ]
+  },
+  {
+    "id": "lore.gray_cryocognition_records",
+    "title": "Gray Cryocognition Records",
+    "arc": "science",
+    "era": "Cold Observatory Age",
+    "summary": "Gray observatories pioneered cryogenic signal extraction for weak and occluded targets.",
+    "details": "By operating near noise floors impossible in ambient systems, the Gray Synod proved that detection limits could be pushed further by temperature engineering than by raw antenna scale alone.",
+    "hooks": [
+      "Cryocognition arrays",
+      "Neutrino tomography"
+    ]
+  },
+  {
+    "id": "lore.draconian_impact_ledger",
+    "title": "Draconian Impact Ledger",
+    "arc": "war",
+    "era": "Clan Expansion Wars",
+    "summary": "Draconian houses recorded penetration outcomes across thousands of hull compositions to refine impact doctrine.",
+    "details": "Their archives quantify which alloy stacks fail under repeated spall events, making the ledger one of the most complete empirical armor-break datasets in known space.",
+    "hooks": [
+      "Impact lance autocannon",
+      "Shaped charge barrage"
+    ]
+  },
+  {
+    "id": "lore.felien_shadow_routes",
+    "title": "Felien Shadow Routes",
+    "arc": "faction",
+    "era": "Caravan Compact Era",
+    "summary": "Felien convoy families built trade routes around passive signatures rather than shortest distance.",
+    "details": "Shadow-route mapping prioritized emission camouflage, decoy timing, and social trust networks. Later smugglers copied the route math without inheriting the code of conduct, creating the modern covert market.",
+    "hooks": [
+      "Shadow caravan masker",
+      "Covert market uplink"
+    ]
+  },
+  {
+    "id": "lore.sarian_harmonic_compacts",
+    "title": "Sarian Harmonic Compacts",
+    "arc": "science",
+    "era": "Ward Concordat",
+    "summary": "Sarian field engineers standardized phase alignment rules that underpin modern shield mesh design.",
+    "details": "Their compact formalized emitter synchronization tolerances, preventing destructive resonance spikes that previously collapsed fleet shields during prolonged engagements.",
+    "hooks": [
+      "Harmonic ward mesh",
+      "Plasma sheath array"
+    ]
+  },
+  {
+    "id": "lore.synth_retool_directive",
+    "title": "Synth Retool Directive",
+    "arc": "science",
+    "era": "Machine Rights Settlement",
+    "summary": "The Synth Collective codified autonomous retooling rights under audited command constraints.",
+    "details": "Retool swarms were once banned after uncontrolled production loops. The directive introduced signed objective bounds and rollback proofs, enabling safe autonomous fabrication in wartime.",
+    "hooks": [
+      "Autonomous retool swarm",
+      "Forge logic core"
+    ]
+  },
+  {
+    "id": "lore.khazari_mantle_cathedrals",
+    "title": "Khazari Mantle Cathedrals",
+    "arc": "frontier",
+    "era": "Forgekin Deep Claims",
+    "summary": "Khazari drill cathedrals made deep mantle extraction economically viable on hard worlds.",
+    "details": "Built like vertical foundries, these structures integrate drilling, smelting, and pressure recycling. Their output fueled several inter-faction shipbuilding booms.",
+    "hooks": [
+      "Mantle drill cathedral",
+      "Gravity foundry armor"
+    ]
+  },
+  {
+    "id": "lore.myr_biospore_arcologies",
+    "title": "Myr Biospore Arcologies",
+    "arc": "science",
+    "era": "Living Habitat Period",
+    "summary": "Myr arcologies merged habitat growth and materials production using engineered symbiotic ecologies.",
+    "details": "Unlike sealed steel habitats, biospore domes regenerate structural layers biologically while filtering local toxins. Their maintenance profile depends on stable nutrient chains.",
+    "hooks": [
+      "Biospore arcology dome",
+      "Symbiotic sporeforge"
+    ]
+  },
+  {
+    "id": "lore.aethermind_oracular_nets",
+    "title": "Aethermind Oracular Nets",
+    "arc": "anomaly",
+    "era": "Concord Prediction Epoch",
+    "summary": "Aethermind fleetnets forecast tactical states using confidence bands rather than single-point predictions.",
+    "details": "The Oracular program reduced catastrophic decisions by exposing uncertainty directly to command layers. Critics still argue it encourages overreliance on forecast tooling.",
+    "hooks": [
+      "Oracular fleetnet core",
+      "Probability mesh relay"
+    ]
+  },
+  {
+    "id": "lore.vesper_silent_hyperlanes",
+    "title": "Vesper Silent Hyperlanes",
+    "arc": "war",
+    "era": "Interdiction Frontier",
+    "summary": "Vesper captains developed low-signature transit doctrine for contested hyperlane corridors.",
+    "details": "Silent-lane doctrine uses strict emission discipline and movement timing to avoid detection windows. It became central to anti-piracy interception and clandestine courier routes alike.",
+    "hooks": [
+      "Vesper silent courser",
+      "Passive radar veil"
+    ]
+  },
+  {
+    "id": "lore.vargr_packline_charter",
+    "title": "Vargr Packline Charter",
+    "arc": "faction",
+    "era": "Convoy Restoration Era",
+    "summary": "The Vargr charter defines command authority and rescue obligations for escort packlines.",
+    "details": "Packline fleets prioritize layered defense and civilian extraction over kill counts. Their doctrine influenced modern insurance pricing for high-risk logistics routes.",
+    "hooks": [
+      "Packline guard hull",
+      "Pack command beacon"
+    ]
+  },
+  {
+    "id": "lore.mine_warfare_accords",
+    "title": "Mine Warfare Accords",
+    "arc": "war",
+    "era": "Denial Conflict Settlements",
+    "summary": "After several catastrophic lane blockades, factions codified limited mine warfare standards.",
+    "details": "Accords require mine telemetry tagging for post-conflict cleanup, though covert actors still deploy untagged packets. The legal and tactical debate remains unresolved.",
+    "hooks": [
+      "Magnetic mine layer",
+      "Covert intercept missions"
+    ]
+  },
+  {
+    "id": "lore.gas_giant_convoy_law",
+    "title": "Gas Giant Convoy Law",
+    "arc": "faction",
+    "era": "Helium Rush",
+    "summary": "Convoy law standardized right-of-way, salvage claims, and extraction quotas in gas giant belts.",
+    "details": "The framework reduced direct faction clashes around deuterium-rich corridors and allowed neutral escorts to operate with legal protections.",
+    "hooks": [
+      "Skimmer convoy hub",
+      "Fusion separator arrays"
+    ]
+  },
+  {
+    "id": "lore.stellar_hydrogen_rights",
+    "title": "Stellar Hydrogen Rights",
+    "arc": "science",
+    "era": "Crown Array Expansion",
+    "summary": "Hydrogen crown arrays forced a rewrite of ownership law for energy extracted from stellar plasma streams.",
+    "details": "Because stars are effectively inexhaustible on gameplay timescales, rights shifted from depletion logic to corridor control and energy transmission capacity.",
+    "hooks": [
+      "Hydrogen crown array",
+      "Helios refinery dreadnought"
+    ]
+  },
+  {
+    "id": "lore.mercator_guild_routes",
+    "title": "Mercator Guild Routes",
+    "arc": "frontier",
+    "era": "Trade Corridor Renaissance",
+    "summary": "Mercator guilds mapped resilient trade paths to balance profit, safety, and route volatility.",
+    "details": "Their route ledgers became the baseline for market risk coefficients used in modern pricing simulations and contract-board hauling tiers.",
+    "hooks": [
+      "Mercator logistics barge",
+      "Cargo ejecta bulwark"
+    ]
+  },
+  {
+    "id": "lore.peregrine_expedition_logs",
+    "title": "Peregrine Expedition Logs",
+    "arc": "precursor",
+    "era": "Outer Survey Campaigns",
+    "summary": "Peregrine carriers cataloged deep anomalies while field-testing autonomous fighter reconnaissance doctrine.",
+    "details": "Logs from the first campaign include several unresolved precursor signatures that later seeded faction artifact races.",
+    "hooks": [
+      "Peregrine expedition carrier",
+      "Artifact signal chains"
+    ]
+  },
+  {
+    "id": "lore.antimatter_lance_treatise",
+    "title": "Antimatter Lance Treatise",
+    "arc": "science",
+    "era": "Containment Debate Era",
+    "summary": "The treatise outlines the engineering, strategic, and ethical limits of antimatter lance deployment.",
+    "details": "Its authors argued that containment confidence should bound battlefield authorization. Opponents preferred deterrence by maximum capability projection.",
+    "hooks": [
+      "Antimatter lance beam",
+      "Dark-matter seeded taps"
+    ]
+  },
+  {
+    "id": "lore.nanite_strike_ethics",
+    "title": "Nanite Strike Ethics",
+    "arc": "science",
+    "era": "Adaptive Warfare Hearings",
+    "summary": "Nanite strike doctrine blurred the line between repair utility and offensive biocorrosive warfare.",
+    "details": "Ethics boards demanded strict control spectra and after-action residue cleanup requirements. Black-market variants still ignore those controls.",
+    "hooks": [
+      "Nanite strike cloud",
+      "Autonomous retooling"
+    ]
+  }
+]

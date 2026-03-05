@@ -1,0 +1,3076 @@
+[
+  {
+    "id": "structure.planetary_mining_array_mk1",
+    "name": "Planetary Mining Array Mk I",
+    "domain": "planet",
+    "category": "mining",
+    "description": "Automated strip-mining complex tuned for silicate and iron extraction on stable gravity wells.",
+    "build_cost": {
+      "credits": 380000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 140
+        },
+        {
+          "symbol": "Si",
+          "amount": 120
+        },
+        {
+          "symbol": "Al",
+          "amount": 60
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        },
+        {
+          "symbol": "Mo",
+          "amount": 1
+        },
+        {
+          "symbol": "Re",
+          "amount": 1
+        },
+        {
+          "symbol": "Ni",
+          "amount": 1
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 4200,
+    "modifiers": {
+      "mining_yield_pct": 24,
+      "scan_bonus_pct": 4,
+      "population_capacity": 6000,
+      "population_growth_pct": 1.2,
+      "cargo_throughput_pct": 8,
+      "crew_support_pct": 6
+    },
+    "prerequisites": [
+      "tech.planetary_geology_t1"
+    ]
+  },
+  {
+    "id": "structure.deep_core_borehole_mk2",
+    "name": "Deep-Core Borehole Mk II",
+    "domain": "planet",
+    "category": "mining",
+    "description": "High-pressure drilling stack for denser ore veins and core-adjacent metals.",
+    "build_cost": {
+      "credits": 920000,
+      "elements": [
+        {
+          "symbol": "W",
+          "amount": 40
+        },
+        {
+          "symbol": "Ni",
+          "amount": 90
+        },
+        {
+          "symbol": "Ti",
+          "amount": 80
+        },
+        {
+          "symbol": "Mo",
+          "amount": 1
+        },
+        {
+          "symbol": "Re",
+          "amount": 1
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 9200,
+    "modifiers": {
+      "mining_yield_pct": 42,
+      "rare_find_bonus_pct": 12,
+      "population_capacity": 9000,
+      "population_growth_pct": 1.4,
+      "cargo_throughput_pct": 6,
+      "crew_support_pct": 8
+    },
+    "prerequisites": [
+      "tech.deep_core_boreholes_t3"
+    ]
+  },
+  {
+    "id": "structure.asteroid_mass_driver_rig",
+    "name": "Asteroid Mass-Driver Rig",
+    "domain": "asteroid",
+    "category": "mining",
+    "description": "Anchored mass-driver that strips regolith and launches ore pods to orbiting haulers.",
+    "build_cost": {
+      "credits": 510000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 160
+        },
+        {
+          "symbol": "Ni",
+          "amount": 50
+        },
+        {
+          "symbol": "C",
+          "amount": 70
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        },
+        {
+          "symbol": "Mo",
+          "amount": 1
+        },
+        {
+          "symbol": "Re",
+          "amount": 1
+        },
+        {
+          "symbol": "Co",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 6000,
+    "modifiers": {
+      "mining_yield_pct": 30,
+      "scan_bonus_pct": 6,
+      "population_capacity": 1800,
+      "population_growth_pct": 0.8,
+      "cargo_throughput_pct": 22,
+      "crew_support_pct": 10
+    },
+    "prerequisites": [
+      "tech.asteroid_prospecting_t2"
+    ]
+  },
+  {
+    "id": "structure.asteroid_spectral_lab",
+    "name": "Asteroid Spectral Lab",
+    "domain": "asteroid",
+    "category": "research",
+    "description": "In-situ assay lab for rapid spectral classification and anomaly prediction.",
+    "build_cost": {
+      "credits": 300000,
+      "elements": [
+        {
+          "symbol": "Si",
+          "amount": 80
+        },
+        {
+          "symbol": "Ga",
+          "amount": 15
+        },
+        {
+          "symbol": "Ge",
+          "amount": 12
+        },
+        {
+          "symbol": "In",
+          "amount": 1
+        },
+        {
+          "symbol": "Ta",
+          "amount": 1
+        },
+        {
+          "symbol": "Fe",
+          "amount": 1
+        },
+        {
+          "symbol": "Ni",
+          "amount": 1
+        },
+        {
+          "symbol": "Co",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 3600,
+    "modifiers": {
+      "scan_bonus_pct": 18,
+      "research_yield_pct": 14,
+      "population_capacity": 1200,
+      "population_growth_pct": 1.0,
+      "cargo_throughput_pct": 4,
+      "crew_support_pct": 12
+    },
+    "prerequisites": [
+      "tech.spectral_geology_t1"
+    ]
+  },
+  {
+    "id": "structure.moon_cryo_extractor",
+    "name": "Cryo Volatile Extractor",
+    "domain": "moon",
+    "category": "mining",
+    "description": "Low-temperature extraction line for water ice and trapped volatiles on shadowed moons.",
+    "build_cost": {
+      "credits": 460000,
+      "elements": [
+        {
+          "symbol": "Ti",
+          "amount": 70
+        },
+        {
+          "symbol": "Al",
+          "amount": 100
+        },
+        {
+          "symbol": "C",
+          "amount": 60
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        },
+        {
+          "symbol": "Mo",
+          "amount": 1
+        },
+        {
+          "symbol": "Re",
+          "amount": 1
+        },
+        {
+          "symbol": "Ni",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 5100,
+    "modifiers": {
+      "mining_yield_pct": 22,
+      "rare_find_bonus_pct": 8,
+      "population_capacity": 3000,
+      "population_growth_pct": 0.9,
+      "cargo_throughput_pct": 10,
+      "crew_support_pct": 7
+    },
+    "prerequisites": [
+      "tech.volatile_harvesting_t2"
+    ]
+  },
+  {
+    "id": "structure.moon_refinery_hub",
+    "name": "Moon Refinery Hub",
+    "domain": "moon",
+    "category": "refining",
+    "description": "Medium-scale refinery that upgrades raw ore into high-grade feedstock for shipyards.",
+    "build_cost": {
+      "credits": 740000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 120
+        },
+        {
+          "symbol": "Cr",
+          "amount": 45
+        },
+        {
+          "symbol": "Ni",
+          "amount": 80
+        },
+        {
+          "symbol": "Pt",
+          "amount": 1
+        },
+        {
+          "symbol": "Pd",
+          "amount": 1
+        },
+        {
+          "symbol": "Ru",
+          "amount": 1
+        },
+        {
+          "symbol": "Rh",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 8300,
+    "modifiers": {
+      "mining_yield_pct": 16,
+      "rare_find_bonus_pct": 20,
+      "population_capacity": 7000,
+      "population_growth_pct": 1.3,
+      "cargo_throughput_pct": 15,
+      "crew_support_pct": 9
+    },
+    "prerequisites": [
+      "tech.in_situ_refining_t3"
+    ]
+  },
+  {
+    "id": "structure.orbital_logistics_node",
+    "name": "Orbital Logistics Node",
+    "domain": "any",
+    "category": "logistics",
+    "description": "Relay station that stabilizes hauling lanes and improves throughput for nearby installations.",
+    "build_cost": {
+      "credits": 280000,
+      "elements": [
+        {
+          "symbol": "Al",
+          "amount": 130
+        },
+        {
+          "symbol": "Cu",
+          "amount": 70
+        },
+        {
+          "symbol": "Si",
+          "amount": 60
+        },
+        {
+          "symbol": "Mn",
+          "amount": 1
+        },
+        {
+          "symbol": "Zn",
+          "amount": 1
+        },
+        {
+          "symbol": "Ni",
+          "amount": 1
+        },
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "Fe",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 2900,
+    "modifiers": {
+      "mining_yield_pct": 12,
+      "scan_bonus_pct": 10,
+      "population_capacity": 12000,
+      "population_growth_pct": 1.8,
+      "cargo_throughput_pct": 30,
+      "crew_support_pct": 16
+    },
+    "prerequisites": [
+      "tech.orbital_logistics_t2"
+    ]
+  },
+  {
+    "id": "structure.defense_bastion_grid",
+    "name": "Defense Bastion Grid",
+    "domain": "any",
+    "category": "defense",
+    "description": "Point-defense and shield relay network protecting mining assets from raiders.",
+    "build_cost": {
+      "credits": 610000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 180
+        },
+        {
+          "symbol": "W",
+          "amount": 30
+        },
+        {
+          "symbol": "Si",
+          "amount": 90
+        },
+        {
+          "symbol": "B",
+          "amount": 1
+        },
+        {
+          "symbol": "Cr",
+          "amount": 1
+        },
+        {
+          "symbol": "Ti",
+          "amount": 1
+        },
+        {
+          "symbol": "Al",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 6800,
+    "modifiers": {
+      "defense_bonus_pct": 35,
+      "population_capacity": 2500,
+      "population_growth_pct": 0.6,
+      "cargo_throughput_pct": 4,
+      "crew_support_pct": 14
+    },
+    "prerequisites": [
+      "tech.frontier_defense_grids_t2"
+    ]
+  },
+  {
+    "id": "structure.gas_scoop_platform",
+    "name": "Gas Scoop Platform",
+    "domain": "gas_giant",
+    "category": "mining",
+    "description": "Atmospheric scoop network for hydrogen, helium, and volatile precursor collection.",
+    "build_cost": {
+      "credits": 1300000,
+      "elements": [
+        {
+          "symbol": "Ti",
+          "amount": 110
+        },
+        {
+          "symbol": "Ni",
+          "amount": 140
+        },
+        {
+          "symbol": "C",
+          "amount": 90
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        },
+        {
+          "symbol": "Mo",
+          "amount": 1
+        },
+        {
+          "symbol": "Re",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "He",
+          "amount": 1
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 15000,
+    "modifiers": {
+      "mining_yield_pct": 28,
+      "rare_find_bonus_pct": 6,
+      "population_capacity": 5000,
+      "population_growth_pct": 1.0,
+      "cargo_throughput_pct": 18,
+      "crew_support_pct": 11
+    },
+    "prerequisites": [
+      "tech.gas_scoop_engineering_t3"
+    ]
+  },
+  {
+    "id": "structure.stellar_scoop_array",
+    "name": "Stellar Scoop Array",
+    "domain": "star",
+    "category": "mining",
+    "description": "High-radiation collector swarm for trace heavy ions in stellar wind corridors.",
+    "build_cost": {
+      "credits": 3400000,
+      "elements": [
+        {
+          "symbol": "W",
+          "amount": 160
+        },
+        {
+          "symbol": "Re",
+          "amount": 45
+        },
+        {
+          "symbol": "Hf",
+          "amount": 70
+        },
+        {
+          "symbol": "Mo",
+          "amount": 1
+        },
+        {
+          "symbol": "Ni",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "He",
+          "amount": 1
+        },
+        {
+          "symbol": "Ne",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 42000,
+    "modifiers": {
+      "mining_yield_pct": 18,
+      "rare_find_bonus_pct": 34,
+      "scan_bonus_pct": 8,
+      "population_capacity": 3500,
+      "population_growth_pct": 0.7,
+      "cargo_throughput_pct": 20,
+      "crew_support_pct": 12
+    },
+    "prerequisites": [
+      "tech.stellar_scoop_arrays_t5"
+    ]
+  },
+  {
+    "id": "structure.asteroid_smelter_hub",
+    "name": "Asteroid Smelter Hub",
+    "domain": "asteroid",
+    "category": "refining",
+    "description": "Vacuum smelter cluster that upgrades nickel-iron feedstock into hull-grade alloys near extraction sites.",
+    "build_cost": {
+      "credits": 980000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 220
+        },
+        {
+          "symbol": "Ni",
+          "amount": 150
+        },
+        {
+          "symbol": "Cr",
+          "amount": 80
+        },
+        {
+          "symbol": "Si",
+          "amount": 90
+        },
+        {
+          "symbol": "C",
+          "amount": 120
+        },
+        {
+          "symbol": "Pt",
+          "amount": 2
+        },
+        {
+          "symbol": "Pd",
+          "amount": 2
+        },
+        {
+          "symbol": "Ru",
+          "amount": 2
+        },
+        {
+          "symbol": "Rh",
+          "amount": 2
+        },
+        {
+          "symbol": "Co",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 10400,
+    "modifiers": {
+      "mining_yield_pct": 18,
+      "rare_find_bonus_pct": 16,
+      "research_yield_pct": 10,
+      "population_capacity": 8000,
+      "population_growth_pct": 1.5,
+      "cargo_throughput_pct": 12,
+      "crew_support_pct": 11
+    },
+    "prerequisites": [
+      "tech.asteroid_smelter_hubs_t4"
+    ]
+  },
+  {
+    "id": "structure.comet_cryogenic_processor",
+    "name": "Comet Cryogenic Processor",
+    "domain": "comet",
+    "category": "refining",
+    "description": "Cryogenic volatile processing rig tuned for cometary ices, ammonia compounds, and organic residue extraction.",
+    "build_cost": {
+      "credits": 1160000,
+      "elements": [
+        {
+          "symbol": "Al",
+          "amount": 170
+        },
+        {
+          "symbol": "Ti",
+          "amount": 110
+        },
+        {
+          "symbol": "C",
+          "amount": 180
+        },
+        {
+          "symbol": "Ni",
+          "amount": 95
+        },
+        {
+          "symbol": "Cu",
+          "amount": 90
+        },
+        {
+          "symbol": "Pt",
+          "amount": 2
+        },
+        {
+          "symbol": "Pd",
+          "amount": 2
+        },
+        {
+          "symbol": "Ru",
+          "amount": 2
+        },
+        {
+          "symbol": "Rh",
+          "amount": 2
+        },
+        {
+          "symbol": "H",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 12100,
+    "modifiers": {
+      "mining_yield_pct": 20,
+      "rare_find_bonus_pct": 14,
+      "scan_bonus_pct": 16,
+      "population_capacity": 2200,
+      "population_growth_pct": 0.8,
+      "cargo_throughput_pct": 14,
+      "crew_support_pct": 10
+    },
+    "prerequisites": [
+      "tech.comet_cryoprocessing_t3"
+    ]
+  },
+  {
+    "id": "structure.moon_mass_driver_port",
+    "name": "Moon Mass-Driver Port",
+    "domain": "moon",
+    "category": "logistics",
+    "description": "Orbital-linked rail launch complex that boosts export throughput from moon mines to industrial hubs.",
+    "build_cost": {
+      "credits": 1250000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 260
+        },
+        {
+          "symbol": "Al",
+          "amount": 180
+        },
+        {
+          "symbol": "Ti",
+          "amount": 120
+        },
+        {
+          "symbol": "Cu",
+          "amount": 140
+        },
+        {
+          "symbol": "C",
+          "amount": 160
+        },
+        {
+          "symbol": "Mn",
+          "amount": 2
+        },
+        {
+          "symbol": "Zn",
+          "amount": 2
+        },
+        {
+          "symbol": "Ni",
+          "amount": 2
+        },
+        {
+          "symbol": "H",
+          "amount": 4
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 13200,
+    "modifiers": {
+      "mining_yield_pct": 20,
+      "scan_bonus_pct": 12,
+      "defense_bonus_pct": 8,
+      "population_capacity": 10000,
+      "population_growth_pct": 1.7,
+      "cargo_throughput_pct": 26,
+      "crew_support_pct": 12
+    },
+    "prerequisites": [
+      "tech.mass_driver_logistics_t4"
+    ]
+  },
+  {
+    "id": "structure.planet_geothermal_tap",
+    "name": "Planetary Geothermal Tap",
+    "domain": "planet",
+    "category": "power",
+    "description": "Deep mantle thermal tap that powers drilling and increases extraction from dense crustal strata.",
+    "build_cost": {
+      "credits": 1690000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 280
+        },
+        {
+          "symbol": "Ni",
+          "amount": 220
+        },
+        {
+          "symbol": "Cr",
+          "amount": 120
+        },
+        {
+          "symbol": "W",
+          "amount": 70
+        },
+        {
+          "symbol": "Si",
+          "amount": 140
+        },
+        {
+          "symbol": "Li",
+          "amount": 2
+        },
+        {
+          "symbol": "B",
+          "amount": 2
+        },
+        {
+          "symbol": "Zr",
+          "amount": 2
+        },
+        {
+          "symbol": "Nb",
+          "amount": 2
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 4
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 17600,
+    "modifiers": {
+      "mining_yield_pct": 26,
+      "research_yield_pct": 18,
+      "rare_find_bonus_pct": 10,
+      "population_capacity": 14000,
+      "population_growth_pct": 2.2,
+      "cargo_throughput_pct": 10,
+      "crew_support_pct": 15
+    },
+    "prerequisites": [
+      "tech.geothermal_extraction_t4"
+    ]
+  },
+  {
+    "id": "structure.gas_deuterium_harvester",
+    "name": "Gas Deuterium Harvester",
+    "domain": "gas_giant",
+    "category": "refining",
+    "description": "Fractionation lattice that concentrates deuterium-rich feed from gas giant atmospheres for fusion fuel chains.",
+    "build_cost": {
+      "credits": 2400000,
+      "elements": [
+        {
+          "symbol": "Ti",
+          "amount": 260
+        },
+        {
+          "symbol": "Ni",
+          "amount": 300
+        },
+        {
+          "symbol": "C",
+          "amount": 200
+        },
+        {
+          "symbol": "Al",
+          "amount": 150
+        },
+        {
+          "symbol": "Cu",
+          "amount": 130
+        },
+        {
+          "symbol": "Hf",
+          "amount": 45
+        },
+        {
+          "symbol": "Pt",
+          "amount": 3
+        },
+        {
+          "symbol": "Pd",
+          "amount": 3
+        },
+        {
+          "symbol": "Ru",
+          "amount": 3
+        },
+        {
+          "symbol": "Rh",
+          "amount": 3
+        },
+        {
+          "symbol": "H",
+          "amount": 5
+        },
+        {
+          "symbol": "He",
+          "amount": 1
+        },
+        {
+          "symbol": "N",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 5
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 26800,
+    "modifiers": {
+      "mining_yield_pct": 24,
+      "rare_find_bonus_pct": 18,
+      "research_yield_pct": 12,
+      "population_capacity": 6500,
+      "population_growth_pct": 1.4,
+      "cargo_throughput_pct": 18,
+      "crew_support_pct": 13
+    },
+    "prerequisites": [
+      "tech.deuterium_fractionation_t4"
+    ]
+  },
+  {
+    "id": "structure.stellar_heavy_ion_forge",
+    "name": "Stellar Heavy-Ion Forge",
+    "domain": "star",
+    "category": "refining",
+    "description": "Magnetically confined forge that harvests stellar wind ions and refines trace high-value heavy-element streams.",
+    "build_cost": {
+      "credits": 5200000,
+      "elements": [
+        {
+          "symbol": "W",
+          "amount": 340
+        },
+        {
+          "symbol": "Re",
+          "amount": 110
+        },
+        {
+          "symbol": "Hf",
+          "amount": 160
+        },
+        {
+          "symbol": "Ta",
+          "amount": 120
+        },
+        {
+          "symbol": "Ir",
+          "amount": 90
+        },
+        {
+          "symbol": "Pt",
+          "amount": 80
+        },
+        {
+          "symbol": "C",
+          "amount": 240
+        },
+        {
+          "symbol": "Pd",
+          "amount": 3
+        },
+        {
+          "symbol": "Ru",
+          "amount": 3
+        },
+        {
+          "symbol": "Rh",
+          "amount": 3
+        },
+        {
+          "symbol": "H",
+          "amount": 5
+        },
+        {
+          "symbol": "He",
+          "amount": 1
+        },
+        {
+          "symbol": "Ne",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 5
+        },
+        {
+          "symbol": "N",
+          "amount": 3
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 56000,
+    "modifiers": {
+      "mining_yield_pct": 20,
+      "rare_find_bonus_pct": 42,
+      "research_yield_pct": 20,
+      "scan_bonus_pct": 10,
+      "population_capacity": 9000,
+      "population_growth_pct": 1.1,
+      "cargo_throughput_pct": 24,
+      "crew_support_pct": 17
+    },
+    "prerequisites": [
+      "tech.corona_ion_forging_t5"
+    ]
+  },
+  {
+    "id": "structure.wormhole_lensing_station",
+    "name": "Wormhole Lensing Station",
+    "domain": "any",
+    "category": "research",
+    "description": "Extremely high-power interferometry array that measures Einstein-Rosen lensing candidates and stabilizes transient bridge events.",
+    "build_cost": {
+      "credits": 7100000,
+      "elements": [
+        {
+          "symbol": "Si",
+          "amount": 620
+        },
+        {
+          "symbol": "Ga",
+          "amount": 240
+        },
+        {
+          "symbol": "Ge",
+          "amount": 260
+        },
+        {
+          "symbol": "Nb",
+          "amount": 150
+        },
+        {
+          "symbol": "Hf",
+          "amount": 110
+        },
+        {
+          "symbol": "Pt",
+          "amount": 95
+        },
+        {
+          "symbol": "In",
+          "amount": 4
+        },
+        {
+          "symbol": "Ta",
+          "amount": 4
+        },
+        {
+          "symbol": "Al",
+          "amount": 1
+        },
+        {
+          "symbol": "Fe",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 7
+        },
+        {
+          "symbol": "O",
+          "amount": 7
+        },
+        {
+          "symbol": "N",
+          "amount": 4
+        },
+        {
+          "symbol": "C",
+          "amount": 4
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 69000,
+    "modifiers": {
+      "scan_bonus_pct": 26,
+      "research_yield_pct": 36,
+      "rare_find_bonus_pct": 14,
+      "population_capacity": 18000,
+      "population_growth_pct": 2.4,
+      "cargo_throughput_pct": 8,
+      "crew_support_pct": 22
+    },
+    "prerequisites": [
+      "tech.einstein_rosen_lensing_t7"
+    ]
+  },
+  {
+    "id": "structure.dyson_swarm_anchor",
+    "name": "Dyson Swarm Anchor",
+    "domain": "star",
+    "category": "power",
+    "description": "Primary construction anchor and traffic coordinator for autonomous stellar collector swarms.",
+    "build_cost": {
+      "credits": 9800000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 1800
+        },
+        {
+          "symbol": "Al",
+          "amount": 2600
+        },
+        {
+          "symbol": "Si",
+          "amount": 2200
+        },
+        {
+          "symbol": "C",
+          "amount": 1400
+        },
+        {
+          "symbol": "Ti",
+          "amount": 1100
+        },
+        {
+          "symbol": "W",
+          "amount": 520
+        },
+        {
+          "symbol": "Re",
+          "amount": 180
+        },
+        {
+          "symbol": "Au",
+          "amount": 130
+        },
+        {
+          "symbol": "Li",
+          "amount": 25
+        },
+        {
+          "symbol": "B",
+          "amount": 25
+        },
+        {
+          "symbol": "Zr",
+          "amount": 25
+        },
+        {
+          "symbol": "Nb",
+          "amount": 25
+        },
+        {
+          "symbol": "H",
+          "amount": 45
+        },
+        {
+          "symbol": "He",
+          "amount": 1
+        },
+        {
+          "symbol": "Ne",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 45
+        },
+        {
+          "symbol": "N",
+          "amount": 25
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 105000,
+    "modifiers": {
+      "mining_yield_pct": 24,
+      "research_yield_pct": 42,
+      "rare_find_bonus_pct": 28,
+      "defense_bonus_pct": 12,
+      "population_capacity": 42000,
+      "population_growth_pct": 3.0,
+      "cargo_throughput_pct": 34,
+      "crew_support_pct": 26
+    },
+    "prerequisites": [
+      "tech.dyson_swarm_fabrication_t8"
+    ]
+  },
+  {
+    "id": "structure.autonomous_nanoforge_complex",
+    "name": "Autonomous Nanoforge Complex",
+    "domain": "asteroid",
+    "category": "refining",
+    "description": "Self-optimizing alloy foundry where predictive AI agents refine mixed ores into adaptive hull-grade feedstock.",
+    "build_cost": {
+      "credits": 7600000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 1200
+        },
+        {
+          "symbol": "Ni",
+          "amount": 760
+        },
+        {
+          "symbol": "Cr",
+          "amount": 480
+        },
+        {
+          "symbol": "Co",
+          "amount": 320
+        },
+        {
+          "symbol": "Ti",
+          "amount": 540
+        },
+        {
+          "symbol": "Mo",
+          "amount": 360
+        },
+        {
+          "symbol": "W",
+          "amount": 240
+        },
+        {
+          "symbol": "C",
+          "amount": 620
+        },
+        {
+          "symbol": "Si",
+          "amount": 420
+        },
+        {
+          "symbol": "Nb",
+          "amount": 180
+        },
+        {
+          "symbol": "Hf",
+          "amount": 120
+        },
+        {
+          "symbol": "Pt",
+          "amount": 13
+        },
+        {
+          "symbol": "Pd",
+          "amount": 13
+        },
+        {
+          "symbol": "Ru",
+          "amount": 13
+        },
+        {
+          "symbol": "Rh",
+          "amount": 13
+        },
+        {
+          "symbol": "H",
+          "amount": 24
+        },
+        {
+          "symbol": "O",
+          "amount": 24
+        },
+        {
+          "symbol": "N",
+          "amount": 13
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Al",
+          "amount": 13
+        }
+      ]
+    },
+    "upkeep_per_hour": 82000,
+    "modifiers": {
+      "mining_yield_pct": 28,
+      "rare_find_bonus_pct": 24,
+      "research_yield_pct": 16,
+      "population_capacity": 22000,
+      "population_growth_pct": 2.6,
+      "cargo_throughput_pct": 20,
+      "crew_support_pct": 20
+    },
+    "prerequisites": [
+      "tech.autonomous_nanoforge_t6"
+    ]
+  },
+  {
+    "id": "structure.cognitive_fabrication_spire",
+    "name": "Cognitive Fabrication Spire",
+    "domain": "any",
+    "category": "research",
+    "description": "Distributed model-fabrication tower where combat telemetry continuously retrains material and targeting blueprints.",
+    "build_cost": {
+      "credits": 9400000,
+      "elements": [
+        {
+          "symbol": "Si",
+          "amount": 980
+        },
+        {
+          "symbol": "Ga",
+          "amount": 360
+        },
+        {
+          "symbol": "Ge",
+          "amount": 380
+        },
+        {
+          "symbol": "In",
+          "amount": 260
+        },
+        {
+          "symbol": "C",
+          "amount": 540
+        },
+        {
+          "symbol": "Cu",
+          "amount": 620
+        },
+        {
+          "symbol": "Nb",
+          "amount": 220
+        },
+        {
+          "symbol": "Hf",
+          "amount": 180
+        },
+        {
+          "symbol": "Ta",
+          "amount": 150
+        },
+        {
+          "symbol": "Pt",
+          "amount": 120
+        },
+        {
+          "symbol": "Al",
+          "amount": 10
+        },
+        {
+          "symbol": "Fe",
+          "amount": 10
+        },
+        {
+          "symbol": "H",
+          "amount": 17
+        },
+        {
+          "symbol": "O",
+          "amount": 17
+        },
+        {
+          "symbol": "N",
+          "amount": 10
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ti",
+          "amount": 5
+        }
+      ]
+    },
+    "upkeep_per_hour": 98000,
+    "modifiers": {
+      "scan_bonus_pct": 30,
+      "research_yield_pct": 44,
+      "rare_find_bonus_pct": 18,
+      "defense_bonus_pct": 14,
+      "population_capacity": 30000,
+      "population_growth_pct": 3.4,
+      "cargo_throughput_pct": 16,
+      "crew_support_pct": 24
+    },
+    "prerequisites": [
+      "tech.cognitive_fabrication_network_t7"
+    ]
+  },
+  {
+    "id": "structure.stellar_matter_printer",
+    "name": "Stellar Matter Printer",
+    "domain": "star",
+    "category": "refining",
+    "description": "High-radiation additive forge that prints ultra-dense AI-reactive composites from stellar plasma trace streams.",
+    "build_cost": {
+      "credits": 12800000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 2200
+        },
+        {
+          "symbol": "Ti",
+          "amount": 1400
+        },
+        {
+          "symbol": "C",
+          "amount": 1200
+        },
+        {
+          "symbol": "Si",
+          "amount": 1500
+        },
+        {
+          "symbol": "Al",
+          "amount": 900
+        },
+        {
+          "symbol": "W",
+          "amount": 760
+        },
+        {
+          "symbol": "Re",
+          "amount": 240
+        },
+        {
+          "symbol": "Hf",
+          "amount": 280
+        },
+        {
+          "symbol": "Ta",
+          "amount": 220
+        },
+        {
+          "symbol": "Ir",
+          "amount": 180
+        },
+        {
+          "symbol": "Pt",
+          "amount": 170
+        },
+        {
+          "symbol": "Au",
+          "amount": 150
+        },
+        {
+          "symbol": "Nb",
+          "amount": 260
+        },
+        {
+          "symbol": "Pd",
+          "amount": 24
+        },
+        {
+          "symbol": "Ru",
+          "amount": 24
+        },
+        {
+          "symbol": "Rh",
+          "amount": 24
+        },
+        {
+          "symbol": "H",
+          "amount": 43
+        },
+        {
+          "symbol": "He",
+          "amount": 1
+        },
+        {
+          "symbol": "Ne",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 43
+        },
+        {
+          "symbol": "N",
+          "amount": 24
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 132000,
+    "modifiers": {
+      "mining_yield_pct": 32,
+      "rare_find_bonus_pct": 46,
+      "research_yield_pct": 30,
+      "defense_bonus_pct": 16,
+      "population_capacity": 38000,
+      "population_growth_pct": 3.1,
+      "cargo_throughput_pct": 28,
+      "crew_support_pct": 25
+    },
+    "prerequisites": [
+      "tech.stellar_matter_printing_t8"
+    ]
+  },
+  {
+    "id": "structure.planetary_civic_megaforge",
+    "name": "Planetary Civic Megaforge",
+    "domain": "planet",
+    "category": "logistics",
+    "description": "City-scale fabrication ring integrating public logistics, ship fitting lines, and bulk component assembly.",
+    "build_cost": {
+      "credits": 2260000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 1220
+        },
+        {
+          "symbol": "Al",
+          "amount": 940
+        },
+        {
+          "symbol": "Cu",
+          "amount": 760
+        },
+        {
+          "symbol": "Si",
+          "amount": 620
+        },
+        {
+          "symbol": "Ni",
+          "amount": 320
+        },
+        {
+          "symbol": "Mn",
+          "amount": 10
+        },
+        {
+          "symbol": "Zn",
+          "amount": 10
+        },
+        {
+          "symbol": "C",
+          "amount": 10
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 17
+        },
+        {
+          "symbol": "O",
+          "amount": 17
+        },
+        {
+          "symbol": "N",
+          "amount": 10
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 185.0,
+    "modifiers": {
+      "cargo_throughput_pct": 18.0,
+      "population_capacity": 220.0,
+      "population_growth_pct": 4.0,
+      "crew_support_pct": 8.0
+    },
+    "prerequisites": [
+      "tech.human_frontier_civic_megaforge_t6"
+    ]
+  },
+  {
+    "id": "structure.planetary_mantle_drill_cathedral",
+    "name": "Mantle Drill Cathedral",
+    "domain": "planet",
+    "category": "mining",
+    "description": "Deep-bore extraction complex with refractory-lined shafts reaching mantle-adjacent mineral strata.",
+    "build_cost": {
+      "credits": 2440000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 1360
+        },
+        {
+          "symbol": "W",
+          "amount": 240
+        },
+        {
+          "symbol": "Cr",
+          "amount": 260
+        },
+        {
+          "symbol": "Ti",
+          "amount": 420
+        },
+        {
+          "symbol": "Mo",
+          "amount": 180
+        },
+        {
+          "symbol": "Re",
+          "amount": 6
+        },
+        {
+          "symbol": "Ni",
+          "amount": 6
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 204.0,
+    "modifiers": {
+      "mining_yield_pct": 22.0,
+      "rare_find_bonus_pct": 10.0,
+      "energy_draw_pct": 14.0
+    },
+    "prerequisites": [
+      "tech.khazari_mantle_drills_t6"
+    ]
+  },
+  {
+    "id": "structure.planetary_biospore_dome",
+    "name": "Biospore Arcology Dome",
+    "domain": "planet",
+    "category": "research",
+    "description": "A symbiotic habitat-research dome where engineered biosystems support population and adaptive materials studies.",
+    "build_cost": {
+      "credits": 2120000,
+      "elements": [
+        {
+          "symbol": "C",
+          "amount": 980
+        },
+        {
+          "symbol": "N",
+          "amount": 760
+        },
+        {
+          "symbol": "P",
+          "amount": 420
+        },
+        {
+          "symbol": "S",
+          "amount": 260
+        },
+        {
+          "symbol": "K",
+          "amount": 320
+        },
+        {
+          "symbol": "Ga",
+          "amount": 7
+        },
+        {
+          "symbol": "Ge",
+          "amount": 7
+        },
+        {
+          "symbol": "In",
+          "amount": 7
+        },
+        {
+          "symbol": "Ta",
+          "amount": 7
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 12
+        },
+        {
+          "symbol": "O",
+          "amount": 12
+        }
+      ]
+    },
+    "upkeep_per_hour": 176.0,
+    "modifiers": {
+      "research_yield_pct": 16.0,
+      "population_growth_pct": 7.0,
+      "population_capacity": 160.0,
+      "crew_support_pct": 10.0
+    },
+    "prerequisites": [
+      "tech.myr_biospore_colonies_t6"
+    ]
+  },
+  {
+    "id": "structure.gas_giant_skimmer_convoy_hub",
+    "name": "Gas Giant Skimmer Convoy Hub",
+    "domain": "gas_giant",
+    "category": "logistics",
+    "description": "Orbital convoy coordination node for deuterium skimmer fleets and volatile routing operations.",
+    "build_cost": {
+      "credits": 1980000,
+      "elements": [
+        {
+          "symbol": "Al",
+          "amount": 840
+        },
+        {
+          "symbol": "Ti",
+          "amount": 360
+        },
+        {
+          "symbol": "Cu",
+          "amount": 540
+        },
+        {
+          "symbol": "Si",
+          "amount": 420
+        },
+        {
+          "symbol": "He",
+          "amount": 1200
+        },
+        {
+          "symbol": "Mn",
+          "amount": 8
+        },
+        {
+          "symbol": "Zn",
+          "amount": 8
+        },
+        {
+          "symbol": "Ni",
+          "amount": 8
+        },
+        {
+          "symbol": "C",
+          "amount": 8
+        },
+        {
+          "symbol": "H",
+          "amount": 15
+        },
+        {
+          "symbol": "N",
+          "amount": 8
+        },
+        {
+          "symbol": "O",
+          "amount": 15
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 162.0,
+    "modifiers": {
+      "cargo_throughput_pct": 24.0,
+      "scan_bonus_pct": 10.0,
+      "crew_support_pct": 12.0
+    },
+    "prerequisites": [
+      "tech.gas_giant_convoy_extraction_t6"
+    ]
+  },
+  {
+    "id": "structure.gas_giant_fusion_separator_mk2",
+    "name": "Fusion Isotope Separator Mk2",
+    "domain": "gas_giant",
+    "category": "refining",
+    "description": "High-throughput isotope distillation stack tuned for deuterium-helium separation.",
+    "build_cost": {
+      "credits": 2080000,
+      "elements": [
+        {
+          "symbol": "Al",
+          "amount": 720
+        },
+        {
+          "symbol": "Ti",
+          "amount": 340
+        },
+        {
+          "symbol": "Cu",
+          "amount": 520
+        },
+        {
+          "symbol": "Li",
+          "amount": 380
+        },
+        {
+          "symbol": "He",
+          "amount": 1400
+        },
+        {
+          "symbol": "Pt",
+          "amount": 8
+        },
+        {
+          "symbol": "Pd",
+          "amount": 8
+        },
+        {
+          "symbol": "Ru",
+          "amount": 8
+        },
+        {
+          "symbol": "Rh",
+          "amount": 8
+        },
+        {
+          "symbol": "H",
+          "amount": 1
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 169.0,
+    "modifiers": {
+      "mining_yield_pct": 14.0,
+      "rare_find_bonus_pct": 6.0,
+      "energy_draw_pct": -8.0
+    },
+    "prerequisites": [
+      "tech.gas_giant_convoy_extraction_t6"
+    ]
+  },
+  {
+    "id": "structure.star_hydrogen_crown_array",
+    "name": "Hydrogen Crown Array",
+    "domain": "star",
+    "category": "power",
+    "description": "A magnetic siphon ring that lifts stellar hydrogen streams for conversion and strategic energy export.",
+    "build_cost": {
+      "credits": 3120000,
+      "elements": [
+        {
+          "symbol": "W",
+          "amount": 320
+        },
+        {
+          "symbol": "Hf",
+          "amount": 180
+        },
+        {
+          "symbol": "Nb",
+          "amount": 220
+        },
+        {
+          "symbol": "Cu",
+          "amount": 760
+        },
+        {
+          "symbol": "He",
+          "amount": 2400
+        },
+        {
+          "symbol": "Li",
+          "amount": 10
+        },
+        {
+          "symbol": "B",
+          "amount": 10
+        },
+        {
+          "symbol": "Zr",
+          "amount": 10
+        },
+        {
+          "symbol": "H",
+          "amount": 1
+        },
+        {
+          "symbol": "Ne",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 268.0,
+    "modifiers": {
+      "mining_yield_pct": 18.0,
+      "research_yield_pct": 8.0,
+      "energy_draw_pct": -12.0
+    },
+    "prerequisites": [
+      "tech.stellar_hydrogen_crown_t7"
+    ]
+  },
+  {
+    "id": "structure.star_corona_magnetic_catapult",
+    "name": "Corona Magnetic Catapult",
+    "domain": "star",
+    "category": "logistics",
+    "description": "A high-field transfer launcher for exporting stellar harvest payloads into secure transport corridors.",
+    "build_cost": {
+      "credits": 3280000,
+      "elements": [
+        {
+          "symbol": "W",
+          "amount": 360
+        },
+        {
+          "symbol": "Ta",
+          "amount": 190
+        },
+        {
+          "symbol": "Nb",
+          "amount": 240
+        },
+        {
+          "symbol": "Cu",
+          "amount": 820
+        },
+        {
+          "symbol": "He",
+          "amount": 2600
+        },
+        {
+          "symbol": "Mn",
+          "amount": 11
+        },
+        {
+          "symbol": "Zn",
+          "amount": 11
+        },
+        {
+          "symbol": "Ni",
+          "amount": 11
+        },
+        {
+          "symbol": "C",
+          "amount": 11
+        },
+        {
+          "symbol": "H",
+          "amount": 1
+        },
+        {
+          "symbol": "Ne",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 282.0,
+    "modifiers": {
+      "defense_bonus_pct": 20.0,
+      "cargo_throughput_pct": 14.0,
+      "scan_bonus_pct": 8.0
+    },
+    "prerequisites": [
+      "tech.stellar_hydrogen_crown_t7"
+    ]
+  },
+  {
+    "id": "structure.moon_tidal_mass_lift_mk2",
+    "name": "Tidal Mass Lift Mk2",
+    "domain": "moon",
+    "category": "logistics",
+    "description": "A synchronized lunar lift-and-launch grid that improves export cadence and reduces transit losses.",
+    "build_cost": {
+      "credits": 1820000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 960
+        },
+        {
+          "symbol": "Al",
+          "amount": 620
+        },
+        {
+          "symbol": "Cu",
+          "amount": 480
+        },
+        {
+          "symbol": "C",
+          "amount": 340
+        },
+        {
+          "symbol": "Ti",
+          "amount": 210
+        },
+        {
+          "symbol": "Mn",
+          "amount": 7
+        },
+        {
+          "symbol": "Zn",
+          "amount": 7
+        },
+        {
+          "symbol": "Ni",
+          "amount": 7
+        },
+        {
+          "symbol": "H",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 148.0,
+    "modifiers": {
+      "mining_yield_pct": 12.0,
+      "cargo_throughput_pct": 22.0,
+      "rare_find_bonus_pct": 5.0
+    },
+    "prerequisites": [
+      "tech.moon_tidal_lift_logistics_t5"
+    ]
+  },
+  {
+    "id": "structure.asteroid_mesh_autofoundry_mk2",
+    "name": "Asteroid Mesh Autofoundry Mk2",
+    "domain": "asteroid",
+    "category": "refining",
+    "description": "An autonomous refinery lattice that converts asteroid feedstock into standardized fabrication billets.",
+    "build_cost": {
+      "credits": 2040000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 1120
+        },
+        {
+          "symbol": "C",
+          "amount": 480
+        },
+        {
+          "symbol": "Si",
+          "amount": 360
+        },
+        {
+          "symbol": "Ni",
+          "amount": 260
+        },
+        {
+          "symbol": "Cr",
+          "amount": 180
+        },
+        {
+          "symbol": "Pt",
+          "amount": 6
+        },
+        {
+          "symbol": "Pd",
+          "amount": 6
+        },
+        {
+          "symbol": "Ru",
+          "amount": 6
+        },
+        {
+          "symbol": "Rh",
+          "amount": 6
+        },
+        {
+          "symbol": "Co",
+          "amount": 1
+        },
+        {
+          "symbol": "Al",
+          "amount": 6
+        },
+        {
+          "symbol": "Ti",
+          "amount": 3
+        }
+      ]
+    },
+    "upkeep_per_hour": 171.0,
+    "modifiers": {
+      "mining_yield_pct": 16.0,
+      "research_yield_pct": 6.0,
+      "cargo_throughput_pct": 10.0
+    },
+    "prerequisites": [
+      "tech.asteroid_mesh_autofoundry_t6"
+    ]
+  },
+  {
+    "id": "structure.comet_volatile_siphon_spindle_mk2",
+    "name": "Volatile Siphon Spindle Mk2",
+    "domain": "comet",
+    "category": "refining",
+    "description": "Cryogenic siphon array that captures comet volatiles before plume losses dominate extraction.",
+    "build_cost": {
+      "credits": 1760000,
+      "elements": [
+        {
+          "symbol": "Al",
+          "amount": 680
+        },
+        {
+          "symbol": "Ti",
+          "amount": 240
+        },
+        {
+          "symbol": "C",
+          "amount": 420
+        },
+        {
+          "symbol": "O",
+          "amount": 620
+        },
+        {
+          "symbol": "H",
+          "amount": 1200
+        },
+        {
+          "symbol": "Pt",
+          "amount": 8
+        },
+        {
+          "symbol": "Pd",
+          "amount": 8
+        },
+        {
+          "symbol": "Ru",
+          "amount": 8
+        },
+        {
+          "symbol": "Rh",
+          "amount": 8
+        }
+      ]
+    },
+    "upkeep_per_hour": 142.0,
+    "modifiers": {
+      "mining_yield_pct": 20.0,
+      "rare_find_bonus_pct": 12.0,
+      "scan_bonus_pct": 6.0,
+      "energy_draw_pct": 10.0
+    },
+    "prerequisites": [
+      "tech.comet_volatile_siphon_t5"
+    ]
+  },
+  {
+    "id": "structure.planetary_life_support_nexus",
+    "name": "Planetary Life Support Nexus",
+    "domain": "planet",
+    "category": "logistics",
+    "description": "Centralized air, water, and atmosphere recycling network for dense colony districts.",
+    "build_cost": {
+      "credits": 1960000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 860
+        },
+        {
+          "symbol": "Al",
+          "amount": 760
+        },
+        {
+          "symbol": "Si",
+          "amount": 520
+        },
+        {
+          "symbol": "Cu",
+          "amount": 460
+        },
+        {
+          "symbol": "H",
+          "amount": 400
+        },
+        {
+          "symbol": "O",
+          "amount": 360
+        },
+        {
+          "symbol": "N",
+          "amount": 180
+        },
+        {
+          "symbol": "C",
+          "amount": 240
+        },
+        {
+          "symbol": "P",
+          "amount": 50
+        },
+        {
+          "symbol": "K",
+          "amount": 42
+        },
+        {
+          "symbol": "Mn",
+          "amount": 10
+        },
+        {
+          "symbol": "Zn",
+          "amount": 10
+        },
+        {
+          "symbol": "Ni",
+          "amount": 10
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 158.0,
+    "modifiers": {
+      "population_capacity": 260.0,
+      "population_growth_pct": 6.0,
+      "crew_support_pct": 14.0
+    },
+    "prerequisites": [
+      "tech.closed_loop_life_support_t5"
+    ]
+  },
+  {
+    "id": "structure.planetary_hydroponic_arcology",
+    "name": "Hydroponic Arcology",
+    "domain": "planet",
+    "category": "research",
+    "description": "Stacked hydroponic towers and bioreactor farms for continuous food and oxygen output.",
+    "build_cost": {
+      "credits": 2140000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 780
+        },
+        {
+          "symbol": "Al",
+          "amount": 840
+        },
+        {
+          "symbol": "Si",
+          "amount": 580
+        },
+        {
+          "symbol": "Cu",
+          "amount": 430
+        },
+        {
+          "symbol": "H",
+          "amount": 420
+        },
+        {
+          "symbol": "O",
+          "amount": 390
+        },
+        {
+          "symbol": "N",
+          "amount": 230
+        },
+        {
+          "symbol": "C",
+          "amount": 280
+        },
+        {
+          "symbol": "P",
+          "amount": 60
+        },
+        {
+          "symbol": "K",
+          "amount": 54
+        },
+        {
+          "symbol": "Ga",
+          "amount": 10
+        },
+        {
+          "symbol": "Ge",
+          "amount": 10
+        },
+        {
+          "symbol": "In",
+          "amount": 10
+        },
+        {
+          "symbol": "Ta",
+          "amount": 10
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 172.0,
+    "modifiers": {
+      "population_capacity": 220.0,
+      "population_growth_pct": 8.0,
+      "research_yield_pct": 6.0,
+      "crew_support_pct": 12.0
+    },
+    "prerequisites": [
+      "tech.hydroponic_bioreactors_t5"
+    ]
+  },
+  {
+    "id": "structure.moon_water_reclamation_array",
+    "name": "Moon Water Reclamation Array",
+    "domain": "moon",
+    "category": "refining",
+    "description": "Condensation and membrane array that recovers water from ice, vapor, and industrial loops.",
+    "build_cost": {
+      "credits": 1680000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 620
+        },
+        {
+          "symbol": "Al",
+          "amount": 520
+        },
+        {
+          "symbol": "Ti",
+          "amount": 220
+        },
+        {
+          "symbol": "Si",
+          "amount": 440
+        },
+        {
+          "symbol": "Cu",
+          "amount": 300
+        },
+        {
+          "symbol": "H",
+          "amount": 260
+        },
+        {
+          "symbol": "O",
+          "amount": 240
+        },
+        {
+          "symbol": "N",
+          "amount": 90
+        },
+        {
+          "symbol": "C",
+          "amount": 140
+        },
+        {
+          "symbol": "Pt",
+          "amount": 7
+        },
+        {
+          "symbol": "Pd",
+          "amount": 7
+        },
+        {
+          "symbol": "Ru",
+          "amount": 7
+        },
+        {
+          "symbol": "Rh",
+          "amount": 7
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 136.0,
+    "modifiers": {
+      "population_capacity": 120.0,
+      "population_growth_pct": 4.0,
+      "mining_yield_pct": 8.0,
+      "crew_support_pct": 10.0
+    },
+    "prerequisites": [
+      "tech.atmospheric_water_reclamation_t5"
+    ]
+  },
+  {
+    "id": "structure.additive_fabrication_foundry",
+    "name": "Additive Fabrication Foundry",
+    "domain": "any",
+    "category": "refining",
+    "description": "A modular additive-manufacturing foundry for on-site production of tools, casings, and spare assemblies.",
+    "build_cost": {
+      "credits": 2080000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 940
+        },
+        {
+          "symbol": "Al",
+          "amount": 760
+        },
+        {
+          "symbol": "Ti",
+          "amount": 320
+        },
+        {
+          "symbol": "C",
+          "amount": 520
+        },
+        {
+          "symbol": "Si",
+          "amount": 480
+        },
+        {
+          "symbol": "Cu",
+          "amount": 430
+        },
+        {
+          "symbol": "Ni",
+          "amount": 180
+        },
+        {
+          "symbol": "Mo",
+          "amount": 90
+        },
+        {
+          "symbol": "Pt",
+          "amount": 9
+        },
+        {
+          "symbol": "Pd",
+          "amount": 9
+        },
+        {
+          "symbol": "Ru",
+          "amount": 9
+        },
+        {
+          "symbol": "Rh",
+          "amount": 9
+        },
+        {
+          "symbol": "H",
+          "amount": 17
+        },
+        {
+          "symbol": "O",
+          "amount": 17
+        },
+        {
+          "symbol": "N",
+          "amount": 9
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 166.0,
+    "modifiers": {
+      "cargo_throughput_pct": 14.0,
+      "research_yield_pct": 5.0,
+      "crew_support_pct": 8.0
+    },
+    "prerequisites": [
+      "tech.additive_microfactory_printing_t5"
+    ]
+  },
+  {
+    "id": "structure.planetary_nutrient_biorefinery",
+    "name": "Nutrient Biorefinery",
+    "domain": "planet",
+    "category": "refining",
+    "description": "Industrial fermentation and nutrient synthesis complex supplying colony food and medical feedstocks.",
+    "build_cost": {
+      "credits": 2320000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 900
+        },
+        {
+          "symbol": "Al",
+          "amount": 720
+        },
+        {
+          "symbol": "Si",
+          "amount": 620
+        },
+        {
+          "symbol": "Cu",
+          "amount": 520
+        },
+        {
+          "symbol": "H",
+          "amount": 460
+        },
+        {
+          "symbol": "O",
+          "amount": 420
+        },
+        {
+          "symbol": "N",
+          "amount": 280
+        },
+        {
+          "symbol": "C",
+          "amount": 320
+        },
+        {
+          "symbol": "P",
+          "amount": 72
+        },
+        {
+          "symbol": "K",
+          "amount": 64
+        },
+        {
+          "symbol": "Pt",
+          "amount": 11
+        },
+        {
+          "symbol": "Pd",
+          "amount": 11
+        },
+        {
+          "symbol": "Ru",
+          "amount": 11
+        },
+        {
+          "symbol": "Rh",
+          "amount": 11
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "Ca",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 188.0,
+    "modifiers": {
+      "population_capacity": 180.0,
+      "population_growth_pct": 7.0,
+      "research_yield_pct": 8.0,
+      "crew_support_pct": 16.0
+    },
+    "prerequisites": [
+      "tech.distributed_food_synthesis_t6"
+    ]
+  },
+  {
+    "id": "structure.habitat_emergency_biosphere_bunker",
+    "name": "Emergency Biosphere Bunker",
+    "domain": "any",
+    "category": "defense",
+    "description": "Hardened habitat bunker with redundant life-support loops and fail-safe atmospheric control.",
+    "build_cost": {
+      "credits": 2440000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 1180
+        },
+        {
+          "symbol": "Ti",
+          "amount": 420
+        },
+        {
+          "symbol": "Al",
+          "amount": 680
+        },
+        {
+          "symbol": "Si",
+          "amount": 520
+        },
+        {
+          "symbol": "Cu",
+          "amount": 440
+        },
+        {
+          "symbol": "B",
+          "amount": 130
+        },
+        {
+          "symbol": "H",
+          "amount": 340
+        },
+        {
+          "symbol": "O",
+          "amount": 320
+        },
+        {
+          "symbol": "N",
+          "amount": 200
+        },
+        {
+          "symbol": "C",
+          "amount": 220
+        },
+        {
+          "symbol": "W",
+          "amount": 11
+        },
+        {
+          "symbol": "Cr",
+          "amount": 11
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 196.0,
+    "modifiers": {
+      "defense_bonus_pct": 24.0,
+      "population_capacity": 150.0,
+      "crew_support_pct": 20.0
+    },
+    "prerequisites": [
+      "tech.emergency_biosphere_hardening_t6"
+    ]
+  },
+  {
+    "id": "structure.gas_giant_ammonia_feedstock_refinery",
+    "name": "Ammonia Feedstock Refinery",
+    "domain": "gas_giant",
+    "category": "refining",
+    "description": "High-altitude skimmer refinery extracting nitrogen and hydrogen feedstocks for fertilizers and fuel precursors.",
+    "build_cost": {
+      "credits": 2180000,
+      "elements": [
+        {
+          "symbol": "Fe",
+          "amount": 760
+        },
+        {
+          "symbol": "Al",
+          "amount": 640
+        },
+        {
+          "symbol": "Ti",
+          "amount": 260
+        },
+        {
+          "symbol": "Si",
+          "amount": 420
+        },
+        {
+          "symbol": "Cu",
+          "amount": 380
+        },
+        {
+          "symbol": "H",
+          "amount": 720
+        },
+        {
+          "symbol": "N",
+          "amount": 340
+        },
+        {
+          "symbol": "O",
+          "amount": 160
+        },
+        {
+          "symbol": "C",
+          "amount": 180
+        },
+        {
+          "symbol": "Pt",
+          "amount": 10
+        },
+        {
+          "symbol": "Pd",
+          "amount": 10
+        },
+        {
+          "symbol": "Ru",
+          "amount": 10
+        },
+        {
+          "symbol": "Rh",
+          "amount": 10
+        },
+        {
+          "symbol": "He",
+          "amount": 1
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 1
+        }
+      ]
+    },
+    "upkeep_per_hour": 178.0,
+    "modifiers": {
+      "mining_yield_pct": 12.0,
+      "cargo_throughput_pct": 10.0,
+      "crew_support_pct": 9.0
+    },
+    "prerequisites": [
+      "tech.distributed_food_synthesis_t6"
+    ]
+  }
+]

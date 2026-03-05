@@ -1,0 +1,96 @@
+[
+  {
+    "id": "ability.deep_sweep_ping",
+    "name": "Deep Sweep Ping",
+    "description": "Burst scan that temporarily increases anomaly lock confidence.",
+    "cooldown_seconds": 420,
+    "effects": {
+      "scan_pct": 25,
+      "rare_find_pct": 6
+    }
+  },
+  {
+    "id": "ability.rapid_fabrication",
+    "name": "Rapid Fabrication",
+    "description": "Short-term production protocol that reduces build queue duration.",
+    "cooldown_seconds": 600,
+    "effects": {
+      "manufacturing_speed_pct": 18
+    }
+  },
+  {
+    "id": "ability.emergency_bulkhead",
+    "name": "Emergency Bulkhead",
+    "description": "Hull compartment isolation that blunts incoming structural damage.",
+    "cooldown_seconds": 540,
+    "effects": {
+      "hull_resistance_pct": 20
+    }
+  },
+  {
+    "id": "ability.dynamic_hedge",
+    "name": "Dynamic Hedge",
+    "description": "Market micro-hedging routine that improves trade spread outcomes.",
+    "cooldown_seconds": 480,
+    "effects": {
+      "market_spread_efficiency_pct": 12
+    }
+  },
+  {
+    "id": "ability.strike_overclock",
+    "name": "Strike Overclock",
+    "description": "Weapons overdrive that boosts first-volley offensive output.",
+    "cooldown_seconds": 360,
+    "effects": {
+      "attack_pct": 16
+    }
+  },
+  {
+    "id": "ability.packet_injection",
+    "name": "Packet Injection",
+    "description": "Electronic warfare pulse that weakens hostile target tracking.",
+    "cooldown_seconds": 420,
+    "effects": {
+      "enemy_scan_pct": -18,
+      "flee_chance_pct": 8
+    }
+  },
+  {
+    "id": "ability.phase_stabilize",
+    "name": "Phase Stabilize",
+    "description": "Shield phase correction routine for temporary coherence gains.",
+    "cooldown_seconds": 520,
+    "effects": {
+      "shield_pct": 14,
+      "energy_efficiency_pct": 6
+    }
+  },
+  {
+    "id": "ability.vein_lock",
+    "name": "Vein Lock",
+    "description": "Extraction targeting protocol that increases ore pull from active fields.",
+    "cooldown_seconds": 500,
+    "effects": {
+      "mineral_production_pct": 15
+    }
+  },
+  {
+    "id": "ability.relic_resonance",
+    "name": "Relic Resonance",
+    "description": "Signal harmonics that improve relic cache identification.",
+    "cooldown_seconds": 540,
+    "effects": {
+      "artifact_production_pct": 14
+    }
+  },
+  {
+    "id": "ability.genomic_adaptation",
+    "name": "Genomic Adaptation",
+    "description": "Adaptive bio-optimization cycle that raises long-horizon research output.",
+    "cooldown_seconds": 660,
+    "effects": {
+      "research_production_pct": 10,
+      "population_growth_pct": 2
+    }
+  }
+]

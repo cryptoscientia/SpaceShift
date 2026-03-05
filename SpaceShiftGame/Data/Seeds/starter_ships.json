@@ -1,0 +1,176 @@
+[
+  {
+    "id": "ship.pathfinder_frigate",
+    "name": "Pathfinder Frigate",
+    "description": "Balanced starter package with stronger scan, logistics, and heat stability.",
+    "role": "balanced_scout",
+    "hull_id": "hull.settler_scout",
+    "starter_assets": [
+      {
+        "asset_type": "module",
+        "asset_id": "module.scanner_longrange_array_mk1",
+        "quantity": 1
+      },
+      {
+        "asset_type": "module",
+        "asset_id": "module.relay_grid_mk1",
+        "quantity": 1
+      },
+      {
+        "asset_type": "module",
+        "asset_id": "module.utility_heat_sink_mk1",
+        "quantity": 1
+      }
+    ],
+    "growth_profile": {
+      "xp_curve": "infinite_softcap",
+      "xp_formula": "xp_to_next = 120 * level^1.35 * (1 + 0.011 * max(level-18,0)^0.72)",
+      "stat_gain_per_level_pct": {
+        "hull": 0.34,
+        "shield": 0.27,
+        "attack": 0.21,
+        "defense": 0.21,
+        "energy": 0.29
+      },
+      "module_slot_growth": [
+        {
+          "level": 20,
+          "slot": "utility",
+          "delta": 1
+        },
+        {
+          "level": 40,
+          "slot": "special",
+          "delta": 1
+        },
+        {
+          "level": 70,
+          "slot": "weapon",
+          "delta": 1
+        },
+        {
+          "level": 110,
+          "slot": "defense",
+          "delta": 1
+        }
+      ],
+      "design_notes": "No hard level cap. Growth continues indefinitely with diminishing returns."
+    }
+  },
+  {
+    "id": "ship.vanguard_interceptor",
+    "name": "Vanguard Interceptor",
+    "description": "Aggressive starter package focused on early combat pressure and mobility.",
+    "role": "high_speed_assault",
+    "hull_id": "hull.settler_scout",
+    "starter_assets": [
+      {
+        "asset_type": "module",
+        "asset_id": "module.weapon_laser_bank_mk1",
+        "quantity": 1
+      },
+      {
+        "asset_type": "module",
+        "asset_id": "module.engine_vector_mk1",
+        "quantity": 1
+      },
+      {
+        "asset_type": "module",
+        "asset_id": "module.weapon_missile_battery_mk1",
+        "quantity": 1
+      }
+    ],
+    "growth_profile": {
+      "xp_curve": "infinite_softcap",
+      "xp_formula": "xp_to_next = 120 * level^1.35 * (1 + 0.011 * max(level-18,0)^0.72)",
+      "stat_gain_per_level_pct": {
+        "hull": 0.31,
+        "shield": 0.24,
+        "attack": 0.27,
+        "defense": 0.19,
+        "energy": 0.27
+      },
+      "module_slot_growth": [
+        {
+          "level": 18,
+          "slot": "weapon",
+          "delta": 1
+        },
+        {
+          "level": 42,
+          "slot": "utility",
+          "delta": 1
+        },
+        {
+          "level": 75,
+          "slot": "special",
+          "delta": 1
+        },
+        {
+          "level": 125,
+          "slot": "weapon",
+          "delta": 1
+        }
+      ],
+      "design_notes": "Higher offensive scaling with slightly lower defensive growth."
+    }
+  },
+  {
+    "id": "ship.aegis_support_cruiser",
+    "name": "Aegis Support Cruiser",
+    "description": "Durable starter package designed for survivability, support, and sustained operations.",
+    "role": "defensive_support",
+    "hull_id": "hull.settler_scout",
+    "starter_assets": [
+      {
+        "asset_type": "module",
+        "asset_id": "module.armor_titanium_plating_mk1",
+        "quantity": 1
+      },
+      {
+        "asset_type": "module",
+        "asset_id": "module.shield_basic_barrier_mk1",
+        "quantity": 1
+      },
+      {
+        "asset_type": "module",
+        "asset_id": "module.reactor_fission_core_mk1",
+        "quantity": 1
+      }
+    ],
+    "growth_profile": {
+      "xp_curve": "infinite_softcap",
+      "xp_formula": "xp_to_next = 120 * level^1.35 * (1 + 0.011 * max(level-18,0)^0.72)",
+      "stat_gain_per_level_pct": {
+        "hull": 0.39,
+        "shield": 0.33,
+        "attack": 0.18,
+        "defense": 0.29,
+        "energy": 0.31
+      },
+      "module_slot_growth": [
+        {
+          "level": 22,
+          "slot": "defense",
+          "delta": 1
+        },
+        {
+          "level": 45,
+          "slot": "utility",
+          "delta": 1
+        },
+        {
+          "level": 82,
+          "slot": "special",
+          "delta": 1
+        },
+        {
+          "level": 130,
+          "slot": "defense",
+          "delta": 1
+        }
+      ],
+      "design_notes": "Higher durability scaling with lower direct damage growth."
+    }
+  }
+]

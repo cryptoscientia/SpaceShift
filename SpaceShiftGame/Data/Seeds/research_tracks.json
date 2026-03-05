@@ -1,0 +1,227 @@
+[
+  {
+    "id": "research_track.constellation_navigation_arc",
+    "name": "Constellation Navigation Arc",
+    "theme": "Future Astronomy Navigation",
+    "description": "A survey-first progression lane that turns deep-space scans into actionable star-map routes for fleet operations.",
+    "entry_tech_id": "tech.stellar_cartography_lattice_t6",
+    "constellation_bonus": {
+      "scan_pct": 8.0,
+      "compute_pct": 4.0,
+      "rare_find_pct": 3.0
+    },
+    "stages": [
+      {
+        "rank": 1,
+        "objective_name": "Map Neighboring Systems",
+        "objective_type": "scan",
+        "required_value": 12,
+        "duration_hours": 1.5,
+        "rewards": {
+          "xp": 4200,
+          "credits": 260000,
+          "rp": 380,
+          "track_points": 25
+        },
+        "unlocks": [
+          "mission.constellation_probe_chain_init"
+        ]
+      },
+      {
+        "rank": 2,
+        "objective_name": "Calibrate Probe Baselines",
+        "objective_type": "research",
+        "required_value": 3,
+        "duration_hours": 2.0,
+        "rewards": {
+          "xp": 5600,
+          "credits": 340000,
+          "rp": 470,
+          "track_points": 30
+        }
+      },
+      {
+        "rank": 3,
+        "objective_name": "Validate Transit Corridors",
+        "objective_type": "logistics",
+        "required_value": 8,
+        "duration_hours": 2.5,
+        "rewards": {
+          "xp": 6800,
+          "credits": 430000,
+          "rp": 540,
+          "track_points": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "research_track.deep_sky_objective_arc",
+    "name": "Deep-Sky Objective Arc",
+    "theme": "Constellation Objective Chains",
+    "description": "Layered objective progression that links scan, battle, and build targets into one coherent late-game star-cartography program.",
+    "entry_tech_id": "tech.constellation_inference_engines_t7",
+    "constellation_bonus": {
+      "scan_pct": 10.0,
+      "compute_pct": 7.0,
+      "rare_find_pct": 5.0
+    },
+    "stages": [
+      {
+        "rank": 1,
+        "objective_name": "Triangulate Pulsar Nodes",
+        "objective_type": "scan",
+        "required_value": 18,
+        "duration_hours": 2.0,
+        "rewards": {
+          "xp": 7600,
+          "credits": 520000,
+          "rp": 620,
+          "track_points": 40
+        },
+        "unlocks": [
+          "mission.constellation_probe_chain_mid"
+        ]
+      },
+      {
+        "rank": 2,
+        "objective_name": "Secure Survey Lanes",
+        "objective_type": "combat",
+        "required_value": 6,
+        "duration_hours": 2.5,
+        "rewards": {
+          "xp": 9000,
+          "credits": 610000,
+          "rp": 700,
+          "track_points": 44
+        }
+      },
+      {
+        "rank": 3,
+        "objective_name": "Install Sensor Beacons",
+        "objective_type": "build",
+        "required_value": 5,
+        "duration_hours": 3.0,
+        "rewards": {
+          "xp": 10300,
+          "credits": 720000,
+          "rp": 780,
+          "track_points": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": "research_track.ephemeris_trade_arc",
+    "name": "Ephemeris Trade Arc",
+    "theme": "Market Prediction and Routing",
+    "description": "Converts orbital prediction quality into trade execution advantage, volatility management, and route arbitrage planning.",
+    "entry_tech_id": "tech.ephemeris_market_forecasting_t7",
+    "constellation_bonus": {
+      "compute_pct": 5.0,
+      "market_efficiency_pct": 9.0,
+      "rare_find_pct": 2.0
+    },
+    "stages": [
+      {
+        "rank": 1,
+        "objective_name": "Forecast Volatility Spikes",
+        "objective_type": "trade",
+        "required_value": 10,
+        "duration_hours": 2.0,
+        "rewards": {
+          "xp": 7900,
+          "credits": 610000,
+          "rp": 610,
+          "track_points": 38
+        }
+      },
+      {
+        "rank": 2,
+        "objective_name": "Coordinate Market Convoys",
+        "objective_type": "logistics",
+        "required_value": 9,
+        "duration_hours": 2.8,
+        "rewards": {
+          "xp": 9400,
+          "credits": 760000,
+          "rp": 720,
+          "track_points": 45
+        },
+        "unlocks": [
+          "mission.constellation_market_coordination"
+        ]
+      },
+      {
+        "rank": 3,
+        "objective_name": "Stabilize Interstellar Exchange",
+        "objective_type": "trade",
+        "required_value": 14,
+        "duration_hours": 3.2,
+        "rewards": {
+          "xp": 10800,
+          "credits": 870000,
+          "rp": 810,
+          "track_points": 52
+        }
+      }
+    ]
+  },
+  {
+    "id": "research_track.habitable_corridor_arc",
+    "name": "Habitable Corridor Arc",
+    "theme": "Beyond-System Habitat Forecasting",
+    "description": "Late-game lane for identifying viable settlement corridors using high-fidelity stellar models and anomaly correction.",
+    "entry_tech_id": "tech.habitable_corridor_forecasting_t8",
+    "constellation_bonus": {
+      "scan_pct": 12.0,
+      "compute_pct": 10.0,
+      "rare_find_pct": 6.0,
+      "market_efficiency_pct": 4.0
+    },
+    "stages": [
+      {
+        "rank": 1,
+        "objective_name": "Classify Candidate Corridors",
+        "objective_type": "scan",
+        "required_value": 24,
+        "duration_hours": 2.4,
+        "rewards": {
+          "xp": 11800,
+          "credits": 940000,
+          "rp": 880,
+          "track_points": 58
+        }
+      },
+      {
+        "rank": 2,
+        "objective_name": "Deploy Frontier Relays",
+        "objective_type": "build",
+        "required_value": 8,
+        "duration_hours": 3.0,
+        "rewards": {
+          "xp": 13200,
+          "credits": 1050000,
+          "rp": 960,
+          "track_points": 64
+        }
+      },
+      {
+        "rank": 3,
+        "objective_name": "Approve Settlement Window",
+        "objective_type": "research",
+        "required_value": 4,
+        "duration_hours": 3.8,
+        "rewards": {
+          "xp": 14900,
+          "credits": 1200000,
+          "rp": 1080,
+          "track_points": 72
+        },
+        "unlocks": [
+          "mission.constellation_habitable_corridor_program"
+        ]
+      }
+    ]
+  }
+]

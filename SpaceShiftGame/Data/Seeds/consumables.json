@@ -1,0 +1,19 @@
+[
+  {
+    "id": "consumable.reverse_engineering_core",
+    "name": "Reverse Engineering Core",
+    "rarity": "rare",
+    "description": "Specialized high-integrity decode core required to safely reconstruct precursor or enemy systems.",
+    "effect": "Consumed to start one reverse-engineering job.",
+    "required_tech": "tech.quantum_error_corrected_processors_t7",
+    "build_cost": {
+      "credits": 540000,
+      "elements": [
+        { "symbol": "Au", "amount": 28 },
+        { "symbol": "Pt", "amount": 15 },
+        { "symbol": "Si", "amount": 180 },
+        { "symbol": "Cu", "amount": 130 }
+      ]
+    }
+  }
+]

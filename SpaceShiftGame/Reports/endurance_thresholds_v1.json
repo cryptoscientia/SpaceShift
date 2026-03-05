@@ -1,0 +1,29 @@
+{
+  "version": "v1",
+  "name": "SpaceShift Endurance Regression Thresholds",
+  "required": {
+    "run_count_min": 2,
+    "smoke_pass_count_mean_min": 22,
+    "regression_pass_rate_min": 1.0,
+    "worlds_scanned_mean_min": 200,
+    "quality_sample_size_per_run_mean_min": 400,
+    "ship_space_balanced_can_fit_rate_min": 1.0,
+    "ship_space_overloaded_reject_rate_min": 1.0,
+    "market_credits_delta_mean_min": -1000.0,
+    "market_credits_delta_mean_max": 5000.0,
+    "ai_min_average_win_rates": {
+      "build.expedition_t2": 0.02,
+      "build.battleline_t5": 0.2,
+      "build.carrier_t6": 0.35,
+      "build.nullspace_t7": 0.5,
+      "build.singularity_t8": 0.65
+    },
+    "ai_max_average_win_rates": {
+      "build.expedition_t2": 0.4,
+      "build.battleline_t5": 0.85,
+      "build.carrier_t6": 0.95,
+      "build.nullspace_t7": 0.99,
+      "build.singularity_t8": 0.999
+    }
+  }
+}

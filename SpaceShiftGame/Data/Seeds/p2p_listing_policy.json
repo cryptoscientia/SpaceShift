@@ -1,0 +1,17 @@
+{
+  "maker_fee_pct": 1.25,
+  "taker_fee_pct": 1.75,
+  "min_quantity": 1,
+  "max_quantity": 100000,
+  "default_ttl_hours": 72,
+  "supported_asset_types": [
+    "element",
+    "module",
+    "hull",
+    "structure",
+    "blueprint",
+    "module_instance",
+    "hull_instance",
+    "planet_deed"
+  ]
+}

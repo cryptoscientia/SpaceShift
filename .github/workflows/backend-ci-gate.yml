@@ -1,0 +1,93 @@
+name: Backend CI Gate
+
+on:
+  push:
+  pull_request:
+
+concurrency:
+  group: backend-ci-gate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  backend-ci-gate:
+    name: Backend CI Gate (${{ matrix.os }}, py${{ matrix.python-version }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        python-version: ["3.11", "3.12"]
+    env:
+      PYTHONHASHSEED: "0"
+      TZ: UTC
+      SPACESHIFT_DETERMINISTIC: "1"
+      SIM_PROFILE: standard
+      SIM_SEED: "20260304"
+      SMOKE_STARTUP_TIMEOUT: "30"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install backend dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          python -m pip install -r SpaceShiftGame/Code/server/requirements.txt
+
+      - name: Prepare matrix simulation tag
+        shell: bash
+        run: |
+          set -euo pipefail
+          os_slug="${{ matrix.os }}"
+          py_slug="${{ matrix.python-version }}"
+          py_slug="${py_slug//./_}"
+          echo "SIM_TAG=ci_standard_${os_slug}_py${py_slug}" >> "${GITHUB_ENV}"
+
+      - name: Run backend CI gate
+        run: bash SpaceShiftGame/Code/server/run_ci_gate.sh
+
+      - name: Upload backend CI artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-ci-gate-${{ matrix.os }}-py${{ matrix.python-version }}
+          if-no-files-found: warn
+          path: |
+            SpaceShiftGame/Reports/simulation_suite_${{ env.SIM_TAG }}.json
+            SpaceShiftGame/Reports/simulation_suite_${{ env.SIM_TAG }}.md
+            SpaceShiftGame/Reports/simulation_regression_latest.json
+
+      - name: Notify CI webhook on failure
+        if: failure()
+        env:
+          SPACESHIFT_CI_ALERT_WEBHOOK: ${{ secrets.SPACESHIFT_CI_ALERT_WEBHOOK }}
+          CI_WORKFLOW: ${{ github.workflow }}
+          CI_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          CI_REF: ${{ github.ref }}
+          CI_SHA: ${{ github.sha }}
+          CI_OS: ${{ matrix.os }}
+          CI_PYTHON: ${{ matrix.python-version }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${SPACESHIFT_CI_ALERT_WEBHOOK:-}" ]]; then
+            echo "SPACESHIFT_CI_ALERT_WEBHOOK not configured; skipping notification."
+            exit 0
+          fi
+          if [[ ! "${SPACESHIFT_CI_ALERT_WEBHOOK}" =~ ^https?:// ]]; then
+            echo "SPACESHIFT_CI_ALERT_WEBHOOK is not a valid http(s) URL; skipping notification."
+            exit 0
+          fi
+          payload="$(printf '{"text":"SpaceShift backend-ci-gate failed (%s, py%s) on %s (%s). Run: %s"}' \
+            "${CI_OS}" "${CI_PYTHON}" "${CI_REF}" "${CI_SHA}" "${CI_RUN_URL}")"
+          curl -fsS -X POST \
+            -H "Content-Type: application/json" \
+            -d "${payload}" \
+            "${SPACESHIFT_CI_ALERT_WEBHOOK}"
